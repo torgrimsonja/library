@@ -1,0 +1,1069 @@
+101045	Ashlyn	Aardema	F	10	Schaal, Mark S	Harman, Benjamin T	Price, Bruce M	Leiser, Linda W		Bleeker, Julie M	McCullough, Royce	Knopp, Amy
+100338	Cody	Ackerley	M	11	Merkley, Cassandra L	Tucker, Patrice	Carder, Jacob P	Campbell, Blaine		Showers, Gary	Forster, Jerald P	Connor, Jo Marie
+100342	Samuel	Ackerley	M	9	Eslinger, Darlene	Jones, Nancy	Hathorne, Melodie A	Schaal, Mark S		Bowman, Jeffrey Mark	Hyer, Nathan	Phillips, Todd A
+1102079	Jose	Acosta	M	9	Manwaring, Nicole J	Berriochoa, Jeannine	Moody, RONALD L	Ritchie, Sherry ADELL		Bowman, Jeffrey Mark	Hathorne, Melodie A	Mathes, Jessica
+1101741	Victor	Acosta	M	11	Tucker, Patrice	Fonnesbeck, Brett F	Mathes, Jessica	Schaal, Mark S		Stadelmeir, Tim	Behrens, Stacey D	Manwaring, Nicole J
+108012	JohnnyAngel	Adame	F	10	Jones, Nancy	Bowman, Jeffrey Mark	Knopp, Amy	Knopp, Amy		Harr, Matthew L.	Leiser, Linda W	Leiser, Linda W
+108011	Juan	Adame	M	11	Behrens, Stacey D	Tucker, Patrice	Fonnesbeck, Brett F	Manwaring, Nicole J		Mathes, Jessica	Grady, Joyce Ann	Manwaring, Nicole J
+502085	Victor	Adams	M	10	Davis, John David	Price, Bruce M	McCullough, Royce	Grindstaff, Martin A		Morris, Eudelia T	Reynolds, Allyn D	Manwaring, Nicole J
+1101915	Jimmy	Aguilar	M	10	Grier, Marilee	Fiala, Marilyn M	Knopp, Amy	Grier, Marilee		Stadelmeir, Tim	Manwaring, Nicole J	Grier, Marilee
+601829	Stephanie	Aguilar	F	11	Creek, Claudia K	Carder, Jacob P	Tucker, Patrice	Kenyon, John Q.		Mathes, Jessica	Behrens, Stacey D	Johnson, Camille
+403005	Melissa	Aguinaga	F	11	Mathes, Jessica	Harr, Matthew L.	Showers, Gary	Merkley, Cassandra L		Schaal, Mark S	Showers, Gary	Showers, Gary
+823349	Garrett	Aguirre	M	9	Ritchie, Sherry ADELL	Kohring, Benjamin D	Harman, Benjamin T	Veselka, Julie		Frost, Ryan C	Ploss, Carrie L	Dodds, JOELLEN A
+305534	Jessica	Aguirre	F	11	Mathes, Jessica	Harr, Matthew L.	Connor, Jo Marie	Showers, Gary		Fonnesbeck, Brett F	Schaal, Mark S	McCullough, Royce
+901750	Sara	Ajeti	F	12	Wright, Candace Oaxaca	Ploss, Carrie L	Phillips, Todd A	Kemper, Debra Croshaw		Bleeker, Julie M	Larsen, Ted	Johnson, Camille
+401959	Ashley	Alexander	F	11	Forster, Jerald P	Erkins Goss, Marla B	Bortz, Gala A	Fonnesbeck, Brett F		Haycock, James Dee	Connor, Jo Marie	Wright, Candace Oaxaca
+402406	Ethan	Alexander	M	9	Berriochoa, Jeannine	McCullough, Royce	Eslinger, Darlene	Dodds, JOELLEN A		Phillips, Todd A	Hyer, Nathan	Hathorne, Melodie A
+401692	Elise	Allan	F	12	Bortz, Gala A	Ploss, Carrie L	Mottern-High, Janis	Bleeker, Julie M		Phillips, Todd A	Casperson, Joseph R	Larsen, Ted
+501697	Aubrey	Allen	F	12	Federico, Michael A	Bleeker, Julie M	Behrens, Stacey D	Larsen, Ted		Federico, Michael A	Kemper, Debra Croshaw	Johnson, Camille
+402407	Connor	Allen	M	9	Hathorne, Melodie A	Creek, Claudia K	Bowman, Jeffrey Mark	Kohring, Benjamin D		Phillips, Todd A	Bortz, Gala A	Wills, Rebecca Dawn
+105893	Ethan	Allen	M	11	Fonnesbeck, Brett F	Forster, Jerald P	Wright, Candace Oaxaca	Schaal, Mark S		Berriochoa, Jeannine	McCullough, Royce	Kohring, Benjamin D
+106796	Evan	Allen	M	9	Phillips, Todd A	McCullough, Royce	Erkins Goss, Marla B	Harman, Benjamin T		Kohring, Benjamin D	Veselka, Julie	Dodds, JOELLEN A
+402453	Haleigh	Allen	F	10	Reynolds, Allyn D	Merkley, Cassandra L	Ploss, Carrie L	Davis, John David		Schaal, Mark S	Grindstaff, Martin A	Harr, Matthew L.
+1101507	Jeremy	Almendarez	M	12	Kemper, Debra Croshaw	Showers, Gary	Frost, Ryan C	Showers, Gary		Stadelmeir, Tim	Larsen, Ted	Connor, Jo Marie
+106812	Ryan	Altom	M	10	Davis, John David	Price, Bruce M	Manwaring, Nicole J	Grindstaff, Martin A		Bleeker, Julie M	Jones, Nancy	Wills, Rebecca Dawn
+106487	Taylor	Altom	F	12	Leiser, Linda W	Wills, Rebecca Dawn	Mottern-High, Janis	Eslinger, Darlene		Bleeker, Julie M	Casperson, Joseph R	Larsen, Ted
+902445	Gabriela	Alvarez	F	10	Price, Bruce M	Davis, John David	Kenyon, John Q.	Leiser, Linda W		Berriochoa, Jeannine	Rapp, Lorraine M	Jones, Nancy
+501591	Dallin	Ames	M	11	Bleeker, Julie M	Bortz, Dennis L	Fonnesbeck, Brett F	Connor, Jo Marie		Forster, Jerald P	Torgrimson, Jason	McCullough, Royce
+402719	Luis Anthony	Anaya	M	12	Larsen, Ted	Berriochoa, Jeannine	Kemper, Debra Croshaw	Berriochoa, Jeannine		Erkins Goss, Marla B	Moody, RONALD L	Wright, Candace Oaxaca
+401818	Bryson	Anderson	M	12	Kemper, Debra Croshaw	Behrens, Stacey D	Rapp, Lorraine M	Bleeker, Julie M		Erkins Goss, Marla B	Larsen, Ted	Campbell, Blaine
+10632	Jacob	Anderson	M	10	Johnson, Camille	Knopp, Amy	Harr, Matthew L.	Grindstaff, Martin A		Schaal, Mark S	Reynolds, Allyn D	Jones, Nancy
+103253	Mikeena	Anderson	F	9	Creek, Claudia K	Haycock, James Dee	Bowman, Jeffrey Mark	Kohring, Benjamin D		Hathorne, Melodie A	Phillips, Todd A	Moody, RONALD L
+1102132	Morgan	Anderson	F	10	Grindstaff, Martin A	Reynolds, Allyn D	Rapp, Lorraine M	Rapp, Lorraine M		Price, Bruce M	Davis, John David	Bortz, Gala A
+101291	Shalyce	Anderson	F	9	Phillips, Todd A	Berriochoa, Jeannine	Eslinger, Darlene	Johnson, Camille		Jones, Nancy	Veselka, Julie	Bowman, Jeffrey Mark
+702633	Troy	Andresen	M	11	Mathes, Jessica	Fonnesbeck, Brett F	Merkley, Cassandra L	Stadelmeir, Tim		Schaal, Mark S	Campbell, Blaine	Bleeker, Julie M
+902086	Vincent	Andrews	M	11	Mathes, Jessica	Bortz, Dennis L	Merkley, Cassandra L	Rapp, Lorraine M		Showers, Gary	Campbell, Blaine	Bleeker, Julie M
+105536	Bear	Aragon	M	11	Fiala, Marilyn M	Frost, Ryan C	Mathes, Jessica	Carder, Jacob P		Stadelmeir, Tim	Kenyon, John Q.	Connor, Jo Marie
+1103876	Chloe	Aragon	F	10	Harman, Benjamin T	Kenyon, John Q.	Knopp, Amy	Bleeker, Julie M		Knopp, Amy	Jones, Nancy	Harr, Matthew L.
+1103875	Samantha	Aragon	F	12	Erkins Goss, Marla B	Harman, Benjamin T	Grindstaff, Martin A	Hamilton, Sharee L		Moody, RONALD L	Mathes, Jessica	Tucker, Patrice
+107883	Juan	Archila-Rodas	M	11	Haycock, James Dee	Bortz, Gala A	Mathes, Jessica	Kenyon, John Q.		Harman, Benjamin T	Kohring, Benjamin D	Leiser, Linda W
+403351	Kimberly	Armstrong	F	9	Moody, RONALD L	Creek, Claudia K	Veselka, Julie	Ritchie, Sherry ADELL		Torgrimson, Jason	Dodds, JOELLEN A	Mathes, Jessica
+103115	Timothy	Arno	M	11	Merkley, Cassandra L	Hamilton, Sharee L	Creek, Claudia K	Kenyon, John Q.		Mathes, Jessica	Kohring, Benjamin D	Connor, Jo Marie
+104806	Cheyenne	Arnold	F	9	Creek, Claudia K	Haycock, James Dee	Kohring, Benjamin D	Moody, RONALD L		Dodds, JOELLEN A	Hathorne, Melodie A	Phillips, Todd A
+105249	Rebecca	Arnold	F	11	Leiser, Linda W	Forster, Jerald P	Merkley, Cassandra L	Kenyon, John Q.		Stadelmeir, Tim	Manwaring, Nicole J	Connor, Jo Marie
+503159	Jared	Arp	M	11	Merkley, Cassandra L	Forster, Jerald P	Bleeker, Julie M	Reynolds, Allyn D		Stadelmeir, Tim	Kenyon, John Q.	Connor, Jo Marie
+901779	Elizabeth	Ashby	F	12	Wright, Candace Oaxaca	Ploss, Carrie L	Mottern-High, Janis	Wright, Candace Oaxaca		Bleeker, Julie M	Casperson, Joseph R	Casperson, Joseph R
+10946	Jamie	Asson	F	10	Federico, Michael A	Rapp, Lorraine M	Kenyon, John Q.	Davis, John David		Harr, Matthew L.	Haycock, James Dee	Bortz, Gala A
+502016	Clark	Atkins	M	10	Grady, Joyce Ann	Harman, Benjamin T	Harr, Matthew L.	Bleeker, Julie M		Grindstaff, Martin A	Davis, John David	McCullough, Royce
+501879	Brier	Atkinson	M	11	Hall, Brenda D	Hall, Brenda D	Manwaring, Nicole J	Hall, Brenda D		Hall, Brenda D	Torgrimson, Jason	Hall, Brenda D
+11116	Emily	Austin	F	9	Moody, RONALD L	Veselka, Julie	Bowman, Jeffrey Mark	Casperson, Joseph R		Ritchie, Sherry ADELL	Erkins Goss, Marla B	Fiala, Marilyn M
+801803	Kelbie	Avalos	F	12	Behrens, Stacey D	Wills, Rebecca Dawn	Vogt, Daniel	Leiser, Linda W		Bleeker, Julie M	Mathes, Jessica	Hathorne, Melodie A
+1103896	Esteban	Ayala Gonzalez	M	9	Stadelmeir, Tim	Creek, Claudia K	Phillips, Todd A	Dodds, JOELLEN A		Eslinger, Darlene	Bortz, Gala A	Hathorne, Melodie A
+1104037	Gabriela	Ayala	F	12	Kemper, Debra Croshaw	Harr, Matthew L.	Grindstaff, Martin A	Berriochoa, Jeannine		Ploss, Carrie L	Moody, RONALD L	Ploss, Carrie L
+1103897	Jaime	Ayala	M	12	Larsen, Ted	Behrens, Stacey D	Wright, Candace Oaxaca	Kemper, Debra Croshaw		Ploss, Carrie L	Ploss, Carrie L	Ploss, Carrie L
+901981	Nataliya	Bagdasarova	F	12	Leiser, Linda W	Leiser, Linda W	Wills, Rebecca Dawn	Behrens, Stacey D		Ploss, Carrie L	Mathes, Jessica	Larsen, Ted
+1102650	Kole	Bailey	M	9	Hathorne, Melodie A	Dodds, JOELLEN A	Eslinger, Darlene	McCullough, Royce		Harman, Benjamin T	Phillips, Todd A	Kohring, Benjamin D
+601807	Kiel	Baily	M	11	Fiala, Marilyn M	Frost, Ryan C	Manwaring, Nicole J	Forster, Jerald P		Johnson, Camille	Kenyon, John Q.	Connor, Jo Marie
+601877	Andrew	Baker	M	9	Hathorne, Melodie A	McCullough, Royce	Erkins Goss, Marla B	Dodds, JOELLEN A		Torgrimson, Jason	Torgrimson, Jason	Kohring, Benjamin D
+601709	Nathaniel	Baker	M	10	Behrens, Stacey D	Manwaring, Nicole J	Manwaring, Nicole J	Tucker, Patrice		Veselka, Julie	Grindstaff, Martin A	Bleeker, Julie M
+902400	Sara	Ballard	F	10	Leiser, Linda W	Knopp, Amy	Harr, Matthew L.	Jones, Nancy		Grindstaff, Martin A	Leiser, Linda W	Bleeker, Julie M
+702588	Danika	Barela	F	9	Manwaring, Nicole J	Bowman, Jeffrey Mark	Harman, Benjamin T	Kohring, Benjamin D		Johnson, Camille	Hathorne, Melodie A	Moody, RONALD L
+823071	Phillip	Barringer	M	10	Frost, Ryan C	Bortz, Dennis L	Morris, Eudelia T	Wills, Rebecca Dawn		Grindstaff, Martin A	Harr, Matthew L.	Knopp, Amy
+1103904	Amber	Bartlett	F	11	Federico, Michael A	Harr, Matthew L.	Fonnesbeck, Brett F	Forster, Jerald P		McCullough, Royce	Manwaring, Nicole J	Bleeker, Julie M
+403369	Arianna	Bartlett	F	12	Bleeker, Julie M	Mottern-High, Janis	Behrens, Stacey D	Larsen, Ted		Connor, Jo Marie	Casperson, Joseph R	Ploss, Carrie L
+501610	Brynli	Bartlett	F	11	Schaal, Mark S	Harman, Benjamin T	Behrens, Stacey D	Connor, Jo Marie		Bleeker, Julie M	Kenyon, John Q.	Forster, Jerald P
+601947	Ellen	Bartlett	F	12	Bleeker, Julie M	Kemper, Debra Croshaw	Showers, Gary	Showers, Gary		Erkins Goss, Marla B	McCullough, Royce	Larsen, Ted
+1101657	Zachary	Bartlett	M	11	Tucker, Patrice	Behrens, Stacey D	Fonnesbeck, Brett F	Torgrimson, Jason		Forster, Jerald P	Stadelmeir, Tim	Howard, Kevin D
+502078	Natalie	Barton	F	11	Mathes, Jessica	Bortz, Gala A	Schaal, Mark S	Berriochoa, Jeannine		Fonnesbeck, Brett F	Connor, Jo Marie	Bleeker, Julie M
+502236	Brody	Barzee	M	9	Grier, Marilee	Fiala, Marilyn M	Grier, Marilee	Wills, Rebecca Dawn		Grier, Marilee	Manwaring, Nicole J	Grier, Marilee
+902561	Zachary	Baumgardner	M	11	Fonnesbeck, Brett F	Torgrimson, Jason	Torgrimson, Jason	Forster, Jerald P		Tucker, Patrice	Jones, Nancy	Wright, Candace Oaxaca
+824084	Ryan	Bausman	M	9	Ritchie, Sherry ADELL	Jones, Nancy	Harman, Benjamin T	Veselka, Julie		Dodds, JOELLEN A	Erkins Goss, Marla B	Kohring, Benjamin D
+501698	Conner	Beck	M	12	Behrens, Stacey D	Leiser, Linda W	Johnson, Camille	Mathes, Jessica		Torgrimson, Jason	Larsen, Ted	Wright, Candace Oaxaca
+502875	Joseph	Behm	M	9	Berriochoa, Jeannine	Kohring, Benjamin D	Bowman, Jeffrey Mark	Campbell, Blaine		Jones, Nancy	Veselka, Julie	Phillips, Todd A
+502173	Katelyn	Behrens	F	9	Hathorne, Melodie A	Stadelmeir, Tim	Berriochoa, Jeannine	Dodds, JOELLEN A		Phillips, Todd A	Bortz, Gala A	Eslinger, Darlene
+501593	Rebecca	Behrens	F	11	Forster, Jerald P	Erkins Goss, Marla B	Behrens, Stacey D	Connor, Jo Marie		Berriochoa, Jeannine	Johnson, Camille	Bleeker, Julie M
+1102022	Zachary	Bell	M	10	Knopp, Amy	Grindstaff, Martin A	Morris, Eudelia T	Knopp, Amy		Harr, Matthew L.	Stadelmeir, Tim	Putman, CHRISTINE
+103865	Benjamin	Belloli	M	9	Creek, Claudia K	Stadelmeir, Tim	Eslinger, Darlene	Ritchie, Sherry ADELL		Frost, Ryan C	Hathorne, Melodie A	Bowman, Jeffrey Mark
+601969	Issaiah	Benavidez	M	9	Manwaring, Nicole J	Ritchie, Sherry ADELL	Eslinger, Darlene	Moody, RONALD L		Stadelmeir, Tim	Hathorne, Melodie A	Dodds, JOELLEN A
+107554	Brittany	Benner	F	9			Leiser, Linda W					
+107956	Marquis	Benson	M	9	Moody, RONALD L	Veselka, Julie	Bowman, Jeffrey Mark	Ritchie, Sherry ADELL		Eslinger, Darlene	Stadelmeir, Tim	Phillips, Todd A
+107950	Mekaela	Benson	F	10	Price, Bruce M	Kenyon, John Q.	Davis, John David	Carder, Jacob P		Torgrimson, Jason	Wills, Rebecca Dawn	Merkley, Cassandra L
+803066	Cornelius	Berg	M	11	Tucker, Patrice	Forster, Jerald P	Stadelmeir, Tim	Kenyon, John Q.		Stadelmeir, Tim	Behrens, Stacey D	Stadelmeir, Tim
+1102752	Jonathan	Bernal	M	9	Manwaring, Nicole J	Veselka, Julie	Berriochoa, Jeannine	Moody, RONALD L		Ritchie, Sherry ADELL	Bowman, Jeffrey Mark	Eslinger, Darlene
+501664	Tyler	Bernhisel	M	12	Bortz, Gala A	Leiser, Linda W	Kemper, Debra Croshaw	Bleeker, Julie M		Ploss, Carrie L	Kohring, Benjamin D	Rapp, Lorraine M
+402385	Rachel	Bevan	F	9	Eslinger, Darlene	Haycock, James Dee	Hathorne, Melodie A	Bowman, Jeffrey Mark		Casperson, Joseph R	Phillips, Todd A	Moody, RONALD L
+100248	Rachel	Bezas	F	11	Bleeker, Julie M	Tucker, Patrice	Mathes, Jessica	Hathorne, Melodie A		Casperson, Joseph R	Jones, Nancy	Casperson, Joseph R
+702324	Colton	Biedenbach	M	10	Kenyon, John Q.	Bortz, Dennis L	Price, Bruce M	Davis, John David		Kohring, Benjamin D	Campbell, Blaine	McCullough, Royce
+10571	Morgan	Biggs	F	9	Veselka, Julie	Stadelmeir, Tim	Berriochoa, Jeannine	Ritchie, Sherry ADELL		Frost, Ryan C	Dodds, JOELLEN A	Mathes, Jessica
+402600	Emily	Bisch	F	10	Price, Bruce M	Schaal, Mark S	McCullough, Royce	Davis, John David		Grindstaff, Martin A	Haycock, James Dee	Haycock, James Dee
+1103837	Aaron	Bjornn	M	11	Rapp, Lorraine M	Tucker, Patrice	Torgrimson, Jason	Merkley, Cassandra L		Bleeker, Julie M	Kenyon, John Q.	Forster, Jerald P
+1103836	Marah	Bjornn	F	11	Merkley, Cassandra L	Showers, Gary	Tucker, Patrice	Showers, Gary		Showers, Gary	Bleeker, Julie M	Forster, Jerald P
+501765	Anthony	Black	M	12	Bleeker, Julie M	Wright, Candace Oaxaca	Wills, Rebecca Dawn	Kemper, Debra Croshaw		McCullough, Royce	Wright, Candace Oaxaca	Leiser, Linda W
+703509	Tiana	Black	F	9	Moody, RONALD L	Haycock, James Dee	Kohring, Benjamin D	Veselka, Julie		Phillips, Todd A	Johnson, Camille	Bowman, Jeffrey Mark
+702627	Garth Devin	Blackburn	M	10	Davis, John David	Frost, Ryan C	Haycock, James Dee	Grindstaff, Martin A		Harr, Matthew L.	Reynolds, Allyn D	Manwaring, Nicole J
+601878	Austin	Bodily	M	9	Putman, CHRISTINE	Ritchie, Sherry ADELL	Carder, Jacob P	Putman, CHRISTINE		Hathorne, Melodie A	Dodds, JOELLEN A	Merkley, Cassandra L
+403207	Melissa	Boeddiker	F	9	Ritchie, Sherry ADELL	Berriochoa, Jeannine	Eslinger, Darlene	Carder, Jacob P		Jones, Nancy	Hathorne, Melodie A	Bowman, Jeffrey Mark
+1102224	Shanna	Boisvert	F	11	Tucker, Patrice	Fonnesbeck, Brett F	Merkley, Cassandra L	Hathorne, Melodie A		Bleeker, Julie M	Manwaring, Nicole J	Forster, Jerald P
+107432	Gabrielle	Bolyard	F	9			Leiser, Linda W					
+823668	Aspyn	Bowles	F	10	Schaal, Mark S	Harman, Benjamin T	Davis, John David	Jones, Nancy		Price, Bruce M	Grindstaff, Martin A	Kohring, Benjamin D
+502059	Haydden	Bowman-Verwey	M	10	Reynolds, Allyn D	Morris, Eudelia T	Kenyon, John Q.	Price, Bruce M		Knopp, Amy	Ploss, Carrie L	Frost, Ryan C
+502058	Mallori	Bowman-Verwey	F	10	Grindstaff, Martin A	Rapp, Lorraine M	Showers, Gary	Price, Bruce M		Morris, Eudelia T	Davis, John David	Bortz, Gala A
+401960	Rachel	Bowyer	F	11	Forster, Jerald P	Wright, Candace Oaxaca	Bortz, Gala A	Berriochoa, Jeannine		Fonnesbeck, Brett F	Schaal, Mark S	Wright, Candace Oaxaca
+402166	Isaak	Boyd	M	10	Kenyon, John Q.	Harman, Benjamin T	Davis, John David	McCullough, Royce		Kohring, Benjamin D	Schaal, Mark S	Harr, Matthew L.
+402423	Kristi	Bradley	F	9	Federico, Michael A	Bortz, Dennis L	Phillips, Todd A	Dodds, JOELLEN A		Frost, Ryan C	Erkins Goss, Marla B	Hathorne, Melodie A
+2020806	Sara	Bradley	F	12	Allen, Benjamin F	Leiser, Linda W	Grindstaff, Martin A	Kemper, Debra Croshaw		Bleeker, Julie M	Moody, RONALD L	Tucker, Patrice
+1102098	Chantelle	Brady	F	10	Grindstaff, Martin A	Knopp, Amy	Reynolds, Allyn D	Leiser, Linda W		Casperson, Joseph R	Harr, Matthew L.	Moody, RONALD L
+402731	Alyssa	Brann	F	11	Bleeker, Julie M	Tucker, Patrice	Rapp, Lorraine M	Merkley, Cassandra L		Fonnesbeck, Brett F	Kohring, Benjamin D	Leiser, Linda W
+502654	Gabrielle	Breen	F	12	Behrens, Stacey D	Ploss, Carrie L	Hartley, William M	Kemper, Debra Croshaw		Bleeker, Julie M	Leiser, Linda W	Wright, Candace Oaxaca
+1101819	Logan	Brewer	M	10	Price, Bruce M	Grindstaff, Martin A	Morris, Eudelia T	Reynolds, Allyn D		Schaal, Mark S	Davis, John David	Frost, Ryan C
+402267	Jason	Bride	M	11	Forster, Jerald P	Bortz, Gala A	Showers, Gary	Fonnesbeck, Brett F		Connor, Jo Marie	Schaal, Mark S	Kohring, Benjamin D
+100581	Samantha	Brizee	F	9	Ritchie, Sherry ADELL	Wills, Rebecca Dawn	Haycock, James Dee	Dodds, JOELLEN A		Eslinger, Darlene	Merkley, Cassandra L	Hathorne, Melodie A
+502003	Evan	Brock	M	10	Kenyon, John Q.	Knopp, Amy	Morris, Eudelia T	Reynolds, Allyn D		Berriochoa, Jeannine	Harr, Matthew L.	Bortz, Gala A
+812008	Alexis	Brodin	F	9	Jones, Nancy	Stadelmeir, Tim	Harman, Benjamin T	Ritchie, Sherry ADELL		Dodds, JOELLEN A	Hathorne, Melodie A	Mathes, Jessica
+801970	Kaletia	Brodin	F	12	Larsen, Ted	Merkley, Cassandra L	Tucker, Patrice	Bleeker, Julie M		Erkins Goss, Marla B	Johnson, Camille	Kemper, Debra Croshaw
+502786	Ashley	Broner	F	12	Tucker, Patrice	Merkley, Cassandra L	Grindstaff, Martin A	Kemper, Debra Croshaw		Hartley, William M	Knopp, Amy	Bleeker, Julie M
+108094	Lexy	Brookman	F	9	Hathorne, Melodie A	Price, Bruce M	McCullough, Royce	Casperson, Joseph R		Phillips, Todd A	Stadelmeir, Tim	Bleeker, Julie M
+703002	Olivia	Brower	F	9	Phillips, Todd A	Creek, Claudia K	Haycock, James Dee	Bowman, Jeffrey Mark		Hathorne, Melodie A	Erkins Goss, Marla B	Bortz, Gala A
+107555	Riley	Brown	M	9			Leiser, Linda W					
+100754	Wyatt	Brown	M	12	Wright, Candace Oaxaca	Ploss, Carrie L	Haycock, James Dee	Wright, Candace Oaxaca		Haycock, James Dee	Kemper, Debra Croshaw	Bleeker, Julie M
+823694	Hope	Brunetti	F	9	Moody, RONALD L	Eslinger, Darlene	Haycock, James Dee	Casperson, Joseph R		Dodds, JOELLEN A	Hathorne, Melodie A	Phillips, Todd A
+105691	Jorden	Brunson	M	9	Putman, CHRISTINE	Ritchie, Sherry ADELL	Veselka, Julie	Carder, Jacob P		Bowman, Jeffrey Mark	Putman, CHRISTINE	Kohring, Benjamin D
+100273	Bret	Burch	M	9	Bortz, Dennis L	Berriochoa, Jeannine	Ritchie, Sherry ADELL	Dodds, JOELLEN A		Hathorne, Melodie A	Bortz, Gala A	Eslinger, Darlene
+103679	Damon	Burch	M	9	Bortz, Dennis L	Phillips, Todd A	Veselka, Julie	Moody, RONALD L		Eslinger, Darlene	Bowman, Jeffrey Mark	Fiala, Marilyn M
+2020702	Luke	Burgett	M	12	Wright, Candace Oaxaca	Harman, Benjamin T	Ploss, Carrie L	Wright, Candace Oaxaca		Larsen, Ted	Mathes, Jessica	Rapp, Lorraine M
+100566	Sarah	Burgett	F	10	Grindstaff, Martin A	Erkins Goss, Marla B	Price, Bruce M	Ploss, Carrie L		McCullough, Royce	Davis, John David	Harman, Benjamin T
+106900	Hollee	Burke	F	10	Reynolds, Allyn D	Grindstaff, Martin A	Moody, RONALD L	Bleeker, Julie M		Veselka, Julie	Price, Bruce M	Wills, Rebecca Dawn
+502208	Kellyn	Burns	F	9	Dodds, JOELLEN A	Berriochoa, Jeannine	Ritchie, Sherry ADELL	Frost, Ryan C		Casperson, Joseph R	Erkins Goss, Marla B	Hathorne, Melodie A
+107433	Kirsten	Burns	F	11			Leiser, Linda W					
+902854	Sarah	Burns	F	10	Behrens, Stacey D	Bortz, Dennis L	Reynolds, Allyn D	Rapp, Lorraine M		Price, Bruce M	Davis, John David	Kenyon, John Q.
+501764	Alexa	Burnside	F	12	Kemper, Debra Croshaw	Larsen, Ted	Stadelmeir, Tim	Erkins Goss, Marla B		Tucker, Patrice	Moody, RONALD L	Bleeker, Julie M
+602254	Zakere	Buss	M	12	Haycock, James Dee	Leiser, Linda W	Kemper, Debra Croshaw	Tucker, Patrice		Moody, RONALD L	Kohring, Benjamin D	Bleeker, Julie M
+501703	Jason	Byce	M	12	Wright, Candace Oaxaca	Stadelmeir, Tim	Stadelmeir, Tim	Wright, Candace Oaxaca		Bleeker, Julie M	Kemper, Debra Croshaw	Rapp, Lorraine M
+106104	Madison	Cahuana	F	9	Veselka, Julie	Phillips, Todd A	Harman, Benjamin T	Moody, RONALD L		Stadelmeir, Tim	Dodds, JOELLEN A	Mathes, Jessica
+903089	Samuel	Calbo	M	9	Bortz, Dennis L	Creek, Claudia K	Ritchie, Sherry ADELL	Kohring, Benjamin D		Frost, Ryan C	Veselka, Julie	Bowman, Jeffrey Mark
+502238	Skylar	Call	F	9	Stadelmeir, Tim	Ritchie, Sherry ADELL	Bowman, Jeffrey Mark	Harman, Benjamin T		Eslinger, Darlene	Veselka, Julie	Moody, RONALD L
+902446	Joel	Camacho	M	10	Reynolds, Allyn D	Knopp, Amy	Harr, Matthew L.	Grindstaff, Martin A		Berriochoa, Jeannine	Schaal, Mark S	Merkley, Cassandra L
+403503	Hannah	Cameron	F	10	Federico, Michael A	Davis, John David	Price, Bruce M	Jones, Nancy		Bleeker, Julie M	Haycock, James Dee	Kenyon, John Q.
+403508	Stephen	Cameron	M	11	Allen, Benjamin F	Forster, Jerald P	Carder, Jacob P	Hall, Brenda D		Hall, Brenda D	Manwaring, Nicole J	Hall, Brenda D
+902407	Casey	Campbell	M	10	Stadelmeir, Tim	Bortz, Dennis L	Manwaring, Nicole J	Grindstaff, Martin A		Knopp, Amy	Price, Bruce M	Jones, Nancy
+2020907	Jencen	Campbell	F	11	Bleeker, Julie M	Behrens, Stacey D	Rapp, Lorraine M	Stadelmeir, Tim		Connor, Jo Marie	Forster, Jerald P	Fonnesbeck, Brett F
+502990	Georden	Canary	M	12	Larsen, Ted	Bortz, Dennis L	Torgrimson, Jason	Wills, Rebecca Dawn		Moody, RONALD L	Kemper, Debra Croshaw	Bleeker, Julie M
+101562	Ariel	Canoy	F	9	Hathorne, Melodie A	Stadelmeir, Tim	Eslinger, Darlene	Moody, RONALD L		Phillips, Todd A	Haycock, James Dee	Dodds, JOELLEN A
+402621	Brandon	Capps	M	12	Erkins Goss, Marla B	Kemper, Debra Croshaw	Kemper, Debra Croshaw	Ploss, Carrie L		Ploss, Carrie L	Moody, RONALD L	Larsen, Ted
+1101636	Trinity	Capps	F	11	Wells, Vivian R	Frost, Ryan C	Fonnesbeck, Brett F	Carder, Jacob P		Torgrimson, Jason	Forster, Jerald P	Connor, Jo Marie
+107959	Marcus	Carbajal	M	10	Moody, RONALD L	Phillips, Todd A	Knopp, Amy	Grady, Joyce Ann		Bowman, Jeffrey Mark	Manwaring, Nicole J	Bleeker, Julie M
+403082	James	Cardinet	M	12	Kemper, Debra Croshaw	Larsen, Ted	Bortz, Gala A	Bleeker, Julie M		Stadelmeir, Tim	Johnson, Camille	Wright, Candace Oaxaca
+105460	Rojelio	Cardoso	M	10	Harman, Benjamin T	Knopp, Amy	Schaal, Mark S	Grindstaff, Martin A		Price, Bruce M	Stadelmeir, Tim	McCullough, Royce
+106805	Parker	Carlquist	M	9	Hathorne, Melodie A	Berriochoa, Jeannine	Erkins Goss, Marla B	Dodds, JOELLEN A		Phillips, Todd A	Bortz, Gala A	Howard, Kevin D
+1101441	Ryan	Carlson	M	12	Larsen, Ted	Harman, Benjamin T	Wright, Candace Oaxaca	Mathes, Jessica		McCullough, Royce	Kohring, Benjamin D	Bleeker, Julie M
+100443	Ciera	Carney	F	10								Howard, Kevin D
+106894	Jonathan	Carrillo	M	10	Frost, Ryan C	Torgrimson, Jason	Morris, Eudelia T	Knopp, Amy		Leiser, Linda W	Johnson, Camille	Kenyon, John Q.
+402168	Andrew	Carter	M	10	Bleeker, Julie M	Davis, John David	Price, Bruce M	Leiser, Linda W		McCullough, Royce	Grindstaff, Martin A	Casperson, Joseph R
+501594	Brandon	Carter	M	11	Fonnesbeck, Brett F	Bortz, Gala A	Rapp, Lorraine M	Stadelmeir, Tim		Connor, Jo Marie	Hyer, Nathan	Forster, Jerald P
+601422	Chance	Carter	M	12	Bortz, Gala A	Wright, Candace Oaxaca	Mottern-High, Janis	Ploss, Carrie L		Larsen, Ted	Hartley, William M	Wills, Rebecca Dawn
+101355	Keri	Carter	F	12	Wills, Rebecca Dawn	Kemper, Debra Croshaw	Grindstaff, Martin A	Erkins Goss, Marla B		Moody, RONALD L	Ploss, Carrie L	Bleeker, Julie M
+502202	Ryan	Carter	M	9	Stadelmeir, Tim	Creek, Claudia K	Veselka, Julie	Kohring, Benjamin D		Dodds, JOELLEN A	Bortz, Gala A	Phillips, Todd A
+401850	Lauren	Casdorph	F	12	Wills, Rebecca Dawn	Leiser, Linda W	Bleeker, Julie M	Kemper, Debra Croshaw		Bortz, Gala A	Jones, Nancy	Davis, John David
+501640	Chloe	Case	F	11	Bleeker, Julie M	Bortz, Dennis L	Carder, Jacob P	Behrens, Stacey D		Connor, Jo Marie	Forster, Jerald P	Davis, John David
+401820	Jake	Casperson	M	12	Leiser, Linda W	Leiser, Linda W	Bleeker, Julie M	Mathes, Jessica		Leiser, Linda W	Torgrimson, Jason	Ploss, Carrie L
+501872	Kailey	Chaput	F	11	Leiser, Linda W	Tucker, Patrice	Mathes, Jessica	Merkley, Cassandra L		Bleeker, Julie M	Kenyon, John Q.	Wills, Rebecca Dawn
+503059	Kellie	Chaput	F	9	Manwaring, Nicole J	Bowman, Jeffrey Mark	Ritchie, Sherry ADELL	Frost, Ryan C		Harman, Benjamin T	Hathorne, Melodie A	Mathes, Jessica
+403039	Michael	Charron	M	11	Knopp, Amy	Grier, Marilee	Mathes, Jessica	Fiala, Marilyn M		Grier, Marilee	Bleeker, Julie M	Grier, Marilee
+402257	Ryan	Chatel	M	12	Kemper, Debra Croshaw	Bortz, Gala A	Creek, Claudia K	Larsen, Ted		Haycock, James Dee	Bleeker, Julie M	Casperson, Joseph R
+502676	Ardawna	Cheney	F	9	Berriochoa, Jeannine	Phillips, Todd A	Haycock, James Dee	Kohring, Benjamin D		Hathorne, Melodie A	Bowman, Jeffrey Mark	Moody, RONALD L
+2020788	Jocelyn	Child	F	12	Leiser, Linda W	Bleeker, Julie M	Grindstaff, Martin A	Hathorne, Melodie A		McCullough, Royce	Mathes, Jessica	Hartley, William M
+502076	Theofanis	Chrisaitis	M	10	Harman, Benjamin T	Knopp, Amy	Ploss, Carrie L	Jones, Nancy		Harr, Matthew L.	Schaal, Mark S	Kenyon, John Q.
+402425	Joel	Christensen	M	9	Phillips, Todd A	Eslinger, Darlene	McCullough, Royce	Dodds, JOELLEN A		Kohring, Benjamin D	Torgrimson, Jason	Hathorne, Melodie A
+702590	Nathan	Christensen	M	9	Bortz, Dennis L	Torgrimson, Jason	Moody, RONALD L	Veselka, Julie		Eslinger, Darlene	Bowman, Jeffrey Mark	Phillips, Todd A
+402740	Sarah	Christensen	F	10	Bleeker, Julie M	Rapp, Lorraine M	Creek, Claudia K	Davis, John David		Grindstaff, Martin A	Jones, Nancy	Harr, Matthew L.
+502210	Kelsey	Chriswell	F	9	Berriochoa, Jeannine	Veselka, Julie	Moody, RONALD L	Bowman, Jeffrey Mark		Ritchie, Sherry ADELL	Ploss, Carrie L	Mathes, Jessica
+101626	Ali	Churchman	F	10	Price, Bruce M	Knopp, Amy	Ploss, Carrie L	Johnson, Camille		Grindstaff, Martin A	Campbell, Blaine	Jones, Nancy
+107475	Gustavo	Ciarlariello	M	11	Merkley, Cassandra L	Manwaring, Nicole J	Carder, Jacob P	Berriochoa, Jeannine		Reynolds, Allyn D	Larsen, Ted	Kemper, Debra Croshaw
+106811	Alyssa	Clark	F	9	Dodds, JOELLEN A	Eslinger, Darlene	Creek, Claudia K	Ritchie, Sherry ADELL		Kohring, Benjamin D	Bortz, Gala A	Hathorne, Melodie A
+402822	Jordyn	Clark	F	12	Bortz, Gala A	Larsen, Ted	Mottern-High, Janis	Bleeker, Julie M		Fonnesbeck, Brett F	Casperson, Joseph R	Casperson, Joseph R
+402732	Marshall	Clark	M	11	Merkley, Cassandra L	Tucker, Patrice	Stadelmeir, Tim	Bleeker, Julie M		Fonnesbeck, Brett F	Forster, Jerald P	Harman, Benjamin T
+107396	Tristan	Clark	M	9	Manwaring, Nicole J	Torgrimson, Jason	Erkins Goss, Marla B	Frost, Ryan C		Schaal, Mark S	Hathorne, Melodie A	Bowman, Jeffrey Mark
+501705	Carly	Clasby	F	12	Federico, Michael A	Fonnesbeck, Brett F	Bleeker, Julie M	Kemper, Debra Croshaw		Johnson, Camille	Moody, RONALD L	Leiser, Linda W
+502891	Cailene	Clayton	F	10	Berriochoa, Jeannine	Grindstaff, Martin A	Davis, John David	Casperson, Joseph R		Price, Bruce M	Wills, Rebecca Dawn	Frost, Ryan C
+1101857	Jessica	Clem	F	11	Tucker, Patrice	Fonnesbeck, Brett F	Hamilton, Sharee L	Showers, Gary		Mathes, Jessica	Behrens, Stacey D	Manwaring, Nicole J
+2020808	Michael	Cleverley	M	12	Moody, RONALD L	Larsen, Ted	Grier, Marilee	Kemper, Debra Croshaw		Erkins Goss, Marla B	Casperson, Joseph R	Tucker, Patrice
+702676	Kobe	Clopton	M	9	Eslinger, Darlene	Berriochoa, Jeannine	Phillips, Todd A	Wills, Rebecca Dawn		Jones, Nancy	Veselka, Julie	Dodds, JOELLEN A
+402341	Tyler	Clough	M	12	Bleeker, Julie M	Wills, Rebecca Dawn	Grindstaff, Martin A	Eslinger, Darlene		Moody, RONALD L	Kemper, Debra Croshaw	Rapp, Lorraine M
+702255	Lucas	Coiner	M	12	Bleeker, Julie M	Larsen, Ted	Vogt, Daniel	Erkins Goss, Marla B		Behrens, Stacey D	Wright, Candace Oaxaca	Kemper, Debra Croshaw
+403496	Gessina	Collins	F	9	Phillips, Todd A	Veselka, Julie	Haycock, James Dee	Johnson, Camille		Jones, Nancy	Dodds, JOELLEN A	Eslinger, Darlene
+403495	Thomas	Collins	M	9	Creek, Claudia K	Dodds, JOELLEN A	Ritchie, Sherry ADELL	Casperson, Joseph R		Jones, Nancy	Hathorne, Melodie A	Mathes, Jessica
+402266	Jacob	Conder	M	11	Forster, Jerald P	Bleeker, Julie M	Bortz, Gala A	Showers, Gary		Fonnesbeck, Brett F	Connor, Jo Marie	Harman, Benjamin T
+902127	Courtney	Conklin	F	11	Forster, Jerald P	Behrens, Stacey D	Connor, Jo Marie	Fonnesbeck, Brett F		Rey, Brooke S	Blakeslee, Shirley C	Warner, Carol
+103300	Chance	Connell	M	12	Larsen, Ted	Frost, Ryan C	Berriochoa, Jeannine	Kemper, Debra Croshaw		Johnson, Camille	Kohring, Benjamin D	Wright, Candace Oaxaca
+701806	Sayer	Conrad	M	12	Harr, Matthew L.	Ploss, Carrie L	Grindstaff, Martin A	Stadelmeir, Tim		McCullough, Royce	Kemper, Debra Croshaw	Bleeker, Julie M
+1102484	Elizabeth	Contreras	F	9	Berriochoa, Jeannine	Wills, Rebecca Dawn	Eslinger, Darlene	Ritchie, Sherry ADELL		Hathorne, Melodie A	Merkley, Cassandra L	Bowman, Jeffrey Mark
+1102483	Isaac	Contreras	M	10	Haycock, James Dee	Grindstaff, Martin A	Moody, RONALD L	Schaal, Mark S		Knopp, Amy	Price, Bruce M	Harman, Benjamin T
+106075	Brandon	Cook	M	9	Eslinger, Darlene	Stadelmeir, Tim	Campbell, Blaine	Moody, RONALD L		Hathorne, Melodie A	Dodds, JOELLEN A	Phillips, Todd A
+402169	Taylor	Cooper	M	10	Grindstaff, Martin A	Wills, Rebecca Dawn	Davis, John David	Behrens, Stacey D		Bleeker, Julie M	Torgrimson, Jason	Harr, Matthew L.
+502277	Taylor	Cornell	F	12	Larsen, Ted	Ploss, Carrie L	Mottern-High, Janis	Bleeker, Julie M		Haycock, James Dee	McCullough, Royce	Wright, Candace Oaxaca
+402589	Thomas	Corr	M	12	Stadelmeir, Tim	Bortz, Gala A	Wright, Candace Oaxaca	Carder, Jacob P		Bleeker, Julie M	Kemper, Debra Croshaw	Rapp, Lorraine M
+502906	Ingrid	Corrales	F	11	Bleeker, Julie M	Erkins Goss, Marla B	Tucker, Patrice	Berriochoa, Jeannine		Fonnesbeck, Brett F	McCullough, Royce	Forster, Jerald P
+811999	Mediha	Cosic	F	10	Davis, John David	Rapp, Lorraine M	Frost, Ryan C	Hathorne, Melodie A		Grindstaff, Martin A	Reynolds, Allyn D	Harr, Matthew L.
+104105	Cameron	Costello	M	9	Stadelmeir, Tim	Creek, Claudia K	Phillips, Todd A	Kohring, Benjamin D		Bowman, Jeffrey Mark	Hathorne, Melodie A	Moody, RONALD L
+104103	Nicola	Costello	F	12	Haycock, James Dee	Wright, Candace Oaxaca	Wills, Rebecca Dawn	Creek, Claudia K		Bortz, Gala A	Kemper, Debra Croshaw	Bleeker, Julie M
+902443	Sydney	Cota	F	10	Grindstaff, Martin A	Rapp, Lorraine M	Harr, Matthew L.	Davis, John David		Reynolds, Allyn D	Haycock, James Dee	Bortz, Gala A
+601493	Ervina	Covcic	F	11	Mathes, Jessica	Hartley, William M	Connor, Jo Marie	Kenyon, John Q.		Price, Bruce M	Schaal, Mark S	McCullough, Royce
+100597	Hayden	Cowden	M	9	Berriochoa, Jeannine	Kohring, Benjamin D	Hathorne, Melodie A	Frost, Ryan C		Kohring, Benjamin D	Phillips, Todd A	Dodds, JOELLEN A
+601691	Samuel	Cox	M	10	Grindstaff, Martin A	Davis, John David	Price, Bruce M	Bleeker, Julie M		Harman, Benjamin T	Torgrimson, Jason	Bortz, Gala A
+106773	Jennifer	Cram	F	10	Davis, John David	Grindstaff, Martin A	Schaal, Mark S	Jones, Nancy		Johnson, Camille	Harr, Matthew L.	Manwaring, Nicole J
+106774	Jessica	Cram	F	12	Bortz, Gala A	Larsen, Ted	Schaal, Mark S	Erkins Goss, Marla B		Casperson, Joseph R	Casperson, Joseph R	Kemper, Debra Croshaw
+601471	McKayla	Crocker	F	11	Mathes, Jessica	Tucker, Patrice	Merkley, Cassandra L	Mathes, Jessica		Fonnesbeck, Brett F	Schaal, Mark S	Tucker, Patrice
+601908	Nickolas	Crocker	M	9	Putman, CHRISTINE	Fiala, Marilyn M	Putman, CHRISTINE	Grier, Marilee		Grier, Marilee	Putman, CHRISTINE	Phillips, Todd A
+502192	Lauren	Crowley	F	9	Phillips, Todd A	Eslinger, Darlene	Berriochoa, Jeannine	Dodds, JOELLEN A		Casperson, Joseph R	Merkley, Cassandra L	Hathorne, Melodie A
+100604	Tanner	Cudney	M	10	Reynolds, Allyn D	Frost, Ryan C	Kenyon, John Q.	Schaal, Mark S		Veselka, Julie	Harr, Matthew L.	Harman, Benjamin T
+902771	Miranda	Curtis	F	9	Federico, Michael A	Ritchie, Sherry ADELL	Veselka, Julie	Harman, Benjamin T		Jones, Nancy	Dodds, JOELLEN A	Eslinger, Darlene
+2020705	Rachel	Custer	F	12	Connor, Jo Marie	Bortz, Dennis L	Mottern-High, Janis	Larsen, Ted		Bortz, Gala A	Rapp, Lorraine M	Ploss, Carrie L
+403016	Hunter	Cutler	F	12	Bleeker, Julie M	Merkley, Cassandra L	Kemper, Debra Croshaw	Leiser, Linda W		Haycock, James Dee	Haycock, James Dee	Allen, Benjamin F
+601485	Zorana	Cvijetic	F	11	Allen, Benjamin F	Forster, Jerald P	Rapp, Lorraine M	Berriochoa, Jeannine		Connor, Jo Marie	Moody, RONALD L	Fonnesbeck, Brett F
+101548	Caleb	Dais	M	11	Tucker, Patrice	Fonnesbeck, Brett F	Manwaring, Nicole J	Berriochoa, Jeannine		Behrens, Stacey D	Dodds, JOELLEN A	Forster, Jerald P
+902526	Braxton	Dalton	M	10	Davis, John David	Rapp, Lorraine M	Ploss, Carrie L	Reynolds, Allyn D		Price, Bruce M	Grindstaff, Martin A	Bortz, Gala A
+1101647	Elizabeth	Dangalas	F	11	Wills, Rebecca Dawn	Fonnesbeck, Brett F	Johnson, Camille	Forster, Jerald P		Bleeker, Julie M	Behrens, Stacey D	Tucker, Patrice
+502292	Austin	Davis	M	9	Manwaring, Nicole J	Veselka, Julie	Phillips, Todd A	Frost, Ryan C		Torgrimson, Jason	Bowman, Jeffrey Mark	Eslinger, Darlene
+601713	Keely	Davis	F	10	Frost, Ryan C	Grindstaff, Martin A	Knopp, Amy	Wills, Rebecca Dawn		Harr, Matthew L.	Reynolds, Allyn D	Knopp, Amy
+107502	Breana	Davis-Willis	F	11	Manwaring, Nicole J	Manwaring, Nicole J	Johnson, Camille	Forster, Jerald P		Showers, Gary	Jones, Nancy	Connor, Jo Marie
+103129	Brandon	Day	M	12	Haycock, James Dee	Larsen, Ted	Kemper, Debra Croshaw	Erkins Goss, Marla B		Moody, RONALD L	Morris, Eudelia T	Morris, Eudelia T
+402894	Alexandra	Dayley	F	9	Schaal, Mark S	Veselka, Julie	Erkins Goss, Marla B	Ritchie, Sherry ADELL		Harman, Benjamin T	Dodds, JOELLEN A	Moody, RONALD L
+105396	Chylanne	Dayley	F	10	Grindstaff, Martin A	Merkley, Cassandra L	Harr, Matthew L.	Rapp, Lorraine M		Casperson, Joseph R	Bleeker, Julie M	Knopp, Amy
+402404	Pamala	Dayley	F	9	Hathorne, Melodie A	Creek, Claudia K	Ritchie, Sherry ADELL	Dodds, JOELLEN A		Eslinger, Darlene	Merkley, Cassandra L	Kohring, Benjamin D
+502995	Christopher	DeBartolo	M	10	Behrens, Stacey D	Schaal, Mark S	Davis, John David	Morris, Eudelia T		Price, Bruce M	Grindstaff, Martin A	Kohring, Benjamin D
+402599	Chelsey	DeBie	F	10	Wells, Vivian R	Kenyon, John Q.	Wills, Rebecca Dawn	Price, Bruce M		Schaal, Mark S	Davis, John David	Bortz, Gala A
+2020908	Taylor	DeBoard	F	11	Allen, Benjamin F	Tucker, Patrice	Merkley, Cassandra L	Stadelmeir, Tim		Showers, Gary	Forster, Jerald P	Bleeker, Julie M
+403529	Mason	Decker	M	9	Bortz, Dennis L	Dodds, JOELLEN A	Erkins Goss, Marla B	Ritchie, Sherry ADELL		Frost, Ryan C	Torgrimson, Jason	Hathorne, Melodie A
+100608	Christina	DeForest	F	10	Grindstaff, Martin A	Manwaring, Nicole J	Harr, Matthew L.	Jones, Nancy		Knopp, Amy	Wills, Rebecca Dawn	Fiala, Marilyn M
+107558	Dana	DeKruyf	F	11			Leiser, Linda W					
+601253	Ashley	Delaplane	F	12	Kemper, Debra Croshaw	Behrens, Stacey D	Tucker, Patrice	Rapp, Lorraine M		Casperson, Joseph R	Leiser, Linda W	Tucker, Patrice
+104309	Mason	Deloera	M	9	Bortz, Dennis L	Eslinger, Darlene	Berriochoa, Jeannine	Frost, Ryan C		Hathorne, Melodie A	Dodds, JOELLEN A	Phillips, Todd A
+502047	Parker	Derbidge	M	11	Fonnesbeck, Brett F	Forster, Jerald P	Wills, Rebecca Dawn	Tucker, Patrice		Behrens, Stacey D	Wills, Rebecca Dawn	Manwaring, Nicole J
+11037	Skyler	Deuel	M	9	Putman, CHRISTINE	Stadelmeir, Tim	Ritchie, Sherry ADELL	Moody, RONALD L		Hathorne, Melodie A	Bowman, Jeffrey Mark	Fiala, Marilyn M
+501641	Nicolas	Devine	M	11	Bleeker, Julie M	Morris, Eudelia T	Merkley, Cassandra L	Campbell, Blaine		Showers, Gary	Forster, Jerald P	Wright, Candace Oaxaca
+1104254	Patricia	DeVries	F	9	Veselka, Julie	Eslinger, Darlene	Ritchie, Sherry ADELL	Harman, Benjamin T		Phillips, Todd A	Dodds, JOELLEN A	Merkley, Cassandra L
+902656	Kelsey	Diehl	F	9	Berriochoa, Jeannine	Ritchie, Sherry ADELL	Hathorne, Melodie A	Carder, Jacob P		Eslinger, Darlene	Merkley, Cassandra L	Bowman, Jeffrey Mark
+702146	Hailey	Dishaw	F	11	Mathes, Jessica	Schaal, Mark S	Bortz, Gala A	Berriochoa, Jeannine		Fonnesbeck, Brett F	Connor, Jo Marie	Campbell, Blaine
+812031	Hanna	Dishaw	F	10	Johnson, Camille	Rapp, Lorraine M	Price, Bruce M	Berriochoa, Jeannine		Grindstaff, Martin A	Davis, John David	Bortz, Gala A
+103744	Bryce	Dixon	M	10		Bortz, Dennis L	Price, Bruce M	Grindstaff, Martin A				
+502897	Chase	Dixon	F	11	Behrens, Stacey D	Fonnesbeck, Brett F	Wills, Rebecca Dawn	Connor, Jo Marie		Forster, Jerald P	Wright, Candace Oaxaca	Bleeker, Julie M
+502899	Johanne	Dixon	F	12	Larsen, Ted	Harr, Matthew L.	Berriochoa, Jeannine	Johnson, Camille		Moody, RONALD L	Kemper, Debra Croshaw	Bleeker, Julie M
+502898	Petra	Dixon	F	9	Moody, RONALD L	Kohring, Benjamin D	Bowman, Jeffrey Mark	Harman, Benjamin T		Hathorne, Melodie A	Phillips, Todd A	Howard, Kevin D
+502061	Tanner	Dixon	M	10	Kenyon, John Q.	Merkley, Cassandra L	Price, Bruce M	Bleeker, Julie M		Berriochoa, Jeannine	Torgrimson, Jason	Knopp, Amy
+902692	Ashley	Doan	F	9	Dodds, JOELLEN A	Veselka, Julie	Kohring, Benjamin D	Carder, Jacob P		Harman, Benjamin T	Phillips, Todd A	Merkley, Cassandra L
+501759	Aaron	Dobbs	M	12	Larsen, Ted	Harr, Matthew L.	Stadelmeir, Tim	Eslinger, Darlene		McCullough, Royce	Kemper, Debra Croshaw	Ploss, Carrie L
+402040	Austin	Dobbs	M	12	Johnson, Camille	Larsen, Ted	Kemper, Debra Croshaw	Leiser, Linda W		Leiser, Linda W	Campbell, Blaine	Bleeker, Julie M
+402216	Michael	Dodds	M	10	Torgrimson, Jason	Davis, John David	Price, Bruce M	Bleeker, Julie M		Reynolds, Allyn D	Grindstaff, Martin A	McCullough, Royce
+106795	Sara	Doerr	F	10	Merkley, Cassandra L	Harman, Benjamin T	Showers, Gary	Grindstaff, Martin A		Veselka, Julie	Manwaring, Nicole J	Harr, Matthew L.
+107461	Tyler	Dominguez	M	10	Hall, Brenda D	Hall, Brenda D	Hall, Brenda D	Hall, Brenda D		Hall, Brenda D	Stadelmeir, Tim	Hall, Brenda D
+403193	Andrea	Doria-Velasco	F	10	Price, Bruce M	McCullough, Royce	Ploss, Carrie L	Davis, John David		Grindstaff, Martin A	Rapp, Lorraine M	Bleeker, Julie M
+901952	Dakotah	Doshier	M	12	Berriochoa, Jeannine	Behrens, Stacey D	Wright, Candace Oaxaca	Larsen, Ted		Ploss, Carrie L	Reynolds, Allyn D	Kemper, Debra Croshaw
+1101536	Deedra	Doshier	F	12	Ploss, Carrie L	Mottern-High, Janis	Bortz, Gala A	Larsen, Ted		Ploss, Carrie L	Hamilton, Sharee L	Howard, Kevin D
+601995	Kyrra	Doshier	F	10	Price, Bruce M	Rapp, Lorraine M	Reynolds, Allyn D	McCullough, Royce		Grindstaff, Martin A	Davis, John David	Howard, Kevin D
+502193	Hunter	Douglas	M	9	Ritchie, Sherry ADELL	Haycock, James Dee	Berriochoa, Jeannine	Veselka, Julie		Eslinger, Darlene	Merkley, Cassandra L	Dodds, JOELLEN A
+601484	Laceigh	Dowd	F	10	Price, Bruce M	Showers, Gary	Davis, John David	Schaal, Mark S		Grindstaff, Martin A	Johnson, Camille	Jones, Nancy
+601300	Trell	Dowd	M	12	Wright, Candace Oaxaca	Harr, Matthew L.	Kemper, Debra Croshaw	Wright, Candace Oaxaca		Kohring, Benjamin D	Larsen, Ted	Kohring, Benjamin D
+402268	Derek	Downing	M	10	Kenyon, John Q.	Bortz, Dennis L	Showers, Gary	Morris, Eudelia T		Knopp, Amy	Price, Bruce M	Bortz, Gala A
+11079	Brian	Doyle	M	11	Bleeker, Julie M	Merkley, Cassandra L	Showers, Gary	Fonnesbeck, Brett F		Haycock, James Dee	Connor, Jo Marie	Forster, Jerald P
+2020909	Wyatt	Doyle	M	11	Harman, Benjamin T	Forster, Jerald P	Tucker, Patrice	Stadelmeir, Tim		Johnson, Camille	Kenyon, John Q.	McCullough, Royce
+502440	Jacob	Draney	M	11	Bleeker, Julie M	Harr, Matthew L.	Connor, Jo Marie	Behrens, Stacey D		Forster, Jerald P	Manwaring, Nicole J	Fonnesbeck, Brett F
+105551	Emily	Duff	F	9	Moody, RONALD L	Veselka, Julie	Johnson, Camille	Kohring, Benjamin D		Torgrimson, Jason	Hyer, Nathan	Bowman, Jeffrey Mark
+104984	Sterling	Duggan	M	11	Stadelmeir, Tim	Bortz, Gala A	Showers, Gary	Creek, Claudia K		Fonnesbeck, Brett F	Connor, Jo Marie	Forster, Jerald P
+601879	Bryan	Duke	M	9	Bortz, Dennis L	Torgrimson, Jason	Hathorne, Melodie A	Rapp, Lorraine M		Stadelmeir, Tim	Merkley, Cassandra L	Dodds, JOELLEN A
+503064	Anthony	Duran	M	9	Eslinger, Darlene	Ritchie, Sherry ADELL	Berriochoa, Jeannine	Frost, Ryan C		Dodds, JOELLEN A	Veselka, Julie	Kohring, Benjamin D
+1101661	Katelyn	Durham	F	11	Allen, Benjamin F	Erkins Goss, Marla B	Connor, Jo Marie	Behrens, Stacey D		Showers, Gary	Forster, Jerald P	Howard, Kevin D
+102175	Zane	Durkin	M	9	Bortz, Dennis L	Dodds, JOELLEN A	Ritchie, Sherry ADELL	Veselka, Julie		Kohring, Benjamin D	Merkley, Cassandra L	Eslinger, Darlene
+401946	Rainey	Dyreson	F	11	Tucker, Patrice	Forster, Jerald P	Creek, Claudia K	Merkley, Cassandra L		Bleeker, Julie M	Kenyon, John Q.	Leiser, Linda W
+602020	Edin	Dzindo	M	10	Davis, John David	Kenyon, John Q.	Manwaring, Nicole J	Jones, Nancy		Torgrimson, Jason	Reynolds, Allyn D	Harr, Matthew L.
+2020722	Scott	Earle	M	12	Erkins Goss, Marla B	Berriochoa, Jeannine	Grindstaff, Martin A	Mathes, Jessica		Moody, RONALD L	Wright, Candace Oaxaca	Bleeker, Julie M
+502669	Cody	Eaton	M	11	Manwaring, Nicole J	Bortz, Dennis L	Tucker, Patrice	Stadelmeir, Tim		Behrens, Stacey D	Kenyon, John Q.	Forster, Jerald P
+402217	Aaron	Eckrote	M	10	Davis, John David	Morris, Eudelia T	McCullough, Royce	Campbell, Blaine		Grindstaff, Martin A	Price, Bruce M	Harman, Benjamin T
+104131	Marina	Eden	F	9			Leiser, Linda W					
+103083	Connor	Edwards	M	12	Haycock, James Dee	Bleeker, Julie M	Mottern-High, Janis	Larsen, Ted		Tucker, Patrice	McCullough, Royce	Manwaring, Nicole J
+402397	Jordon	Egbert	M	9	Jones, Nancy	Berriochoa, Jeannine	Bowman, Jeffrey Mark	Ritchie, Sherry ADELL		Hathorne, Melodie A	Erkins Goss, Marla B	Kohring, Benjamin D
+402410	Madison	Ehrmantraut	F	9	Stadelmeir, Tim	Ritchie, Sherry ADELL	Eslinger, Darlene	Bowman, Jeffrey Mark		Hathorne, Melodie A	Merkley, Cassandra L	Phillips, Todd A
+401869	Ty	Ehrmantraut	M	12	Veselka, Julie	Berriochoa, Jeannine	Grindstaff, Martin A	Erkins Goss, Marla B		Moody, RONALD L	Mathes, Jessica	Bleeker, Julie M
+702574	Cooper	Elam	M	9	Veselka, Julie	McCullough, Royce	Eslinger, Darlene	Dodds, JOELLEN A		Harman, Benjamin T	Phillips, Todd A	Kohring, Benjamin D
+10805	Hunter	Elam	M	11	Harr, Matthew L.	Behrens, Stacey D	Tucker, Patrice	Kenyon, John Q.		Mathes, Jessica	Kohring, Benjamin D	Bleeker, Julie M
+401877	Preston	Elliott	M	12	Leiser, Linda W	Carder, Jacob P	Kemper, Debra Croshaw	Wills, Rebecca Dawn		Moody, RONALD L	Stadelmeir, Tim	Bleeker, Julie M
+401991	Courtney	Ellis	F	11	Mathes, Jessica	Bortz, Gala A	Connor, Jo Marie	Berriochoa, Jeannine		Fonnesbeck, Brett F	Kohring, Benjamin D	Bleeker, Julie M
+502219	Kylun	Elsing	M	9	Eslinger, Darlene	Jones, Nancy	Phillips, Todd A	Harman, Benjamin T		Bowman, Jeffrey Mark	Hathorne, Melodie A	Kohring, Benjamin D
+107561	Schuyler	Enneman	M	9			Leiser, Linda W					
+106918	Chase	Erickson	M	9	Manwaring, Nicole J	Haycock, James Dee	Putman, CHRISTINE	Putman, CHRISTINE		Grier, Marilee	Fiala, Marilyn M	Wills, Rebecca Dawn
+107078	Justice	Esparza	F	9	Ritchie, Sherry ADELL	Kohring, Benjamin D	Moody, RONALD L	Rapp, Lorraine M		Johnson, Camille	Veselka, Julie	Dodds, JOELLEN A
+10990	Michael	Esparza	M	12	Wright, Candace Oaxaca	Schaal, Mark S	Mottern-High, Janis	Wright, Candace Oaxaca		Ploss, Carrie L	Haycock, James Dee	Casperson, Joseph R
+502442	Javier	Esquibel	M	10	Reynolds, Allyn D	Kenyon, John Q.	Stadelmeir, Tim	Rapp, Lorraine M		Veselka, Julie	Price, Bruce M	Moody, RONALD L
+502441	Monica	Esquibel	F	12	Leiser, Linda W	Manwaring, Nicole J	Grindstaff, Martin A	Kemper, Debra Croshaw		Berriochoa, Jeannine	Jones, Nancy	Connor, Jo Marie
+502205	Thad	Esquivel	M	9	Eslinger, Darlene	Phillips, Todd A	Harman, Benjamin T	Bowman, Jeffrey Mark		Kohring, Benjamin D	Veselka, Julie	Merkley, Cassandra L
+1102332	Cristian	Estrada	M	11	Harr, Matthew L.	Tucker, Patrice	Mathes, Jessica	Behrens, Stacey D		Showers, Gary	Morris, Eudelia T	Morris, Eudelia T
+702752	Jaime	Estrada	M	9	Dodds, JOELLEN A	Eslinger, Darlene	Ritchie, Sherry ADELL	Putman, CHRISTINE		Hathorne, Melodie A	Stadelmeir, Tim	Merkley, Cassandra L
+402426	Hyrum	Evans	M	9	Dodds, JOELLEN A	Ritchie, Sherry ADELL	Kohring, Benjamin D	Moody, RONALD L		Torgrimson, Jason	Fiala, Marilyn M	Phillips, Todd A
+107948	Gage	Fairbanks	M	10								
+601249	Darrell	Falconburg	M	12	Bleeker, Julie M	Mottern-High, Janis	Rapp, Lorraine M	Eslinger, Darlene		Larsen, Ted	McCullough, Royce	Wright, Candace Oaxaca
+601276	Kylie	Farr	F	12	Federico, Michael A	Leiser, Linda W	Grindstaff, Martin A	Erkins Goss, Marla B		Bleeker, Julie M	Mathes, Jessica	McCullough, Royce
+601898	Mason	Farr	M	9	Stadelmeir, Tim	Bowman, Jeffrey Mark	Hathorne, Melodie A	Kohring, Benjamin D		Ritchie, Sherry ADELL	Bortz, Gala A	Harman, Benjamin T
+903136	Lane	Fassett Krull	F	11	Schaal, Mark S	Carder, Jacob P	Bortz, Gala A	Berriochoa, Jeannine		Forster, Jerald P	Connor, Jo Marie	Davis, John David
+701823	Sabina	Fehratovic	F	12	Allen, Benjamin F	Kemper, Debra Croshaw	Johnson, Camille	Larsen, Ted		Haycock, James Dee	Moody, RONALD L	Tucker, Patrice
+702321	Sanel	Fehratovic	M	10	Stadelmeir, Tim	Schaal, Mark S	Kenyon, John Q.	Jones, Nancy		Harr, Matthew L.	Reynolds, Allyn D	Knopp, Amy
+104882	Tyler	Felps	M	12	Haycock, James Dee	Wright, Candace Oaxaca	Rapp, Lorraine M	Larsen, Ted		Bortz, Gala A	Kemper, Debra Croshaw	Bleeker, Julie M
+107973	Sihao	Feng	M	9			Leiser, Linda W					
+107974	Taylor	Feriante	F	9			Leiser, Linda W					
+104337	Braxton	Ferrenburg	M	10	Kenyon, John Q.	Bortz, Dennis L	Davis, John David	Johnson, Camille		Price, Bruce M	Reynolds, Allyn D	Moody, RONALD L
+103292	Triston	Few	M	11	Tucker, Patrice	Harman, Benjamin T	Carder, Jacob P	Kenyon, John Q.		Mathes, Jessica	Jones, Nancy	Bleeker, Julie M
+701886	Dariene	Fickbohm	F	12	Erkins Goss, Marla B	Merkley, Cassandra L	Grindstaff, Martin A	Wills, Rebecca Dawn		Johnson, Camille	Bleeker, Julie M	Kemper, Debra Croshaw
+1102070	Lizette	Fierros	F	9	Eslinger, Darlene	Phillips, Todd A	Haycock, James Dee	Bowman, Jeffrey Mark		Frost, Ryan C	Veselka, Julie	Harman, Benjamin T
+1101668	Katelyn	Fischer	F	12	Harr, Matthew L.	Mottern-High, Janis	Bortz, Gala A	Leiser, Linda W		Federico, Michael A	Ploss, Carrie L	Bleeker, Julie M
+1102321	Zane	Fischer	M	9	Phillips, Todd A	Jones, Nancy	Hathorne, Melodie A	Kohring, Benjamin D		Bowman, Jeffrey Mark	Hyer, Nathan	Howard, Kevin D
+104023	Brooke	Fitzgerald	F	11	Forster, Jerald P	Bortz, Gala A	Connor, Jo Marie	Eslinger, Darlene		Haycock, James Dee	Leiser, Linda W	Haycock, James Dee
+102391	Delaney	Fitzgerald	F	9	Federico, Michael A	McCullough, Royce	Phillips, Todd A	Dodds, JOELLEN A		Torgrimson, Jason	Erkins Goss, Marla B	Hathorne, Melodie A
+801836	Nicholas	Flechsig	M	12	Erkins Goss, Marla B	Larsen, Ted	Kemper, Debra Croshaw	Schaal, Mark S		Tucker, Patrice	Stadelmeir, Tim	Frost, Ryan C
+602287	Marielena	Fletes	F	12	Kemper, Debra Croshaw	Merkley, Cassandra L	Grindstaff, Martin A	Berriochoa, Jeannine		Stadelmeir, Tim	Johnson, Camille	Bleeker, Julie M
+502885	India	Flora	F	9	Stadelmeir, Tim	Ritchie, Sherry ADELL	Veselka, Julie	Kohring, Benjamin D		Dodds, JOELLEN A	Merkley, Cassandra L	Harman, Benjamin T
+401963	Christopher	Flournoy	M	11	Forster, Jerald P	Bortz, Dennis L	Creek, Claudia K	Fonnesbeck, Brett F		Bortz, Gala A	Connor, Jo Marie	Davis, John David
+100610	Madison	Ford	F	10	Kenyon, John Q.	Stadelmeir, Tim	Harr, Matthew L.	Davis, John David		McCullough, Royce	Schaal, Mark S	Harman, Benjamin T
+502779	Preston	Ford	M	12	Larsen, Ted	Bortz, Dennis L	Johnson, Camille	Kemper, Debra Croshaw		Stadelmeir, Tim	Moody, RONALD L	Kemper, Debra Croshaw
+401687	Matthew	Frank	M	12	Connor, Jo Marie	Kemper, Debra Croshaw	Manwaring, Nicole J	Leiser, Linda W		Moody, RONALD L	Wills, Rebecca Dawn	Bleeker, Julie M
+1102075	Fernando	Fregoso	M	9	Veselka, Julie	Harman, Benjamin T	Phillips, Todd A	Bowman, Jeffrey Mark		Frost, Ryan C	Hyer, Nathan	Mathes, Jessica
+107088	Aspen	French	F	11	Forster, Jerald P	Wright, Candace Oaxaca	Behrens, Stacey D	Carder, Jacob P		Fonnesbeck, Brett F	Bleeker, Julie M	Manwaring, Nicole J
+102897	Noble	Fry	M	10	Schaal, Mark S	Haycock, James Dee	Davis, John David	Jones, Nancy		Reynolds, Allyn D	Harr, Matthew L.	Kenyon, John Q.
+402006	Chelsea	Fuchs	F	12	Kemper, Debra Croshaw	Bortz, Gala A	Manwaring, Nicole J	Johnson, Camille		Davis, John David	Leiser, Linda W	Bleeker, Julie M
+1102073	Caitlyn	Fuller	F	9	Veselka, Julie	Ritchie, Sherry ADELL	Eslinger, Darlene	Harman, Benjamin T		Casperson, Joseph R	Bowman, Jeffrey Mark	Merkley, Cassandra L
+103978	Felicia	Fuller	F	9	Ritchie, Sherry ADELL	Eslinger, Darlene	Moody, RONALD L	Schaal, Mark S		Bowman, Jeffrey Mark	Hathorne, Melodie A	Harman, Benjamin T
+403527	Alexis	Gadsby	F	9	Hathorne, Melodie A	Berriochoa, Jeannine	Erkins Goss, Marla B	Dodds, JOELLEN A		Torgrimson, Jason	Torgrimson, Jason	Merkley, Cassandra L
+803048	Avery	Gaines	F	11	Merkley, Cassandra L	Tucker, Patrice	Fonnesbeck, Brett F	Berriochoa, Jeannine		Federico, Michael A	Forster, Jerald P	Bleeker, Julie M
+402823	Rylee	Gamache	F	9	Manwaring, Nicole J	Bowman, Jeffrey Mark	Harman, Benjamin T	Veselka, Julie		Torgrimson, Jason	Bortz, Gala A	Mathes, Jessica
+1102158	Andres	Garcia May	M	9	Ritchie, Sherry ADELL	Kohring, Benjamin D	Veselka, Julie	Moody, RONALD L		Phillips, Todd A	Schaal, Mark S	Bowman, Jeffrey Mark
+1102157	Jocabeth	Garcia May	F	9	Dodds, JOELLEN A	Phillips, Todd A	Putman, CHRISTINE	Kohring, Benjamin D		Ritchie, Sherry ADELL	Fiala, Marilyn M	Fiala, Marilyn M
+1102160	Stephany	Garcia May	F	11	Creek, Claudia K	Manwaring, Nicole J	Fonnesbeck, Brett F	Allen, Benjamin F		Mathes, Jessica	Jones, Nancy	Wright, Candace Oaxaca
+401716	Enrique	Garcia	M	12	Larsen, Ted	Wright, Candace Oaxaca	Bortz, Gala A	Mathes, Jessica		Johnson, Camille	Kohring, Benjamin D	Bleeker, Julie M
+104714	Eric	Garcia	M	9	Phillips, Todd A	Stadelmeir, Tim	Harman, Benjamin T	Veselka, Julie		Frost, Ryan C	Erkins Goss, Marla B	Bowman, Jeffrey Mark
+824651	Julius	Garcia	M	9	Eslinger, Darlene	Ritchie, Sherry ADELL	Hathorne, Melodie A	Harman, Benjamin T		Jones, Nancy	Phillips, Todd A	Bowman, Jeffrey Mark
+501642	Leroy	Garcia	M	11	Fonnesbeck, Brett F	Tucker, Patrice	Stadelmeir, Tim	Forster, Jerald P		Behrens, Stacey D	Morris, Eudelia T	Morris, Eudelia T
+602526	Mariah	Garcia	F	11	Federico, Michael A	Harman, Benjamin T	Fonnesbeck, Brett F	Tucker, Patrice		Behrens, Stacey D	Forster, Jerald P	Tucker, Patrice
+402601	Michael	Garcia	M	12	Larsen, Ted	Behrens, Stacey D	Stadelmeir, Tim	Manwaring, Nicole J		Allen, Benjamin F	Kemper, Debra Croshaw	Bleeker, Julie M
+601936	Ryan	Garey	M	10	Grindstaff, Martin A	Bortz, Dennis L	Davis, John David	McCullough, Royce		Harr, Matthew L.	Hyer, Nathan	Wills, Rebecca Dawn
+1102065	Allyson	Garner	F	9	Veselka, Julie	Berriochoa, Jeannine	Haycock, James Dee	Ritchie, Sherry ADELL		Bowman, Jeffrey Mark	Erkins Goss, Marla B	Merkley, Cassandra L
+1101843	Joshua	Garner	M	10	Harman, Benjamin T	Knopp, Amy	McCullough, Royce	Johnson, Camille		Grindstaff, Martin A	Harr, Matthew L.	Kohring, Benjamin D
+1101825	Chase	Gartner	M	10	Behrens, Stacey D	Kenyon, John Q.	Reynolds, Allyn D	Davis, John David		Schaal, Mark S	Haycock, James Dee	Harr, Matthew L.
+104894	Roy	Gartner	M	11	Bleeker, Julie M	Harr, Matthew L.	Showers, Gary	Kenyon, John Q.		Mathes, Jessica	Leiser, Linda W	Vogt, Daniel
+602684	Orlando	Garzon-Loza	M	10	Davis, John David	Stadelmeir, Tim	McCullough, Royce	Rapp, Lorraine M		Morris, Eudelia T	Price, Bruce M	Kenyon, John Q.
+10494	Justice	Gauthier	F	10	Harman, Benjamin T	Carder, Jacob P	Frost, Ryan C	Price, Bruce M		Veselka, Julie	Reynolds, Allyn D	Kenyon, John Q.
+403196	Brady	Gay	F	10	Grindstaff, Martin A	Carder, Jacob P	Rapp, Lorraine M	Knopp, Amy		Harr, Matthew L.	Schaal, Mark S	Jones, Nancy
+502042	Spencer	Geilman	M	10	Bleeker, Julie M	Knopp, Amy	McCullough, Royce	Price, Bruce M		Berriochoa, Jeannine	Grindstaff, Martin A	Kohring, Benjamin D
+803029	Hailie	Gentry	F	11	Bleeker, Julie M	Fonnesbeck, Brett F	Harman, Benjamin T	Tucker, Patrice		Behrens, Stacey D	Manwaring, Nicole J	Forster, Jerald P
+502229	David	Geske	M	11	Fonnesbeck, Brett F	Schaal, Mark S	Stadelmeir, Tim	Forster, Jerald P		Connor, Jo Marie	McCullough, Royce	Tucker, Patrice
+105128	Tyson	Gianchetta	M	11	Harr, Matthew L.	Showers, Gary	Behrens, Stacey D	Berriochoa, Jeannine		Connor, Jo Marie	Kenyon, John Q.	Forster, Jerald P
+501596	Brianna	Gibson	F	11	Creek, Claudia K	Bortz, Dennis L	Behrens, Stacey D	Fonnesbeck, Brett F		Forster, Jerald P	Connor, Jo Marie	Howard, Kevin D
+104734	Sarah	Giddings	F	9	Federico, Michael A	Eslinger, Darlene	Carder, Jacob P	Moody, RONALD L		Hathorne, Melodie A	Phillips, Todd A	Bowman, Jeffrey Mark
+103105	Adella	Gilbert	F	10	Reynolds, Allyn D	Frost, Ryan C	Ploss, Carrie L	Grindstaff, Martin A		Harr, Matthew L.	Stadelmeir, Tim	Knopp, Amy
+102068	Adrian	Giles	M	12	Merkley, Cassandra L	Kemper, Debra Croshaw	Tucker, Patrice	Wills, Rebecca Dawn		Bleeker, Julie M	Larsen, Ted	Manwaring, Nicole J
+601282	Ryleigh	Glascock	F	12	Kemper, Debra Croshaw	Wills, Rebecca Dawn	Behrens, Stacey D	Bleeker, Julie M		Connor, Jo Marie	Hartley, William M	Ploss, Carrie L
+502775	Matthew	Glauner	M	9	Bortz, Dennis L	Phillips, Todd A	Moody, RONALD L	Kohring, Benjamin D		Ritchie, Sherry ADELL	Bowman, Jeffrey Mark	Hathorne, Melodie A
+103721	Hanna	Glaze	F	11			Leiser, Linda W					
+100565	Megan	Glick	F	10	Federico, Michael A	Kenyon, John Q.	Harman, Benjamin T	Davis, John David		Price, Bruce M	Reynolds, Allyn D	Jones, Nancy
+104967	Hayden	Golay	M	10	Kenyon, John Q.	Bortz, Dennis L	Price, Bruce M	Davis, John David		McCullough, Royce	Rapp, Lorraine M	Hyer, Nathan
+502991	Jacqueline	Golay	F	9	Phillips, Todd A	Haycock, James Dee	Johnson, Camille	Frost, Ryan C		Bowman, Jeffrey Mark	Hathorne, Melodie A	Eslinger, Darlene
+1102112	Hailey	Gomez	F	12	Wills, Rebecca Dawn	Wright, Candace Oaxaca	Behrens, Stacey D	Mathes, Jessica		Bleeker, Julie M	Leiser, Linda W	Ploss, Carrie L
+402462	Joseph	Gomez	M	10	Stadelmeir, Tim	Kenyon, John Q.	Davis, John David	Reynolds, Allyn D		Berriochoa, Jeannine	Price, Bruce M	Frost, Ryan C
+401918	Sydney	Gomez	F	12	Kemper, Debra Croshaw	Ploss, Carrie L	Bortz, Gala A	Leiser, Linda W		Federico, Michael A	Johnson, Camille	Bleeker, Julie M
+401977	Emilee	Gomske	F	11	Schaal, Mark S	Forster, Jerald P	Merkley, Cassandra L	Kenyon, John Q.		Haycock, James Dee	Grady, Joyce Ann	Bleeker, Julie M
+601918	Kaylee	Gomske	F	9	Eslinger, Darlene	Jones, Nancy	Haycock, James Dee	Veselka, Julie		Casperson, Joseph R	Phillips, Todd A	Bowman, Jeffrey Mark
+601883	Maryssa	Gonzales	F	9	Federico, Michael A	Haycock, James Dee	Kohring, Benjamin D	Moody, RONALD L		Hathorne, Melodie A	Dodds, JOELLEN A	Phillips, Todd A
+502325	Yelvie	Gonzales	M	10	Reynolds, Allyn D	Kenyon, John Q.	Davis, John David	Johnson, Camille		Morris, Eudelia T	Price, Bruce M	Jones, Nancy
+1104225	Adrian	Gonzalez	M	11	Torgrimson, Jason	Forster, Jerald P	Tucker, Patrice	Berriochoa, Jeannine		Behrens, Stacey D	Torgrimson, Jason	Fonnesbeck, Brett F
+502424	Nicholas	Gonzalez	M	11	Bleeker, Julie M	Tucker, Patrice	Mathes, Jessica	Behrens, Stacey D		Berriochoa, Jeannine	Kohring, Benjamin D	Fonnesbeck, Brett F
+101081	Nicholas	Goodrich	M	10	Leiser, Linda W	Grindstaff, Martin A	Knopp, Amy	Knopp, Amy		Reynolds, Allyn D	Campbell, Blaine	Jones, Nancy
+902214	Mystyc	Graf	F	11	Johnson, Camille	Carder, Jacob P	Merkley, Cassandra L	Kenyon, John Q.		Mathes, Jessica	Wright, Candace Oaxaca	Bleeker, Julie M
+2020703	James	Gray	M	12	Bleeker, Julie M	Mottern-High, Janis	Ploss, Carrie L	Creek, Claudia K		Federico, Michael A	Allen, Benjamin F	Davis, John David
+502097	Mickey	Green	M	10	Johnson, Camille	Stadelmeir, Tim	Frost, Ryan C	Schaal, Mark S		Grindstaff, Martin A	Price, Bruce M	Knopp, Amy
+702616	Pamela	Green	F	9	Phillips, Todd A	Creek, Claudia K	Veselka, Julie	Casperson, Joseph R		Jones, Nancy	Erkins Goss, Marla B	Dodds, JOELLEN A
+403021	Tamisha	Green	F	12	Wills, Rebecca Dawn	Larsen, Ted	Kemper, Debra Croshaw	Hathorne, Melodie A		Moody, RONALD L	Bleeker, Julie M	Johnson, Camille
+402170	Hannah	Greenawald	F	10	Davis, John David	Rapp, Lorraine M	Harr, Matthew L.	McCullough, Royce		Kohring, Benjamin D	Johnson, Camille	Kenyon, John Q.
+402171	Kylie	Greenawald	F	10	Davis, John David	Harman, Benjamin T	Kenyon, John Q.	Price, Bruce M		Kohring, Benjamin D	Rapp, Lorraine M	Bortz, Gala A
+812021	Chandler	Greenfield	M	10	Stadelmeir, Tim	Showers, Gary	Davis, John David	McCullough, Royce		Harr, Matthew L.	Grindstaff, Martin A	Harman, Benjamin T
+10995	Amanda	Greenley	F	12	Behrens, Stacey D	Kemper, Debra Croshaw	Bleeker, Julie M	Larsen, Ted		Erkins Goss, Marla B	Casperson, Joseph R	Ploss, Carrie L
+2020910	Bruno	Grubisic	M	11	Torgrimson, Jason	Harr, Matthew L.	Fonnesbeck, Brett F	Forster, Jerald P		Behrens, Stacey D	Kohring, Benjamin D	Torgrimson, Jason
+101394	Philip	Grubisic	M	9	Veselka, Julie	Bowman, Jeffrey Mark	Ritchie, Sherry ADELL	Moody, RONALD L		Kohring, Benjamin D	Hyer, Nathan	Mathes, Jessica
+502041	Oneyda	Guevara Perez	F	10	Johnson, Camille	Price, Bruce M	Creek, Claudia K	Grindstaff, Martin A		Veselka, Julie	Schaal, Mark S	Jones, Nancy
+101811	Teagan	Guinn	M	10	Reynolds, Allyn D	Knopp, Amy	Kenyon, John Q.	Schaal, Mark S		Kohring, Benjamin D	Price, Bruce M	Jones, Nancy
+602080	Jacinea	Gummow	F	11	Mathes, Jessica	Leiser, Linda W	Tucker, Patrice	Berriochoa, Jeannine		Schaal, Mark S	Behrens, Stacey D	Fonnesbeck, Brett F
+107976	David	Guo	M	9			Leiser, Linda W					
+602833	Morgan	Guymon	F	11	Connor, Jo Marie	Bortz, Dennis L	Bortz, Gala A	Ploss, Carrie L		Federico, Michael A	Mathes, Jessica	Ploss, Carrie L
+602834	Parker	Guymon	M	9	Ritchie, Sherry ADELL	Berriochoa, Jeannine	Erkins Goss, Marla B	Frost, Ryan C		Bowman, Jeffrey Mark	Hathorne, Melodie A	Hyer, Nathan
+107724	Kane	Gwin	M	9	Dodds, JOELLEN A	Schaal, Mark S	Hathorne, Melodie A	Campbell, Blaine		Jones, Nancy	Stadelmeir, Tim	Mathes, Jessica
+823702	Katheran	Hacking	F	9	Ritchie, Sherry ADELL	Phillips, Todd A	Veselka, Julie	Putman, CHRISTINE		Dodds, JOELLEN A	Putman, CHRISTINE	Eslinger, Darlene
+401964	Austin	Hafer	M	10	Davis, John David	Bortz, Dennis L	Kenyon, John Q.	Price, Bruce M		Schaal, Mark S	Bortz, Gala A	Wills, Rebecca Dawn
+902146	Kaitlyn	Hager	F	12	Behrens, Stacey D	Kemper, Debra Croshaw	Berriochoa, Jeannine	Johnson, Camille		Bleeker, Julie M	Larsen, Ted	Ploss, Carrie L
+402186	Austin	Hagl	M	10	Grindstaff, Martin A	Stadelmeir, Tim	McCullough, Royce	Harman, Benjamin T		Schaal, Mark S	Price, Bruce M	Knopp, Amy
+402187	Kolton	Hahn	M	10	Torgrimson, Jason	Kenyon, John Q.	Price, Bruce M	Behrens, Stacey D		Reynolds, Allyn D	Davis, John David	Harman, Benjamin T
+402188	Jordan	Hall	M	10	Kenyon, John Q.	Harman, Benjamin T	Ploss, Carrie L	Price, Bruce M		Veselka, Julie	Reynolds, Allyn D	Frost, Ryan C
+403502	Lucy	Hall	F	10	Grindstaff, Martin A	Frost, Ryan C	Harr, Matthew L.	Eslinger, Darlene		Veselka, Julie	Wells, Vivian R	Bleeker, Julie M
+502195	Samantha	Hall	F	9	Jones, Nancy	Bowman, Jeffrey Mark	Veselka, Julie	Ritchie, Sherry ADELL		Phillips, Todd A	Erkins Goss, Marla B	Harman, Benjamin T
+502046	Sabrina	Haman	F	12	Tucker, Patrice	Ploss, Carrie L	Carder, Jacob P	Mathes, Jessica		McCullough, Royce	Larsen, Ted	Bleeker, Julie M
+502045	Taylor	Haman	M	11	Tucker, Patrice	Fonnesbeck, Brett F	Harman, Benjamin T	Stadelmeir, Tim		Behrens, Stacey D	Johnson, Camille	Forster, Jerald P
+103768	Kaishon	Hamann	M	9	Phillips, Todd A	Haycock, James Dee	Eslinger, Darlene	Carder, Jacob P		Jones, Nancy	Veselka, Julie	Dodds, JOELLEN A
+703001	Mason	Hamilton	M	11	Bleeker, Julie M	Fonnesbeck, Brett F	Mathes, Jessica	Connor, Jo Marie		Bortz, Gala A	Wills, Rebecca Dawn	Johnson, Camille
+402089	Alec	Hanneman	M	11	Connor, Jo Marie	Morris, Eudelia T	Stadelmeir, Tim	Forster, Jerald P		Showers, Gary	Behrens, Stacey D	Bleeker, Julie M
+811983	Austin	Hansen	M	10	Price, Bruce M	McCullough, Royce	Berriochoa, Jeannine	Campbell, Blaine		Veselka, Julie	Campbell, Blaine	Kenyon, John Q.
+502476	Braeden	Hansen	M	10	Kenyon, John Q.	McCullough, Royce	Harr, Matthew L.	Johnson, Camille		Kohring, Benjamin D	Bleeker, Julie M	Knopp, Amy
+502267	Dakota	Hansen	M	9	Veselka, Julie	Jones, Nancy	Haycock, James Dee	Kohring, Benjamin D		Ritchie, Sherry ADELL	Stadelmeir, Tim	Dodds, JOELLEN A
+502475	Hunter	Hansen	M	11	Mathes, Jessica	Vogt, Daniel	Stadelmeir, Tim	Bleeker, Julie M		Tucker, Patrice	Jones, Nancy	Fonnesbeck, Brett F
+402633	Tyler	Hansen	M	9	Bortz, Dennis L	Erkins Goss, Marla B	Ritchie, Sherry ADELL	Frost, Ryan C		Hathorne, Melodie A	Dodds, JOELLEN A	Mathes, Jessica
+107630	Kyle	Hanson	M	10	Schaal, Mark S	Kenyon, John Q.	Manwaring, Nicole J	Wills, Rebecca Dawn		Knopp, Amy	Harr, Matthew L.	Merkley, Cassandra L
+402533	Taylor	Hardy	F	10	Price, Bruce M	Knopp, Amy	Showers, Gary	Grindstaff, Martin A		Johnson, Camille	Merkley, Cassandra L	Manwaring, Nicole J
+402219	Brittney	Harman	F	10	Bleeker, Julie M	Price, Bruce M	Kenyon, John Q.	Davis, John David		Casperson, Joseph R	Rapp, Lorraine M	McCullough, Royce
+502228	Regan	Harr	F	10	Stadelmeir, Tim	Merkley, Cassandra L	Kenyon, John Q.	Knopp, Amy		Berriochoa, Jeannine	Schaal, Mark S	Harr, Matthew L.
+1102037	Dallin	Harris	M	9	Stadelmeir, Tim	Veselka, Julie	Phillips, Todd A	Harman, Benjamin T		Frost, Ryan C	Bowman, Jeffrey Mark	Mathes, Jessica
+2020911	McKayla	Harris	F	11	Merkley, Cassandra L	Ploss, Carrie L	Schaal, Mark S	Forster, Jerald P		Bleeker, Julie M	Ploss, Carrie L	Wills, Rebecca Dawn
+1101437	Mikayla	Harris	F	12	Allen, Benjamin F	Frost, Ryan C	Bleeker, Julie M	Kemper, Debra Croshaw		McCullough, Royce	Johnson, Camille	Ploss, Carrie L
+100580	Sierra	Harris	F	9	Berriochoa, Jeannine	Veselka, Julie	Campbell, Blaine	Bowman, Jeffrey Mark		Phillips, Todd A	Erkins Goss, Marla B	Bortz, Gala A
+502430	Morgan	Harshbarger	F	11	Forster, Jerald P	Erkins Goss, Marla B	Bortz, Gala A	Fonnesbeck, Brett F		Federico, Michael A	Connor, Jo Marie	Kohring, Benjamin D
+703217	Ashley	Haskins	F	9	Moody, RONALD L	Veselka, Julie	Haycock, James Dee	Wills, Rebecca Dawn		Ritchie, Sherry ADELL	Dodds, JOELLEN A	Eslinger, Darlene
+402611	Dallin	Hatch	M	9	Bortz, Dennis L	McCullough, Royce	Hathorne, Melodie A	Dodds, JOELLEN A		Kohring, Benjamin D	Erkins Goss, Marla B	Phillips, Todd A
+402612	Landon	Hatch	M	9	Bortz, Dennis L	Dodds, JOELLEN A	Ritchie, Sherry ADELL	Kohring, Benjamin D		Kohring, Benjamin D	Merkley, Cassandra L	Hathorne, Melodie A
+402864	LaShe	Hatch	F	9	Bortz, Dennis L	Veselka, Julie	Kohring, Benjamin D	Casperson, Joseph R		Bowman, Jeffrey Mark	Phillips, Todd A	Merkley, Cassandra L
+2020912	Paige	Hatch	F	11	Tucker, Patrice	Fonnesbeck, Brett F	Merkley, Cassandra L	Creek, Claudia K		Forster, Jerald P	Leiser, Linda W	Bleeker, Julie M
+104856	Jordan	Hatfield	F	11	Forster, Jerald P	Behrens, Stacey D	Connor, Jo Marie	Fonnesbeck, Brett F		Bleeker, Julie M	Casperson, Joseph R	Casperson, Joseph R
+402737	Adley	Haycock	M	9	Dodds, JOELLEN A	Ritchie, Sherry ADELL	Haycock, James Dee	Veselka, Julie		Eslinger, Darlene	Torgrimson, Jason	Moody, RONALD L
+107565	Autumn	He	F	9			Leiser, Linda W					
+107400	Jacob	Heck	M	10	Knopp, Amy	Grindstaff, Martin A	Harr, Matthew L.	Fiala, Marilyn M		Morris, Eudelia T	Wills, Rebecca Dawn	Putman, CHRISTINE
+902742	Savannah	Heffernan	F	9	Veselka, Julie	Ritchie, Sherry ADELL	Erkins Goss, Marla B	Casperson, Joseph R		Jones, Nancy	Leiser, Linda W	Bowman, Jeffrey Mark
+102962	Danielle	Hegman	F	10	Kenyon, John Q.	Carder, Jacob P	McCullough, Royce	Schaal, Mark S		Knopp, Amy	Reynolds, Allyn D	Harr, Matthew L.
+105144	Kassidi	Heidemann	F	10	Creek, Claudia K	Schaal, Mark S	Davis, John David	Price, Bruce M		Reynolds, Allyn D	Jones, Nancy	Kenyon, John Q.
+902153	Richard	Heinz	M	12	Kemper, Debra Croshaw	Hall, Brenda D	Hall, Brenda D	Eslinger, Darlene		Leiser, Linda W	Wills, Rebecca Dawn	Hall, Brenda D
+102001	Andre'a	Helman	F	10			Leiser, Linda W					
+902416	Logan	Henderson	F	10	Schaal, Mark S	Davis, John David	Kenyon, John Q.	Casperson, Joseph R		Ploss, Carrie L	Jones, Nancy	Harr, Matthew L.
+501597	Michael	Hendriks	M	11	Johnson, Camille	Bleeker, Julie M	Tucker, Patrice	Forster, Jerald P		Behrens, Stacey D	Kenyon, John Q.	Manwaring, Nicole J
+902653	Jordan	Henley	F	9	Veselka, Julie	Eslinger, Darlene	Phillips, Todd A	Harman, Benjamin T		Kohring, Benjamin D	Dodds, JOELLEN A	Merkley, Cassandra L
+106355	Yuridiana	Hernandez Rojas	F	9	Creek, Claudia K	Kohring, Benjamin D	Veselka, Julie	Schaal, Mark S		Dodds, JOELLEN A	Bortz, Gala A	Phillips, Todd A
+602384	Carolyn	Hernandez	F	11	Leiser, Linda W	Leiser, Linda W	Tucker, Patrice	Merkley, Cassandra L		Leiser, Linda W	Forster, Jerald P	Ploss, Carrie L
+501762	Marcelino	Hernandez-Venegas	M	12	Frost, Ryan C	Carder, Jacob P	Grindstaff, Martin A	Mathes, Jessica		Stadelmeir, Tim	Casperson, Joseph R	Tucker, Patrice
+107706	Ivan	Herrera	M	9	Leiser, Linda W	Stadelmeir, Tim	Ritchie, Sherry ADELL	Leiser, Linda W		Jones, Nancy	Phillips, Todd A	Mathes, Jessica
+1104334	Vanessa	Herrera	F	9	Phillips, Todd A	Jones, Nancy	Eslinger, Darlene	Bowman, Jeffrey Mark		Hathorne, Melodie A	Ploss, Carrie L	Wills, Rebecca Dawn
+403097	Jeremy	Herrera-Gutierrez	M	10	Grindstaff, Martin A	Bortz, Dennis L	Davis, John David	Harman, Benjamin T		Reynolds, Allyn D	Harr, Matthew L.	Jones, Nancy
+601706	Colton	Herzog	M	10	Price, Bruce M	Reynolds, Allyn D	Schaal, Mark S	McCullough, Royce		Veselka, Julie	Grindstaff, Martin A	Wills, Rebecca Dawn
+103114	James	Hess	M	11	Tucker, Patrice	Fonnesbeck, Brett F	Torgrimson, Jason	Carder, Jacob P		Behrens, Stacey D	Ploss, Carrie L	Forster, Jerald P
+601794	Ylber	Hetemi	M	9	Ritchie, Sherry ADELL	Veselka, Julie	Eslinger, Darlene	Johnson, Camille		Kohring, Benjamin D	Merkley, Cassandra L	Dodds, JOELLEN A
+601694	Nitasha	Hettich	F	10	Price, Bruce M	Grindstaff, Martin A	Wills, Rebecca Dawn	Jones, Nancy		Berriochoa, Jeannine	Schaal, Mark S	Knopp, Amy
+402387	Toby	Heward	M	9	Ritchie, Sherry ADELL	Torgrimson, Jason	Campbell, Blaine	Veselka, Julie		Dodds, JOELLEN A	Erkins Goss, Marla B	Merkley, Cassandra L
+10993	Kylie	Hicks	F	10	Leiser, Linda W	Price, Bruce M	Knopp, Amy	Jones, Nancy		Knopp, Amy	Reynolds, Allyn D	Kenyon, John Q.
+100582	Emily	Hillman	F	9	Manwaring, Nicole J	Dodds, JOELLEN A	Erkins Goss, Marla B	Carder, Jacob P		Harman, Benjamin T	Veselka, Julie	Bortz, Gala A
+2020913	Megan	Hinojos	F	11	Merkley, Cassandra L	Harr, Matthew L.	Tucker, Patrice	Fonnesbeck, Brett F		Forster, Jerald P	Manwaring, Nicole J	Bleeker, Julie M
+903577	Austin	Hinton	M	9	Hall, Brenda D	Hall, Brenda D	Hall, Brenda D	Hall, Brenda D		Hall, Brenda D	Hall, Brenda D	Hall, Brenda D
+601698	Wyatt	Hite	M	10	Price, Bruce M	Bortz, Dennis L	Haycock, James Dee	Knopp, Amy		McCullough, Royce	Torgrimson, Jason	Kenyon, John Q.
+902618	Lara	Hobbs	F	12	Haycock, James Dee	Larsen, Ted	Kemper, Debra Croshaw	Erkins Goss, Marla B		McCullough, Royce	Casperson, Joseph R	Bleeker, Julie M
+402388	Christina	Hobson	F	9	Hathorne, Melodie A	Creek, Claudia K	Johnson, Camille	Dodds, JOELLEN A		Eslinger, Darlene	Bortz, Gala A	Phillips, Todd A
+401993	Joseph	Hobson	M	11	Bleeker, Julie M	Erkins Goss, Marla B	Bortz, Gala A	Connor, Jo Marie		Mathes, Jessica	Kohring, Benjamin D	Fonnesbeck, Brett F
+403092	Kylie	Hoff	F	12	Erkins Goss, Marla B	Larsen, Ted	Kemper, Debra Croshaw	Leiser, Linda W		Moody, RONALD L	Grady, Joyce Ann	Grady, Joyce Ann
+703152	Casey	Hoggarth	M	9	Jones, Nancy	Ritchie, Sherry ADELL	Berriochoa, Jeannine	Carder, Jacob P		Hathorne, Melodie A	Bowman, Jeffrey Mark	Eslinger, Darlene
+703151	Hailey	Hoggarth	F	10	Davis, John David	Grindstaff, Martin A	Harr, Matthew L.	Jones, Nancy		Bleeker, Julie M	Bleeker, Julie M	Bleeker, Julie M
+501716	John	Hohnhorst	M	12	Erkins Goss, Marla B	Kemper, Debra Croshaw	Hartley, William M	Stadelmeir, Tim		Federico, Michael A	Moody, RONALD L	Torgrimson, Jason
+803044	Ammon	Holesinsky	M	11	Behrens, Stacey D	Wright, Candace Oaxaca	Carder, Jacob P	Fonnesbeck, Brett F		Forster, Jerald P	Morris, Eudelia T	Morris, Eudelia T
+402860	Trevor	Holt	M	12	Kemper, Debra Croshaw	Leiser, Linda W	Kohring, Benjamin D	Stadelmeir, Tim		Kohring, Benjamin D	Moody, RONALD L	Bleeker, Julie M
+501614	Rees	Holyoak	M	11	Bleeker, Julie M	Forster, Jerald P	Fonnesbeck, Brett F	Creek, Claudia K		Ploss, Carrie L	Behrens, Stacey D	Tucker, Patrice
+402523	Madison	Horner	F	9	Dodds, JOELLEN A	Eslinger, Darlene	McCullough, Royce	Johnson, Camille		Harman, Benjamin T	Hathorne, Melodie A	Phillips, Todd A
+107081	Seth	Horvath	M	9	Veselka, Julie	Torgrimson, Jason	Eslinger, Darlene	Casperson, Joseph R		Frost, Ryan C	Torgrimson, Jason	Dodds, JOELLEN A
+702554	Onnally	Hose	F	12	Kemper, Debra Croshaw	Bortz, Dennis L	Merkley, Cassandra L	Erkins Goss, Marla B		Tucker, Patrice	Stadelmeir, Tim	Larsen, Ted
+103501	Bryton	Houser	M	10	Grindstaff, Martin A	Frost, Ryan C	Creek, Claudia K	Hathorne, Melodie A		Veselka, Julie	Price, Bruce M	Wills, Rebecca Dawn
+103581	Jaylon	Houser	M	11	Merkley, Cassandra L	Tucker, Patrice	Mathes, Jessica	Hathorne, Melodie A		Hamilton, Sharee L	Kenyon, John Q.	Wills, Rebecca Dawn
+501995	Baylee	Howe	F	10	Price, Bruce M	Davis, John David	Showers, Gary	Behrens, Stacey D		Bleeker, Julie M	Grindstaff, Martin A	Howard, Kevin D
+502259	Logan	Howell	F	12	Erkins Goss, Marla B	Larsen, Ted	Kemper, Debra Croshaw	Hathorne, Melodie A		Moody, RONALD L	Campbell, Blaine	Wills, Rebecca Dawn
+103587	Merriahna	Howell	F	9	Federico, Michael A	Phillips, Todd A	Carder, Jacob P	Bowman, Jeffrey Mark		Eslinger, Darlene	Hathorne, Melodie A	Moody, RONALD L
+401701	Nathan	Hoy	M	12	Bleeker, Julie M	Leiser, Linda W	Stadelmeir, Tim	Hartley, William M		Tucker, Patrice	Moody, RONALD L	Kemper, Debra Croshaw
+402172	Reilly	Hoy	M	10	Davis, John David	Erkins Goss, Marla B	Price, Bruce M	Connor, Jo Marie		Johnson, Camille	Grindstaff, Martin A	McCullough, Royce
+103828	Drew	Humphrey	M	12	Haycock, James Dee	Merkley, Cassandra L	Johnson, Camille	Kemper, Debra Croshaw		Haycock, James Dee	Bleeker, Julie M	Larsen, Ted
+401824	Bonnie	Hunt	F	12	Bleeker, Julie M	Kemper, Debra Croshaw	Merkley, Cassandra L	Leiser, Linda W		Casperson, Joseph R	Casperson, Joseph R	Connor, Jo Marie
+100401	Cole	Hunt	M	9	Hathorne, Melodie A	Dodds, JOELLEN A	Erkins Goss, Marla B	Ritchie, Sherry ADELL		Kohring, Benjamin D	Bortz, Gala A	Howard, Kevin D
+100402	Dallas	Hunt	M	12	Harman, Benjamin T	Ploss, Carrie L	Rapp, Lorraine M	Wright, Candace Oaxaca		Larsen, Ted	Bleeker, Julie M	Kemper, Debra Croshaw
+1101439	Sariah	Hunt	F	12	Kemper, Debra Croshaw	Hamilton, Sharee L	Bleeker, Julie M	Hathorne, Melodie A		Moody, RONALD L	Stadelmeir, Tim	Ploss, Carrie L
+702594	Medina	Husakovic	F	9	Creek, Claudia K	Dodds, JOELLEN A	Kohring, Benjamin D	McCullough, Royce		Ritchie, Sherry ADELL	Phillips, Todd A	Hathorne, Melodie A
+1101619	Haley	Hutchinson	F	12	Bleeker, Julie M	Kemper, Debra Croshaw	Behrens, Stacey D	Johnson, Camille		Johnson, Camille	Kohring, Benjamin D	Hartley, William M
+402173	Justin	Hutchinson	M	10	Behrens, Stacey D	Bortz, Dennis L	Harr, Matthew L.	Davis, John David		Berriochoa, Jeannine	Torgrimson, Jason	Kenyon, John Q.
+401965	Kaylee	Hutchinson	F	11	Forster, Jerald P	Bleeker, Julie M	Bortz, Gala A	Rapp, Lorraine M		Connor, Jo Marie	Casperson, Joseph R	Fonnesbeck, Brett F
+501996	Savannah	Hutchison	F	10	Reynolds, Allyn D	Frost, Ryan C	Kenyon, John Q.	Price, Bruce M		Berriochoa, Jeannine	Davis, John David	Manwaring, Nicole J
+402042	Jamie	Hyde	F	12	Allen, Benjamin F	Leiser, Linda W	Ploss, Carrie L	Mathes, Jessica		Federico, Michael A	McCullough, Royce	Ploss, Carrie L
+108074	Preston	Hyde	M	11	Tucker, Patrice	McCullough, Royce	Mathes, Jessica	Campbell, Blaine		Bleeker, Julie M	Kohring, Benjamin D	Fonnesbeck, Brett F
+103982	Savannah	Hyer	F	10	Grindstaff, Martin A	Price, Bruce M	Schaal, Mark S	Wells, Vivian R		Veselka, Julie	Bortz, Gala A	Bleeker, Julie M
+501644	Tyler	Icazuriaga	M	11	Connor, Jo Marie	Torgrimson, Jason	Fonnesbeck, Brett F	Merkley, Cassandra L		Mathes, Jessica	Wills, Rebecca Dawn	Rapp, Lorraine M
+502790	Amanda	Ireton	F	11	Forster, Jerald P	Behrens, Stacey D	Connor, Jo Marie	Leiser, Linda W		Haycock, James Dee	Casperson, Joseph R	Davis, John David
+402062	Jennifer	Jackson	F	12	Bleeker, Julie M	Kemper, Debra Croshaw	Bortz, Gala A	Larsen, Ted		Bleeker, Julie M	Harshman, Mary	Harshman, Mary
+402208	Hayden	Jacobson	M	10	Torgrimson, Jason	Grindstaff, Martin A	Showers, Gary	Price, Bruce M		Knopp, Amy	Jones, Nancy	Kohring, Benjamin D
+602663	Isaac	Jaramillo	M	9	Berriochoa, Jeannine	Eslinger, Darlene	Ritchie, Sherry ADELL	Fiala, Marilyn M		Bowman, Jeffrey Mark	Putman, CHRISTINE	Kohring, Benjamin D
+401979	Casdon	Jardine	M	11	Bleeker, Julie M	Forster, Jerald P	Schaal, Mark S	Connor, Jo Marie		Bortz, Gala A	Kohring, Benjamin D	Fonnesbeck, Brett F
+104228	Megan	Jarvi	F	10	Grindstaff, Martin A	Manwaring, Nicole J	Knopp, Amy	Putman, CHRISTINE		Knopp, Amy	Harr, Matthew L.	Putman, CHRISTINE
+702565	Cody	Jasper	M	9	Knopp, Amy	Veselka, Julie	Carder, Jacob P	Moody, RONALD L		Dodds, JOELLEN A	Leiser, Linda W	Wills, Rebecca Dawn
+2020720	Annemarie	Jayo	F	12	Allen, Benjamin F	Harr, Matthew L.	Wills, Rebecca Dawn	Berriochoa, Jeannine		Bortz, Gala A	Kohring, Benjamin D	Kemper, Debra Croshaw
+100605	Thomas	Jayo	M	10	Davis, John David	Carder, Jacob P	Schaal, Mark S	Price, Bruce M		Berriochoa, Jeannine	Grindstaff, Martin A	Jones, Nancy
+401949	Samuel	Jeffers	M	11	Mathes, Jessica	Tucker, Patrice	Merkley, Cassandra L	Kenyon, John Q.		Stadelmeir, Tim	Morris, Eudelia T	Morris, Eudelia T
+104061	Andrea	Jensen	F	11	Behrens, Stacey D	Forster, Jerald P	Bleeker, Julie M	Casperson, Joseph R		Casperson, Joseph R	Grindstaff, Martin A	Fonnesbeck, Brett F
+102079	Brock	Jensen	M	12	Erkins Goss, Marla B	Tucker, Patrice	Grindstaff, Martin A	Merkley, Cassandra L		Johnson, Camille	Mathes, Jessica	Wright, Candace Oaxaca
+104062	Courtney	Jensen	F	12	Schaal, Mark S	Bortz, Dennis L	Bortz, Gala A	Behrens, Stacey D		Casperson, Joseph R	Casperson, Joseph R	Kemper, Debra Croshaw
+402339	Delaney	Jensen	F	10	Johnson, Camille	Bleeker, Julie M	Price, Bruce M	Reynolds, Allyn D		McCullough, Royce	Davis, John David	Kenyon, John Q.
+502679	Elijah	Jensen	M	11	Harr, Matthew L.	Bortz, Dennis L	Connor, Jo Marie	Manwaring, Nicole J		Fonnesbeck, Brett F	Forster, Jerald P	McCullough, Royce
+103532	Kaetlyn	Jensen	F	10	Fiala, Marilyn M	Grindstaff, Martin A	Bleeker, Julie M	Reynolds, Allyn D		Knopp, Amy	Harr, Matthew L.	Putman, CHRISTINE
+1102136	Megan	Jensen	F	9	Dodds, JOELLEN A	Jones, Nancy	Campbell, Blaine	Veselka, Julie		Eslinger, Darlene	Ploss, Carrie L	Phillips, Todd A
+502024	Shelby	Jensen	F	10	Schaal, Mark S	Wills, Rebecca Dawn	Creek, Claudia K	Grindstaff, Martin A		Veselka, Julie	Price, Bruce M	Frost, Ryan C
+902072	Zakary	Jerke	M	12	Connor, Jo Marie	Kemper, Debra Croshaw	Morris, Eudelia T	Merkley, Cassandra L		Erkins Goss, Marla B	Larsen, Ted	Bleeker, Julie M
+501718	Brooklyn	Johansen	F	12	Federico, Michael A	Ploss, Carrie L	Behrens, Stacey D	Johnson, Camille		Bleeker, Julie M	Kemper, Debra Croshaw	Hartley, William M
+601893	Savanah	Johansen	F	9	Ritchie, Sherry ADELL	Haycock, James Dee	Veselka, Julie	Johnson, Camille		Casperson, Joseph R	Erkins Goss, Marla B	Bowman, Jeffrey Mark
+601481	Emily	Johns	F	11	Harr, Matthew L.	Bortz, Dennis L	Bortz, Gala A	Connor, Jo Marie		Forster, Jerald P	Schaal, Mark S	Fonnesbeck, Brett F
+401980	Jacob	Johnson	M	11	Fonnesbeck, Brett F	Behrens, Stacey D	Bleeker, Julie M	Leiser, Linda W		Connor, Jo Marie	Forster, Jerald P	Davis, John David
+1101482	Jera	Johnson	F	12	Bleeker, Julie M	Merkley, Cassandra L	Harman, Benjamin T	Stadelmeir, Tim		Casperson, Joseph R	Casperson, Joseph R	Kemper, Debra Croshaw
+401872	Kandice	Johnson	F	12	Jones, Nancy	Leiser, Linda W	Hartley, William M	Kemper, Debra Croshaw		Bleeker, Julie M	McCullough, Royce	Allen, Benjamin F
+402400	Olivia	Johnson	F	9	Manwaring, Nicole J	Berriochoa, Jeannine	Ritchie, Sherry ADELL	Kohring, Benjamin D		Jones, Nancy	Bowman, Jeffrey Mark	Hathorne, Melodie A
+402632	Trenton	Johnson	M	9	Ritchie, Sherry ADELL	Berriochoa, Jeannine	Hathorne, Melodie A	Moody, RONALD L		Eslinger, Darlene	Bowman, Jeffrey Mark	Kohring, Benjamin D
+403056	Lee	Johnson-Harris	M	12	Wright, Candace Oaxaca	Morris, Eudelia T	Wills, Rebecca Dawn	Wright, Candace Oaxaca		Larsen, Ted	Kemper, Debra Croshaw	Tucker, Patrice
+601739	Dominique	Johnston	M	10	Price, Bruce M	McCullough, Royce	Creek, Claudia K	Davis, John David		Bleeker, Julie M	Grindstaff, Martin A	Wills, Rebecca Dawn
+701814	Sarah	Johnston	F	12	Hamilton, Sharee L	Mottern-High, Janis	Behrens, Stacey D	Johnson, Camille		Erkins Goss, Marla B	Bleeker, Julie M	Davis, John David
+502051	Stephanie	Johnston	F	11	Merkley, Cassandra L	Carder, Jacob P	Johnson, Camille	Casperson, Joseph R		Mathes, Jessica	Kenyon, John Q.	Tucker, Patrice
+902066	Alanys	Jones	F	11	Federico, Michael A	Reynolds, Allyn D	Harr, Matthew L.	Behrens, Stacey D		Tucker, Patrice	Kenyon, John Q.	Forster, Jerald P
+901768	Alyssa	Jones	F	12	Johnson, Camille	Merkley, Cassandra L	Grindstaff, Martin A	Erkins Goss, Marla B		Bleeker, Julie M	Mathes, Jessica	McCullough, Royce
+10797	Brandon	Jones	M	11	Vogt, Daniel	Tucker, Patrice	Stadelmeir, Tim	Forster, Jerald P		Behrens, Stacey D	Schaal, Mark S	Fonnesbeck, Brett F
+1101444	Damon	Jones	M	12	Rapp, Lorraine M	Ploss, Carrie L	Rapp, Lorraine M	Wright, Candace Oaxaca		Bortz, Gala A	Kohring, Benjamin D	Stadelmeir, Tim
+100569	Kaleb	Jones	M	10	Price, Bruce M	Davis, John David	Reynolds, Allyn D	Behrens, Stacey D		Berriochoa, Jeannine	Grindstaff, Martin A	Kohring, Benjamin D
+100579	Kennedy	Jones	F	9	Eslinger, Darlene	Haycock, James Dee	Phillips, Todd A	Dodds, JOELLEN A		Casperson, Joseph R	Bortz, Gala A	Hathorne, Melodie A
+812009	Kodi	Jones	M	10	Schaal, Mark S	Wills, Rebecca Dawn	Frost, Ryan C	Grindstaff, Martin A		Knopp, Amy	Reynolds, Allyn D	Harr, Matthew L.
+502005	Landon	Jones	M	10	Kenyon, John Q.	Knopp, Amy	Rapp, Lorraine M	McCullough, Royce		Berriochoa, Jeannine	Harr, Matthew L.	Kohring, Benjamin D
+1102024	Meghan	Jones	F	10	Davis, John David	Showers, Gary	Kenyon, John Q.	Showers, Gary		Wells, Vivian R	Harr, Matthew L.	Jones, Nancy
+106124	Brock	Jordison	M	9	Eslinger, Darlene	Veselka, Julie	Phillips, Todd A	Frost, Ryan C		Stadelmeir, Tim	Dodds, JOELLEN A	Harman, Benjamin T
+100578	Joshua	Jund	M	9	Dodds, JOELLEN A	Stadelmeir, Tim	Phillips, Todd A	Harman, Benjamin T		Eslinger, Darlene	Hathorne, Melodie A	Moody, RONALD L
+2020914	Kelley	Jund	F	11	Forster, Jerald P	Behrens, Stacey D	Showers, Gary	Fonnesbeck, Brett F		Federico, Michael A	Connor, Jo Marie	Hartley, William M
+503163	Molly	Jungert	F	10	Kenyon, John Q.	Davis, John David	Johnson, Camille	Schaal, Mark S		Casperson, Joseph R	Jones, Nancy	Harr, Matthew L.
+402991	Dannielle	Kaiser	F	10	Jones, Nancy	Grindstaff, Martin A	Knopp, Amy	Putman, CHRISTINE		Knopp, Amy	Harr, Matthew L.	Johnson, Camille
+11002	Peyton	Karl	F	10	Grindstaff, Martin A	Harman, Benjamin T	McCullough, Royce	Davis, John David		Schaal, Mark S	Johnson, Camille	Harr, Matthew L.
+116072	Shalina	Karren	F	10	Kenyon, John Q.	Bortz, Dennis L	Davis, John David	Reynolds, Allyn D		Bleeker, Julie M	Harr, Matthew L.	Frost, Ryan C
+101335	Shane	Kay	M	12	Kemper, Debra Croshaw	Morris, Eudelia T	Grindstaff, Martin A	Johnson, Camille		Erkins Goss, Marla B	Moody, RONALD L	Johnson, Camille
+100590	Gentry	Keanaaina-Plew	F	9	Veselka, Julie	Stadelmeir, Tim	Kohring, Benjamin D	Bowman, Jeffrey Mark		Phillips, Todd A	Johnson, Camille	Moody, RONALD L
+501721	Connor	Kemp	M	12	Kemper, Debra Croshaw	Bleeker, Julie M	Wright, Candace Oaxaca	Erkins Goss, Marla B		McCullough, Royce	Morris, Eudelia T	Morris, Eudelia T
+502031	Dakota	Kent	M	10	Davis, John David	Stadelmeir, Tim	McCullough, Royce	Grindstaff, Martin A		Reynolds, Allyn D	Rapp, Lorraine M	Harr, Matthew L.
+801911	Julian	Kessel	M	12	Kemper, Debra Croshaw	Wills, Rebecca Dawn	Manwaring, Nicole J	Eslinger, Darlene		Larsen, Ted	Moody, RONALD L	Tucker, Patrice
+402190	Alicia	Kezele	F	10	Grindstaff, Martin A	Schaal, Mark S	Price, Bruce M	McCullough, Royce		Casperson, Joseph R	Davis, John David	Casperson, Joseph R
+401704	Michael	Kezele	M	12	Harr, Matthew L.	Ploss, Carrie L	Behrens, Stacey D	Kemper, Debra Croshaw		Larsen, Ted	Casperson, Joseph R	Casperson, Joseph R
+2020716	Marissa	Kidd	F	12	Wills, Rebecca Dawn	Bleeker, Julie M	Grindstaff, Martin A	Stadelmeir, Tim		Moody, RONALD L	Kemper, Debra Croshaw	Rapp, Lorraine M
+100588	Steven Rayce	Kidd	M	10	Stadelmeir, Tim	Kenyon, John Q.	Davis, John David	Schaal, Mark S		Harr, Matthew L.	Reynolds, Allyn D	McCullough, Royce
+502477	Connor	Kimball	M	9	Veselka, Julie	Stadelmeir, Tim	Haycock, James Dee	Moody, RONALD L		Phillips, Todd A	Erkins Goss, Marla B	Bowman, Jeffrey Mark
+1101440	Ashley	Kincheloe	F	12	Wills, Rebecca Dawn	Larsen, Ted	Allen, Benjamin F	Connor, Jo Marie		Moody, RONALD L	Kemper, Debra Croshaw	Bleeker, Julie M
+502893	David	King	M	12	Larsen, Ted	Bortz, Gala A	Kemper, Debra Croshaw	Eslinger, Darlene		Federico, Michael A	Wills, Rebecca Dawn	Bleeker, Julie M
+502894	Emilee	King	F	9	Manwaring, Nicole J	Dodds, JOELLEN A	Hathorne, Melodie A	Johnson, Camille		Harman, Benjamin T	Erkins Goss, Marla B	Bortz, Gala A
+502056	Makenzie	King	F	11	Bleeker, Julie M	Harr, Matthew L.	Behrens, Stacey D	Rapp, Lorraine M		Connor, Jo Marie	Kenyon, John Q.	Forster, Jerald P
+823373	William	Kistinger	M	11	Connor, Jo Marie	Fonnesbeck, Brett F	Berriochoa, Jeannine	Forster, Jerald P		Leiser, Linda W	Jones, Nancy	Bleeker, Julie M
+601561	Brittany	Kline	F	11	Forster, Jerald P	Bortz, Gala A	Vogt, Daniel	Berriochoa, Jeannine		Connor, Jo Marie	Kenyon, John Q.	Wills, Rebecca Dawn
+902665	Edward	Klott	M	9	Bortz, Dennis L	Dodds, JOELLEN A	Veselka, Julie	Carder, Jacob P		Ritchie, Sherry ADELL	Merkley, Cassandra L	Eslinger, Darlene
+502079	Riley	Koch	M	11	Fonnesbeck, Brett F	Erkins Goss, Marla B	Tucker, Patrice	Merkley, Cassandra L		Mathes, Jessica	Morris, Eudelia T	Morris, Eudelia T
+107977	Kassidy	Kohler	F	11			Leiser, Linda W					
+403161	Taylor	Koonce	F	12	Harr, Matthew L.	Showers, Gary	Kemper, Debra Croshaw	Manwaring, Nicole J		McCullough, Royce	Showers, Gary	Showers, Gary
+901572	Chance	Koretos	M	12	Federico, Michael A	Leiser, Linda W	Bleeker, Julie M	Vogt, Daniel		Tucker, Patrice	Jones, Nancy	Kemper, Debra Croshaw
+901781	Kaylee	Koretos	F	11	Bleeker, Julie M	Putman, CHRISTINE	Fonnesbeck, Brett F	Forster, Jerald P		Vogt, Daniel	Behrens, Stacey D	Connor, Jo Marie
+601905	Kristopher	Kostelecky	M	9			Leiser, Linda W					
+602754	Nichole	Kraut	F	12	Wright, Candace Oaxaca	Wright, Candace Oaxaca	Mottern-High, Janis	Davis, John David		Bleeker, Julie M	Larsen, Ted	Davis, John David
+401710	Dolores	Kroese	F	12	Larsen, Ted	Bortz, Gala A	Wright, Candace Oaxaca	Erkins Goss, Marla B		Tucker, Patrice	Mathes, Jessica	Bleeker, Julie M
+104136	Nathaniel	Lambert	M	9	Ritchie, Sherry ADELL	Bowman, Jeffrey Mark	Harman, Benjamin T	Veselka, Julie		Kohring, Benjamin D	Merkley, Cassandra L	Eslinger, Darlene
+104126	Zachary	Lambert	M	12	Harr, Matthew L.	Bleeker, Julie M	Reynolds, Allyn D	Mathes, Jessica		Larsen, Ted	Wright, Candace Oaxaca	Rapp, Lorraine M
+105464	Brooke	Langis	F	10	Kenyon, John Q.	Carder, Jacob P	Frost, Ryan C	Reynolds, Allyn D		Knopp, Amy	Harr, Matthew L.	Bleeker, Julie M
+2020735	Isaac	Laris	M	12	Erkins Goss, Marla B	Bortz, Gala A	Carder, Jacob P	Wright, Candace Oaxaca		Johnson, Camille	Kemper, Debra Croshaw	Torgrimson, Jason
+602855	Omar	Laris	M	9	Behrens, Stacey D	Stadelmeir, Tim	Kohring, Benjamin D	Dodds, JOELLEN A		Torgrimson, Jason	Torgrimson, Jason	Hathorne, Melodie A
+2020860	Colton	Larson	M	12	Larsen, Ted	Behrens, Stacey D	Wright, Candace Oaxaca	Erkins Goss, Marla B		Bleeker, Julie M	Kemper, Debra Croshaw	Campbell, Blaine
+402631	Benjamin	Lauda	M	9	Dodds, JOELLEN A	Phillips, Todd A	Eslinger, Darlene	Harman, Benjamin T		Frost, Ryan C	Veselka, Julie	Kohring, Benjamin D
+402308	Corbin	Lauda	M	11	Merkley, Cassandra L	Tucker, Patrice	Wills, Rebecca Dawn	Forster, Jerald P		Showers, Gary	Morris, Eudelia T	Morris, Eudelia T
+601780	Acoya	Leavitt	F	10	Reynolds, Allyn D	Davis, John David	Bleeker, Julie M	Grindstaff, Martin A		Price, Bruce M	Haycock, James Dee	McCullough, Royce
+601782	Sunny	Leavitt	F	11	Forster, Jerald P	Harr, Matthew L.	Schaal, Mark S	Fonnesbeck, Brett F		Bortz, Gala A	Bleeker, Julie M	Casperson, Joseph R
+502177	Rio	Leazer	F	9	Ritchie, Sherry ADELL	Berriochoa, Jeannine	Carder, Jacob P	Veselka, Julie		Jones, Nancy	Erkins Goss, Marla B	Bowman, Jeffrey Mark
+601689	Bryce	Lee	M	10	Schaal, Mark S	Harman, Benjamin T	Frost, Ryan C	Wills, Rebecca Dawn		Price, Bruce M	Davis, John David	Kenyon, John Q.
+403498	Jessica	Lee	F	9	Phillips, Todd A	Haycock, James Dee	Kohring, Benjamin D	Casperson, Joseph R		Hathorne, Melodie A	Dodds, JOELLEN A	Merkley, Cassandra L
+501770	Sydney	Lee	F	12	Larsen, Ted	Wright, Candace Oaxaca	Stadelmeir, Tim	Morris, Eudelia T		McCullough, Royce	Mathes, Jessica	Bleeker, Julie M
+2020759	Zachery	Lee	M	12	Rapp, Lorraine M	Larsen, Ted	Bleeker, Julie M	Wills, Rebecca Dawn		Moody, RONALD L	Mathes, Jessica	Ploss, Carrie L
+104875	Joseph	Leishman	M	10	Price, Bruce M	Bortz, Dennis L	Schaal, Mark S	Davis, John David		Bleeker, Julie M	Haycock, James Dee	Bortz, Gala A
+402192	Caryssa	Leon	F	10	Davis, John David	Grindstaff, Martin A	Rapp, Lorraine M	Johnson, Camille		Kohring, Benjamin D	Reynolds, Allyn D	Bortz, Gala A
+104971	David	Leon	M	11	Merkley, Cassandra L	Tucker, Patrice	Stadelmeir, Tim	Johnson, Camille		Bleeker, Julie M	Forster, Jerald P	Fonnesbeck, Brett F
+502206	Brock	Lewis	M	9	Berriochoa, Jeannine	Kohring, Benjamin D	Phillips, Todd A	Veselka, Julie		Johnson, Camille	Bowman, Jeffrey Mark	Merkley, Cassandra L
+107080	Jacob	Lierman	M	11	Merkley, Cassandra L	Leiser, Linda W	Schaal, Mark S	Ploss, Carrie L		Mathes, Jessica	Kenyon, John Q.	Bleeker, Julie M
+401873	Kate	Lierman	F	12	Leiser, Linda W	Merkley, Cassandra L	Kemper, Debra Croshaw	Allen, Benjamin F		Tucker, Patrice	Leiser, Linda W	Bleeker, Julie M
+10548	Brooke	Liles-Coonce	F	9	Moody, RONALD L	Eslinger, Darlene	Carder, Jacob P	Ritchie, Sherry ADELL		Hathorne, Melodie A	Bowman, Jeffrey Mark	Phillips, Todd A
+100061	Hannah	Limas	F	9	Hathorne, Melodie A	Dodds, JOELLEN A	Harman, Benjamin T	McCullough, Royce		Eslinger, Darlene	Phillips, Todd A	Howard, Kevin D
+501997	Aushulai	Lindsay	F	10	Schaal, Mark S	Frost, Ryan C	Bleeker, Julie M	Knopp, Amy		Grindstaff, Martin A	Price, Bruce M	Manwaring, Nicole J
+702229	Shianne	Lindsay	F	11	Hall, Brenda D	Hall, Brenda D	Manwaring, Nicole J	Reynolds, Allyn D		Johnson, Camille	Hall, Brenda D	Hall, Brenda D
+1102373	Kodi	Little	M	10	Price, Bruce M	Kenyon, John Q.	Reynolds, Allyn D	Grady, Joyce Ann		Schaal, Mark S	Jones, Nancy	Knopp, Amy
+502025	Madisen	Lloyd	F	10	Reynolds, Allyn D	Davis, John David	Merkley, Cassandra L	Grindstaff, Martin A		Harr, Matthew L.	Bleeker, Julie M	Harman, Benjamin T
+106382	Tyler	Lofgran	M	12						Morris, Eudelia T	Casperson, Joseph R	Casperson, Joseph R
+107906	Chaniccia	Lohnes	F	10	Davis, John David	Kenyon, John Q.	Johnson, Camille	Tucker, Patrice		Stadelmeir, Tim	McCullough, Royce	McCullough, Royce
+401826	Taylor	Long	F	12	Allen, Benjamin F	Bortz, Gala A	Kemper, Debra Croshaw	Larsen, Ted		Federico, Michael A	Bleeker, Julie M	Rapp, Lorraine M
+823093	Tyler	Lookingbill	M	12	Bleeker, Julie M	Dodds, JOELLEN A	Behrens, Stacey D	Stadelmeir, Tim		Leiser, Linda W	Kemper, Debra Croshaw	Ploss, Carrie L
+2020915	Melissa	Lopez Nunez	F	11	Fonnesbeck, Brett F	Forster, Jerald P	Schaal, Mark S	Merkley, Cassandra L		Eslinger, Darlene	Campbell, Blaine	Wells, Vivian R
+502687	Luis	Lopez Padilla	M	10	Behrens, Stacey D	Kenyon, John Q.	Torgrimson, Jason	Davis, John David		Reynolds, Allyn D	Hyer, Nathan	Harr, Matthew L.
+501647	Eva	Lopez	F	11	Forster, Jerald P	Behrens, Stacey D	Connor, Jo Marie	Fonnesbeck, Brett F		Ploss, Carrie L	Haycock, James Dee	Davis, John David
+1101665	Zane	Loughmiller	M	12	Larsen, Ted	Vogt, Daniel	Kemper, Debra Croshaw	Behrens, Stacey D		Berriochoa, Jeannine	Bleeker, Julie M	Tucker, Patrice
+1102100	Megan	Lounsbury	F	12	Bortz, Gala A	Harr, Matthew L.	Stadelmeir, Tim	Erkins Goss, Marla B		Larsen, Ted	Kemper, Debra Croshaw	Price, Bruce M
+402005	Cheyanne	Loveland	F	11	Federico, Michael A	Frost, Ryan C	Fonnesbeck, Brett F	Forster, Jerald P		Tucker, Patrice	Grier, Marilee	Manwaring, Nicole J
+601907	Kevin	Lovell	M	9	Stadelmeir, Tim	Dodds, JOELLEN A	Ritchie, Sherry ADELL	Kohring, Benjamin D		Harman, Benjamin T	Hathorne, Melodie A	Merkley, Cassandra L
+104145	Alec	Low	M	10	Frost, Ryan C	Price, Bruce M	Carder, Jacob P	Rapp, Lorraine M		Johnson, Camille	Grindstaff, Martin A	Knopp, Amy
+403090	Alyssa	Lowe	F	9	Hathorne, Melodie A	Creek, Claudia K	Eslinger, Darlene	Bowman, Jeffrey Mark		Ritchie, Sherry ADELL	Merkley, Cassandra L	Wills, Rebecca Dawn
+402752	Braeden	Lowe	M	9	Manwaring, Nicole J	Veselka, Julie	Erkins Goss, Marla B	Ritchie, Sherry ADELL		Jones, Nancy	Dodds, JOELLEN A	Kohring, Benjamin D
+403091	Madeline	Lowe	F	12	Bleeker, Julie M	Carder, Jacob P	Bortz, Gala A	Casperson, Joseph R		Larsen, Ted	Kemper, Debra Croshaw	Johnson, Camille
+402260	Bradley	Lucas	M	12	Johnson, Camille	Wright, Candace Oaxaca	Behrens, Stacey D	Stadelmeir, Tim		Bleeker, Julie M	Kemper, Debra Croshaw	Ploss, Carrie L
+103231	Korbin	Ludwig	M	12	Haycock, James Dee	Larsen, Ted	Bortz, Gala A	Mathes, Jessica		Erkins Goss, Marla B	Allen, Benjamin F	Bleeker, Julie M
+502170	Keegan	Luker	M	10	Stadelmeir, Tim	Kenyon, John Q.	Bleeker, Julie M	Davis, John David		Berriochoa, Jeannine	Price, Bruce M	Jones, Nancy
+105407	Johnethan	Lund	M	11	Torgrimson, Jason	Reynolds, Allyn D	Mathes, Jessica	Kenyon, John Q.		Tucker, Patrice	Jones, Nancy	Torgrimson, Jason
+10983	Allison	Lusk	F	12	Allen, Benjamin F	Mottern-High, Janis	Bortz, Gala A	Berriochoa, Jeannine		Larsen, Ted	Bleeker, Julie M	Rapp, Lorraine M
+100617	Gabrielle	Lutz	F	9	Hathorne, Melodie A	Ritchie, Sherry ADELL	Haycock, James Dee	Kohring, Benjamin D		Frost, Ryan C	Bowman, Jeffrey Mark	Phillips, Todd A
+402220	Lauren	Lyda	F	10	Wills, Rebecca Dawn	Rapp, Lorraine M	Bleeker, Julie M	Grindstaff, Martin A		Harr, Matthew L.	Davis, John David	Bortz, Gala A
+402753	Casey	Lytle	M	9	Stadelmeir, Tim	Ritchie, Sherry ADELL	Campbell, Blaine	Veselka, Julie		Eslinger, Darlene	Merkley, Cassandra L	Dodds, JOELLEN A
+401982	Joe	Mabey	M	10	Reynolds, Allyn D	Bortz, Dennis L	Wills, Rebecca Dawn	Knopp, Amy		Grindstaff, Martin A	Harr, Matthew L.	Bortz, Gala A
+402210	Schecora	Mabey	F	9	Veselka, Julie	Creek, Claudia K	Carder, Jacob P	Kohring, Benjamin D		Dodds, JOELLEN A	Johnson, Camille	Moody, RONALD L
+100596	Kelly	Madden	F	10	Harman, Benjamin T	Manwaring, Nicole J	Davis, John David	Grindstaff, Martin A		Reynolds, Allyn D	Harr, Matthew L.	Bortz, Gala A
+902052	Erin	Madsen	F	11	Tucker, Patrice	Manwaring, Nicole J	Schaal, Mark S	Bleeker, Julie M		McCullough, Royce	Forster, Jerald P	Fonnesbeck, Brett F
+602917	Lindsey	Major	F	9	Eslinger, Darlene	Haycock, James Dee	Ritchie, Sherry ADELL	Bowman, Jeffrey Mark		Casperson, Joseph R	Bortz, Gala A	Hathorne, Melodie A
+107338	Liliana	Malagon	F	10	Reynolds, Allyn D	Price, Bruce M	Haycock, James Dee	Merkley, Cassandra L		Veselka, Julie	Campbell, Blaine	Kenyon, John Q.
+402847	Jovany	Maldonado	M	11	Leiser, Linda W	Frost, Ryan C	Tucker, Patrice	Bleeker, Julie M		Showers, Gary	Forster, Jerald P	Manwaring, Nicole J
+2020916	Julie	Malone	F	11	Forster, Jerald P	Bortz, Gala A	Connor, Jo Marie	Fonnesbeck, Brett F		Haycock, James Dee	Rapp, Lorraine M	Davis, John David
+107921	Thomas	Malone	M	9	Eslinger, Darlene	Phillips, Todd A	Hathorne, Melodie A	Ritchie, Sherry ADELL		Harman, Benjamin T	Bowman, Jeffrey Mark	Merkley, Cassandra L
+501724	Doris	Mandura	F	12	Leiser, Linda W	Haycock, James Dee	Behrens, Stacey D	Mathes, Jessica		Haycock, James Dee	Bleeker, Julie M	Tucker, Patrice
+601468	Nina	Mandura	F	11	Tucker, Patrice	Manwaring, Nicole J	Merkley, Cassandra L	Reynolds, Allyn D		Forster, Jerald P	Ploss, Carrie L	Fonnesbeck, Brett F
+11022	Avery	Manring	M	10	Stadelmeir, Tim	McCullough, Royce	Harman, Benjamin T	Reynolds, Allyn D		Grindstaff, Martin A	Harr, Matthew L.	Knopp, Amy
+402205	Mehli	Marcellus	F	10	Harman, Benjamin T	Davis, John David	Price, Bruce M	McCullough, Royce		Kohring, Benjamin D	Rapp, Lorraine M	Kenyon, John Q.
+601867	Mason	Markle	M	12	Tucker, Patrice	Leiser, Linda W	Bleeker, Julie M	Knopp, Amy		Moody, RONALD L	Mathes, Jessica	Wills, Rebecca Dawn
+403013	Allison	Martens	F	11	Federico, Michael A	Behrens, Stacey D	Berriochoa, Jeannine	Fonnesbeck, Brett F		Connor, Jo Marie	Forster, Jerald P	Johnson, Camille
+602848	Bailey	Martin	F	9	Veselka, Julie	Ritchie, Sherry ADELL	Erkins Goss, Marla B	Bowman, Jeffrey Mark		Casperson, Joseph R	Merkley, Cassandra L	Harman, Benjamin T
+105970	Jose	Martinez Mendez	M	9	Veselka, Julie	Eslinger, Darlene	Phillips, Todd A	McCullough, Royce		Dodds, JOELLEN A	Ploss, Carrie L	Hyer, Nathan
+902056	Mychal	Martinez	F	10	Grier, Marilee	Grier, Marilee	Grier, Marilee	Fiala, Marilyn M		Grier, Marilee	Manwaring, Nicole J	Grier, Marilee
+601955	Riley	Mason	F	10	Grindstaff, Martin A	Frost, Ryan C	Manwaring, Nicole J	Casperson, Joseph R		Reynolds, Allyn D	Price, Bruce M	Knopp, Amy
+1101875	Angela	Mathison	F	10	Hall, Brenda D	Wills, Rebecca Dawn	Johnson, Camille	Forster, Jerald P		Hall, Brenda D	Kenyon, John Q.	Hall, Brenda D
+501998	Allison	Maughan	F	10	Wills, Rebecca Dawn	Bleeker, Julie M	McCullough, Royce	Davis, John David		Harr, Matthew L.	Rapp, Lorraine M	Kenyon, John Q.
+823337	Parker	Mauldin Henry	M	9	Veselka, Julie	Stadelmeir, Tim	Bowman, Jeffrey Mark	Frost, Ryan C		Ritchie, Sherry ADELL	Erkins Goss, Marla B	Harman, Benjamin T
+10570	Espen	Mayes	M	9	Bortz, Dennis L	Dodds, JOELLEN A	Erkins Goss, Marla B	McCullough, Royce		Harman, Benjamin T	Phillips, Todd A	Hathorne, Melodie A
+403102	Megan	McAllister	F	9	Berriochoa, Jeannine	Dodds, JOELLEN A	Ritchie, Sherry ADELL	Carder, Jacob P		Frost, Ryan C	Erkins Goss, Marla B	Hathorne, Melodie A
+502111	Chase	McCall	M	10	Frost, Ryan C	Wills, Rebecca Dawn	Kenyon, John Q.	Hathorne, Melodie A		Reynolds, Allyn D	Harr, Matthew L.	Knopp, Amy
+601491	Trisha	McCandless	F	12	Behrens, Stacey D	Larsen, Ted	Bortz, Gala A	Wills, Rebecca Dawn		Bleeker, Julie M	Ploss, Carrie L	Kemper, Debra Croshaw
+2020711	Steven	McClure	M	12	Kemper, Debra Croshaw	Behrens, Stacey D	Wright, Candace Oaxaca	Kenyon, John Q.		Johnson, Camille	Kohring, Benjamin D	Larsen, Ted
+402852	Jessica	McCombs	F	9	Veselka, Julie	Berriochoa, Jeannine	Bowman, Jeffrey Mark	Moody, RONALD L		Ritchie, Sherry ADELL	Schaal, Mark S	Mathes, Jessica
+402853	Jordan	McCombs	F	9	Manwaring, Nicole J	Erkins Goss, Marla B	Kohring, Benjamin D	Ritchie, Sherry ADELL		Frost, Ryan C	Hathorne, Melodie A	Bowman, Jeffrey Mark
+803021	Rebecca	McDade	F	11	Manwaring, Nicole J	Wills, Rebecca Dawn	Hall, Brenda D	Hall, Brenda D		Hall, Brenda D	Hall, Brenda D	Hall, Brenda D
+502454	Caitlyn	McDermott	F	9	Federico, Michael A	Kohring, Benjamin D	Moody, RONALD L	Veselka, Julie		Ritchie, Sherry ADELL	Dodds, JOELLEN A	Harman, Benjamin T
+902720	Jackie	McDrummond	F	9	Putman, CHRISTINE	Veselka, Julie	Ritchie, Sherry ADELL	Moody, RONALD L		Bowman, Jeffrey Mark	Wills, Rebecca Dawn	Fiala, Marilyn M
+402193	Brian	McFarland	M	10	Price, Bruce M	Davis, John David	Kenyon, John Q.	Eslinger, Darlene		Haycock, James Dee	Rapp, Lorraine M	Jones, Nancy
+601489	Matthew	McFarland	M	10	Davis, John David	Price, Bruce M	Morris, Eudelia T	Jones, Nancy		Grindstaff, Martin A	Reynolds, Allyn D	Kohring, Benjamin D
+402276	Reed	McKenzie	M	11	Forster, Jerald P	Bortz, Gala A	Stadelmeir, Tim	Fonnesbeck, Brett F		Berriochoa, Jeannine	Connor, Jo Marie	Ploss, Carrie L
+105743	Joshua	McMullin	M	9	Dodds, JOELLEN A	Eslinger, Darlene	Moody, RONALD L	Harman, Benjamin T		Ritchie, Sherry ADELL	Veselka, Julie	Hyer, Nathan
+105744	Maleasa	McMullin	F	10	Kenyon, John Q.	Behrens, Stacey D	Price, Bruce M	Davis, John David		Bleeker, Julie M	Rapp, Lorraine M	Johnson, Camille
+105745	Ryan	McMullin	M	12	Wills, Rebecca Dawn	Wright, Candace Oaxaca	Bortz, Gala A	Bleeker, Julie M		Schaal, Mark S	Mathes, Jessica	Larsen, Ted
+501616	Mariah	McMurtry	F	11	Forster, Jerald P	Carder, Jacob P	Connor, Jo Marie	Schaal, Mark S		Haycock, James Dee	Bleeker, Julie M	Davis, John David
+402222	Meghan	McQueen	F	10	Davis, John David	Kenyon, John Q.	McCullough, Royce	Bleeker, Julie M		Casperson, Joseph R	Rapp, Lorraine M	Harr, Matthew L.
+108072	Victoria	McShane	F	10	Harman, Benjamin T	Kenyon, John Q.	Davis, John David	Grady, Joyce Ann		Price, Bruce M	Stadelmeir, Tim	Frost, Ryan C
+402058	Paige	Meador	F	11	Federico, Michael A	Schaal, Mark S	Tucker, Patrice	Merkley, Cassandra L		Hartley, William M	Forster, Jerald P	Fonnesbeck, Brett F
+105397	Anthony	Medina	M	9	Putman, CHRISTINE	Phillips, Todd A	Bowman, Jeffrey Mark	Moody, RONALD L		Torgrimson, Jason	Fiala, Marilyn M	Fiala, Marilyn M
+401840	Nicole	Medina	F	12	Larsen, Ted	Behrens, Stacey D	Wright, Candace Oaxaca	Ritchie, Sherry ADELL		Bleeker, Julie M	Mathes, Jessica	Ploss, Carrie L
+2020917	Ansley	Meeks	F	11	Harman, Benjamin T	Merkley, Cassandra L	Connor, Jo Marie	Fonnesbeck, Brett F		Forster, Jerald P	Schaal, Mark S	Ploss, Carrie L
+401952	Paula	Mei	F	11	Schaal, Mark S	Harman, Benjamin T	Connor, Jo Marie	Kenyon, John Q.		Forster, Jerald P	McCullough, Royce	Johnson, Camille
+103250	Quentin	Mendoza	M	9	Ritchie, Sherry ADELL	Veselka, Julie	Erkins Goss, Marla B	Frost, Ryan C		Bowman, Jeffrey Mark	Ploss, Carrie L	Harman, Benjamin T
+402629	Tyler	Merriss	M	9	Stadelmeir, Tim	Veselka, Julie	Eslinger, Darlene	Ritchie, Sherry ADELL		Torgrimson, Jason	Dodds, JOELLEN A	Moody, RONALD L
+501726	Casey	Merritt	M	12	Wright, Candace Oaxaca	Harman, Benjamin T	Wright, Candace Oaxaca	Mathes, Jessica		Ritchie, Sherry ADELL	Kohring, Benjamin D	Casperson, Joseph R
+501602	Kaitlyn	Merritt	F	11	Mathes, Jessica	Merkley, Cassandra L	Showers, Gary	Connor, Jo Marie		Fonnesbeck, Brett F	Kohring, Benjamin D	Merkley, Cassandra L
+803055	Alec	Meyerhoeffer	M	11	Bleeker, Julie M	Bortz, Gala A	Stadelmeir, Tim	Connor, Jo Marie		Showers, Gary	Johnson, Camille	Forster, Jerald P
+803056	Connor	Meyerhoeffer	M	11	Bleeker, Julie M	Bortz, Gala A	Stadelmeir, Tim	Fonnesbeck, Brett F		Connor, Jo Marie	Reynolds, Allyn D	Forster, Jerald P
+401829	Hannah	Meyerhoeffer	F	12	Allen, Benjamin F	Bleeker, Julie M	Wills, Rebecca Dawn	Stadelmeir, Tim		McCullough, Royce	Kemper, Debra Croshaw	Ploss, Carrie L
+401996	Steven	Meyerhoeffer	M	11	Merkley, Cassandra L	Forster, Jerald P	Stadelmeir, Tim	Fonnesbeck, Brett F		Connor, Jo Marie	Johnson, Camille	Bleeker, Julie M
+702201	Nicole	Michaud	F	11	Vogt, Daniel	Forster, Jerald P	Creek, Claudia K	Tucker, Patrice		Behrens, Stacey D	Allen, Benjamin F	Fonnesbeck, Brett F
+703301	Jorge	Michel	M	11	Harman, Benjamin T	Morris, Eudelia T	Frost, Ryan C	Kenyon, John Q.		Mathes, Jessica	Wills, Rebecca Dawn	Connor, Jo Marie
+703043	Kirsten	Micheles	F	11	Federico, Michael A	Forster, Jerald P	Tucker, Patrice	Showers, Gary		Ploss, Carrie L	Kenyon, John Q.	McCullough, Royce
+106038	Taylor	Michelsen	M	11	Mathes, Jessica	Fonnesbeck, Brett F	Frost, Ryan C	Schaal, Mark S		Stadelmeir, Tim	Torgrimson, Jason	Connor, Jo Marie
+903000	Sierra	Mickael	F	9	Jones, Nancy	Kohring, Benjamin D	Hathorne, Melodie A	Eslinger, Darlene		Leiser, Linda W	Dodds, JOELLEN A	Leiser, Linda W
+502149	Albert	Middleton	M	11	Bleeker, Julie M	Bortz, Dennis L	Fonnesbeck, Brett F	Schaal, Mark S		Connor, Jo Marie	Kohring, Benjamin D	Forster, Jerald P
+501876	Kyle	Miley	M	12	Wright, Candace Oaxaca	Kemper, Debra Croshaw	Ritchie, Sherry ADELL	Wright, Candace Oaxaca		Leiser, Linda W	Kohring, Benjamin D	Bleeker, Julie M
+104966	Ashley	Miller	F	10	Merkley, Cassandra L	Showers, Gary	Davis, John David	Showers, Gary		Berriochoa, Jeannine	Grindstaff, Martin A	Harr, Matthew L.
+402262	Coty	Miller	M	12	Bleeker, Julie M	Vogt, Daniel	Kemper, Debra Croshaw	Wills, Rebecca Dawn		Moody, RONALD L	Stadelmeir, Tim	Larsen, Ted
+502165	Dakota	Miller	M	11	Mathes, Jessica	Frost, Ryan C	Fonnesbeck, Brett F	Stadelmeir, Tim		Schaal, Mark S	Campbell, Blaine	Davis, John David
+403559	Daniel	Milligan	M	11	Connor, Jo Marie	Forster, Jerald P	Tucker, Patrice	Fonnesbeck, Brett F		Campbell, Blaine	Behrens, Stacey D	Wills, Rebecca Dawn
+403558	Shannon	Milligan	F	10	Johnson, Camille	Davis, John David	Frost, Ryan C	Reynolds, Allyn D		Price, Bruce M	Grindstaff, Martin A	Howard, Kevin D
+10969	River	Minchey	M	10	Grindstaff, Martin A	Frost, Ryan C	Harr, Matthew L.	Davis, John David		Haycock, James Dee	Casperson, Joseph R	Casperson, Joseph R
+902848	Julia	Mink	F	9	Berriochoa, Jeannine	Eslinger, Darlene	Veselka, Julie	Schaal, Mark S		Bowman, Jeffrey Mark	Phillips, Todd A	Merkley, Cassandra L
+1101729	Alba	Miramontes	F	11	Fonnesbeck, Brett F	Leiser, Linda W	Mathes, Jessica	Merkley, Cassandra L		Johnson, Camille	Manwaring, Nicole J	Connor, Jo Marie
+601595	Alexia	Mireles	F	11	Leiser, Linda W	Tucker, Patrice	Wells, Vivian R	Merkley, Cassandra L		Hartley, William M	Kenyon, John Q.	Leiser, Linda W
+402476	Lacey	Mitchell	F	12	Bortz, Gala A	Ploss, Carrie L	Kemper, Debra Croshaw	Rapp, Lorraine M		Ploss, Carrie L	Larsen, Ted	Wright, Candace Oaxaca
+402477	Lindsey	Mitchell	F	12	Bortz, Gala A	Harr, Matthew L.	Wright, Candace Oaxaca	Showers, Gary		Ploss, Carrie L	Larsen, Ted	Kemper, Debra Croshaw
+103882	Melta	Mitipok	F	10	Davis, John David	Price, Bruce M	Kenyon, John Q.	Hathorne, Melodie A		McCullough, Royce	Rapp, Lorraine M	Wills, Rebecca Dawn
+402402	Rachel	Mix	F	9	Phillips, Todd A	McCullough, Royce	Berriochoa, Jeannine	Dodds, JOELLEN A		Casperson, Joseph R	Erkins Goss, Marla B	Hathorne, Melodie A
+401997	Sarah	Mix	F	11	Forster, Jerald P	Bortz, Gala A	Connor, Jo Marie	Fonnesbeck, Brett F		Leiser, Linda W	Casperson, Joseph R	Davis, John David
+403553	Kaiya	Moffitt	F	11	Forster, Jerald P	Tucker, Patrice	Johnson, Camille	Berriochoa, Jeannine		Fonnesbeck, Brett F	Bleeker, Julie M	McCullough, Royce
+502036	Mason	Montejano	M	9	Eslinger, Darlene	Ritchie, Sherry ADELL	Bowman, Jeffrey Mark	Frost, Ryan C		Kohring, Benjamin D	Hathorne, Melodie A	Harman, Benjamin T
+824067	Robert	Montoya	M	10	Davis, John David	Kenyon, John Q.	Reynolds, Allyn D	Harman, Benjamin T		Price, Bruce M	Kohring, Benjamin D	Frost, Ryan C
+823300	Brittney	Moore	F	9	Eslinger, Darlene	Jones, Nancy	Campbell, Blaine	Veselka, Julie		Ritchie, Sherry ADELL	Bowman, Jeffrey Mark	Harman, Benjamin T
+601498	Garrett	Moore	M	11	Tucker, Patrice	Fonnesbeck, Brett F	Merkley, Cassandra L	Stadelmeir, Tim		Mathes, Jessica	Ploss, Carrie L	Bleeker, Julie M
+601891	Joshua	Moore	M	9	Eslinger, Darlene	Phillips, Todd A	Hathorne, Melodie A	Harman, Benjamin T		Frost, Ryan C	Hyer, Nathan	Dodds, JOELLEN A
+401708	William	Moore	M	12	Forster, Jerald P	Leiser, Linda W	Wright, Candace Oaxaca	Mathes, Jessica		Bortz, Gala A	Bleeker, Julie M	Leiser, Linda W
+107340	Ghislain	Moreau	M	11	Kemper, Debra Croshaw	Wills, Rebecca Dawn	Manwaring, Nicole J	Creek, Claudia K		Bortz, Gala A	Wright, Candace Oaxaca	Larsen, Ted
+602935	Liz	Moreno Carrillo	F	11	Fonnesbeck, Brett F	Manwaring, Nicole J	Creek, Claudia K	Merkley, Cassandra L		Berriochoa, Jeannine	Forster, Jerald P	Wright, Candace Oaxaca
+103230	Robert	Morris	M	12	Haycock, James Dee	Kemper, Debra Croshaw	Behrens, Stacey D	Manwaring, Nicole J		Johnson, Camille	Larsen, Ted	Grady, Joyce Ann
+106806	Amanda	Mulroy	F	10	Federico, Michael A	Davis, John David	Harr, Matthew L.	Harman, Benjamin T		Grindstaff, Martin A	McCullough, Royce	Howard, Kevin D
+402471	Dylan	Munson	M	11	Bleeker, Julie M	Forster, Jerald P	Bortz, Gala A	Hathorne, Melodie A		Fonnesbeck, Brett F	Connor, Jo Marie	Wright, Candace Oaxaca
+501728	Austin	Murray	M	12	Connor, Jo Marie	Kemper, Debra Croshaw	Bortz, Gala A	Bleeker, Julie M		Haycock, James Dee	Haycock, James Dee	Casperson, Joseph R
+104779	Austin	Muse	M	10	Stadelmeir, Tim	Price, Bruce M	Reynolds, Allyn D	Hathorne, Melodie A		Knopp, Amy	Grindstaff, Martin A	Frost, Ryan C
+104885	Cody	Muse	M	9	Berriochoa, Jeannine	Stadelmeir, Tim	Erkins Goss, Marla B	Veselka, Julie		Dodds, JOELLEN A	Merkley, Cassandra L	Phillips, Todd A
+601874	Esther	Musick	F	9	Moody, RONALD L	Bowman, Jeffrey Mark	Berriochoa, Jeannine	Carder, Jacob P		Johnson, Camille	Veselka, Julie	Eslinger, Darlene
+402393	Brooklyn	Musser	F	9	Manwaring, Nicole J	Berriochoa, Jeannine	Ritchie, Sherry ADELL	Kohring, Benjamin D		Jones, Nancy	Bowman, Jeffrey Mark	Hathorne, Melodie A
+403510	Bethany	Myers	F	11	Mathes, Jessica	Ploss, Carrie L	Connor, Jo Marie	Kenyon, John Q.		Schaal, Mark S	Ploss, Carrie L	McCullough, Royce
+502141	Lesley	Naerebout	F	11	Federico, Michael A	Bleeker, Julie M	Fonnesbeck, Brett F	Berriochoa, Jeannine		McCullough, Royce	Connor, Jo Marie	Forster, Jerald P
+1102699	Paola	Navarro	F	12	Tucker, Patrice	Kemper, Debra Croshaw	Grindstaff, Martin A	Merkley, Cassandra L		Casperson, Joseph R	Casperson, Joseph R	Casperson, Joseph R
+106778	Brady	Nelson	M	9	Stadelmeir, Tim	McCullough, Royce	Phillips, Todd A	Bowman, Jeffrey Mark		Schaal, Mark S	Veselka, Julie	Eslinger, Darlene
+902125	Brandon	Nelson	M	11	Merkley, Cassandra L	Carder, Jacob P	Tucker, Patrice	Campbell, Blaine		Mathes, Jessica	Torgrimson, Jason	Fonnesbeck, Brett F
+106990	Brittany	Nelson	F	10	Rapp, Lorraine M	Knopp, Amy	Grady, Joyce Ann	Campbell, Blaine		Harr, Matthew L.	Jones, Nancy	Kenyon, John Q.
+106779	Preston	Nelson	M	9	Eslinger, Darlene	McCullough, Royce	Hathorne, Melodie A	Wills, Rebecca Dawn		Phillips, Todd A	Torgrimson, Jason	Dodds, JOELLEN A
+102032	Samuel	Nelson	M	9	Stadelmeir, Tim	Torgrimson, Jason	Hathorne, Melodie A	Frost, Ryan C		Bowman, Jeffrey Mark	Erkins Goss, Marla B	Phillips, Todd A
+502013	Adrian	Neria	F	10	Federico, Michael A	Schaal, Mark S	McCullough, Royce	Berriochoa, Jeannine		Tucker, Patrice	Grindstaff, Martin A	Knopp, Amy
+402430	Ashley	Newbry	F	9	Phillips, Todd A	Kohring, Benjamin D	Veselka, Julie	Harman, Benjamin T		Bowman, Jeffrey Mark	Ploss, Carrie L	Moody, RONALD L
+101122	Hannah	Newhouse	F	10	Federico, Michael A	Erkins Goss, Marla B	Kenyon, John Q.	Leiser, Linda W		Harr, Matthew L.	Davis, John David	Jones, Nancy
+106768	Alyssa	Newpher	F	11	Fonnesbeck, Brett F	Bleeker, Julie M	Behrens, Stacey D	Showers, Gary		Forster, Jerald P	Tucker, Patrice	Tucker, Patrice
+107982	Andy	Nguyen	M	11			Leiser, Linda W					
+502033	Brock	Nickel	M	10	Torgrimson, Jason	Davis, John David	Price, Bruce M	Showers, Gary		Berriochoa, Jeannine	Grindstaff, Martin A	McCullough, Royce
+902889	Tyler	Nickell	M	11	Fiala, Marilyn M	Forster, Jerald P	Fonnesbeck, Brett F	Jones, Nancy		Schaal, Mark S	Harr, Matthew L.	Bleeker, Julie M
+402801	Kevin	Nickels	M	12	Wills, Rebecca Dawn	Erkins Goss, Marla B	Bleeker, Julie M	Mathes, Jessica		Moody, RONALD L	Larsen, Ted	Haycock, James Dee
+11026	Courtney	Nielsen	F	9	Federico, Michael A	Phillips, Todd A	Moody, RONALD L	Johnson, Camille		Dodds, JOELLEN A	Veselka, Julie	Mathes, Jessica
+601482	Kenna	Nielsen	F	11	Creek, Claudia K	Behrens, Stacey D	Connor, Jo Marie	Fonnesbeck, Brett F		Forster, Jerald P	Haycock, James Dee	Howard, Kevin D
+601560	MaKayla	Nielsen	F	11	Fonnesbeck, Brett F	Bortz, Dennis L	Tucker, Patrice	Hathorne, Melodie A		Behrens, Stacey D	Forster, Jerald P	Wright, Candace Oaxaca
+602426	Haley	Nixon	F	10	Federico, Michael A	Davis, John David	Price, Bruce M	Schaal, Mark S		McCullough, Royce	Grindstaff, Martin A	Bleeker, Julie M
+503006	Cortney	Nolan	F	11	Forster, Jerald P	Bortz, Gala A	Schaal, Mark S	Connor, Jo Marie		Fonnesbeck, Brett F	Kohring, Benjamin D	Bleeker, Julie M
+105974	Marcus	Nolen	M	9	Moody, RONALD L	Creek, Claudia K	Veselka, Julie	Ritchie, Sherry ADELL		Eslinger, Darlene	Dodds, JOELLEN A	Phillips, Todd A
+1102718	Domonic	Norris	M	11	Fonnesbeck, Brett F	Frost, Ryan C	Wills, Rebecca Dawn	Fiala, Marilyn M		Mathes, Jessica	Moody, RONALD L	Connor, Jo Marie
+601551	Lakota	Novak	F	10	Creek, Claudia K	Knopp, Amy	Moody, RONALD L	Wills, Rebecca Dawn		Casperson, Joseph R	Price, Bruce M	Kenyon, John Q.
+2020704	Isaac	Nowak	M	12	Allen, Benjamin F	Wright, Candace Oaxaca	Kemper, Debra Croshaw	Bleeker, Julie M		Bortz, Gala A	Larsen, Ted	Tucker, Patrice
+107700	William	O'Riley	M	10	Dodds, JOELLEN A	Torgrimson, Jason	Morris, Eudelia T	Reynolds, Allyn D		Veselka, Julie	Grindstaff, Martin A	Merkley, Cassandra L
+902675	Tyler	O'Toole	M	9	Stadelmeir, Tim	Jones, Nancy	Kohring, Benjamin D	Veselka, Julie		Harman, Benjamin T	Phillips, Todd A	Bowman, Jeffrey Mark
+403299	Blake	Oler	M	12	Wright, Candace Oaxaca	Mottern-High, Janis	Creek, Claudia K	Eslinger, Darlene		Larsen, Ted	Wright, Candace Oaxaca	Davis, John David
+2020804	Karin	Olsen	F	12	Allen, Benjamin F	Merkley, Cassandra L	Stadelmeir, Tim	Mathes, Jessica		Bleeker, Julie M	Larsen, Ted	Bowman, Jeffrey Mark
+402174	Alyssa	Olson	F	10	Grindstaff, Martin A	Knopp, Amy	Rapp, Lorraine M	Price, Bruce M		Schaal, Mark S	Jones, Nancy	Manwaring, Nicole J
+601916	Rylee	Olson	M	9	Jones, Nancy	Bowman, Jeffrey Mark	Veselka, Julie	Harman, Benjamin T		Kohring, Benjamin D	Phillips, Todd A	Eslinger, Darlene
+1101848	Maddison	Orr	F	10	Fiala, Marilyn M	Grindstaff, Martin A	Harr, Matthew L.	Reynolds, Allyn D		Harman, Benjamin T	Putman, CHRISTINE	Knopp, Amy
+402508	Isaac	Ortega	M	10	Kenyon, John Q.	Price, Bruce M	Davis, John David	Johnson, Camille		Kohring, Benjamin D	Schaal, Mark S	Jones, Nancy
+1101660	Jessica	Ortega	F	11	Allen, Benjamin F	Tucker, Patrice	Creek, Claudia K	Merkley, Cassandra L		Showers, Gary	Forster, Jerald P	Hamilton, Sharee L
+502065	Jose	Ortega	M	10	Grindstaff, Martin A	Stadelmeir, Tim	Davis, John David	Price, Bruce M		Morris, Eudelia T	Johnson, Camille	Frost, Ryan C
+1101916	Alexis	Ortiz	M	10	Grindstaff, Martin A	Fiala, Marilyn M	Grier, Marilee	Reynolds, Allyn D		Berriochoa, Jeannine	Putman, CHRISTINE	Wills, Rebecca Dawn
+2020939	Carlos Nicolas	Ortiz	M	11	Moody, RONALD L	Ritchie, Sherry ADELL	Mathes, Jessica	Bowman, Jeffrey Mark		Showers, Gary	Kohring, Benjamin D	Putman, CHRISTINE
+1101555	Jose	Ortiz	M	12	Larsen, Ted	Leiser, Linda W	Stadelmeir, Tim	Mathes, Jessica		Tucker, Patrice	Moody, RONALD L	Bleeker, Julie M
+601469	Hailey	Orton	F	11	Connor, Jo Marie	Schaal, Mark S	Creek, Claudia K	Merkley, Cassandra L		Fonnesbeck, Brett F	Forster, Jerald P	Hartley, William M
+401983	Kaden	Ottersberg	M	11	Mathes, Jessica	Tucker, Patrice	Manwaring, Nicole J	Carder, Jacob P		Showers, Gary	Bleeker, Julie M	McCullough, Royce
+103408	Amanda	Owens	F	12	Haycock, James Dee	Kemper, Debra Croshaw	Wills, Rebecca Dawn	Larsen, Ted		Bortz, Gala A	Casperson, Joseph R	Bleeker, Julie M
+104054	Preston	Pace	M	9	Eslinger, Darlene	Torgrimson, Jason	Hathorne, Melodie A	Bowman, Jeffrey Mark		Jones, Nancy	Wills, Rebecca Dawn	Phillips, Todd A
+823359	Jaydon	Page	M	9	Veselka, Julie	Kohring, Benjamin D	Ritchie, Sherry ADELL	McCullough, Royce		Kohring, Benjamin D	Schaal, Mark S	Dodds, JOELLEN A
+803054	Markel	Page	M	11	Mathes, Jessica	Wright, Candace Oaxaca	Behrens, Stacey D	Stadelmeir, Tim		Connor, Jo Marie	Johnson, Camille	Fonnesbeck, Brett F
+403348	Oscar	Paniagua	M	10	Davis, John David	Harman, Benjamin T	Harr, Matthew L.	Rapp, Lorraine M		Grindstaff, Martin A	Jones, Nancy	Kohring, Benjamin D
+104854	David	Pantuso	M	12	Haycock, James Dee	Bortz, Dennis L	Kemper, Debra Croshaw	Leiser, Linda W		Haycock, James Dee	Moody, RONALD L	Bleeker, Julie M
+100547	Elizabeth	Parke	F	10	Wills, Rebecca Dawn	Price, Bruce M	Creek, Claudia K	Grindstaff, Martin A		Casperson, Joseph R	Davis, John David	Bortz, Gala A
+106762	Ashlyn	Parker	F	10	Berriochoa, Jeannine	Davis, John David	Price, Bruce M	Showers, Gary		McCullough, Royce	Haycock, James Dee	Kenyon, John Q.
+503004	Nicole	Parle	F	11	Harr, Matthew L.	Allen, Benjamin F	Tucker, Patrice	Kenyon, John Q.		Behrens, Stacey D	Manwaring, Nicole J	Forster, Jerald P
+103497	Daren	Patrick	M	11	Mathes, Jessica	Tucker, Patrice	Stadelmeir, Tim	Wills, Rebecca Dawn		Showers, Gary	Behrens, Stacey D	Harman, Benjamin T
+601599	Christopher	Patterson	M	11	Mathes, Jessica	Morris, Eudelia T	Stadelmeir, Tim	Campbell, Blaine		Showers, Gary	Jones, Nancy	Connor, Jo Marie
+502188	Parker	Paul	M	9	Moody, RONALD L	Haycock, James Dee	Ritchie, Sherry ADELL	Putman, CHRISTINE		Hathorne, Melodie A	Dodds, JOELLEN A	Eslinger, Darlene
+2020901	Jaxon	Pearl	M	12	Harr, Matthew L.	Mottern-High, Janis	Behrens, Stacey D	Erkins Goss, Marla B		Federico, Michael A	Bleeker, Julie M	Davis, John David
+823277	Shantel	Peck	F	11	Allen, Benjamin F	Behrens, Stacey D	Connor, Jo Marie	Fonnesbeck, Brett F		Forster, Jerald P	Campbell, Blaine	Campbell, Blaine
+103862	Cora	Peralto	F	10	Kenyon, John Q.	Reynolds, Allyn D	Schaal, Mark S	Morris, Eudelia T		Veselka, Julie	Harr, Matthew L.	Moody, RONALD L
+106915	Rodrigo	Perez Cardoso	M	9	Phillips, Todd A	Stadelmeir, Tim	Eslinger, Darlene	Harman, Benjamin T		Hathorne, Melodie A	Merkley, Cassandra L	Bowman, Jeffrey Mark
+107313	Enrique	Perez	M	9	Eslinger, Darlene	Phillips, Todd A	Veselka, Julie	Bowman, Jeffrey Mark		Torgrimson, Jason	Ploss, Carrie L	Merkley, Cassandra L
+502838	Braxton	Perkins	M	12	Kemper, Debra Croshaw	Bortz, Gala A	Wright, Candace Oaxaca	Stadelmeir, Tim		Erkins Goss, Marla B	Leiser, Linda W	Bleeker, Julie M
+402529	Michael	Perkins	M	9	Stadelmeir, Tim	Jones, Nancy	Bowman, Jeffrey Mark	Leiser, Linda W		Eslinger, Darlene	Hathorne, Melodie A	Harman, Benjamin T
+501733	Briten	Perron	M	12	Hamlett, Paul A	Dahl, Mary Kate	Warner, Carol	Nelson, NORMA SUE		Ploss, Carrie L	Kemper, Debra Croshaw	Ploss, Carrie L
+501617	Tyler	Perron	M	11	Rapp, Lorraine M	Forster, Jerald P	Bleeker, Julie M	Carder, Jacob P		Showers, Gary	Behrens, Stacey D	Connor, Jo Marie
+502788	Emily	Perry	F	9	Hathorne, Melodie A	Dodds, JOELLEN A	Haycock, James Dee	McCullough, Royce		Eslinger, Darlene	Phillips, Todd A	Howard, Kevin D
+702046	Nicole	Petersen	F	11	Bleeker, Julie M	Behrens, Stacey D	Manwaring, Nicole J	Mathes, Jessica		Tucker, Patrice	Larsen, Ted	Leiser, Linda W
+107912	Austin	Peterson	M	10	Harman, Benjamin T	Davis, John David	Tucker, Patrice	Behrens, Stacey D		Bleeker, Julie M	Grindstaff, Martin A	Wills, Rebecca Dawn
+107911	Cody	Peterson	M	10	Knopp, Amy	Grindstaff, Martin A	Harr, Matthew L.	Jones, Nancy		Knopp, Amy	Bleeker, Julie M	Wills, Rebecca Dawn
+403117	James	Petruzzelli	M	12	Kemper, Debra Croshaw	Leiser, Linda W	Hamilton, Sharee L	Campbell, Blaine		Moody, RONALD L	Ploss, Carrie L	Bleeker, Julie M
+403118	Jane	Petruzzelli	F	10	Grindstaff, Martin A	Rapp, Lorraine M	Frost, Ryan C	Knopp, Amy		Harr, Matthew L.	Haycock, James Dee	Haycock, James Dee
+502269	Dallan	Pettingill	M	9	Creek, Claudia K	Torgrimson, Jason	Veselka, Julie	Bowman, Jeffrey Mark		Eslinger, Darlene	Torgrimson, Jason	Merkley, Cassandra L
+502270	William	Pettingill	M	12	Torgrimson, Jason	Larsen, Ted	Wills, Rebecca Dawn	Kemper, Debra Croshaw		Moody, RONALD L	Campbell, Blaine	Torgrimson, Jason
+502091	Natassja	Pherigo	F	11	Harr, Matthew L.	Showers, Gary	Merkley, Cassandra L	Kenyon, John Q.		Mathes, Jessica	Vogt, Daniel	Manwaring, Nicole J
+402175	Bradley	Pierce	M	10	Harman, Benjamin T	McCullough, Royce	Harr, Matthew L.	Grindstaff, Martin A		Bleeker, Julie M	Rapp, Lorraine M	Knopp, Amy
+502773	Brandon	Pilling	M	10	Bleeker, Julie M	Kenyon, John Q.	Price, Bruce M	Davis, John David		Kohring, Benjamin D	Rapp, Lorraine M	Bortz, Gala A
+823378	Garrett	Pirtle	M	11	Mathes, Jessica	Fonnesbeck, Brett F	Rapp, Lorraine M	Connor, Jo Marie		Harman, Benjamin T	Kohring, Benjamin D	McCullough, Royce
+801842	Daniel	Plant	M	12	Larsen, Ted	Ploss, Carrie L	Behrens, Stacey D	Mathes, Jessica		Bleeker, Julie M	Casperson, Joseph R	Casperson, Joseph R
+105406	Claire	Plouy	F	12	Haycock, James Dee	Larsen, Ted	Wills, Rebecca Dawn	Kemper, Debra Croshaw		Bortz, Gala A	Wright, Candace Oaxaca	Bleeker, Julie M
+403499	Alexis	Powell	F	9	Eslinger, Darlene	Phillips, Todd A	Berriochoa, Jeannine	Dodds, JOELLEN A		Ploss, Carrie L	Bortz, Gala A	Hathorne, Melodie A
+10907	Dylan	Price	M	11	Wills, Rebecca Dawn	Fonnesbeck, Brett F	Merkley, Cassandra L	Forster, Jerald P		Tucker, Patrice	Morris, Eudelia T	Morris, Eudelia T
+501815	Caitlyn	Probasco	F	12	Wright, Candace Oaxaca	Bortz, Dennis L	Grindstaff, Martin A	Casperson, Joseph R		Hamilton, Sharee L	Casperson, Joseph R	Kemper, Debra Croshaw
+102465	Jason	Pruitt	M	11	Rapp, Lorraine M	Forster, Jerald P	Morris, Eudelia T	Merkley, Cassandra L		Fonnesbeck, Brett F	Ploss, Carrie L	Tucker, Patrice
+102488	Walter	Pruitt	M	9	Berriochoa, Jeannine	Phillips, Todd A	Veselka, Julie	Moody, RONALD L		Eslinger, Darlene	Dodds, JOELLEN A	Howard, Kevin D
+501734	Kurt	Pryor	M	12	Erkins Goss, Marla B	Behrens, Stacey D	Creek, Claudia K	Kemper, Debra Croshaw		Haycock, James Dee	Bleeker, Julie M	Wright, Candace Oaxaca
+502043	Samuel	Pryor	M	10	Price, Bruce M	Harman, Benjamin T	Bleeker, Julie M	Grindstaff, Martin A		Kohring, Benjamin D	McCullough, Royce	Knopp, Amy
+401711	Beau	Pullin	M	12	Johnson, Camille	Leiser, Linda W	Kemper, Debra Croshaw	Stadelmeir, Tim		Moody, RONALD L	Vogt, Daniel	Bleeker, Julie M
+401830	Haley	Pulsipher	F	12	Bleeker, Julie M	Mottern-High, Janis	Behrens, Stacey D	Erkins Goss, Marla B		Haycock, James Dee	Haycock, James Dee	Haycock, James Dee
+702613	Justin	Pulver	M	9	Manwaring, Nicole J	Veselka, Julie	Carder, Jacob P	Moody, RONALD L		Dodds, JOELLEN A	Erkins Goss, Marla B	Harman, Benjamin T
+402431	Tanner	Purves	M	9	Phillips, Todd A	Creek, Claudia K	Hathorne, Melodie A	McCullough, Royce		Dodds, JOELLEN A	Torgrimson, Jason	Eslinger, Darlene
+502075	Kristiana	Pyne	F	12	Bleeker, Julie M	Kemper, Debra Croshaw	Bowman, Jeffrey Mark	Behrens, Stacey D		Stadelmeir, Tim	Larsen, Ted	Johnson, Camille
+502247	Jason	Quale	M	9	Jones, Nancy	Ritchie, Sherry ADELL	Hathorne, Melodie A	Bowman, Jeffrey Mark		Torgrimson, Jason	Ploss, Carrie L	Mathes, Jessica
+601787	Logan	Qualls	M	12	Berriochoa, Jeannine	Behrens, Stacey D	Wills, Rebecca Dawn	Forster, Jerald P		Morris, Eudelia T	Mathes, Jessica	Leiser, Linda W
+601786	Matthew	Qualls	M	10	Kenyon, John Q.	McCullough, Royce	Harr, Matthew L.	Knopp, Amy		Schaal, Mark S	Casperson, Joseph R	Wills, Rebecca Dawn
+502865	Taylor	Quintana	M	10	Price, Bruce M	McCullough, Royce	Ploss, Carrie L	Wills, Rebecca Dawn		Grindstaff, Martin A	Reynolds, Allyn D	Knopp, Amy
+305500	Madison	Quinton	F	12	Erkins Goss, Marla B	Behrens, Stacey D	Mottern-High, Janis	Schaal, Mark S		Larsen, Ted	Casperson, Joseph R	Casperson, Joseph R
+1102058	Forest	Radmall	M	9	Jones, Nancy	Veselka, Julie	Haycock, James Dee	Kohring, Benjamin D		Dodds, JOELLEN A	Phillips, Todd A	Wills, Rebecca Dawn
+824494	Saina	Ranjbar	F	9	Berriochoa, Jeannine	Ritchie, Sherry ADELL	Carder, Jacob P	Bowman, Jeffrey Mark		Hathorne, Melodie A	Merkley, Cassandra L	Eslinger, Darlene
+502014	Maren	Ransom	F	10	Harman, Benjamin T	McCullough, Royce	Price, Bruce M	Bleeker, Julie M		Schaal, Mark S	Davis, John David	Kenyon, John Q.
+101640	Jayd	Rasmussen	M	11	Merkley, Cassandra L	Leiser, Linda W	Mathes, Jessica	Campbell, Blaine		Grady, Joyce Ann	Stadelmeir, Tim	Connor, Jo Marie
+501735	Lance	Rasmussen	M	12	Kemper, Debra Croshaw	Bortz, Dennis L	Bleeker, Julie M	Leiser, Linda W		Moody, RONALD L	Larsen, Ted	McCullough, Royce
+401985	Ammala	Rathamone	F	11	Fonnesbeck, Brett F	Forster, Jerald P	Manwaring, Nicole J	Carder, Jacob P		Tucker, Patrice	Ploss, Carrie L	Frost, Ryan C
+403199	Carter	Rawlings	F	9	Federico, Michael A	Haycock, James Dee	Ritchie, Sherry ADELL	Frost, Ryan C		Hathorne, Melodie A	Bowman, Jeffrey Mark	Mathes, Jessica
+501622	Tanner	Rawson	M	11	Mathes, Jessica	Bortz, Gala A	Fonnesbeck, Brett F	Carder, Jacob P		Connor, Jo Marie	Manwaring, Nicole J	Harman, Benjamin T
+1101450	Kayla	Ray	F	12	Leiser, Linda W	Larsen, Ted	Merkley, Cassandra L	Mathes, Jessica		Reynolds, Allyn D	Leiser, Linda W	Connor, Jo Marie
+108071	Bryana	Reali	F	10	Hamilton, Sharee L	Carder, Jacob P	Frost, Ryan C	Casperson, Joseph R		Reynolds, Allyn D	Price, Bruce M	Knopp, Amy
+1102625	Samantha	Reeves	F	10	Johnson, Camille	Wills, Rebecca Dawn	Price, Bruce M	Davis, John David		McCullough, Royce	Rapp, Lorraine M	Kenyon, John Q.
+403160	Tyrell	Reiman	M	12	Behrens, Stacey D	Kemper, Debra Croshaw	Ploss, Carrie L	Wills, Rebecca Dawn		Ploss, Carrie L	Larsen, Ted	Ploss, Carrie L
+402272	Wesley	Reneau	M	11	Connor, Jo Marie	Bleeker, Julie M	Fonnesbeck, Brett F	Carder, Jacob P		Mathes, Jessica	Behrens, Stacey D	Allen, Benjamin F
+1102759	Sebastian	Renteria Gonzalez	M	10	Knopp, Amy	Harman, Benjamin T	Johnson, Camille	Jones, Nancy		Knopp, Amy	Price, Bruce M	Kenyon, John Q.
+402418	Keri	Rex	F	9	Jones, Nancy	Phillips, Todd A	Ritchie, Sherry ADELL	Harman, Benjamin T		Bowman, Jeffrey Mark	Veselka, Julie	Eslinger, Darlene
+402432	Kori	Rex	F	9	Manwaring, Nicole J	Kohring, Benjamin D	Harman, Benjamin T	Ritchie, Sherry ADELL		Jones, Nancy	Hathorne, Melodie A	Dodds, JOELLEN A
+903579	Ayleen	Reyes	F	9	Manwaring, Nicole J	Creek, Claudia K	Phillips, Todd A	Frost, Ryan C		Bowman, Jeffrey Mark	Hathorne, Melodie A	Eslinger, Darlene
+602586	Matthew	Richardson	M	11	Connor, Jo Marie	Carder, Jacob P	Mathes, Jessica	Campbell, Blaine		Showers, Gary	Stadelmeir, Tim	Jones, Nancy
+903270	Hannah	Richeson	F	9	Veselka, Julie	Kohring, Benjamin D	Campbell, Blaine	Harman, Benjamin T		Phillips, Todd A	Bowman, Jeffrey Mark	Merkley, Cassandra L
+803236	Bailey	Rigel	F	11	Forster, Jerald P	Carder, Jacob P	Fonnesbeck, Brett F	Merkley, Cassandra L		Casperson, Joseph R	Bleeker, Julie M	Leiser, Linda W
+107309	Brett	Riley	M	11	Mathes, Jessica	Bortz, Dennis L	Fonnesbeck, Brett F	Casperson, Joseph R		Johnson, Camille	Wright, Candace Oaxaca	McCullough, Royce
+403532	Ileana	Ritter-Engle	F	9	Bortz, Dennis L	Torgrimson, Jason	Eslinger, Darlene	Ritchie, Sherry ADELL		Frost, Ryan C	Hathorne, Melodie A	Dodds, JOELLEN A
+2020778	Matthew	Ritter-Engle	M	12	Larsen, Ted	Leiser, Linda W	Tucker, Patrice	Kemper, Debra Croshaw		Erkins Goss, Marla B	Behrens, Stacey D	Rapp, Lorraine M
+501632	Zoe	Rivas	F	11	Leiser, Linda W	Bortz, Gala A	Connor, Jo Marie	Berriochoa, Jeannine		Forster, Jerald P	Wright, Candace Oaxaca	Davis, John David
+11021	Ricardo	Rivero	M	11	Harr, Matthew L.	Leiser, Linda W	Manwaring, Nicole J	Kenyon, John Q.		Forster, Jerald P	McCullough, Royce	Bleeker, Julie M
+100130	Bailey	Roberts	F	10	Harman, Benjamin T	Grindstaff, Martin A	Wills, Rebecca Dawn	Knopp, Amy		Price, Bruce M	Bleeker, Julie M	Bortz, Gala A
+106892	Michael	Roberts	M	11	Bleeker, Julie M	Fonnesbeck, Brett F	Behrens, Stacey D	Connor, Jo Marie		Bleeker, Julie M	Forster, Jerald P	Harman, Benjamin T
+103387	Jasmine	Robertson	F	12	Larsen, Ted	Harr, Matthew L.	Kenyon, John Q.	Kemper, Debra Croshaw		McCullough, Royce	Kohring, Benjamin D	Bleeker, Julie M
+402375	Cade	Robinson	M	12	Erkins Goss, Marla B	Larsen, Ted	Stadelmeir, Tim	Kemper, Debra Croshaw		Schaal, Mark S	Bleeker, Julie M	McCullough, Royce
+103406	Jacob	Robinson	M	12	Haycock, James Dee	Kemper, Debra Croshaw	Wright, Candace Oaxaca	Larsen, Ted		Erkins Goss, Marla B	Moody, RONALD L	Tucker, Patrice
+402376	Myrissa	Robinson	F	10	Kenyon, John Q.	Davis, John David	McCullough, Royce	Price, Bruce M		Berriochoa, Jeannine	Bleeker, Julie M	Howard, Kevin D
+103753	Noah	Robinson	M	11	Tucker, Patrice	Fonnesbeck, Brett F	Mathes, Jessica	Merkley, Cassandra L		Leiser, Linda W	Wills, Rebecca Dawn	Bleeker, Julie M
+702648	Rebekah	Robinson	F	9	Dodds, JOELLEN A	Veselka, Julie	Haycock, James Dee	Casperson, Joseph R		Ritchie, Sherry ADELL	Putman, CHRISTINE	Eslinger, Darlene
+602720	Hannah	Robles	F	10	Kenyon, John Q.	Reynolds, Allyn D	Davis, John David	Carder, Jacob P		Casperson, Joseph R	Price, Bruce M	Jones, Nancy
+701608	Arianna	Rodriguez	F	12	Bleeker, Julie M	Tucker, Patrice	Merkley, Cassandra L	Showers, Gary		Johnson, Camille	Mathes, Jessica	Leiser, Linda W
+502231	Madyson	Rodriguez	F	9	Berriochoa, Jeannine	Jones, Nancy	Veselka, Julie	Ritchie, Sherry ADELL		Eslinger, Darlene	Dodds, JOELLEN A	Howard, Kevin D
+501935	Joshua	Roe	M	12	Haycock, James Dee	Merkley, Cassandra L	Johnson, Camille	Kemper, Debra Croshaw		Haycock, James Dee	Wright, Candace Oaxaca	Haycock, James Dee
+401986	Amy	Roemer	F	11	Johnson, Camille	Fonnesbeck, Brett F	Bortz, Gala A	Connor, Jo Marie		Forster, Jerald P	Bleeker, Julie M	Howard, Kevin D
+100585	Emily	Roeser	F	10	Federico, Michael A	Berriochoa, Jeannine	Reynolds, Allyn D	Davis, John David		Harr, Matthew L.	Grindstaff, Martin A	Jones, Nancy
+402433	Jordan	Rogers	F	9	Creek, Claudia K	Ritchie, Sherry ADELL	Hathorne, Melodie A	Bowman, Jeffrey Mark		Jones, Nancy	Phillips, Todd A	Mathes, Jessica
+1101514	Evans Joy	Rondina	F	12	Connor, Jo Marie	Ploss, Carrie L	Mottern-High, Janis	Larsen, Ted		Bortz, Gala A	Johnson, Camille	Howard, Kevin D
+601563	Melina Mae	Rondina	F	11	Tucker, Patrice	Carder, Jacob P	Bortz, Gala A	Fonnesbeck, Brett F		Forster, Jerald P	Bleeker, Julie M	Manwaring, Nicole J
+502230	Cody	Root	M	10	Behrens, Stacey D	Harman, Benjamin T	Kenyon, John Q.	Davis, John David		Kohring, Benjamin D	Rapp, Lorraine M	Harr, Matthew L.
+1101460	Samuel	Ross	M	12	Larsen, Ted	Kemper, Debra Croshaw	Bleeker, Julie M	Campbell, Blaine		Moody, RONALD L	Morris, Eudelia T	Morris, Eudelia T
+402537	Ethan	Rovig	M	9	Veselka, Julie	McCullough, Royce	Berriochoa, Jeannine	Bowman, Jeffrey Mark		Eslinger, Darlene	Phillips, Todd A	Kohring, Benjamin D
+501738	Katelynn	Rudd	F	12	Behrens, Stacey D	Larsen, Ted	Connor, Jo Marie	Kemper, Debra Croshaw		Ploss, Carrie L	Ploss, Carrie L	Bleeker, Julie M
+403165	Candace	Ruiz	F	11	Fiala, Marilyn M	Frost, Ryan C	Mathes, Jessica	Hartley, William M		Showers, Gary	Manwaring, Nicole J	Connor, Jo Marie
+501869	Michael	Ruiz	M	11	Merkley, Cassandra L	Fonnesbeck, Brett F	Stadelmeir, Tim	Vogt, Daniel		Mathes, Jessica	Connor, Jo Marie	Ploss, Carrie L
+103154	Chelsie	Russell	F	10	Federico, Michael A	Davis, John David	Reynolds, Allyn D	Price, Bruce M		Grindstaff, Martin A	Rapp, Lorraine M	Frost, Ryan C
+401590	Thomas	Russell	M	12	Larsen, Ted	Frost, Ryan C	Kemper, Debra Croshaw	Leiser, Linda W		Ritchie, Sherry ADELL	Casperson, Joseph R	Leiser, Linda W
+106008	Brianna	Saeger	F	9	Veselka, Julie	Haycock, James Dee	Harman, Benjamin T	Ritchie, Sherry ADELL		Dodds, JOELLEN A	Merkley, Cassandra L	Mathes, Jessica
+1102076	Ramon	Salcido	M	9	Moody, RONALD L	Veselka, Julie	Kohring, Benjamin D	Ritchie, Sherry ADELL		Harman, Benjamin T	Dodds, JOELLEN A	Fiala, Marilyn M
+2020919	Stephany	Saldivar	F	11	Connor, Jo Marie	Schaal, Mark S	Merkley, Cassandra L	Showers, Gary		Fonnesbeck, Brett F	Forster, Jerald P	Davis, John David
+105231	Teresa	Salgado-Fuentes	F	10	Federico, Michael A	Rapp, Lorraine M	Kenyon, John Q.	McCullough, Royce		Casperson, Joseph R	Davis, John David	Harr, Matthew L.
+107440	Hud	Sanasan	M	10	Jones, Nancy	Kenyon, John Q.	Carder, Jacob P	Knopp, Amy		Price, Bruce M	Kohring, Benjamin D	Leiser, Linda W
+702509	Thayne	Sanborn	M	10	Price, Bruce M	Torgrimson, Jason	McCullough, Royce	Campbell, Blaine		Knopp, Amy	Torgrimson, Jason	Kenyon, John Q.
+402087	Fernando	Sanchez Serrano	M	11	Harr, Matthew L.	Forster, Jerald P	Merkley, Cassandra L	Johnson, Camille		Showers, Gary	Kohring, Benjamin D	Bleeker, Julie M
+501929	Ricardo	Sanchez	M	12	Leiser, Linda W	Kemper, Debra Croshaw	Bleeker, Julie M	Morris, Eudelia T		Moody, RONALD L	Wright, Candace Oaxaca	Tucker, Patrice
+1101457	Stephanie	Sanchez	F	12	Allen, Benjamin F	Merkley, Cassandra L	Grindstaff, Martin A	Erkins Goss, Marla B		Bleeker, Julie M	Mathes, Jessica	Johnson, Camille
+101743	Marcela	Sanchez-Ayala	F	11	Allen, Benjamin F	Wells, Vivian R	Merkley, Cassandra L	Rapp, Lorraine M		Forster, Jerald P	Kenyon, John Q.	Tucker, Patrice
+601475	Carson	Sandau	M	11	Merkley, Cassandra L	Forster, Jerald P	Connor, Jo Marie	Hamilton, Sharee L		Showers, Gary	Wright, Candace Oaxaca	Casperson, Joseph R
+107658	Shannon	Sartin	F	10	Grindstaff, Martin A	Knopp, Amy	Knopp, Amy	Jones, Nancy		Campbell, Blaine	Leiser, Linda W	Connor, Jo Marie
+102197	Alexis	Savage	F	12	Leiser, Linda W	Wills, Rebecca Dawn	Rapp, Lorraine M	Mathes, Jessica		Behrens, Stacey D	Hyer, Nathan	Larsen, Ted
+103868	Anthony	Schade	M	9	Creek, Claudia K	Ritchie, Sherry ADELL	Hathorne, Melodie A	Frost, Ryan C		Torgrimson, Jason	Bowman, Jeffrey Mark	Eslinger, Darlene
+107083	Mariah	Schaeffer	F	11	Bleeker, Julie M	Manwaring, Nicole J	Mathes, Jessica	Kenyon, John Q.		Johnson, Camille	Jones, Nancy	Wright, Candace Oaxaca
+401998	Jason	Schenk	M	11	Bleeker, Julie M	Erkins Goss, Marla B	Behrens, Stacey D	Forster, Jerald P		Connor, Jo Marie	Wills, Rebecca Dawn	Fonnesbeck, Brett F
+703253	Matthew	Schenk	M	11	Bleeker, Julie M	Erkins Goss, Marla B	Bortz, Gala A	Forster, Jerald P		Connor, Jo Marie	Kohring, Benjamin D	Fonnesbeck, Brett F
+105508	MacKelti	Schneider	F	10	Behrens, Stacey D	Wills, Rebecca Dawn	Creek, Claudia K	Davis, John David		Grindstaff, Martin A	Rapp, Lorraine M	Harr, Matthew L.
+105507	Tyson	Schneider	M	11	Rapp, Lorraine M	Showers, Gary	Fonnesbeck, Brett F	Showers, Gary		Mathes, Jessica	Behrens, Stacey D	Wills, Rebecca Dawn
+402419	Braden	Scholes	M	9	Berriochoa, Jeannine	Stadelmeir, Tim	Hathorne, Melodie A	Ritchie, Sherry ADELL		Frost, Ryan C	Bowman, Jeffrey Mark	Mathes, Jessica
+402177	Brooklyn	Scholes	M	10	Wills, Rebecca Dawn	Grindstaff, Martin A	Price, Bruce M	Reynolds, Allyn D		Schaal, Mark S	Davis, John David	McCullough, Royce
+503223	Camellia	Scholes	F	9	Stadelmeir, Tim	Dodds, JOELLEN A	Haycock, James Dee	McCullough, Royce		Eslinger, Darlene	Phillips, Todd A	Hathorne, Melodie A
+100176	Joshua	Schreurs	M	10	Kenyon, John Q.	McCullough, Royce	Ploss, Carrie L	Price, Bruce M		Veselka, Julie	Reynolds, Allyn D	Wills, Rebecca Dawn
+107978	McKenzie	Schroeder	F	9			Leiser, Linda W					
+702058	Jonathan	Schroedter	M	11	Bleeker, Julie M	Carder, Jacob P	Mathes, Jessica	Kenyon, John Q.		Connor, Jo Marie	Morris, Eudelia T	Morris, Eudelia T
+402799	Tanner	Schutz	M	11	Bleeker, Julie M	Morris, Eudelia T	Merkley, Cassandra L	Carder, Jacob P		Showers, Gary	Forster, Jerald P	Manwaring, Nicole J
+402213	Taylor	Schvaneveldt	F	10	Davis, John David	Stadelmeir, Tim	McCullough, Royce	Bleeker, Julie M		Harr, Matthew L.	Rapp, Lorraine M	Kenyon, John Q.
+107979	Caleb	Schwarz	M	9			Leiser, Linda W					
+107913	Andrue	Schwisow	M	9	Hall, Brenda D	Hall, Brenda D	Hall, Brenda D	Hall, Brenda D		Hall, Brenda D	Hall, Brenda D	Hall, Brenda D
+703120	Ryan	Scott	M	11	Mathes, Jessica	Leiser, Linda W	Manwaring, Nicole J	Jones, Nancy		Leiser, Linda W	Kenyon, John Q.	Wills, Rebecca Dawn
+11042	Robert	Scovel	M	9	Dodds, JOELLEN A	Kohring, Benjamin D	Berriochoa, Jeannine	Frost, Ryan C		Ritchie, Sherry ADELL	Veselka, Julie	Kohring, Benjamin D
+823786	Aspen	Seal	F	9	Phillips, Todd A	Schaal, Mark S	Harman, Benjamin T	Veselka, Julie		Frost, Ryan C	Bowman, Jeffrey Mark	Mathes, Jessica
+402176	Mikayla	Seaman	F	10	Schaal, Mark S	Bortz, Dennis L	McCullough, Royce	Davis, John David		Morales, BARBARA A	Belliston, Jeremy L	Lauda, Kathleen A
+901822	Kristina	Seawright	F	12	Erkins Goss, Marla B	Kemper, Debra Croshaw	Grindstaff, Martin A	Manwaring, Nicole J		Behrens, Stacey D	Johnson, Camille	Connor, Jo Marie
+403170	Victoria	Sefcsik	F	11	Forster, Jerald P	Wright, Candace Oaxaca	Connor, Jo Marie	Fonnesbeck, Brett F		Bortz, Gala A	Rapp, Lorraine M	Davis, John David
+1102001	Denis	Sehic	M	12	Bleeker, Julie M	Larsen, Ted	Kemper, Debra Croshaw	Erkins Goss, Marla B		Moody, RONALD L	Wills, Rebecca Dawn	Johnson, Camille
+601939	Kimberly	Seiller	F	11	Fonnesbeck, Brett F	Carder, Jacob P	Johnson, Camille	Bleeker, Julie M		Behrens, Stacey D	Wright, Candace Oaxaca	Forster, Jerald P
+823478	Angelica	Sena	F	12	Larsen, Ted	Behrens, Stacey D	Stadelmeir, Tim	Bleeker, Julie M		Ploss, Carrie L	Mathes, Jessica	Ploss, Carrie L
+1101495	Janaye	Sermon	F	12	Allen, Benjamin F	Allen, Benjamin F	Allen, Benjamin F	Allen, Benjamin F		Bleeker, Julie M	Moody, RONALD L	Hamilton, Sharee L
+501633	Steven	Serrano	M	10	Creek, Claudia K	Knopp, Amy	Kenyon, John Q.	McCullough, Royce		Berriochoa, Jeannine	Schaal, Mark S	Harr, Matthew L.
+903560	Pedro	Serrato	M	10	Knopp, Amy	Price, Bruce M	Kenyon, John Q.	Berriochoa, Jeannine		Veselka, Julie	Jones, Nancy	Kohring, Benjamin D
+501807	Ryan	Settlemoir	M	11	Connor, Jo Marie	Fonnesbeck, Brett F	Manwaring, Nicole J	Forster, Jerald P		Reynolds, Allyn D	Leiser, Linda W	Jones, Nancy
+602325	Rustam	Shamshidinov	M	12	Merkley, Cassandra L	Larsen, Ted	Wills, Rebecca Dawn	Erkins Goss, Marla B		Stadelmeir, Tim	Vogt, Daniel	Kemper, Debra Croshaw
+1101837	Alex	Sharp	M	10	Grindstaff, Martin A	Harman, Benjamin T	Morris, Eudelia T	Knopp, Amy		Harr, Matthew L.	Bortz, Gala A	Kohring, Benjamin D
+1101648	Kelsey	Sharp	F	11	Federico, Michael A	Schaal, Mark S	Connor, Jo Marie	Fonnesbeck, Brett F		Forster, Jerald P	McCullough, Royce	Bleeker, Julie M
+402197	Shelby	Shaw	F	10	Federico, Michael A	Grindstaff, Martin A	Reynolds, Allyn D	Rapp, Lorraine M		Veselka, Julie	Harr, Matthew L.	Jones, Nancy
+1101621	Joellwynne	Sheen	F	12	Erkins Goss, Marla B	Merkley, Cassandra L	Grindstaff, Martin A	Bleeker, Julie M		Casperson, Joseph R	Mathes, Jessica	Johnson, Camille
+1102017	Joseph	Sheen	M	10	Behrens, Stacey D	Bleeker, Julie M	Price, Bruce M	Johnson, Camille		Reynolds, Allyn D	Davis, John David	Kenyon, John Q.
+402295	William	Shirk	M	9	Manwaring, Nicole J	Veselka, Julie	Erkins Goss, Marla B	Putman, CHRISTINE		Dodds, JOELLEN A	Putman, CHRISTINE	Phillips, Todd A
+501603	Alec	Shockley	M	11	Frost, Ryan C	Berriochoa, Jeannine	Fonnesbeck, Brett F	Forster, Jerald P		Leiser, Linda W	Campbell, Blaine	Connor, Jo Marie
+501618	Lavina	Shook	F	11	Forster, Jerald P	Merkley, Cassandra L	Schaal, Mark S	Connor, Jo Marie		Fonnesbeck, Brett F	Bleeker, Julie M	Johnson, Camille
+104762	Salina	Shuter	F	9	Ritchie, Sherry ADELL	Eslinger, Darlene	Harman, Benjamin T	Casperson, Joseph R		Frost, Ryan C	Dodds, JOELLEN A	Hathorne, Melodie A
+1102115	Alvin	Sihapanya	M	9	Bortz, Dennis L	Dodds, JOELLEN A	Grady, Joyce Ann	Frost, Ryan C				
+1102046	Andrea	Silva	F	9	Bortz, Dennis L	Bowman, Jeffrey Mark	Harman, Benjamin T	Kohring, Benjamin D		Phillips, Todd A	Hathorne, Melodie A	Moody, RONALD L
+102393	Dominic	Silva	M	9	Phillips, Todd A	Stadelmeir, Tim	Carder, Jacob P	Kohring, Benjamin D		Bowman, Jeffrey Mark	Hathorne, Melodie A	Moody, RONALD L
+502466	Erik	Simas	M	9	Moody, RONALD L	Leiser, Linda W	Phillips, Todd A	Campbell, Blaine		Eslinger, Darlene	Wills, Rebecca Dawn	Dodds, JOELLEN A
+501604	Allison	Simmons	F	11	Connor, Jo Marie	Fonnesbeck, Brett F	Stadelmeir, Tim	Rapp, Lorraine M		Forster, Jerald P	McCullough, Royce	Davis, John David
+107908	Bradon	Simms	M	9	Manwaring, Nicole J	Jones, Nancy	Harman, Benjamin T	Bowman, Jeffrey Mark		Ritchie, Sherry ADELL	Veselka, Julie	Eslinger, Darlene
+602076	Katelyn	Simonson	F	9	Hathorne, Melodie A	Berriochoa, Jeannine	McCullough, Royce	Dodds, JOELLEN A		Ritchie, Sherry ADELL	Erkins Goss, Marla B	Howard, Kevin D
+702777	Savannah	Singleton	F	10	Federico, Michael A	Wills, Rebecca Dawn	Kenyon, John Q.	Knopp, Amy		Harman, Benjamin T	Price, Bruce M	Jones, Nancy
+10692	Kevin	Skov	M	9	Dodds, JOELLEN A	Berriochoa, Jeannine	Veselka, Julie	Kohring, Benjamin D		Ritchie, Sherry ADELL	Schaal, Mark S	Moody, RONALD L
+401882	Hunter	Slagel	F	12	Erkins Goss, Marla B	Carder, Jacob P	Kemper, Debra Croshaw	Manwaring, Nicole J		Moody, RONALD L	Larsen, Ted	Bleeker, Julie M
+402990	Quentin	Slagowski	M	9	Bortz, Dennis L	Eslinger, Darlene	Johnson, Camille	Dodds, JOELLEN A		Phillips, Todd A	Bortz, Gala A	Hathorne, Melodie A
+811993	Dustin	Slatter	M	10	Creek, Claudia K	Grindstaff, Martin A	Putman, CHRISTINE	Grier, Marilee		Reynolds, Allyn D	Fiala, Marilyn M	Bleeker, Julie M
+601304	Alexander	Slinger	M	11	Grier, Marilee	Grier, Marilee	Grier, Marilee	Fiala, Marilyn M		Stadelmeir, Tim	Putman, CHRISTINE	Grier, Marilee
+10906	Chansee	Smith	F	11	Bleeker, Julie M	Manwaring, Nicole J	Mathes, Jessica	Merkley, Cassandra L		Showers, Gary	Wright, Candace Oaxaca	Rapp, Lorraine M
+401845	Lauren	Smith	F	12	Grier, Marilee	Schaal, Mark S	Mottern-High, Janis	Behrens, Stacey D		Bleeker, Julie M	Casperson, Joseph R	Davis, John David
+103633	Paige	Smith	F	10	Berriochoa, Jeannine	Frost, Ryan C	Wills, Rebecca Dawn	Knopp, Amy		Johnson, Camille	Grindstaff, Martin A	Harr, Matthew L.
+501619	Tucker	Smith	M	11	Harr, Matthew L.	Forster, Jerald P	Connor, Jo Marie	Fonnesbeck, Brett F		Bortz, Gala A	Kohring, Benjamin D	Bleeker, Julie M
+402008	Jane	Snelling	F	11	Forster, Jerald P	Schaal, Mark S	Ploss, Carrie L	Fonnesbeck, Brett F		Bortz, Gala A	Connor, Jo Marie	Hartley, William M
+502801	Cambria	Sorenson	F	9	Federico, Michael A	Veselka, Julie	Ritchie, Sherry ADELL	Moody, RONALD L		Harman, Benjamin T	Bowman, Jeffrey Mark	Mathes, Jessica
+502180	Megan	Sorenson	F	9	Eslinger, Darlene	Phillips, Todd A	Johnson, Camille	Frost, Ryan C		Harman, Benjamin T	Veselka, Julie	Dodds, JOELLEN A
+601935	Amanda	Stacey	F	10	Davis, John David	Reynolds, Allyn D	Harr, Matthew L.	Bleeker, Julie M		Grindstaff, Martin A	Rapp, Lorraine M	Frost, Ryan C
+403052	Jacob	Stagge	M	9	Stadelmeir, Tim	Berriochoa, Jeannine	Veselka, Julie	Bowman, Jeffrey Mark		Phillips, Todd A	Bortz, Gala A	Eslinger, Darlene
+501912	Morgan	Stanger	F	12	Tucker, Patrice	Merkley, Cassandra L	Kemper, Debra Croshaw	Vogt, Daniel		Bleeker, Julie M	Wills, Rebecca Dawn	Hartley, William M
+402287	Jeremy	Stark	M	11	Bleeker, Julie M	Fonnesbeck, Brett F	Tucker, Patrice	Merkley, Cassandra L		Mathes, Jessica	Kohring, Benjamin D	Leiser, Linda W
+402288	Taylor	Stark	F	11	Allen, Benjamin F	Fonnesbeck, Brett F	Merkley, Cassandra L	Tucker, Patrice		Bleeker, Julie M	Forster, Jerald P	Leiser, Linda W
+812003	Sierra	Starley	F	11	Allen, Benjamin F	Fonnesbeck, Brett F	Bortz, Gala A	Connor, Jo Marie		Bleeker, Julie M	Forster, Jerald P	Price, Bruce M
+107160	Makhala	Starr	F	9	Manwaring, Nicole J	Eslinger, Darlene	Ritchie, Sherry ADELL	Frost, Ryan C		Casperson, Joseph R	Veselka, Julie	Dodds, JOELLEN A
+502034	Jacob	Starry	M	10	Grindstaff, Martin A	Haycock, James Dee	Wills, Rebecca Dawn	Knopp, Amy		Campbell, Blaine	Price, Bruce M	Frost, Ryan C
+100577	Erik	Steinke	M	9	Ritchie, Sherry ADELL	Dodds, JOELLEN A	Carder, Jacob P	Veselka, Julie		Stadelmeir, Tim	Erkins Goss, Marla B	Merkley, Cassandra L
+100595	Jordan	Stephens	M	10	Torgrimson, Jason	Knopp, Amy	Johnson, Camille	Behrens, Stacey D		Price, Bruce M	Grindstaff, Martin A	Hyer, Nathan
+106868	Mariah	Stephens	F	11	Haycock, James Dee	Schaal, Mark S	Tucker, Patrice	Behrens, Stacey D		Showers, Gary	Hyer, Nathan	Forster, Jerald P
+601281	Chelsea	Stevens	F	12	Wright, Candace Oaxaca	Ploss, Carrie L	Mottern-High, Janis	Bleeker, Julie M		Larsen, Ted	Casperson, Joseph R	Casperson, Joseph R
+601703	Tyler	Stevens	M	10	Schaal, Mark S	Grindstaff, Martin A	Price, Bruce M	Davis, John David		Berriochoa, Jeannine	Bleeker, Julie M	McCullough, Royce
+1104343	Taylor	Stewart	F	9	Federico, Michael A	Bowman, Jeffrey Mark	Campbell, Blaine	Kohring, Benjamin D		Frost, Ryan C	Phillips, Todd A	Hathorne, Melodie A
+1102041	Dylan	Stigall	M	9	Creek, Claudia K	Kohring, Benjamin D	Moody, RONALD L	Veselka, Julie		Ritchie, Sherry ADELL	Bowman, Jeffrey Mark	Hyer, Nathan
+702315	Lillian	Stimpson	F	10	Leiser, Linda W	Grindstaff, Martin A	Reynolds, Allyn D	Knopp, Amy		Price, Bruce M	Schaal, Mark S	Frost, Ryan C
+901792	Tayler	Stimpson	F	12	Behrens, Stacey D	Harr, Matthew L.	Manwaring, Nicole J	Kemper, Debra Croshaw		Leiser, Linda W	Bleeker, Julie M	Vogt, Daniel
+107086	Chase	Stinson	M	11	Schaal, Mark S	Bortz, Dennis L	McCullough, Royce	Forster, Jerald P		Bleeker, Julie M	Wright, Candace Oaxaca	Fonnesbeck, Brett F
+702319	Jacoby	Stites	M	10	Knopp, Amy	Grindstaff, Martin A	Harr, Matthew L.	Putman, CHRISTINE		Knopp, Amy	Reynolds, Allyn D	Putman, CHRISTINE
+104750	Wyatt	Stockton	M	10	Stadelmeir, Tim	Schaal, Mark S	Johnson, Camille	Knopp, Amy		Grindstaff, Martin A	Price, Bruce M	Frost, Ryan C
+107570	Becca	Storm	F	9			Leiser, Linda W					
+2020751	Hailey	Stott	F	12	Johnson, Camille	Ploss, Carrie L	Bleeker, Julie M	Larsen, Ted		Federico, Michael A	Moody, RONALD L	Kemper, Debra Croshaw
+403004	Jenna	Straley	F	11	Federico, Michael A	Forster, Jerald P	Bleeker, Julie M	Tucker, Patrice		Schaal, Mark S	Behrens, Stacey D	Fonnesbeck, Brett F
+2020922	Kimberly	Strauch	F	11	Allen, Benjamin F	Merkley, Cassandra L	Mathes, Jessica	Tucker, Patrice		Showers, Gary	Grindstaff, Martin A	Bleeker, Julie M
+703414	Ryan	Sturgeon	M	10	Frost, Ryan C	Reynolds, Allyn D	Harr, Matthew L.	Grindstaff, Martin A		Schaal, Mark S	Kohring, Benjamin D	Knopp, Amy
+402626	Braden	Stutzman	M	10	Behrens, Stacey D	Stadelmeir, Tim	Price, Bruce M	Schaal, Mark S		Berriochoa, Jeannine	Davis, John David	Kenyon, John Q.
+106037	Santiago	Suarez	M	10	Reynolds, Allyn D	Kenyon, John Q.	Harr, Matthew L.	Frost, Ryan C		Knopp, Amy	Stadelmeir, Tim	Wells, Vivian R
+502093	Abigail	Sucher	F	10	Harman, Benjamin T	Reynolds, Allyn D	Davis, John David	Schaal, Mark S		Harr, Matthew L.	Bortz, Gala A	Kenyon, John Q.
+502253	Adria	Sumsion	F	12	Harman, Benjamin T	Ploss, Carrie L	Behrens, Stacey D	Kemper, Debra Croshaw		Larsen, Ted	Wright, Candace Oaxaca	Casperson, Joseph R
+502252	Ashlyn	Sumsion	F	10	Bleeker, Julie M	Davis, John David	Price, Bruce M	Grindstaff, Martin A		Schaal, Mark S	McCullough, Royce	Wills, Rebecca Dawn
+502008	Riley	Surber	M	10	Price, Bruce M	Grindstaff, Martin A	Morris, Eudelia T	Knopp, Amy		Campbell, Blaine	Reynolds, Allyn D	Frost, Ryan C
+501828	Lucinda	Surbrook	F	12	Leiser, Linda W	Merkley, Cassandra L	Grindstaff, Martin A	Kemper, Debra Croshaw		Erkins Goss, Marla B	Showers, Gary	Showers, Gary
+401844	Kaitlyn	Sutton	F	12	Behrens, Stacey D	Harr, Matthew L.	Mathes, Jessica	Erkins Goss, Marla B		Berriochoa, Jeannine	Mathes, Jessica	Leiser, Linda W
+1102060	Brooke	Swafford	F	9	Phillips, Todd A	Eslinger, Darlene	Bowman, Jeffrey Mark	McCullough, Royce		Harman, Benjamin T	Veselka, Julie	Kohring, Benjamin D
+1101663	Makenzie	Swafford	F	11	Mathes, Jessica	Behrens, Stacey D	Showers, Gary	Schaal, Mark S		Fonnesbeck, Brett F	Connor, Jo Marie	Bleeker, Julie M
+502813	Sabrina	Tarchione	F	10	Harman, Benjamin T	Erkins Goss, Marla B	Price, Bruce M	Grindstaff, Martin A		Campbell, Blaine	Davis, John David	Bortz, Gala A
+104836	Jocelyn	Taylor	F	12						Haycock, James Dee	Casperson, Joseph R	Casperson, Joseph R
+105324	Karissa	Taylor	F	9	Moody, RONALD L	Leiser, Linda W	Kohring, Benjamin D	Casperson, Joseph R		Hathorne, Melodie A	Phillips, Todd A	Bowman, Jeffrey Mark
+402270	Rachel	Taylor	F	11	Allen, Benjamin F	Showers, Gary	Behrens, Stacey D	Tucker, Patrice		Bleeker, Julie M	Kenyon, John Q.	Forster, Jerald P
+402201	Brandon	Tegan	M	10	Harman, Benjamin T	Grindstaff, Martin A	Schaal, Mark S	Jones, Nancy		Stadelmeir, Tim	Harr, Matthew L.	Knopp, Amy
+803063	Lexxis	Terry	F	11	Fonnesbeck, Brett F	Merkley, Cassandra L	Tucker, Patrice	Casperson, Joseph R		Bleeker, Julie M	Allen, Benjamin F	Forster, Jerald P
+902977	Jonathon	Tetz	M	9	Jones, Nancy	Haycock, James Dee	Erkins Goss, Marla B	Casperson, Joseph R		Ritchie, Sherry ADELL	Veselka, Julie	Bowman, Jeffrey Mark
+104130	Thom	Thom	M	11			Leiser, Linda W					
+100231	Paul	Thoman	M	9	Moody, RONALD L	Veselka, Julie	Berriochoa, Jeannine	Carder, Jacob P		Dodds, JOELLEN A	Phillips, Todd A	Eslinger, Darlene
+902431	Brad	Thompson	M	10	Kenyon, John Q.	Knopp, Amy	Harr, Matthew L.	Merkley, Cassandra L		Bleeker, Julie M	Casperson, Joseph R	Casperson, Joseph R
+403364	Caleb	Thompson	M	11	Forster, Jerald P	Behrens, Stacey D	Connor, Jo Marie	Rapp, Lorraine M		Fonnesbeck, Brett F	Bleeker, Julie M	Rapp, Lorraine M
+501605	Derek	Thompson	M	11	Harman, Benjamin T	Fonnesbeck, Brett F	Tucker, Patrice	Hathorne, Melodie A		Johnson, Camille	Behrens, Stacey D	Forster, Jerald P
+1102054	Dylan	Thompson	M	9	Ritchie, Sherry ADELL	Stadelmeir, Tim	Veselka, Julie	Schaal, Mark S		Dodds, JOELLEN A	Merkley, Cassandra L	Eslinger, Darlene
+403363	Gabrielle	Thompson	F	9	Hathorne, Melodie A	Dodds, JOELLEN A	Erkins Goss, Marla B	Carder, Jacob P		Phillips, Todd A	Bortz, Gala A	Howard, Kevin D
+105505	Kaitlynn	Thompson	F	10	Merkley, Cassandra L	Harman, Benjamin T	Kenyon, John Q.	Price, Bruce M		Reynolds, Allyn D	Johnson, Camille	Knopp, Amy
+502216	Tanner	Thompson	F	9	Manwaring, Nicole J	Dodds, JOELLEN A	Berriochoa, Jeannine	McCullough, Royce		Ritchie, Sherry ADELL	Veselka, Julie	Eslinger, Darlene
+502040	Andrea	Thueson	F	10	Harman, Benjamin T	Wills, Rebecca Dawn	Kenyon, John Q.	Bleeker, Julie M		Veselka, Julie	Harr, Matthew L.	Jones, Nancy
+702410	Calvin	Tillotson	M	10	Grindstaff, Martin A	Haycock, James Dee	Manwaring, Nicole J	Johnson, Camille		Knopp, Amy	Harr, Matthew L.	Putman, CHRISTINE
+105498	Guisseppi	Tipton	M	9	Leiser, Linda W	Ritchie, Sherry ADELL	Veselka, Julie	Moody, RONALD L		Stadelmeir, Tim	Erkins Goss, Marla B	Dodds, JOELLEN A
+1104301	Jackson	Tolbert	M	10	Stadelmeir, Tim	McCullough, Royce	Kenyon, John Q.	Price, Bruce M		Veselka, Julie	Reynolds, Allyn D	Manwaring, Nicole J
+1102104	Issiac	Torrero	M	9	Manwaring, Nicole J	Bowman, Jeffrey Mark	Berriochoa, Jeannine	Ritchie, Sherry ADELL		Frost, Ryan C	Hathorne, Melodie A	Mathes, Jessica
+1104324	Blanca	Torres	F	11	Fonnesbeck, Brett F	Leiser, Linda W	Moody, RONALD L	Casperson, Joseph R		Mathes, Jessica	Manwaring, Nicole J	Connor, Jo Marie
+502653	Chandra	Tovar	F	9	Eslinger, Darlene	Phillips, Todd A	Campbell, Blaine	Moody, RONALD L		Hathorne, Melodie A	Johnson, Camille	Bowman, Jeffrey Mark
+104187	Kyl	Towns	M	9	Veselka, Julie	Berriochoa, Jeannine	Carder, Jacob P	Ritchie, Sherry ADELL		Eslinger, Darlene	Merkley, Cassandra L	Bowman, Jeffrey Mark
+501743	Kenneth	Trammell	M	12	Johnson, Camille	Merkley, Cassandra L	Wells, Vivian R	Wills, Rebecca Dawn		Wells, Vivian R	Kemper, Debra Croshaw	Leiser, Linda W
+402002	Kennedy	Traveller	F	11	Forster, Jerald P	Hartley, William M	Bortz, Gala A	Bleeker, Julie M		Federico, Michael A	Connor, Jo Marie	Johnson, Camille
+501744	Ryan	Treanor	M	12	Vogt, Daniel	Wright, Candace Oaxaca	Bleeker, Julie M	Hartley, William M		Bortz, Gala A	Wills, Rebecca Dawn	Kemper, Debra Croshaw
+1102063	Alisha	Trejo	F	9	Manwaring, Nicole J	Ritchie, Sherry ADELL	Bowman, Jeffrey Mark	Moody, RONALD L		Harman, Benjamin T	Veselka, Julie	Eslinger, Darlene
+601299	Antonio	Trejo	M	12	Larsen, Ted	Behrens, Stacey D	Wills, Rebecca Dawn	Wills, Rebecca Dawn		Stadelmeir, Tim	Casperson, Joseph R	Kemper, Debra Croshaw
+1102053	Ray	Trejo	M	9	Dodds, JOELLEN A	Kohring, Benjamin D	Carder, Jacob P	Putman, CHRISTINE		Hathorne, Melodie A	Stadelmeir, Tim	Putman, CHRISTINE
+402265	Taryn	Trotter	F	11	Schaal, Mark S	Forster, Jerald P	Merkley, Cassandra L	Leiser, Linda W		Tucker, Patrice	Hamilton, Sharee L	Bleeker, Julie M
+1102055	Darin	Tschida	M	9	Phillips, Todd A	Bowman, Jeffrey Mark	Kohring, Benjamin D	Veselka, Julie		Frost, Ryan C	Ploss, Carrie L	Hyer, Nathan
+501745	Shane	Tucker	M	12	Erkins Goss, Marla B	Kemper, Debra Croshaw	Wills, Rebecca Dawn	Wright, Candace Oaxaca		Bortz, Gala A	Larsen, Ted	Tucker, Patrice
+402436	Matthew	Twiss	M	9	Hathorne, Melodie A	Eslinger, Darlene	Bowman, Jeffrey Mark	Harman, Benjamin T		Phillips, Todd A	Torgrimson, Jason	Bortz, Gala A
+402307	Paul	Twiss	M	11	Rapp, Lorraine M	Bortz, Gala A	Connor, Jo Marie	Fonnesbeck, Brett F		Forster, Jerald P	Hartley, William M	Bleeker, Julie M
+402797	Tiffany	Ulrich	F	9								
+1101876	Macy	Urrutia	F	11	Bleeker, Julie M	Bortz, Gala A	Schaal, Mark S	Fonnesbeck, Brett F		Federico, Michael A	Connor, Jo Marie	Forster, Jerald P
+502396	Brittany	Valdez	F	9	Stadelmeir, Tim	McCullough, Royce	Phillips, Todd A	Bowman, Jeffrey Mark		Ritchie, Sherry ADELL	Veselka, Julie	Mathes, Jessica
+502395	Stephan	Valdez	M	12	Erkins Goss, Marla B	Merkley, Cassandra L	Stadelmeir, Tim	Kemper, Debra Croshaw		Tucker, Patrice	Larsen, Ted	Bleeker, Julie M
+902652	Cheyene	Van Vooren	F	9	Federico, Michael A	Ritchie, Sherry ADELL	Moody, RONALD L	Veselka, Julie		Bowman, Jeffrey Mark	Schaal, Mark S	Mathes, Jessica
+100272	Swade	Vanceunebrock	M	12	Larsen, Ted	Kemper, Debra Croshaw	Torgrimson, Jason	Erkins Goss, Marla B		Leiser, Linda W	Moody, RONALD L	Torgrimson, Jason
+107571	Brooklyn	Vanderstelt	F	9			Leiser, Linda W					
+401957	Breyden	Veenstra	M	11	Mathes, Jessica	Hartley, William M	Merkley, Cassandra L	Tucker, Patrice		Johnson, Camille	Kenyon, John Q.	Hyer, Nathan
+1102693	Enoch	Victor	M	10	Grindstaff, Martin A	Knopp, Amy	Manwaring, Nicole J	Wills, Rebecca Dawn		Harr, Matthew L.	Casperson, Joseph R	Jones, Nancy
+502343	Christopher	Vito	M	9	Jones, Nancy	Stadelmeir, Tim	Kohring, Benjamin D	Bowman, Jeffrey Mark		Ritchie, Sherry ADELL	Veselka, Julie	Harman, Benjamin T
+502342	Mathew	Vito	M	11	Leiser, Linda W	Frost, Ryan C	Fonnesbeck, Brett F	Forster, Jerald P		Schaal, Mark S	Wills, Rebecca Dawn	Connor, Jo Marie
+402781	Jaylie	Wagoner	F	10	Tucker, Patrice	Knopp, Amy	Carder, Jacob P	Berriochoa, Jeannine		Grindstaff, Martin A	McCullough, Royce	Wills, Rebecca Dawn
+502009	James	Wagstaff	M	10	Grier, Marilee	Fiala, Marilyn M	Grier, Marilee	Grier, Marilee		Stadelmeir, Tim	Phillips, Todd A	Grier, Marilee
+401987	Chelsea	Waldapfel	F	11	Bleeker, Julie M	Manwaring, Nicole J	Mathes, Jessica	Merkley, Cassandra L		Showers, Gary	Harr, Matthew L.	Tucker, Patrice
+2020726	Emily	Walker	F	12	Allen, Benjamin F	Hartley, William M	Kemper, Debra Croshaw	Leiser, Linda W		Bleeker, Julie M	Moody, RONALD L	Johnson, Camille
+10427	Maggie	Walker	F	11	Connor, Jo Marie	Harr, Matthew L.	Showers, Gary	Fonnesbeck, Brett F		Mathes, Jessica	Hartley, William M	McCullough, Royce
+103998	Victoria	Walker	F	9	Veselka, Julie	Creek, Claudia K	Kohring, Benjamin D	Casperson, Joseph R		Dodds, JOELLEN A	Merkley, Cassandra L	Phillips, Todd A
+502199	Ryan	Walters	M	9	Stadelmeir, Tim	Ritchie, Sherry ADELL	Kohring, Benjamin D	Dodds, JOELLEN A		Harman, Benjamin T	Bortz, Gala A	Hathorne, Melodie A
+501606	Tyler	Walters	M	11	Harman, Benjamin T	Bleeker, Julie M	Bortz, Gala A	Connor, Jo Marie		Fonnesbeck, Brett F	Kohring, Benjamin D	Forster, Jerald P
+501905	KeyAnna	Walton	F	12	Schaal, Mark S	Merkley, Cassandra L	Grindstaff, Martin A	Erkins Goss, Marla B		Federico, Michael A	Mathes, Jessica	Bleeker, Julie M
+402405	Adam	Wangeman	M	9	Hathorne, Melodie A	Creek, Claudia K	Eslinger, Darlene	Bowman, Jeffrey Mark		Phillips, Todd A	Bortz, Gala A	Hyer, Nathan
+401988	Sierra	Wangeman	F	11	Wright, Candace Oaxaca	Wells, Vivian R	Bleeker, Julie M	Wright, Candace Oaxaca		Forster, Jerald P	Casperson, Joseph R	Grady, Joyce Ann
+401989	Allison	Ward	F	11	Bleeker, Julie M	Behrens, Stacey D	Connor, Jo Marie	Schaal, Mark S		Mathes, Jessica	Kenyon, John Q.	Casperson, Joseph R
+402437	Brittney	Ward	F	9	Hathorne, Melodie A	Berriochoa, Jeannine	Ritchie, Sherry ADELL	Dodds, JOELLEN A		Casperson, Joseph R	Bortz, Gala A	Mathes, Jessica
+1101455	Cayleb	Ward	M	12	Bortz, Gala A	Leiser, Linda W	Wright, Candace Oaxaca	Kemper, Debra Croshaw		Bleeker, Julie M	Forster, Jerald P	Johnson, Camille
+401885	Kaitlin	Ward	F	12	Bleeker, Julie M	Mottern-High, Janis	Behrens, Stacey D	Hartley, William M		Larsen, Ted	Casperson, Joseph R	Ploss, Carrie L
+702138	Jordan	Warren	F	11	Johnson, Camille	Fonnesbeck, Brett F	Creek, Claudia K	Forster, Jerald P		Behrens, Stacey D	Campbell, Blaine	Wright, Candace Oaxaca
+501722	Page	Warren	F	12	Bleeker, Julie M	Wright, Candace Oaxaca	Mottern-High, Janis	Creek, Claudia K		Haycock, James Dee	Schaal, Mark S	Davis, John David
+401854	Brayden	Warth	M	12	Bleeker, Julie M	Ploss, Carrie L	Kemper, Debra Croshaw	Leiser, Linda W		Bortz, Gala A	Casperson, Joseph R	Casperson, Joseph R
+402180	Chelsea	Warth	F	10	Bleeker, Julie M	Davis, John David	Kenyon, John Q.	Price, Bruce M		Casperson, Joseph R	Bortz, Gala A	Howard, Kevin D
+402812	Cameron	Wasden	M	10	Reynolds, Allyn D	Bortz, Dennis L	Kenyon, John Q.	Eslinger, Darlene		Harr, Matthew L.	Bortz, Gala A	Knopp, Amy
+402811	Kayla	Wasden	F	9	Hathorne, Melodie A	Dodds, JOELLEN A	Berriochoa, Jeannine	McCullough, Royce		Phillips, Todd A	Erkins Goss, Marla B	Howard, Kevin D
+602214	Brooks	Waters	M	9	Veselka, Julie	Ritchie, Sherry ADELL	Erkins Goss, Marla B	Moody, RONALD L		Stadelmeir, Tim	Leiser, Linda W	Bowman, Jeffrey Mark
+401855	Hunter	Waters	M	12	Kemper, Debra Croshaw	Harr, Matthew L.	Grindstaff, Martin A	Bleeker, Julie M		McCullough, Royce	Stadelmeir, Tim	Ploss, Carrie L
+502035	Cody	Watkins	M	10	Knopp, Amy	Grindstaff, Martin A	Grier, Marilee	Putman, CHRISTINE		Knopp, Amy	Reynolds, Allyn D	Putman, CHRISTINE
+501607	Madeline	Watkins	F	11	Forster, Jerald P	Bortz, Gala A	Schaal, Mark S	Berriochoa, Jeannine		Federico, Michael A	Connor, Jo Marie	Fonnesbeck, Brett F
+401886	Amanda	Webb	F	12	Kemper, Debra Croshaw	Merkley, Cassandra L	Johnson, Camille	Bleeker, Julie M		Ploss, Carrie L	Showers, Gary	Showers, Gary
+402203	Andrew	Webb	M	10	Davis, John David	Reynolds, Allyn D	Bleeker, Julie M	Price, Bruce M		Kohring, Benjamin D	Grindstaff, Martin A	Jones, Nancy
+502101	Christopher	Webb	M	9	Veselka, Julie	Berriochoa, Jeannine	Kohring, Benjamin D	Frost, Ryan C		Kohring, Benjamin D	Bowman, Jeffrey Mark	Phillips, Todd A
+812024	Douglas	Webb	M	10	Leiser, Linda W	Kenyon, John Q.	Schaal, Mark S	Jones, Nancy		Knopp, Amy	Wills, Rebecca Dawn	Harr, Matthew L.
+823395	Elizabeth	Webb	F	9	Manwaring, Nicole J	Creek, Claudia K	Phillips, Todd A	Veselka, Julie		Jones, Nancy	Erkins Goss, Marla B	Dodds, JOELLEN A
+402003	Shane	Welker	M	11	Johnson, Camille	Bortz, Gala A	Showers, Gary	Connor, Jo Marie		Fonnesbeck, Brett F	Bleeker, Julie M	Forster, Jerald P
+402293	Chad	Wells	M	10	Price, Bruce M	Grindstaff, Martin A	Wills, Rebecca Dawn	Reynolds, Allyn D		Knopp, Amy	Ploss, Carrie L	Jones, Nancy
+601897	Hunter	Wentworth	M	9	Putman, CHRISTINE	Haycock, James Dee	Carder, Jacob P	Fiala, Marilyn M		Bowman, Jeffrey Mark	Putman, CHRISTINE	Phillips, Todd A
+2020730	Joseph Leonard	Werner	M	12	Kemper, Debra Croshaw	Wright, Candace Oaxaca	Stadelmeir, Tim	Leiser, Linda W		Moody, RONALD L	Larsen, Ted	Ploss, Carrie L
+703178	Kendra	Werner	F	9	Ritchie, Sherry ADELL	Kohring, Benjamin D	Phillips, Todd A	Harman, Benjamin T		Hathorne, Melodie A	Bowman, Jeffrey Mark	Moody, RONALD L
+703179	Macy	Werner	F	9	Bortz, Dennis L	Kohring, Benjamin D	Phillips, Todd A	Moody, RONALD L		Torgrimson, Jason	Hathorne, Melodie A	Dodds, JOELLEN A
+100626	Keoni	West	M	10	Hall, Brenda D	Hall, Brenda D	Hall, Brenda D	Hall, Brenda D		Hall, Brenda D	Hall, Brenda D	Hall, Brenda D
+104203	Jacob	Westcott	M	10	Kenyon, John Q.	Knopp, Amy	Knopp, Amy	Casperson, Joseph R		Reynolds, Allyn D	Price, Bruce M	Bortz, Gala A
+1102687	Parker	Wheat	M	9	Moody, RONALD L	Berriochoa, Jeannine	Hathorne, Melodie A	Kohring, Benjamin D		Torgrimson, Jason	Phillips, Todd A	Dodds, JOELLEN A
+502001	Kylie	White	F	10	Kenyon, John Q.	Frost, Ryan C	Wills, Rebecca Dawn	Schaal, Mark S		Knopp, Amy	Harr, Matthew L.	Manwaring, Nicole J
+103757	Andrew	Wickern	M	12	Haycock, James Dee	Bortz, Gala A	Bleeker, Julie M	Mathes, Jessica		Larsen, Ted	Casperson, Joseph R	Casperson, Joseph R
+103758	Jacob	Wickern	M	12	Haycock, James Dee	Harr, Matthew L.	Bleeker, Julie M	Mathes, Jessica		Bortz, Gala A	Casperson, Joseph R	Leiser, Linda W
+902428	Bailey	Wilcox	F	10	Reynolds, Allyn D	Rapp, Lorraine M	Price, Bruce M	Behrens, Stacey D		Grindstaff, Martin A	Davis, John David	Johnson, Camille
+901771	Porter	Wilcox	M	12	Allen, Benjamin F	Bortz, Gala A	Johnson, Camille	Mathes, Jessica		Larsen, Ted	Wright, Candace Oaxaca	Bleeker, Julie M
+2020906	Katie	Wilkins	F	11	Forster, Jerald P	Harman, Benjamin T	Carder, Jacob P	Fonnesbeck, Brett F		Bortz, Gala A	Connor, Jo Marie	Davis, John David
+104085	Rachael	Wilkinson	F	10	Harman, Benjamin T	Davis, John David	McCullough, Royce	Leiser, Linda W		Harr, Matthew L.	Haycock, James Dee	Casperson, Joseph R
+503071	Emerson	Willey	F	9	Manwaring, Nicole J	Berriochoa, Jeannine	McCullough, Royce	Carder, Jacob P		Price, Bruce M	Erkins Goss, Marla B	Hathorne, Melodie A
+501747	Harrison	Williams	M	12	Bortz, Gala A	Ploss, Carrie L	Wright, Candace Oaxaca	Mathes, Jessica		Bleeker, Julie M	Wright, Candace Oaxaca	Leiser, Linda W
+501636	John	Williams	M	11	Forster, Jerald P	Bortz, Gala A	Connor, Jo Marie	Creek, Claudia K		Federico, Michael A	Kenyon, John Q.	Davis, John David
+702322	Kordell	Williams	M	10	Harman, Benjamin T	Erkins Goss, Marla B	Kenyon, John Q.	McCullough, Royce		Veselka, Julie	Price, Bruce M	Kohring, Benjamin D
+502182	Lindsey	Williams	F	9	Phillips, Todd A	Kohring, Benjamin D	Bowman, Jeffrey Mark	Frost, Ryan C		Stadelmeir, Tim	Veselka, Julie	Harman, Benjamin T
+401856	Nikole	Williams	F	12	Davis, John David	Ploss, Carrie L	Kemper, Debra Croshaw	Leiser, Linda W		Bleeker, Julie M	McCullough, Royce	Davis, John David
+108147	Kynzi	Williamson	F	9								
+502250	Emma	Wills	F	10	Kenyon, John Q.	Davis, John David	Frost, Ryan C	Price, Bruce M		Berriochoa, Jeannine	Schaal, Mark S	Leiser, Linda W
+501608	Ashley	Wilson	F	11	Federico, Michael A	Fonnesbeck, Brett F	Showers, Gary	Merkley, Cassandra L		Tucker, Patrice	Forster, Jerald P	Bleeker, Julie M
+102460	Falin	Wilson	M	9	Bortz, Dennis L	Eslinger, Darlene	Hathorne, Melodie A	Ritchie, Sherry ADELL		Frost, Ryan C	Dodds, JOELLEN A	Harman, Benjamin T
+602213	Jerry	Wilson	M	10	Wills, Rebecca Dawn	Kenyon, John Q.	Ploss, Carrie L	Jones, Nancy		Veselka, Julie	Price, Bruce M	Bleeker, Julie M
+402421	Taylor	Winson	F	9	Jones, Nancy	Stadelmeir, Tim	Berriochoa, Jeannine	Bowman, Jeffrey Mark		Ritchie, Sherry ADELL	Veselka, Julie	Mathes, Jessica
+402195	Morgan	Winsryg Olson	M	10	Kenyon, John Q.	Harman, Benjamin T	Johnson, Camille	McCullough, Royce		Kohring, Benjamin D	Wright, Candace Oaxaca	Knopp, Amy
+1102181	Shaneaqua	Winters	F	12	Bleeker, Julie M	Allen, Benjamin F	Grindstaff, Martin A	Johnson, Camille		Vogt, Daniel	Moody, RONALD L	Kemper, Debra Croshaw
+402284	Andrew	Withers	M	10	Stadelmeir, Tim	Bortz, Dennis L	Price, Bruce M	Davis, John David		Grindstaff, Martin A	Torgrimson, Jason	McCullough, Royce
+402282	Derek	Withers	M	12	Wright, Candace Oaxaca	Ploss, Carrie L	Bleeker, Julie M	Wright, Candace Oaxaca		Larsen, Ted	Casperson, Joseph R	Kemper, Debra Croshaw
+502218	Kelsey	Wolfe	F	9	Ritchie, Sherry ADELL	Veselka, Julie	Bowman, Jeffrey Mark	Casperson, Joseph R		Frost, Ryan C	Johnson, Camille	Eslinger, Darlene
+601902	Bryson	Wolters	M	9	Berriochoa, Jeannine	Ritchie, Sherry ADELL	Veselka, Julie	Kohring, Benjamin D		Frost, Ryan C	Dodds, JOELLEN A	Kohring, Benjamin D
+801939	Brooklyn	Wood	F	12	Federico, Michael A	Merkley, Cassandra L	Tucker, Patrice	Showers, Gary		Larsen, Ted	Mathes, Jessica	Ploss, Carrie L
+104945	Madsen	Wood	M	11	Fonnesbeck, Brett F	Bortz, Dennis L	Connor, Jo Marie	Bleeker, Julie M		Bortz, Gala A	Forster, Jerald P	Wills, Rebecca Dawn
+402181	Jaron	Woodward	M	9	Eslinger, Darlene	Veselka, Julie	Carder, Jacob P	Ritchie, Sherry ADELL		Harman, Benjamin T	Bowman, Jeffrey Mark	Moody, RONALD L
+501638	Courtney	Woolstenhulme	F	11	Johnson, Camille	Manwaring, Nicole J	Merkley, Cassandra L	Bleeker, Julie M		Showers, Gary	Forster, Jerald P	Wright, Candace Oaxaca
+401888	Keaton	Workman	M	12	Allen, Benjamin F	Mottern-High, Janis	Wright, Candace Oaxaca	Eslinger, Darlene		Larsen, Ted	Allen, Benjamin F	Allen, Benjamin F
+401857	Richard	Worst	M	12	Bleeker, Julie M	Merkley, Cassandra L	Grindstaff, Martin A	Stadelmeir, Tim		Erkins Goss, Marla B	Kemper, Debra Croshaw	Leiser, Linda W
+601966	Tyler	Worthington	M	9	Phillips, Todd A	Leiser, Linda W	Campbell, Blaine	Veselka, Julie		Jones, Nancy	Bowman, Jeffrey Mark	Mathes, Jessica
+1102593	Hailey	Wright	F	9	Hathorne, Melodie A	Stadelmeir, Tim	Berriochoa, Jeannine	Dodds, JOELLEN A		Ritchie, Sherry ADELL	Erkins Goss, Marla B	Bortz, Gala A
+10923	Whitney	Wright	F	12	Federico, Michael A	Manwaring, Nicole J	Bleeker, Julie M	Mathes, Jessica		Federico, Michael A	Moody, RONALD L	Leiser, Linda W
+902681	Tony	Wrobel	M	9	Ritchie, Sherry ADELL	Phillips, Todd A	Hathorne, Melodie A	Kohring, Benjamin D		Jones, Nancy	Schaal, Mark S	Dodds, JOELLEN A
+602751	Alexis	Ybarra	F	9	Bortz, Dennis L	Kohring, Benjamin D	Berriochoa, Jeannine	Frost, Ryan C		Bowman, Jeffrey Mark	Phillips, Todd A	Hathorne, Melodie A
+903140	Kayla	Yenne	F	9	Eslinger, Darlene	Haycock, James Dee	Veselka, Julie	Casperson, Joseph R		Phillips, Todd A	Merkley, Cassandra L	Dodds, JOELLEN A
+801938	Madison	Yergensen	F	12	Wright, Candace Oaxaca	Ploss, Carrie L	Kemper, Debra Croshaw	Berriochoa, Jeannine		Larsen, Ted	Johnson, Camille	Campbell, Blaine
+502107	Rebecca	Yergensen	F	10	Behrens, Stacey D	Wills, Rebecca Dawn	Reynolds, Allyn D	Price, Bruce M		Casperson, Joseph R	Grindstaff, Martin A	Knopp, Amy
+803040	Abrielle	Zampedri	F	11	Bleeker, Julie M	Showers, Gary	Allen, Benjamin F	Merkley, Cassandra L		Tucker, Patrice	Kenyon, John Q.	Forster, Jerald P
+903794	Alejandro	Zapata	M	9	Moody, RONALD L	Veselka, Julie	Kohring, Benjamin D	Campbell, Blaine		Torgrimson, Jason	Leiser, Linda W	Bowman, Jeffrey Mark
+107980	Cindy	Zhang	F	9			Leiser, Linda W					
+1102238	Lukus	Zick	M	11	Fonnesbeck, Brett F	Leiser, Linda W	Manwaring, Nicole J	Forster, Jerald P		Tucker, Patrice	Johnson, Camille	Frost, Ryan C
+702064	Nino	Zukic	M	10	Davis, John David	Erkins Goss, Marla B	Harr, Matthew L.	Wills, Rebecca Dawn		Grindstaff, Martin A	Johnson, Camille	Jones, Nancy
