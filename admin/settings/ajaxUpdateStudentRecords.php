@@ -34,9 +34,9 @@
 				 outgoing data passed to this
 				 page.
  ************************************************/
- 
- 	$file = file('../'.$config['dataFilePath']);
 
+ 	$file = file('../'.$config['dataFilePath']);
+	
 	$db->query('SELECT id FROM student', 'exists');
 	$studentArray = array();
 	while($row = $db->fetch_array('exists')){

@@ -80,8 +80,9 @@
         <h2 class="title"><a>Welcome to the Library Sign In</a></h2>
             <h3 style="color:#FFF; font-size:22px;">Please read below:</h3><br /><br />
             <ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
-                <li data-role="list-divider" data-swatch="a" data-theme="a" data-form="ui-bar-a" role="heading" class="ui-li ui-li-divider ui-bar-a ui-first-child" style="font-size: 16pt;">Sign out Successful</li>
+                <li data-role="list-divider" data-swatch="a" data-theme="a" data-form="ui-bar-a" role="heading" class="ui-li ui-li-divider ui-bar-a ui-first-child" style="font-size: 16pt;">Sign out Successfull</li>
                 <li data-form="ui-btn-up-a" data-swatch="a" data-theme="e" class="ui-li ui-li-static ui-btn-up-a" style="font-size: 20pt; text-align:center;">You have been signed out of the library successfully.</li>
+                
             </ul>
             <!--<a href="index.php" data-role="button" data-transition="flip">Got It!</a>-->
         </div>

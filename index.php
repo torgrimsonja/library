@@ -65,7 +65,7 @@
 		// Check to see if student exists in the database
 
 
-		$db->query('SELECT * FROM student WHERE id = ' . $sql['id'], 'checkForStudent');
+		$db->query('SELECT * FROM student WHERE id = \'' . $sql['id'] .'\'', 'checkForStudent');
 		if($db->num_rows('checkForStudent')){
 
 			//Check to see if this is a checkout request
@@ -102,8 +102,8 @@
 				
 				//Query teacher name
 				if(!$db->query('SELECT `'.$sql['block'].'` FROM student WHERE id = '.$sql['id'], 'teacherEmailAddress')){
-					//$template->errorPage('Unable to find email address of current teacher. SELECT '.$sql['block'].' FROM student WHERE id = '.$sql['studentId']);
-					//exit();
+					$template->errorPage('Unable to find email address of current teacher.');
+					exit();
 				}else{
 					$sql['teacherName'] = $data_validation->escape_sql($db->result('teacherEmailAddress', 0, $sql['block']));
 					//query for alternate email address
@@ -125,13 +125,12 @@
 					
 					//send email
 					mail($html['to'], $html['subject'], $html['message'], $html['headers']);
-					
 							
 				}
 					
 					
 					// redirect user to checkout page
-					header('Location:checkedOut.php');
+					header('Location:checkedOut.php?teacher='.$html['teacherName']);
 
 				
 				

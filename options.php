@@ -88,10 +88,11 @@
 		$sql['lastName'] = $db->result('studentInfo', 0, 'lastName');
 		$sql['date'] = date('Y-m-d');
 		$sql['timeIn'] = date('G:i:s');
+		//Get teacher name for current block
 		if($sql['block'] != ''){
 			$sql['teacherName'] = $db->result('studentInfo', 0, $sql['block']);
 		}else{
-			$sql['teacherName'] = '';	
+			$sql['teacherName'] = 'Not found';	
 		}
 
 		// insert checkin log
@@ -120,14 +121,9 @@
 			}
 			
 		}
-		
-		/*
+	
 		// send email to teacher
 		
-		//Query teacher name
-		if($db->query('SELECT `'.$sql['block'].'` FROM student WHERE id = '.$sql['studentId'], 'teacherEmailAddress')){
-		
-			$sql['teacherName'] = $data_validation->escape_sql($db->result('teacherEmailAddress', 0, $sql['block']));
 			//query for alternate email address
 			$db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
 			if($db->num_rows('alternameEmail')){
@@ -148,9 +144,7 @@
 			//send email
 			mail($html['to'], $html['subject'], $html['message'], $html['headers']);
 			
-					
-		}
-		*/
+
 		header('Location:checkedIn.php');
 		exit();
 		

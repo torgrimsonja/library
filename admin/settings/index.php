@@ -50,6 +50,15 @@
 		updateSettings($_POST['systemStatus'], $_POST['currentSchedule'], $_POST['sendEmail']);
 		
 	}
+	
+	if(array_key_exists('upload', $_GET) &&
+		array_key_exists('option', $_POST) &&
+		($_POST['option'] === 'replace' || $_POST['option'] === 'add') &&
+		array_key_exists('studentRecords', $_FILES)){
+			
+		upload($_FILES['studentRecords']['tmp_name'], $_POST['option']);
+		
+	}
  
 /************************************************
  *	PAGE SPECIFIC FUNCTIONS

@@ -72,23 +72,56 @@ function displaySettings(){
         </form>
 		</div>
         <div class="content">
-        	<script type="text/javascript">
-					function updateStudentRecords(){
-						console.log('bind worked');
-						$.ajax({
-								url: 'ajaxUpdateStudentRecords.php',
-								success: function(data){							
-									alert(data);
-								},
-								error: function(){
-									alert('Unable to update student records. Please try again.');
-								},
-							});
-					}
-			</script>
-        	<button id="btnUpdateStudents" onclick="updateStudentRecords();">Update Student Records</button>
+            <h3>Update Student Records</h3>
+        	<div class="content">
+            <form action="?upload" method="post" enctype="multipart/form-data" data-ajax="false">
+            	<input type="file" name="studentRecords" id="btnUpdateStudents" />
+               	<select name="option"  data-native-menu="false">
+                	<option value="replace">Remove all students from the database and replace them with these students.</option>
+                    <option value="add">Add these students to existing students in the database.</option>
+                </select>
+                <input type="submit" value="submit" />
+            </form>
+            </div>
         </div>
 <?php
+}
+
+function upload($filecsv, $option){
+	echo $option;
+	//$csvfile = $_FILES['studentRecords']['tmp_name'];
+	$csvfile = $filecsv;
+	if (($handle = fopen($csvfile, "r")) !== FALSE) {
+		if($option === 'replace'){
+			mysql_query('DELETE FROM `student`');
+		}
+		
+		$insertionCount = 0;
+		
+		while (($data = fgetcsv($handle, 1000, "\t")) !== FALSE) {
+			//echo $data[0];
+			$count = count($data);
+			if($count == 13){
+				$query = "INSERT INTO `local_library`.`student` (`id`, `firstName`, `lastName`, `gender`, `gradeLevel`, `p1`, `p2`, `p3`, `p4`, `p5`, `p6`, `p7`, `p8`) 	VALUES ('". $data['0']. "', '".
+						$data['1']. "', '".
+						$data['2']. "', '".
+						$data['3']. "', '".
+						$data['4']. "', '".
+						$data['5']. "', '".
+						$data['6']. "', '".
+						$data['7']. "', '".
+						$data['8']. "', '".
+						$data['9']. "', '".
+						$data['10']. "', '".
+						$data['11']. "', '".
+						$data['12']. "');";
+					
+						mysql_query($query);
+				$insertionCount++;
+			}
+		}
+    	fclose($handle);
+	}
 }
 
 function updateSettings($systemStatus, $currentSchedule, $sendEmail){
@@ -106,4 +139,4 @@ function updateSettings($systemStatus, $currentSchedule, $sendEmail){
 	
 	header('Location:?');	
 	exit();
-}
+}?>
