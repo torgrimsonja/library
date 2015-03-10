@@ -68,10 +68,11 @@
 		$db->query('SELECT * FROM student WHERE id = \'' . $sql['id'] .'\'', 'checkForStudent');
 		if($db->num_rows('checkForStudent')){
 
-			//Check to see if this is a checkout request
+			//Grab current system time
 			$sql['currDate'] = date('Y-m-d');
 			$sql['currTime'] = date('G:i:s');
 			
+			//checks to see if it is a checkin or checkout request
 			$db->query('SELECT id FROM `log` WHERE studentId = \''.$sql['id'].'\' AND date = \''.$sql['currDate'].'\' AND timeOut IS NULL', 'checkoutValidation');
 			if($db->num_rows('checkoutValidation')){
 
@@ -135,6 +136,7 @@
 				
 				
 			}else{
+				//Handle the checkin request
 				header('Location:options.php?id=' . $sql['id']);
 				
 			}

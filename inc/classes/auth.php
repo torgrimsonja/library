@@ -32,14 +32,9 @@
 		var $data_validation;
 		var $form;
 		var $functions;
-		var $allowedHosts = array(	'10.5.200.25',
-									'10.5.200.26',
-									'10.5.200.27',
-									'10.5.200.28',
-									'10.5.200.29',
-									'127.0.0.1',
-									'192.168.3.164',
-									'192.168.3.9');
+		var $allowedHosts = array(	'127.0.0.1',
+									'192.168.3.199',
+									'192.168.3.197');
 		
 		//Initialize construct method
 			function authentication()	{

@@ -39,6 +39,7 @@
 				 page.
  ************************************************/
  
+ //Check to see if checkin options have been passed
  if(array_key_exists('action', $_POST) &&
  	$_POST['action'] == 'processCheckin'){
 	 
