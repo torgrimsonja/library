@@ -1,0 +1,9 @@
+To Do:
+------------
+
+1. Decide how to handle separate school's email configurations
+2. Figure out marketing
+3. Set up licensing/security if necessary
+4. Create marketing page
+5. Create way for us to send out updates to all copies of the program off of a server
+6. Decide upon host server
