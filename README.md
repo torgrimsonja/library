@@ -6,7 +6,6 @@ Our software provides easy, automatic check in and out functionality for school 
 
 	  HOW
 ----------------
-School systems and individuals interested in acquiring the Library Checkin Software can contact Mr. Torgrimson at TFHS or visit _____ to order a copy of the product.
 
 	  WHO
 ----------------
