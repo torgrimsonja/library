@@ -33,7 +33,7 @@
 		var $form;
 		var $functions;
 		var $allowedHosts = array(	'127.0.0.1',
-									'192.168.3.199',
+									'96.5.145.174',
 									'192.168.3.197');
 		
 		//Initialize construct method

@@ -87,7 +87,7 @@
 				$currTime = strtotime(date('G:i:s'));
 				$endTime = strtotime($_SESSION['SCHEDULE']['ENDTIME']);
 				
-				//select current block			
+				//sequence through blocks to find current period		
 				foreach($_SESSION['SCHEDULE']['BLOCK'] as $key => $value){
 					$startTime = strtotime($value);
 					if($currTime >= $startTime && $currTime <= $endTime){

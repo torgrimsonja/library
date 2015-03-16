@@ -15,9 +15,9 @@
  * Editable configuration stuff
  *******************************/
 	$config['databaseHost']			=	"localhost";
-	$config['databaseName']			=	"local_library";
-	$config['databaseUser']			=	"root";
-	$config['databasePassword']		=	"bruins";
+	$config['databaseName']			=	"com_tfhsbruins_library";
+	$config['databaseUser']			=	"library";
+	$config['databasePassword']		=	"pizoned";
 /*******************************
 * SYSTEM CONSTANTS
 *******************************/

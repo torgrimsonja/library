@@ -44,15 +44,15 @@
 		
 		function connect($persistant = false)	{
 			if($persistant == false)	{
-				$this->session = mysql_connect($this->db['host'], $this->db['user'], $this->db['pass']);
+				$this->session = mysqli_connect($this->db['host'], $this->db['user'], $this->db['pass']);
 			} else	{
-				$this->session = mysql_pconnect($this->db['host'], $this->db['user'], $this->db['pass']);
+				$this->session = mysqli_connect($this->db['host'], $this->db['user'], $this->db['pass']);
 			}
 			if(!$this->session) {
-				die("Unable to connect to the database server at this time.<br><br>" . mysql_error());
+				die("Unable to connect to the database server at this time.<br><br>" . mysqli_error());
 			}
 			if(isset($this->db['database']))	{
-				mysql_select_db($this->db['database'], $this->session) or die(mysql_error());
+				mysqli_select_db($this->session, $this->db['database']);
 			}
 		}
 		
@@ -65,7 +65,7 @@
 			
 		function query($sql, $id = 0)	{
 			
-			$this->query[$id] = mysql_query($sql, $this->session);
+			$this->query[$id] = mysqli_query($sql, $this->session);
 
 			if($this->debug) {
 				echo '['.$id.'] : ' . $sql . '<br>';
@@ -84,13 +84,13 @@
 		}
 		
 		function num_rows($id=0){
-			$num_rows = mysql_num_rows($this->query[$id]);
+			$num_rows = mysqli_num_rows($this->query[$id]);
 			return $num_rows;
 		}
 		
 		//Returns mysql_fetch_array
 		function fetch_array($id = 0)	{
-			return mysql_fetch_array($this->query[$id]);
+			return mysqli_fetch_array($this->query[$id]);
 		}
 		
 		//Returns associative array as table => field
