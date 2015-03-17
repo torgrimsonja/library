@@ -94,8 +94,8 @@
 * 	TURN SITE OFF OR ON				*
 ************************************/
 
-
 	if(!ENABLED){
 		die(SITE_TITLE . ' is currently down for maintenance.  Please try again later.');
 	}
+
 ?>
