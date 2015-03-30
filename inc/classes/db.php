@@ -12,7 +12,7 @@
 
 
 /************************************************
- *	Initialize database_driver calss
+ *	Initialize database_driver class
 ************************************************/
  
  	$db = new database_driver($config['databaseHost'], $config['databaseUser'], $config['databasePassword'], $config['databaseName']);
@@ -71,7 +71,7 @@
 				echo '['.$id.'] : ' . $sql . '<br>';
 			}
 	
-			if(mysql_error())	{
+			if(mysqli_error())	{
 				$this->error = true;
 				return false;
 			} else	{
@@ -80,7 +80,10 @@
 		}
 		
 		function result($id, $row, $field){
-			return mysql_result($this->query[$id], $row, $field);
+			//mysqli_result doesn't seem to operate same as mysql_result used to...
+			//http://php.net/manual/en/class.mysqli-result.php
+			//Does this work?? Object oriented dohickey
+			return mysqli_result::fetch_all($this->query[$id], $row, $field);
 		}
 		
 		function num_rows($id=0){
@@ -98,10 +101,10 @@
 			$results = $this->query[$id];
 			$map = array();
 			$i = $j = 0;
-			$num_fields = mysql_num_fields($results);
+			$num_fields = mysqli_num_fields($results);
 		  
 			while($i < $num_fields)	{
-				$column = mysql_fetch_field($results, $i);
+				$column = mysqli_fetch_field($results, $i);
 			 
 				if(!empty($column->table))	{
 					$map[$j++] = array($column->table, $column->name);
@@ -111,7 +114,7 @@
 				$i++;
 			}
 			
-			if($row = mysql_fetch_row($this->query[$id]))	{
+			if($row = mysqli_fetch_row($this->query[$id]))	{
 				$resultRow = array();
 				$i = 0;
 				
@@ -127,12 +130,12 @@
 		}
 		
 		function multi_query()	{
-			$this->query = mysql_query("START TRANSACTION", $this->session);
+			$this->query = mysqli_query("START TRANSACTION", $this->session);
 	
 			$rs = func_get_args();
 	
 			foreach($rs as $index => $args)	{
-				$this->mquery = mysql_query(mysql_real_escape_string($args, $this->session));
+				$this->mquery = mysqli_query(mysqli_real_escape_string($args, $this->session));
 				if($this->debug) {
 					echo "[" . $index . "] :: " . $args;
 				}
@@ -140,16 +143,16 @@
 	
 		}
 		function begin_transaction()	{
-			$this->query = mysql_query("START TRANSACTION", $this->session);
+			$this->query = mysqli_query("START TRANSACTION", $this->session);
 			$this->error = false;
 		}
 		
 		function end_transaction()	{
 			if($this->error == true)	{
-				mysql_query("ROLLBACK");
+				mysqli_query("ROLLBACK");
 				trigger_error($this->last_error(), E_USER_NOTICE);
 			} else	{
-				mysql_query("COMMIT");
+				mysqli_query("COMMIT");
 			}
 			$this->error = false;
 		}
@@ -157,20 +160,21 @@
 		
 		
 		function last_error()	{
-			return (mysql_errno($this->session)) ? mysql_errno($this->session) . ': ' . mysql_error($this->session) : null;
+			return (mysqli_errno($this->session)) ? mysqli_errno($this->session) . ': ' . mysqli_error($this->session) : null;
 		}
 		
 		
 		function last_affected($id = 0)	{
-			return ($this->query[$id]) ? mysql_affected_rows($this->session) : false;
+			return ($this->query[$id]) ? mysqli_affected_rows($this->session) : false;
 		}
 		
 		function last_insert_id()	{
-			return mysql_insert_id($this->session);
+			return mysqli_insert_id($this->session);
 		}
 		
 		
 		function list_tables() {
+			//Does not have equivalent mysqli function; object oriented??
 			$result = mysql_list_tables($db['database'], $this->session);
 	
 			if(!$result)	{
@@ -178,7 +182,7 @@
 				exit;
 			} else	{
 				$tables = array();
-				while ($line = mysql_fetch_array($result))	{
+				while ($line = mysqli_fetch_array($result))	{
 					$tables[] = $line[0];
 				}
 				return $tables;
@@ -201,7 +205,7 @@
 		}
 		
 		function disconnect()	{
-			mysql_close($this->connection);
+			mysqli_close($this->connection);
 		}
 		
 		
