@@ -30,8 +30,8 @@
 ************************************/
 
 	//Include database class and establish connection
-		require_once(ROOT_PATH 	. 'inc/classes/db.php');
-	
+		//require_once(ROOT_PATH 	. 'inc/classes/db.php');
+		$db = new mysqli($config['databaseHost'], $config['databaseUser'], $config['databasePassword'], $config['databaseName']);
 	//Include data balidation class
 		require_once(ROOT_PATH 	. 'inc/classes/data_validation.php');
 
@@ -52,12 +52,12 @@
 	/************************
 	* 	CAPTURE SETTINGS	*
 	************************/
-		$db->query('SELECT `name`, `value`
-					FROM `settings`', 'settingsInfo');
+		$result = $db->query('SELECT `name`, `value`
+							FROM `settings`');
 				
 		$_SESSION['SETTINGS'] = array();
 		
-		while($row = $db->fetch_array('settingsInfo')){
+		while($row = $result->fetch_array('settingsInfo')){
 			$_SESSION['SETTINGS'][$row['name']]		= $data_validation->escape_html($row['value']);
 		}
 
