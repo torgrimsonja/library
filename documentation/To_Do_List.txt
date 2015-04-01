@@ -1,0 +1,40 @@
+To Do:
+---------
+Links:
+http://codular.com/php-mysqli
+
+
+
+------------
+Move to MySQli object instead of using db.php
+	-List of functions used in db.php
+	
+	1. database_driver() --- used to set db vars[host, user, pass, database]
+	2. connect() --- declares session var with db vars
+	3. query() --- self-declares as the result of a mysql query [pass sql statement]
+	4. result() --  returns mysql row
+	5. num_rows() --- runs num_rows function on a passed table id
+	6. fetch_array() --- returns mysql_fetch_array function
+	7. fetch_array_by_table() --- returns associative array as table => field 
+	8. multi_query() --- runs query with session var and echos mutlidimensional array???
+	9. begin_transaction() --- *see T*
+	9. end_transaction() --- *see T*
+	10. last_error() --- mysql_errno statement
+`	11. last_affected() --- mysql_affected_rows statement
+	12. start off on line 171
+
+	-Cooresponding MySQLi methods
+	1.
+	2.
+	
+
+
+----------------------------------------------
+General
+
+1. Decide how to handle separate school's email configurations
+2. Figure out marketing
+3. Set up licensing/security if necessary
+4. Create marketing page ??
+5. Create way for us to send out updates to all copies of the program off of a server
+6. Decide upon host server

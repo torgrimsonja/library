@@ -32,6 +32,12 @@
 	//Include database class and establish connection
 		//require_once(ROOT_PATH 	. 'inc/classes/db.php');
 		$db = new mysqli($config['databaseHost'], $config['databaseUser'], $config['databasePassword'], $config['databaseName']);
+		//Check connection for fails
+		if($db->connect_errno > 0){
+			die('Unable to connect to database.<br />Connection Error NO:['.$db->connect_errno.']');
+		}
+	
+	
 	//Include data balidation class
 		require_once(ROOT_PATH 	. 'inc/classes/data_validation.php');
 
