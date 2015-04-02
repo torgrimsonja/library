@@ -2,7 +2,7 @@ To Do:
 ---------
 Links:
 http://codular.com/php-mysqli
-
+http://php.net/manual/en/mysqli.summary.php
 
 
 ------------
@@ -21,7 +21,8 @@ Move to MySQli object instead of using db.php
 	9. end_transaction() --- *see T*
 	10. last_error() --- mysql_errno statement
 `	11. last_affected() --- mysql_affected_rows statement
-	12. start off on line 171
+	12. last_insert_id() --- returns mysql_insert_id from $this session
+	13. 
 
 	-Cooresponding MySQLi methods
 	1.
