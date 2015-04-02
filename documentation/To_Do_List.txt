@@ -22,7 +22,9 @@ Move to MySQli object instead of using db.php
 	10. last_error() --- mysql_errno statement
 `	11. last_affected() --- mysql_affected_rows statement
 	12. last_insert_id() --- returns mysql_insert_id from $this session
-	13. 
+	13. list_tables() --- grabs list of tables and returns them in an array
+	14. list_fields() --- runs query and sets columns in db to array, then makes fields array.  See line 192 of db.php  [complicated sorta]
+	15. disconnet
 
 	-Cooresponding MySQLi methods
 	1.
