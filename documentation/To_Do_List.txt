@@ -24,11 +24,26 @@ Move to MySQli object instead of using db.php
 	12. last_insert_id() --- returns mysql_insert_id from $this session
 	13. list_tables() --- grabs list of tables and returns them in an array
 	14. list_fields() --- runs query and sets columns in db to array, then makes fields array.  See line 192 of db.php  [complicated sorta]
-	15. disconnet
+	15. disconnect() --- closes session w/ msql_close function
+	16. destroy() --- settype's $this to null
 
 	-Cooresponding MySQLi methods
 	1.
 	2.
+	3.
+	4.
+	5.
+	6.
+	7.
+	8.
+	9.
+	10.
+	11.
+	12.
+	13.
+	14.
+	15.
+	16.
 	
 
 
