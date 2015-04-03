@@ -4,47 +4,13 @@ Links:
 http://codular.com/php-mysqli
 http://php.net/manual/en/mysqli.summary.php
 
-
-------------
-Move to MySQli object instead of using db.php
-	-List of functions used in db.php
+---------------------------
+Already switched objects
+	common.php
+	working on options.php
 	
-	1. database_driver() --- used to set db vars[host, user, pass, database]
-	2. connect() --- declares session var with db vars
-	3. query() --- self-declares as the result of a mysql query [pass sql statement]
-	4. result() --  returns mysql row
-	5. num_rows() --- runs num_rows function on a passed table id
-	6. fetch_array() --- returns mysql_fetch_array function
-	7. fetch_array_by_table() --- returns associative array as table => field 
-	8. multi_query() --- runs query with session var and echos mutlidimensional array???
-	9. begin_transaction() --- *see T*
-	9. end_transaction() --- *see T*
-	10. last_error() --- mysql_errno statement
-`	11. last_affected() --- mysql_affected_rows statement
-	12. last_insert_id() --- returns mysql_insert_id from $this session
-	13. list_tables() --- grabs list of tables and returns them in an array
-	14. list_fields() --- runs query and sets columns in db to array, then makes fields array.  See line 192 of db.php  [complicated sorta]
-	15. disconnect() --- closes session w/ msql_close function
-	16. destroy() --- settype's $this to null
 
-	-Cooresponding MySQLi methods
-	1.
-	2.
-	3.
-	4.
-	5.
-	6.
-	7.
-	8.
-	9.
-	10.
-	11.
-	12.
-	13.
-	14.
-	15.
-	16.
-	
+
 
 
 ----------------------------------------------

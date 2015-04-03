@@ -58,7 +58,7 @@
 	function processCheckin($studentId, $options){
 		global $db, $data_validation, $template;
 
-		$sql['id'] = $data_validation->escape_sql($studentId);
+		$sql['id'] = $db->escape_string($studentId);
 		$optionsArray = $options;
 		
 		//build period field for database call
@@ -83,8 +83,8 @@
 
 		
 		//Query student information
-		$db->query('SELECT * FROM student WHERE id = '.$sql['id'], 'studentInfo');
-		$sql['studentId'] = $db->result('studentInfo', 0, 'id');
+		$studentInfo = $db->query('SELECT * FROM student WHERE id = '.$sql['id']);
+		$sql['studentId'] = $db->escape_string($studentInfo->fetch_assoc()['id']);
 		$sql['firstName'] = $db->result('studentInfo', 0, 'firstName');
 		$sql['lastName'] = $db->result('studentInfo', 0, 'lastName');
 		$sql['date'] = date('Y-m-d');
@@ -97,13 +97,13 @@
 		}
 
 		// insert checkin log
-		if(!$db->query('INSERT INTO `log` (`studentId`, `firstName`, `lastName`, `teacherName`, `date`, `timeIn`) VALUES (	\''.$sql['studentId'].'\',  \''.$sql['firstName'].'\',  \''.$sql['lastName'].'\', \''.$sql['teacherName'].'\', \''.$sql['date'].'\',  \''.$sql['timeIn'].'\' );', 'insertCheckIn')){
+		if(!$db->query('INSERT INTO `log` (`studentId`, `firstName`, `lastName`, `teacherName`, `date`, `timeIn`) VALUES (	\''.$sql['studentId'].'\',  \''.$sql['firstName'].'\',  \''.$sql['lastName'].'\', \''.$sql['teacherName'].'\', \''.$sql['date'].'\',  \''.$sql['timeIn'].'\' );')){
 			$template->errorPage('Unable to insert the log.');
 			exit();
 		}
 		
-		if($db->query('SELECT id FROM `log` ORDER BY id DESC LIMIT 1', 'lastId')){
-			$sql['logId'] = $data_validation->escape_sql($db->result('lastId', 0, 'id'));
+		if($lastId = $db->query('SELECT id FROM `log` ORDER BY id DESC LIMIT 1')){
+			$sql['logId'] = $db->escape_string($lastId->fetch_assoc()['id']);
 		}else{
 			$template->errorPage('Unable to select the log after it was inserted.');
 			exit();
@@ -112,7 +112,7 @@
 		// insert options
 		foreach($optionsArray AS $index => $value){
 			
-			$sql['optionId'] = $data_validation->escape_sql($value);
+			$sql['optionId'] = $db->escape_string($value);
 			if(!$db->query('INSERT INTO `log_option` 
 						(`log_id`, `option_id`)
 						VALUES
@@ -192,8 +192,8 @@
 if(array_key_exists('id', $_GET) &&
 	is_numeric($_GET['id'])){
 		
-	$sql['id'] = $data_validation->escape_sql($_GET['id']);
-	$sql['statement'] = $data_validation->escape_sql('SELECT * FROM student WHERE id = ' . $sql['id']);
+	$sql['id'] = $db->escape_string($_GET['id']);
+	$sql['statement'] = $db->escape_string('SELECT * FROM student WHERE id = ' . $sql['id']);
 	
 	$db->query($sql['statement'], 'info');
 		$html['firstName'] = $data_validation->escape_html($db->result('info', 0, 'firstName'));

@@ -30,7 +30,7 @@
 ************************************/
 
 	//Include database class and establish connection
-		//require_once(ROOT_PATH 	. 'inc/classes/db.php');
+		//require_once(ROOT_PATH 	. 'inc/classes/db.php'); Not using the database_driver class 
 		$db = new mysqli($config['databaseHost'], $config['databaseUser'], $config['databasePassword'], $config['databaseName']);
 		//Check connection for fails
 		if($db->connect_errno > 0){
@@ -63,7 +63,7 @@
 				
 		$_SESSION['SETTINGS'] = array();
 		
-		while($row = $result->fetch_array('settingsInfo')){
+		while($row = $result->fetch_assoc()){
 			$_SESSION['SETTINGS'][$row['name']]		= $data_validation->escape_html($row['value']);
 		}
 
@@ -71,16 +71,16 @@
 	* 	BUILD SCHEDULE IN SESSION	*
 	********************************/
 
-		$db->query('SELECT endTime FROM schedule WHERE id = \''.$_SESSION['SETTINGS']['currentSchedule'].'\'', 'endOfDay');
+		$result = $db->query('SELECT endTime FROM schedule WHERE id = \''.$_SESSION['SETTINGS']['currentSchedule'].'\'');
 		$_SESSION['SCHEDULE'] = array();
 
-			$_SESSION['SCHEDULE']['ENDTIME'] = $db->result('endOfDay', 0, 'endTime');
+			$_SESSION['SCHEDULE']['ENDTIME'] = $result->fetch_assoc()['endTime'];
 			
 		//query for schedule
 			$_SESSION['SCHEDULE']['BLOCK'] = array();
 			
-			$db->query('SELECT organization_timeBlock_id, timeStart FROM schedule_block WHERE schedule_id = '.$_SESSION['SETTINGS']['currentSchedule'], 'scheduleBlocks');
-			while($row = $db->fetch_array('scheduleBlocks')){
+			$scheduleBlocks = $db->query('SELECT organization_timeBlock_id, timeStart FROM schedule_block WHERE schedule_id = '.$_SESSION['SETTINGS']['currentSchedule']);
+			while($row = $scheduleBlocks->fetch_assoc()){
 				$_SESSION['SCHEDULE']['BLOCK'][$row['organization_timeBlock_id']] = $row['timeStart'];
 			}
 			
