@@ -78,20 +78,20 @@
 		if($blockId != ''){
 			$sql['block'] = 'P'.$blockId;
 		}else{
-			$sql['block'] = '';	
+			$sql['block'] = '';
 		}
 
 		
 		//Query student information
 		$studentInfo = $db->query('SELECT * FROM student WHERE id = '.$sql['id']);
 		$sql['studentId'] = $db->escape_string($studentInfo->fetch_assoc()['id']);
-		$sql['firstName'] = $db->result('studentInfo', 0, 'firstName');
-		$sql['lastName'] = $db->result('studentInfo', 0, 'lastName');
+		$sql['firstName'] = $db->escape_string($studentInfo->fetch_assoc()['firstName']);
+		$sql['lastName'] = $db->escape_string($studentInfo->fetch_assoc()['lastName']);
 		$sql['date'] = date('Y-m-d');
 		$sql['timeIn'] = date('G:i:s');
 		//Get teacher name for current block
 		if($sql['block'] != ''){
-			$sql['teacherName'] = $db->result('studentInfo', 0, $sql['block']);
+			$sql['teacherName'] = $db->escape_string($studentInfo->fetch_assoc()['block']);
 		}else{
 			$sql['teacherName'] = 'Not found';	
 		}
@@ -112,7 +112,7 @@
 		// insert options
 		foreach($optionsArray AS $index => $value){
 			
-			$sql['optionId'] = $db->escape_string($value);
+			$sql['optionId'] = $db->escape_string($value);   //Does this need to be changed??
 			if(!$db->query('INSERT INTO `log_option` 
 						(`log_id`, `option_id`)
 						VALUES
@@ -128,7 +128,7 @@
 			//query for alternate email address
 			$db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
 			if($db->num_rows('alternameEmail')){
-				$html['to'] = $data_validation->escape_html($db->result('alternateEmail', 0, 'emailAddress'));
+				$html['to'] = $data_validation->escape_html($db->fetch_assoc()['emailAddress']));
 			}else{
 				$tmpArray = explode(',', $sql['teacherName']);
 				$lastname = trim($tmpArray[0]);
