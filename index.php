@@ -8,7 +8,7 @@
  *  Copyright		: (c) 2013 Twin Falls High School.
  *	Description		: Application landing page for the public.
 ****************************************************************/
-   
+
 /************************************************
  *	PAGE VARIABLES AND CONSTANTS
 ************************************************/
@@ -16,7 +16,7 @@
 	//Defines the path from this file to the root of the site
 		//Define to path to the root of our site in the quotes.
 		define('ROOT_PATH', '');
-		
+
 	//Defines page title in the title bar and in the header.
 		//Place the title of your project in the quotes.
 		define('TITLE', 'Library Checkin Software, v1.0');
@@ -31,7 +31,7 @@
 	//Validate authorized user access to this page
 		$auth->validate_user_access('PUBLIC');
 		$auth->require_allowed_host();
-		
+
 /************************************************
  *	DATA HANDLING
  *	description: Section used for filtering
@@ -39,15 +39,15 @@
 				 outgoing data passed to this
 				 page.
  ************************************************/
- 
+
 	 if(	array_key_exists('checkin', $_GET) &&
 	 		array_key_exists('inputBarcode', $_POST) &&
 			is_numeric($_POST['inputBarcode'])){
-							
+
 		 requestCheckin($_POST['inputBarcode']);
-		
+
 	 }
- 
+
 /************************************************
  *	PAGE SPECIFIC FUNCTIONS
  *	description: Section used for creating functions
@@ -60,7 +60,7 @@
 		global $data_validation, $db;
 
 		// capture barcode
-		$sql['id'] = $data_validation->escape_sql($barcode);
+		$sql['id'] = $db->escape_string($barcode);
 
 
 		// Check to see if student exists in the database
@@ -72,42 +72,42 @@
 			//Grab current system time
 			$sql['currDate'] = date('Y-m-d');
 			$sql['currTime'] = date('G:i:s');
-			
+
 			//checks to see if it is a checkin or checkout request
 			$db->query('SELECT id FROM `log` WHERE studentId = \''.$sql['id'].'\' AND date = \''.$sql['currDate'].'\' AND timeOut IS NULL', 'checkoutValidation');
 			if($db->num_rows('checkoutValidation')){
 
 				//Process checkout request
-				$sql['logId'] = $data_validation->escape_sql($db->result('checkoutValidation', 0, 'id'));
+				$sql['logId'] = $db->escape_string($db->result('checkoutValidation', 0, 'id'));
 				$db->query('UPDATE `log` SET timeOut = \''.$sql['currTime'].'\' WHERE id = \''.$sql['logId'].'\'', 'updateCheckout');
-					
+
 					//Send email to current instructor
 
 				//build period field for database call
 				$blockId = '';
 				$currTime = strtotime(date('G:i:s'));
 				$endTime = strtotime($_SESSION['SCHEDULE']['ENDTIME']);
-				
-				//sequence through blocks to find current period		
+
+				//sequence through blocks to find current period
 				foreach($_SESSION['SCHEDULE']['BLOCK'] as $key => $value){
 					$startTime = strtotime($value);
 					if($currTime >= $startTime && $currTime <= $endTime){
 						$blockId = $key;
 					}
 				}
-				
+
 				if($blockId != ''){
 					$sql['block'] = 'P'.$blockId;
 				}else{
-					$sql['block'] = '';	
+					$sql['block'] = '';
 				}
-				
+
 				//Query teacher name
 				if(!$db->query('SELECT `'.$sql['block'].'` FROM student WHERE id = '.$sql['id'], 'teacherEmailAddress')){
 					$template->errorPage('Unable to find email address of current teacher.');
 					exit();
 				}else{
-					$sql['teacherName'] = $data_validation->escape_sql($db->result('teacherEmailAddress', 0, $sql['block']));
+					$sql['teacherName'] = $db->escape_string($db->result('teacherEmailAddress', 0, $sql['block']));
 					//query for alternate email address
 					$db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
 					if($db->num_rows('alternameEmail')){
@@ -118,44 +118,44 @@
 						$firstname = substr(trim($tmpArray[1]), 0, 2);
 						$html['to'] = strtolower($lastname.$firstname.'@tfsd.org');
 					}
-					
+
 					//initialize content
-					
+
 					$html['subject'] = 'Library Alert';
 					$html['message'] = $data_validation->escape_html($sql['firstName']).' '.$data_validation->escape_html($sql['lastName']).' checked into the library at '.$data_validation->escape_html($sql['timeIn']).' on '.$data_validation->escape_html($sql['date']);
 					$html['headers'] = 'From: '.$system['ADMIN_EMAIL']. "\r\n";
-					
+
 					//send email
 					mail($html['to'], $html['subject'], $html['message'], $html['headers']);
-							
+
 				}
-					
-					
+
+
 					// redirect user to checkout page
 					header('Location:checkedOut.php?teacher='.$html['teacherName']);
 
-				
-				
+
+
 			}else{
 				//Handle the checkin request
 				header('Location:options.php?id=' . $sql['id']);
-				
+
 			}
 		}
-		
+
 	}
- 
+
 /************************************************
  *	HEADER
  *	description: Section calls the header
  				 container for this page.
 ************************************************/
-	
+
 	//Establishes the structure for the header container
 
 		$htmlHead = '';
 		$template->page_header(TITLE, $htmlHead);
-		
+
 
 /************************************************
  *	PAGE OUTPUT
@@ -166,22 +166,22 @@
 	<!-- THE ONLY THINGS YOU NEED TO CHANGE ABOVE ARE THE ROOT_PATH AND TITLE, and navigation method!!! -->
 
 	<!-- ENTER THE CONTENT FOR YOUR PAGE HERE!!! -->
-	
+
 	<!-- Begin HTML5 content -->
 
 	<script type="text/javascript">
 		<!--
 		//Center the content on the page
-				
+
 			// set focus on the input element
 			setInterval(function(){if(!$("*:focus").is("input, inputBarcode")){
 				//document.getElementById('inputBarcode').focus()
 				$("#inputBarcode").focus();
 			}},100);
-			
+
 			//Set the input element value to an empty string
 			$('#inputBarcode').val('');
-				
+
 		-->
 	</script>
         <h2 class="title" style="text-align:center;"><a>Welcome to the Library Sign In</a></h2>
@@ -199,7 +199,7 @@
             <a style="width: 25%; margin-right: auto; margin-left: auto;" href="#popupInfo" data-role="button" data-rel="popup" data-theme="b">Help</a>
 
 	<!-- End HTML5 content -->
-	
+
 	<!-- LEAVE EVERYTHING BELOW THIS LINE ALONE!!! -->
 
 <?php
@@ -281,7 +281,7 @@
 		global $data_validation, $db;
 
 		// capture barcode
-		$sql['id'] = $data_validation->escape_sql($barcode);
+		$sql['id'] = $db->escape_string($barcode);
 
 
 		// Check to see if student exists in the database
@@ -299,7 +299,7 @@
 			if($db->num_rows('checkoutValidation')){
 
 				//Process checkout request
-				$sql['logId'] = $data_validation->escape_sql($db->result('checkoutValidation', 0, 'id'));
+				$sql['logId'] = $db->escape_string($db->result('checkoutValidation', 0, 'id'));
 				$db->query('UPDATE `log` SET timeOut = \''.$sql['currTime'].'\' WHERE id = \''.$sql['logId'].'\'', 'updateCheckout');
 
 					//Send email to current instructor
@@ -328,7 +328,7 @@
 					$template->errorPage('Unable to find email address of current teacher.');
 					exit();
 				}else{
-					$sql['teacherName'] = $data_validation->escape_sql($db->result('teacherEmailAddress', 0, $sql['block']));
+					$sql['teacherName'] = $db->escape_string($db->result('teacherEmailAddress', 0, $sql['block']));
 					//query for alternate email address
 					$db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
 					if($db->num_rows('alternameEmail')){
