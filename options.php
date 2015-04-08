@@ -126,9 +126,9 @@
 		// send email to teacher
 		
 			//query for alternate email address
-			$db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
+			$fetchEmail = $db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
 			if($db->num_rows('alternameEmail')){
-				$html['to'] = $data_validation->escape_html($db->fetch_assoc()['emailAddress']));
+				$html['to'] = $db->escape_string($fetchEmail->fetch_assoc()['emailAddress']);
 			}else{
 				$tmpArray = explode(',', $sql['teacherName']);
 				$lastname = trim($tmpArray[0]);
@@ -139,7 +139,7 @@
 			//initialize content
 			
 			$html['subject'] = 'Library Alert';
-			$html['message'] = $data_validation->escape_html($sql['firstName']).' '.$data_validation->escape_html($sql['lastName']).' checked into the library at '.$data_validation->escape_html($sql['timeIn']).' on '.$data_validation->escape_html($sql['date']);
+			$html['message'] = $db->escape_string($sql['firstName']).' '.$db->escape_string($sql['lastName']).' checked into the library at '.$db->escape_string($sql['timeIn']).' on '.$db->escape_string($sql['date']);
 			$html['headers'] = 'From: '.$system['ADMIN_EMAIL']. "\r\n";
 			
 			//send email
