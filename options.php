@@ -226,10 +226,11 @@ if(array_key_exists('id', $_GET) &&
 						$db->query('SELECT * FROM `option` ORDER BY name ASC', 'options');
 						
 						$i = 0;
+						//Change this to fetch_assoc???
 						while($row = $db->fetch_array('options')){
 							
-							$html['id'] 	= $data_validation->escape_html($row['id']);
-							$html['name'] 	= $data_validation->escape_html($row['name']);
+							$html['id'] 	= $db->escape_string($row['id']);
+							$html['name'] 	= $db->escape_string($row['name']);
 							echo '	<input type="checkbox" id="radio'.$html['id'].'" name="options[]" value="'.$html['id'].'" />
 									<label for="radio'.$html['id'].'" style="font-size: 13pt; width: 150px;">'.$html['name'].'</label>';
 							if($i == 2){
