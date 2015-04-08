@@ -8,10 +8,8 @@ http://php.net/manual/en/mysqli.summary.php
 Already switched objects
 	common.php
 	working on options.php
+	index.php
 	
-
-
-
 
 ----------------------------------------------
 General
