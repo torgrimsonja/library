@@ -5,7 +5,7 @@
  *  Created			: September 12, 2006
  *  Created by:		: Jason Torgrimson
  *  Copyright		: 2006 Twin Falls High School.
- *	Description		: This file is used to include classes and 
+ *	Description		: This file is used to include classes and
  					  establish database connectiving for all
 					  pages in the site.
  ****************************************************************/
@@ -20,33 +20,33 @@
 /************************************
 * 	SET ERROR REPORTING				*
 ************************************/
-	
+
 	error_reporting(E_ALL);
 	ini_set('display_errors', '1');
-	
+
 
 /************************************
 * 	REQUIRED SYSTEM INCLUDES		*
 ************************************/
 
 	//Include database class and establish connection
-		//require_once(ROOT_PATH 	. 'inc/classes/db.php'); Not using the database_driver class 
+		//require_once(ROOT_PATH 	. 'inc/classes/db.php'); Not using the database_driver class
 		$db = new mysqli($config['databaseHost'], $config['databaseUser'], $config['databasePassword'], $config['databaseName']);
 		//Check connection for fails
 		if($db->connect_errno > 0){
 			die('Unable to connect to database.<br />Connection Error NO:['.$db->connect_errno.']');
 		}
-	
-	
+
+
 	//Include data balidation class
 		require_once(ROOT_PATH 	. 'inc/classes/data_validation.php');
 
 	//Include functions class
 		require_once(ROOT_PATH 	. 'inc/classes/functions.php');
-		
+
 	//Include authentication class
 		require_once(ROOT_PATH 	. 'inc/classes/auth.php');
-			
+
 	//Include file_upload class
 		include(ROOT_PATH 		. 'inc/classes/template.php');
 
@@ -58,11 +58,10 @@
 	/************************
 	* 	CAPTURE SETTINGS	*
 	************************/
-		$result = $db->query('SELECT `name`, `value`
-							FROM `settings`');
-				
+		$result = $db->query('SELECT `name`, `value` FROM `settings`');
+
 		$_SESSION['SETTINGS'] = array();
-		
+
 		while($row = $result->fetch_assoc()){
 			$_SESSION['SETTINGS'][$row['name']]		= $data_validation->escape_html($row['value']);
 		}
@@ -75,18 +74,18 @@
 		$_SESSION['SCHEDULE'] = array();
 
 			$_SESSION['SCHEDULE']['ENDTIME'] = $result->fetch_assoc()['endTime'];
-			
+
 		//query for schedule
 			$_SESSION['SCHEDULE']['BLOCK'] = array();
-			
+
 			$scheduleBlocks = $db->query('SELECT organization_timeBlock_id, timeStart FROM schedule_block WHERE schedule_id = '.$_SESSION['SETTINGS']['currentSchedule']);
 			while($row = $scheduleBlocks->fetch_assoc()){
 				$_SESSION['SCHEDULE']['BLOCK'][$row['organization_timeBlock_id']] = $row['timeStart'];
 			}
-			
+
 			// sort blocks by time from earlies to lates while keeping association between key and value as key is the ID of the block
 			asort($_SESSION['SCHEDULE']['BLOCK']);
-				
+
 /************************************
 * 	HANDLE LOGOUT REQUEST			*
 ************************************/
