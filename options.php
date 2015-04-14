@@ -141,7 +141,7 @@
 			//initialize content
 
 			$html['subject'] = 'Library Alert';
-			$html['message'] = $data_validation->escape_html($sql['firstName']).' '.$db->escape_string($sql['lastName']).' checked into the library at '.$data_validation->escape_html($sql['timeIn']).' on '.$data_validation->escape_html($sql['date']);
+			$html['message'] = $data_validation->escape_html($sql['firstName']).' '.$data_validation->escape_html($sql['lastName']).' checked into the library at '.$data_validation->escape_html($sql['timeIn']).' on '.$data_validation->escape_html($sql['date']);
 			$html['headers'] = 'From: '.$system['ADMIN_EMAIL']. "\r\n";
 
 			//send email
@@ -229,8 +229,11 @@ if(array_key_exists('id', $_GET) &&
 						$db->query('SELECT * FROM `option` ORDER BY name ASC', 'options');
 
 						$i = 0;
-						//Change this to fetch_assoc???
-						while($row = $db->fetch_array('options')){
+						
+						$row = $db->fetch_array('options');
+						$numElements = count($row);
+						$j = 0;
+						while($j <= $numElements){
 
 							$html['id'] 	= $db->escape_string($row['id']);
 							$html['name'] 	= $db->escape_string($row['name']);
@@ -242,7 +245,7 @@ if(array_key_exists('id', $_GET) &&
 							}else{
 								$i++;
 							}
-
+						$j++;
 						}
 					?>
                     </fieldset>
