@@ -104,11 +104,12 @@
 				}
 
 				//Query teacher name
-				if(!$db->query('SELECT `'.$sql['block'].'` FROM student WHERE id = '.$sql['id'], 'teacherEmailAddress')){
+				if(!$db->query('SELECT `'.$sql['block'].'` FROM student WHERE id = '.$sql['id'])){
 					$template->errorPage('Unable to find email address of current teacher.');
 					exit();
 				}else{
-					$sql['teacherName'] = $db->escape_string($db->escape_html($teacherEmailAddress->fetch_assoc()$sql['block']));
+					$teacherEmailAddress;
+					$sql['teacherName'] = $db->escape_string($teacherEmailAddress->fetch_assoc()$sql['block']);
 					//query for alternate email address
 					$db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
 					if($db->num_rows('alternameEmail')){
