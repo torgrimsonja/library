@@ -102,7 +102,8 @@
 			exit();
 		}
 		
-		if($lastId = $db->query('SELECT id FROM `log` ORDER BY id DESC LIMIT 1')){
+		$lastId = $db->query('SELECT id FROM `log` ORDER BY id DESC LIMIT 1');
+		if($lastId){
 			$sql['logId'] = $db->escape_string($lastId->fetch_assoc()['id']);
 		}else{
 			$template->errorPage('Unable to select the log after it was inserted.');
@@ -194,16 +195,20 @@ if(array_key_exists('id', $_GET) &&
 		
 	$sql['id'] = $db->escape_string($_GET['id']);
 	$sql['statement'] = $db->escape_string('SELECT * FROM student WHERE id = ' . $sql['id']);
+	$statementInfo = $db->query($sql['statement'], 'info');
+		$html['firstName'] = $data_validation->escape_html($statementInfo->fetch_assoc()['firstName']);
+		$html['lastName']  = $data_validation->escape_html($statementInfo->fetch_assoc()['lastName']); 
+		$html['id']		   = $data_validation->escape_html($statementInfo->fetch_assoc()['id']); 	
+		$html['gender']	   = $data_validation->escape_html($statementInfo->fetch_assoc()['gender']); 	
+		if($html['gender'] == 'M'){
+			$html['genderIcon'] = 'M.png';
+		}else{
+			$html['genderIcon'] = 'F.png';
+		}
+		$html['gradeLevel']	= $data_validation->escape_html($statementInfo->fetch_assoc()['gradeLevel']); 	
 	
-	$db->query($sql['statement'], 'info');
-		$html['firstName'] = $data_validation->escape_html($db->result('info', 0, 'firstName'));
-		$html['lastName']	=$data_validation->escape_html($db->result('info', 0, 'lastName')); 
-		$html['id']	=$data_validation->escape_html($db->result('info', 0, 'id')); 	
-		$html['gender']	=$data_validation->escape_html($db->result('info', 0, 'gender')); 	
-		if($html['gender'] == 'M'){$html['genderIcon'] = 'M.png';}else{$html['genderIcon'] = 'F.png';}
-		$html['gradeLevel']	=$data_validation->escape_html($db->result('info', 0, 'gradeLevel')); 	
-	
-	?>
+?>
+    
 	 
 		<div class="post">
 			<h2 class="title" style="text-align:center;"><a>Welcome to the Library Sign In</a></h2>
