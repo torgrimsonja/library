@@ -7,7 +7,7 @@
  *  Copyright		: (c) 2006 Twin Falls High School.
  *	Description		: (overview of file purpose here)
 ****************************************************************/
-   
+
 /************************************************
  *	PAGE VARIABLES AND CONSTANTS
 ************************************************/
@@ -15,7 +15,7 @@
 	//Defines the path from this file to the root of the site
 		//Define to path to the root of our site in the quotes.
 		define('ROOT_PATH', '');
-		
+
 	//Defines page title in the title bar and in the header.
 		//Place the title of your project in the quotes.
 		define('TITLE', '');
@@ -38,15 +38,15 @@
 				 outgoing data passed to this
 				 page.
  ************************************************/
- 
+
  //Check to see if checkin options have been passed
  if(array_key_exists('action', $_POST) &&
  	$_POST['action'] == 'processCheckin'){
-	 
+
 	 processCheckin($_POST['studentId'], $_POST['options']);
-	 
+
  }
- 
+
 /************************************************
  *	PAGE SPECIFIC FUNCTIONS
  *	description: Section used for creating functions
@@ -60,20 +60,20 @@
 
 		$sql['id'] = $db->escape_string($studentId);
 		$optionsArray = $options;
-		
+
 		//build period field for database call
 		$blockId = '';
 		$currTime = strtotime(date('G:i:s'));
 		$endTime = strtotime($_SESSION['SCHEDULE']['ENDTIME']);
-		
-		//select current block			
+
+		//select current block
 		foreach($_SESSION['SCHEDULE']['BLOCK'] as $key => $value){
 			$startTime = strtotime($value);
 			if($currTime >= $startTime && $currTime <= $endTime){
 				$blockId = $key;
 			}
 		}
-		
+
 		//set block for field in student table
 		if($blockId != ''){
 			$sql['block'] = 'P'.$blockId;
@@ -81,7 +81,7 @@
 			$sql['block'] = '';
 		}
 
-		
+
 		//Query student information
 		$studentInfo = $db->query('SELECT * FROM student WHERE id = '.$sql['id']);
 		$sql['studentId'] = $db->escape_string($studentInfo->fetch_assoc()['id']);
@@ -93,7 +93,7 @@
 		if($sql['block'] != ''){
 			$sql['teacherName'] = $db->escape_string($studentInfo->fetch_assoc()['block']);
 		}else{
-			$sql['teacherName'] = 'Not found';	
+			$sql['teacherName'] = 'Not found';
 		}
 
 		// insert checkin log
@@ -101,9 +101,14 @@
 			$template->errorPage('Unable to insert the log.');
 			exit();
 		}
+<<<<<<< Updated upstream
 		
 		$lastId = $db->query('SELECT id FROM `log` ORDER BY id DESC LIMIT 1');
 		if($lastId){
+=======
+
+		if($lastId = $db->query('SELECT id FROM `log` ORDER BY id DESC LIMIT 1')){
+>>>>>>> Stashed changes
 			$sql['logId'] = $db->escape_string($lastId->fetch_assoc()['id']);
 		}else{
 			$template->errorPage('Unable to select the log after it was inserted.');
@@ -112,20 +117,20 @@
 
 		// insert options
 		foreach($optionsArray AS $index => $value){
-			
+
 			$sql['optionId'] = $db->escape_string($value);   //Does this need to be changed??
-			if(!$db->query('INSERT INTO `log_option` 
+			if(!$db->query('INSERT INTO `log_option`
 						(`log_id`, `option_id`)
 						VALUES
 						(\''.$sql['logId'].'\', \''.$sql['optionId'].'\');', 'insertOptions')){
 				$template->errorPage('Unable to insert log options..');
 				exit();
 			}
-			
+
 		}
-	
+
 		// send email to teacher
-		
+
 			//query for alternate email address
 			$fetchEmail = $db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
 			if($fetchEmail->num_rows){
@@ -136,20 +141,20 @@
 				$firstname = substr(trim($tmpArray[1]), 0, 2);
 				$html['to'] = strtolower($lastname.$firstname.'@tfsd.org');
 			}
-			
+
 			//initialize content
-			
+
 			$html['subject'] = 'Library Alert';
 			$html['message'] = $data_validation->escape_html($sql['firstName']).' '.$db->escape_string($sql['lastName']).' checked into the library at '.$data_validation->escape_html($sql['timeIn']).' on '.$data_validation->escape_html($sql['date']);
 			$html['headers'] = 'From: '.$system['ADMIN_EMAIL']. "\r\n";
-			
+
 			//send email
 			mail($html['to'], $html['subject'], $html['message'], $html['headers']);
-			
+
 
 		header('Location:checkedIn.php');
 		exit();
-		
+
 	}
 
 /************************************************
@@ -157,10 +162,10 @@
  *	description: Section calls the header
  				 container for this page.
 ************************************************/
-	
+
 	//Establishes the structure for the header container
 		$template->page_header(TITLE);
-		
+
 
 /************************************************
  *	PAGE OUTPUT
@@ -180,21 +185,22 @@
 		});
 
 	});
--->  
+-->
 </script>
 	<!-- THE ONLY THINGS YOU NEED TO CHANGE ABOVE ARE THE ROOT_PATH AND TITLE, and navigation method!!! -->
 
 	<!-- ENTER THE CONTENT FOR YOUR PAGE HERE!!! -->
-	
+
 	<!-- Begin HTML5 content -->
 
 
 <?php
 if(array_key_exists('id', $_GET) &&
 	is_numeric($_GET['id'])){
-		
+
 	$sql['id'] = $db->escape_string($_GET['id']);
 	$sql['statement'] = $db->escape_string('SELECT * FROM student WHERE id = ' . $sql['id']);
+<<<<<<< Updated upstream
 	$statementInfo = $db->query($sql['statement'], 'info');
 		$html['firstName'] = $data_validation->escape_html($statementInfo->fetch_assoc()['firstName']);
 		$html['lastName']  = $data_validation->escape_html($statementInfo->fetch_assoc()['lastName']); 
@@ -210,17 +216,30 @@ if(array_key_exists('id', $_GET) &&
 ?>
     
 	 
+=======
+
+	$db->query($sql['statement'], 'info');
+		$html['firstName'] = $data_validation->escape_html($db->result('info', 0, 'firstName'));
+		$html['lastName']	=$data_validation->escape_html($db->result('info', 0, 'lastName'));
+		$html['id']	=$data_validation->escape_html($db->result('info', 0, 'id'));
+		$html['gender']	=$data_validation->escape_html($db->result('info', 0, 'gender'));
+		if($html['gender'] == 'M'){$html['genderIcon'] = 'M.png';}else{$html['genderIcon'] = 'F.png';}
+		$html['gradeLevel']	=$data_validation->escape_html($db->result('info', 0, 'gradeLevel'));
+
+	?>
+
+>>>>>>> Stashed changes
 		<div class="post">
 			<h2 class="title" style="text-align:center;"><a>Welcome to the Library Sign In</a></h2>
 			<div class="entry" style="text-align:center;">
 				<ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
 					<li data-role="list-divider" data-swatch="a" data-theme="a" data-form="ui-bar-a" role="heading" class="ui-li ui-li-divider ui-bar-a ui-first-child" style="font-size: 16pt;">Welcome: <?php echo $html['id']; ?></li>
 					<li data-form="ui-btn-up-a" data-swatch="a" data-theme="a" class="ui-li ui-li-static ui-btn-up-a" style="font-size: 32pt;">
-						<?php echo '	<img 	style="position:relative;" 
-												src="'. ROOT_PATH . 'inc/css/images/'.$html['genderIcon']. '" />' 
-							. $html['firstName'] . ' ' . $html['lastName'] . '&nbsp - &nbsp' . $html['id'] 
-							. '<br /><div style="font-size: 16pt;">Grade: '. $html['gradeLevel'] 
-							. '&nbsp <div style="float:right;"><a href="index.php" data-role="button" data-theme="e" data-inline="true" data-transition="flip" style="width: 100px;">Not Me</a></div></div>'; 
+						<?php echo '	<img 	style="position:relative;"
+												src="'. ROOT_PATH . 'inc/css/images/'.$html['genderIcon']. '" />'
+							. $html['firstName'] . ' ' . $html['lastName'] . '&nbsp - &nbsp' . $html['id']
+							. '<br /><div style="font-size: 16pt;">Grade: '. $html['gradeLevel']
+							. '&nbsp <div style="float:right;"><a href="index.php" data-role="button" data-theme="e" data-inline="true" data-transition="flip" style="width: 100px;">Not Me</a></div></div>';
 						?>
 					</li>
 				</ul>
@@ -229,11 +248,11 @@ if(array_key_exists('id', $_GET) &&
                     <fieldset data-role="controlgroup" data-inline="true" data-type="horizontal">
 					<?php
 						$db->query('SELECT * FROM `option` ORDER BY name ASC', 'options');
-						
+
 						$i = 0;
 						//Change this to fetch_assoc???
 						while($row = $db->fetch_array('options')){
-							
+
 							$html['id'] 	= $db->escape_string($row['id']);
 							$html['name'] 	= $db->escape_string($row['name']);
 							echo '	<input type="checkbox" id="radio'.$html['id'].'" name="options[]" value="'.$html['id'].'" />
@@ -242,9 +261,9 @@ if(array_key_exists('id', $_GET) &&
 								echo '</fieldset><fieldset data-role="controlgroup" data-inline="true" data-type="horizontal">';
 								$i = 0;
 							}else{
-								$i++;	
+								$i++;
 							}
-							
+
 						}
 					?>
                     </fieldset>
@@ -272,7 +291,7 @@ if(array_key_exists('id', $_GET) &&
 						<input type="hidden" name="action" id="action" value="processCheckin" />
 						<input type="hidden" name="studentId" id="studentId" value="<?php echo $sql['id']?>" />
 					</div>
-                  
+
 				</form>
 				</div>
 				</div>
@@ -280,11 +299,11 @@ if(array_key_exists('id', $_GET) &&
 		</div>
 	<?php
 	}else{
-		header('Location:index.php');	
+		header('Location:index.php');
 	}
 	?>
 	<!-- End HTML5 content -->
-	
+
 	<!-- LEAVE EVERYTHING BELOW THIS LINE ALONE!!! -->
 
 <?php
