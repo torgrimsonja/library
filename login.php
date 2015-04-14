@@ -19,7 +19,7 @@ ini_set('display_errors', '1');
 	//Defines the path from this file to the root of the site
 		//Define to path to the root of our site in the quotes.
 		define('ROOT_PATH', '');
-		
+
 	//Defines page title in the title bar and in the header.
 		//Place the title of your project in the quotes.
 		define('TITLE', '');
@@ -41,9 +41,9 @@ ini_set('display_errors', '1');
 				 outgoing data passed to this
 				 page.
  ************************************************/
- 
- 
- 
+
+
+
 /************************************************
  *	PAGE SPECIFIC FUNCTIONS
  *	description: Section used for creating functions
@@ -52,15 +52,15 @@ ini_set('display_errors', '1');
 				 appropriate file in the INC folder.
  ************************************************/
 
-		
-		
- 
+
+
+
 /************************************************
  *	HEADER
  *	description: Section calls the header
  				 container for this page.
 ************************************************/
-	
+
 	//Establishes the structure for the header container
 		$template->page_header(TITLE);
 		
@@ -81,19 +81,19 @@ ini_set('display_errors', '1');
             	<input type="submit" value="Log In" />
         </form>
         </div>
-<?php 
+<?php
 
 
 
 	if(array_key_exists('action', $_GET) &&
 		$_GET['action'] == 'login'){
-			
-			
-			
-	
+
+
+
+
 	$auth->process_login($_POST['username'], $_POST['password'], $redirect = 'admin/user/index.php');
 	}
-		
+
 
 
 

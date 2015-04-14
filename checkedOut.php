@@ -15,7 +15,7 @@
 	//Defines the path from this file to the root of the site
 		//Define to path to the root of our site in the quotes.
 		define('ROOT_PATH', '');
-		
+
 	//Defines page title in the title bar and in the header.
 		//Place the title of your project in the quotes.
 		define('TITLE', '');
@@ -38,9 +38,9 @@
 				 outgoing data passed to this
 				 page.
  ************************************************/
- 
- 
- 
+
+
+
 /************************************************
  *	PAGE SPECIFIC FUNCTIONS
  *	description: Section used for creating functions
@@ -54,10 +54,10 @@
  *	description: Section calls the header
  				 container for this page.
 ************************************************/
-	
+
 	//Establishes the structure for the header container
 		$template->page_header(TITLE);
-		
+
 
 /************************************************
  *	PAGE OUTPUT
@@ -73,7 +73,7 @@
 	<!-- THE ONLY THINGS YOU NEED TO CHANGE ABOVE ARE THE ROOT_PATH AND TITLE, and navigation method!!! -->
 
 	<!-- ENTER THE CONTENT FOR YOUR PAGE HERE!!! -->
-	
+
 	<!-- Begin HTML5 content -->
 
 
@@ -82,7 +82,7 @@
             <ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
                 <li data-role="list-divider" data-swatch="a" data-theme="a" data-form="ui-bar-a" role="heading" class="ui-li ui-li-divider ui-bar-a ui-first-child" style="font-size: 16pt;">Sign out Successfull</li>
                 <li data-form="ui-btn-up-a" data-swatch="a" data-theme="e" class="ui-li ui-li-static ui-btn-up-a" style="font-size: 20pt; text-align:center;">You have been signed out of the library successfully.</li>
-                
+
             </ul>
             <!--<a href="index.php" data-role="button" data-transition="flip">Got It!</a>-->
         </div>
@@ -91,7 +91,7 @@
 </div>
 
 	<!-- End HTML5 content -->
-	
+
 	<!-- LEAVE EVERYTHING BELOW THIS LINE ALONE!!! -->
 
 <?php
