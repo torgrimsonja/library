@@ -79,8 +79,12 @@
 			$_SESSION['SCHEDULE']['BLOCK'] = array();
 
 			$scheduleBlocks = $db->query('SELECT organization_timeBlock_id, timeStart FROM schedule_block WHERE schedule_id = '.$_SESSION['SETTINGS']['currentSchedule']);
-			while($row = $scheduleBlocks->fetch_assoc()){
+			$currentRow = 0;
+			$totalRows = count($scheduleBlocks);
+			//I reworked this while loop so that it was more logical, but I'm unsure whether it is fully accomplishing what it needs to.  -Joel 4/15/15
+			while($currentRow <= $totalRows){
 				$_SESSION['SCHEDULE']['BLOCK'][$row['organization_timeBlock_id']] = $row['timeStart'];
+				$currentRow++;
 			}
 
 			// sort blocks by time from earlies to lates while keeping association between key and value as key is the ID of the block

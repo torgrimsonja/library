@@ -78,7 +78,7 @@
 			if($checkoutValidation->num_rows){
 
 				//Process checkout request
-				$sql['logId'] = $db->escape_string($db->result('checkoutValidation', 0, 'id'));
+				$sql['logId'] = $db->escape_string($checkoutValidation->fetch_assoc()['id']);
 				$db->query('UPDATE `log` SET timeOut = \''.$sql['currTime'].'\' WHERE id = \''.$sql['logId'].'\'', 'updateCheckout');
 
 					//Send email to current instructor
@@ -110,9 +110,9 @@
 					$teacherEmailAddress;
 					$sql['teacherName'] = $db->escape_string($teacherEmailAddress->fetch_assoc()$sql['block']);
 					//query for alternate email address
-					$db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
+					$emailAddress = $db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
 					if($db->num_rows('alternameEmail')){
-						$html['to'] = $data_validation->escape_html($db->result('alternateEmail', 0, 'emailAddress'));
+						$html['to'] = $data_validation->escape_html($emailAddress->fetch_assoc()['emailAddress']);
 					}else{
 						$tmpArray = explode(',', $sql['teacherName']);
 						$lastname = trim($tmpArray[0]);

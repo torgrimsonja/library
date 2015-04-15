@@ -1,6 +1,3 @@
-
-
-
 <?php
 /*****************************************************************
  *	DOCUMENT_TEMPLATE.php
@@ -11,7 +8,7 @@
  *	Description		: (overview of file purpose here)
 ****************************************************************/
       error_reporting(E_ALL);
-ini_set('display_errors', '1');
+	  ini_set('display_errors', '1');
 /************************************************
  *	PAGE VARIABLES AND CONSTANTS
 ************************************************/
@@ -83,21 +80,9 @@ ini_set('display_errors', '1');
         </div>
 <?php
 
-
-
-	if(array_key_exists('action', $_GET) &&
-		$_GET['action'] == 'login'){
-
-
-
-
-	$auth->process_login($_POST['username'], $_POST['password'], $redirect = 'admin/user/index.php');
+	if(array_key_exists('action', $_GET) && $_GET['action'] == 'login'){
+		$auth->process_login($_POST['username'], $_POST['password'], $redirect = 'admin/user/index.php');
 	}
-
-
-
-
-
 
 /************************************************
  *	FOOTER
