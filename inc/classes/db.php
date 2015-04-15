@@ -1,4 +1,8 @@
 <?php
+
+//This page has been deprecated and the $db object has been replaced with a new mysqli object initialized on common.php 
+//This page is now only for reference's sake
+
 /*****************************************************************
  *	file path and name.php
  *	------------------------
