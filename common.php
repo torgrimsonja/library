@@ -29,7 +29,7 @@
 * 	REQUIRED SYSTEM INCLUDES		*
 ************************************/
 
-	//Create database class and establish connection
+	//Include database class and establish connection
 		//require_once(ROOT_PATH 	. 'inc/classes/db.php'); Not using the database_driver class
 		$db = new mysqli($config['databaseHost'], $config['databaseUser'], $config['databasePassword'], $config['databaseName']);
 		//Check connection for fails
