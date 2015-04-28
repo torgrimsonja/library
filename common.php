@@ -34,7 +34,7 @@
 		$db = new mysqli($config['databaseHost'], $config['databaseUser'], $config['databasePassword'], $config['databaseName']);
 		//Check connection for fails
 		if($db->connect_errno > 0){
-			die('Unable to connect to database.<br />Connection Error NO:['.$db->connect_errno.']');
+			die('Unable to connect to database.<br />Connection Error Number:['.$db->connect_errno.']');
 		}
 
 
@@ -73,7 +73,7 @@
 		$result = $db->query('SELECT endTime FROM schedule WHERE id = \''.$_SESSION['SETTINGS']['currentSchedule'].'\'');
 		$_SESSION['SCHEDULE'] = array();
 
-			$_SESSION['SCHEDULE']['ENDTIME'] = $result->fetch_assoc()['endTime'];
+			$_SESSION['SCHEDULE']['ENDTIME'] = $result->fetch_assoc()/*['endTime']*/;
 
 		//query for schedule
 			$_SESSION['SCHEDULE']['BLOCK'] = array();

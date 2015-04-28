@@ -1,0 +1,16 @@
+500 errors:
+index.php
+common.php
+checkedIn.php
+checkedOut.php
+options.php
+
+
+OK:
+login.php
+
+Respond to die statements at top of page:
+checkedIn.php
+checkedOut.php
+common.php
+
