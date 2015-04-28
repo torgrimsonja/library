@@ -38,6 +38,10 @@
  
 	//Debugging value.  If set to TRUE, all debugging functions will be enabled.
 		define('DEBUG', TRUE);
+		if(DEBUG){
+			error_reporting(E_ALL);
+			ini_set('display_errors', '1');
+		}
 	
 	//This constant turns the site on and off.
 		//If set to TRUE, the application is turned on.

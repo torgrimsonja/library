@@ -78,7 +78,7 @@
 			if($checkoutValidation->num_rows){
 
 				//Process checkout request
-				$sql['logId'] = $db->escape_string($checkoutValidation->fetch_assoc()['id']);
+				$sql['logId'] = $db->escape_string($checkoutValidation->fetch_assoc()/*['id']*/);
 				$db->query('UPDATE `log` SET timeOut = \''.$sql['currTime'].'\' WHERE id = \''.$sql['logId'].'\'', 'updateCheckout');
 
 					//Send email to current instructor
@@ -104,15 +104,15 @@
 
 				//Query teacher name
 				$teacherQuery = $db->query('SELECT `'.$sql['block'].'` FROM student WHERE id = '.$sql['id']);
-				if(!$teacherQuery)){
+				if(!$teacherQuery){
 					$template->errorPage('Unable to find email address of current teacher.');
 					exit();
 				}else{
-					$sql['teacherName'] = $db->escape_string($teacherQuery->fetch_assoc()$sql['block']);
+					$sql['teacherName'] = $db->escape_string($teacherQuery->fetch_assoc()/*$sql['block']*/);
 					//query for alternate email address
 					$emailAddress = $db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
 					if($db->num_rows('alternameEmail')){
-						$html['to'] = $data_validation->escape_html($emailAddress->fetch_assoc()['emailAddress']);
+						$html['to'] = $data_validation->escape_html($emailAddress->fetch_assoc()/*['emailAddress']*/);
 					}else{
 						$tmpArray = explode(',', $sql['teacherName']);
 						$lastname = trim($tmpArray[0]);
