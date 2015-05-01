@@ -99,21 +99,23 @@ die("HI there buddy");
 		}
 
 		// insert checkin log
+		
 		if(!$db->query('INSERT INTO `log` (`studentId`, `firstName`, `lastName`, `teacherName`, `date`, `timeIn`) VALUES (	\''.$sql['studentId'].'\',  \''.$sql['firstName'].'\',  \''.$sql['lastName'].'\', \''.$sql['teacherName'].'\', \''.$sql['date'].'\',  \''.$sql['timeIn'].'\' );')){
 			$template->errorPage('Unable to insert the log.');
 			exit();
 		}
 		
 		$lastId = $db->query('SELECT id FROM `log` ORDER BY id DESC LIMIT 1');
-		if($lastId){
 		if($lastId = $db->query('SELECT id FROM `log` ORDER BY id DESC LIMIT 1')){
 			$sql['logId'] = $db->escape_string($lastId->fetch_assoc()/*['id']*/);
 		}else{
 			$template->errorPage('Unable to select the log after it was inserted.');
 			exit();
 		}
+		
 
-		// insert options
+		// insert options 
+	
 		foreach($optionsArray AS $index => $value){
 
 			$sql['optionId'] = $db->escape_string($value);   //Does this need to be changed??
@@ -126,7 +128,7 @@ die("HI there buddy");
 			}
 
 		}
-
+	
 		// send email to teacher
 
 			//query for alternate email address

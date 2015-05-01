@@ -10,21 +10,12 @@
 <file name="options.php" server="web//local/library/" local="130258177120306066" remote="130233993600000000" Dst="2" />
 <file name="TEMPLATE.php" server="web//local/library/" local="130258177120306066" remote="130144984800000000" Dst="2" />
 <file name="login.php" server="web//local/library/" local="130258177121126066" remote="130228021800000000" Dst="2" />
-<<<<<<< HEAD
 <file name="checkedIn.php" server="ftp.tfhsbruins.com//library/" local="130736041936105459" remote="130737785400000000" Dst="2" />
 <file name="checkedOut.php" server="ftp.tfhsbruins.com//library/" local="130736041936175466" remote="130737785400000000" Dst="2" />
 <file name="common.php" server="ftp.tfhsbruins.com//library/" local="130736041936225471" remote="130737785400000000" Dst="2" />
 <file name="index.php" server="ftp.tfhsbruins.com//library/" local="130749800050002753" remote="130749816000000000" Dst="2" />
 <file name="login.php" server="ftp.tfhsbruins.com//library/" local="130736041937595608" remote="130737785400000000" Dst="2" />
-<file name="options.php" server="ftp.tfhsbruins.com//library/" local="130749798740648475" remote="130749813000000000" Dst="2" />
-=======
-<file name="checkedIn.php" server="ftp.tfhsbruins.com//library/" local="130747230924114711" remote="130747249800000000" Dst="2" />
-<file name="checkedOut.php" server="ftp.tfhsbruins.com//library/" local="130747230917594711" remote="130747249800000000" Dst="2" />
-<file name="common.php" server="ftp.tfhsbruins.com//library/" local="130747243482317831" remote="130747260600000000" Dst="2" />
-<file name="index.php" server="ftp.tfhsbruins.com//library/" local="130749802352375389" remote="130749817800000000" Dst="2" />
-<file name="login.php" server="ftp.tfhsbruins.com//library/" local="130736038054030978" remote="130747249800000000" Dst="2" />
-<file name="options.php" server="ftp.tfhsbruins.com//library/" local="130749801750895389" remote="130749817200000000" Dst="2" />
->>>>>>> origin/master
+<file name="options.php" server="ftp.tfhsbruins.com//library/" local="130749812365059161" remote="130749828000000000" Dst="2" />
 <file name="README.md" server="ftp.tfhsbruins.com//library/" local="130705778620479530" remote="130710126000000000" Dst="2" />
 <file name="TEMPLATE.php" server="ftp.tfhsbruins.com//library/" local="130734306396205875" remote="130736054400000000" Dst="2" />
 <file name="local_library.sql" server="ftp.tfhsbruins.com//library/" local="130747279718671181" remote="130747295400000000" Dst="2" />
