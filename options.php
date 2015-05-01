@@ -84,14 +84,14 @@
 
 		//Query student information
 		$studentInfo = $db->query('SELECT * FROM student WHERE id = '.$sql['id']);
-		$sql['studentId'] = $db->escape_string($studentInfo->fetch_assoc()['id']);
-		$sql['firstName'] = $db->escape_string($studentInfo->fetch_assoc()['firstName']);
-		$sql['lastName'] = $db->escape_string($studentInfo->fetch_assoc()['lastName']);
+		$sql['studentId'] = $db->escape_string($studentInfo->fetch_assoc()/*['id']*/);
+		$sql['firstName'] = $db->escape_string($studentInfo->fetch_assoc()/*['firstName']*/);
+		$sql['lastName'] = $db->escape_string($studentInfo->fetch_assoc()/*['lastName']*/);
 		$sql['date'] = date('Y-m-d');
 		$sql['timeIn'] = date('G:i:s');
 		//Get teacher name for current block
 		if($sql['block'] != ''){
-			$sql['teacherName'] = $db->escape_string($studentInfo->fetch_assoc()['block']);
+			$sql['teacherName'] = $db->escape_string($studentInfo->fetch_assoc()/*['block']*/);
 		}else{
 			$sql['teacherName'] = 'Not found';
 		}
@@ -105,7 +105,7 @@
 		$lastId = $db->query('SELECT id FROM `log` ORDER BY id DESC LIMIT 1');
 		if($lastId){
 		if($lastId = $db->query('SELECT id FROM `log` ORDER BY id DESC LIMIT 1')){
-			$sql['logId'] = $db->escape_string($lastId->fetch_assoc()['id']);
+			$sql['logId'] = $db->escape_string($lastId->fetch_assoc()/*['id']*/);
 		}else{
 			$template->errorPage('Unable to select the log after it was inserted.');
 			exit();
@@ -130,7 +130,7 @@
 			//query for alternate email address
 			$fetchEmail = $db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
 			if($fetchEmail->num_rows){
-				$html['to'] = $data_validation->escape_html($fetchEmail->fetch_assoc()['emailAddress']);
+				$html['to'] = $data_validation->escape_html($fetchEmail->fetch_assoc()/*['emailAddress']*/);
 			}else{
 				$tmpArray = explode(',', $sql['teacherName']);
 				$lastname = trim($tmpArray[0]);
@@ -196,17 +196,17 @@ if(array_key_exists('id', $_GET) &&
 
 	$sql['id'] = $db->escape_string($_GET['id']);
 	$sql['statement'] = $db->escape_string('SELECT * FROM student WHERE id = ' . $sql['id']);
-	$statementInfo = $db->query($sql['statement'], 'info');
-		$html['firstName'] = $data_validation->escape_html($statementInfo->fetch_assoc()['firstName']);
-		$html['lastName']  = $data_validation->escape_html($statementInfo->fetch_assoc()['lastName']); 
-		$html['id']		   = $data_validation->escape_html($statementInfo->fetch_assoc()['id']); 	
-		$html['gender']	   = $data_validation->escape_html($statementInfo->fetch_assoc()['gender']); 	
+	$statementInfo = $db->query($sql['statement']);
+		$html['firstName'] = $data_validation->escape_html($statementInfo->fetch_assoc()/*['firstName']*/);
+		$html['lastName']  = $data_validation->escape_html($statementInfo->fetch_assoc()/*['lastName']*/); 
+		$html['id']		   = $data_validation->escape_html($statementInfo->fetch_assoc()/*['id']*/); 	
+		$html['gender']	   = $data_validation->escape_html($statementInfo->fetch_assoc()/*['gender']*/); 	
 		if($html['gender'] == 'M'){
 			$html['genderIcon'] = 'M.png';
 		}else{
 			$html['genderIcon'] = 'F.png';
 		}
-		$html['gradeLevel']	= $data_validation->escape_html($statementInfo->fetch_assoc()['gradeLevel']); 	
+		$html['gradeLevel']	= $data_validation->escape_html($statementInfo->fetch_assoc()/*['gradeLevel']*/); 	
 	?>
 		<div class="post">
 			<h2 class="title" style="text-align:center;"><a>Welcome to the Library Sign In</a></h2>

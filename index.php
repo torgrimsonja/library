@@ -60,13 +60,11 @@
 
 		// capture barcode
 		$sql['id'] = $db->escape_string($barcode);
-
-
+		
 		// Check to see if student exists in the database
-
-
-		$checkForStudent = $db->query('SELECT * FROM student WHERE id = \'' . $sql['id'] .'\'', 'checkForStudent');
-
+		$query = 'SELECT * FROM student WHERE id = \'' . $sql['id'] .'\'';
+		$checkForStudent = $db->query($query);
+	
 		if($checkForStudent->num_rows){
 
 			//Grab current system time
@@ -74,12 +72,12 @@
 			$sql['currTime'] = date('G:i:s');
 
 			//checks to see if it is a checkin or checkout request
-			$checkoutValidation = $db->query('SELECT id FROM `log` WHERE studentId = \''.$sql['id'].'\' AND date = \''.$sql['currDate'].'\' AND timeOut IS NULL', 'checkoutValidation');
+			$checkoutValidation = $db->query('SELECT id FROM `log` WHERE studentId = \''.$sql['id'].'\' AND date = \''.$sql['currDate'].'\' AND timeOut IS NULL');
 			if($checkoutValidation->num_rows){
 
 				//Process checkout request
-				$sql['logId'] = $db->escape_string($checkoutValidation->fetch_assoc()['id']);
-				$db->query('UPDATE `log` SET timeOut = \''.$sql['currTime'].'\' WHERE id = \''.$sql['logId'].'\'', 'updateCheckout');
+				$sql['logId'] = $db->escape_string($checkoutValidation->fetch_assoc()/*['id']*/);
+				$db->query('UPDATE `log` SET timeOut = \''.$sql['currTime'].'\' WHERE id = \''.$sql['logId'].'\'');
 
 					//Send email to current instructor
 
@@ -103,16 +101,16 @@
 				}
 
 				//Query teacher name
-				if(!$db->query('SELECT `'.$sql['block'].'` FROM student WHERE id = '.$sql['id'])){
+				$teacherQuery = $db->query('SELECT `'.$sql['block'].'` FROM student WHERE id = '.$sql['id']);
+				if(!$teacherQuery){
 					$template->errorPage('Unable to find email address of current teacher.');
 					exit();
 				}else{
-					$teacherEmailAddress;
-					$sql['teacherName'] = $db->escape_string($teacherEmailAddress->fetch_assoc()$sql['block']);
+					$sql['teacherName'] = $db->escape_string($teacherQuery->fetch_assoc()/*$sql['block']*/);
 					//query for alternate email address
-					$emailAddress = $db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
+					$emailAddress = $db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'');
 					if($db->num_rows('alternameEmail')){
-						$html['to'] = $data_validation->escape_html($emailAddress->fetch_assoc()['emailAddress']);
+						$html['to'] = $data_validation->escape_html($emailAddress->fetch_assoc()/*['emailAddress']*/);
 					}else{
 						$tmpArray = explode(',', $sql['teacherName']);
 						$lastname = trim($tmpArray[0]);
@@ -185,6 +183,7 @@
 
 		-->
 	</script>
+        
         <h2 class="title" style="text-align:center;"><a>Welcome to the Library Sign In</a></h2>
             <h2 style="color:#FFF;">Scan your Student ID card below</h2>
             <div data-role="popup" id="popupInfo" data-transition="pop">
