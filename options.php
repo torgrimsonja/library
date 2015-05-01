@@ -8,6 +8,8 @@
  *	Description		: (overview of file purpose here)
 ****************************************************************/
 
+die("HI there buddy");
+
 /************************************************
  *	PAGE VARIABLES AND CONSTANTS
 ************************************************/
@@ -194,9 +196,10 @@
 if(array_key_exists('id', $_GET) &&
 	is_numeric($_GET['id'])){
 
+	die($_GET['id']);
 	$sql['id'] = $db->escape_string($_GET['id']);
 	$sql['statement'] = $db->escape_string('SELECT * FROM student WHERE id = ' . $sql['id']);
-	$statementInfo = $db->query($sql['statement'], 'info');
+	$statementInfo = $db->query($sql['statement']);
 		$html['firstName'] = $data_validation->escape_html($statementInfo->fetch_assoc()/*['firstName']*/);
 		$html['lastName']  = $data_validation->escape_html($statementInfo->fetch_assoc()/*['lastName']*/); 
 		$html['id']		   = $data_validation->escape_html($statementInfo->fetch_assoc()/*['id']*/); 	

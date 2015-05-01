@@ -60,13 +60,11 @@
 
 		// capture barcode
 		$sql['id'] = $db->escape_string($barcode);
-
-
+		
 		// Check to see if student exists in the database
-
-
-		$checkForStudent = $db->query('SELECT * FROM student WHERE id = \'' . $sql['id'] .'\'', 'checkForStudent');
-
+		$query = 'SELECT * FROM student WHERE id = \'' . $sql['id'] .'\'';
+		$checkForStudent = $db->query($query);
+	
 		if($checkForStudent->num_rows){
 
 			//Grab current system time
@@ -74,7 +72,7 @@
 			$sql['currTime'] = date('G:i:s');
 
 			//checks to see if it is a checkin or checkout request
-			$checkoutValidation = $db->query('SELECT id FROM `log` WHERE studentId = \''.$sql['id'].'\' AND date = \''.$sql['currDate'].'\' AND timeOut IS NULL', 'checkoutValidation');
+			$checkoutValidation = $db->query('SELECT id FROM `log` WHERE studentId = \''.$sql['id'].'\' AND date = \''.$sql['currDate'].'\' AND timeOut IS NULL');
 			if($checkoutValidation->num_rows){
 
 				//Process checkout request
@@ -139,6 +137,7 @@
 
 			}else{
 				//Handle the checkin request
+				die($sql['id']);
 				header('Location:options.php?id=' . $sql['id']);
 
 			}
@@ -185,6 +184,7 @@
 
 		-->
 	</script>
+        
         <h2 class="title" style="text-align:center;"><a>Welcome to the Library Sign In</a></h2>
             <h2 style="color:#FFF;">Scan your Student ID card below</h2>
             <div data-role="popup" id="popupInfo" data-transition="pop">
