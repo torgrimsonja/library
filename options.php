@@ -120,7 +120,7 @@ die("HI there buddy");
 			if(!$db->query('INSERT INTO `log_option`
 						(`log_id`, `option_id`)
 						VALUES
-						(\''.$sql['logId'].'\', \''.$sql['optionId'].'\');', 'insertOptions')){
+						(\''.$sql['logId'].'\', \''.$sql['optionId'].'\');')){
 				$template->errorPage('Unable to insert log options..');
 				exit();
 			}
@@ -130,7 +130,7 @@ die("HI there buddy");
 		// send email to teacher
 
 			//query for alternate email address
-			$fetchEmail = $db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'', 'alternateEmail');
+			$fetchEmail = $db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'');
 			if($fetchEmail->num_rows){
 				$html['to'] = $data_validation->escape_html($fetchEmail->fetch_assoc()/*['emailAddress']*/);
 			}else{
