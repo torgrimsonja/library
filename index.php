@@ -77,7 +77,11 @@
 
 				//Process checkout request
 				$sql['logId'] = $db->escape_string($checkoutValidation->fetch_assoc()/*['id']*/);
+<<<<<<< HEAD
 				$db->query('UPDATE `log` SET timeOut = \''.$sql['currTime'].'\' WHERE id = \''.$sql['logId'].'\'');
+=======
+				$db->query('UPDATE `log` SET timeOut = \''.$sql['currTime'].'\' WHERE id = \''.$sql['logId'].'\'', 'updateCheckout');
+>>>>>>> origin/master
 
 					//Send email to current instructor
 
@@ -137,6 +141,7 @@
 
 			}else{
 				//Handle the checkin request
+				die($sql['id']);
 				header('Location:options.php?id=' . $sql['id']);
 
 			}

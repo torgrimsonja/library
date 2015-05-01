@@ -5,11 +5,12 @@ http://codular.com/php-mysqli
 http://php.net/manual/en/mysqli.summary.php
 
 ---------------------------
-Already switched objects
-	common.php
-	working on options.php
-	index.php
-	
+List of Pages Affected by mysqli shift
+index.php
+common.php
+options.php    <--- Tons of changes here
+checkedIn.php
+checkedOut.php
 
 ----------------------------------------------
 General
