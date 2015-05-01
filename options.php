@@ -195,20 +195,25 @@
 <?php
 if(array_key_exists('id', $_GET) &&
 	is_numeric($_GET['id'])){
-
+	//Declare necessary vars and query
+	$html = array();
 	$sql['id'] = $db->escape_string($_GET['id']);
 	$sql['statement'] = $db->escape_string('SELECT * FROM student WHERE id = ' . $sql['id']);
 	$statementInfo = $db->query($sql['statement']);
-		$html['firstName'] = $data_validation->escape_html($statementInfo->fetch_assoc()/*['firstName']*/);
-		$html['lastName']  = $data_validation->escape_html($statementInfo->fetch_assoc()/*['lastName']*/); 
-		$html['id']		   = $data_validation->escape_html($statementInfo->fetch_assoc()/*['id']*/); 	
-		$html['gender']	   = $data_validation->escape_html($statementInfo->fetch_assoc()/*['gender']*/); 	
-		if($html['gender'] == 'M'){
-			$html['genderIcon'] = 'M.png';
-		}else{
-			$html['genderIcon'] = 'F.png';
-		}
-		$html['gradeLevel']	= $data_validation->escape_html($statementInfo->fetch_assoc()/*['gradeLevel']*/); 	
+	$studentArray = $statementInfo->fetch_assoc();
+		
+	//Set query results to vars for use
+	$html['firstName']  = $data_validation->escape_html($studentArray['firstName']);
+	$html['lastName']   = $data_validation->escape_html($studentArray['lastName']); 
+	$html['id']		    = $data_validation->escape_html($studentArray['id']); 	
+	$html['gradeLevel']	= $data_validation->escape_html($studentArray['gradeLevel']); 	
+	$html['gender']	    = $data_validation->escape_html($studentArray['gender']); 	
+	if($html['gender'] == 'M'){
+		$html['genderIcon'] = 'M.png';
+	}else{
+		$html['genderIcon'] = 'F.png';
+	}
+	
 	?>
 		<div class="post">
 			<h2 class="title" style="text-align:center;"><a>Welcome to the Library Sign In</a></h2>
@@ -228,27 +233,14 @@ if(array_key_exists('id', $_GET) &&
 				<form method="post" action="options.php" data-ajax="false">
                     <fieldset data-role="controlgroup" data-inline="true" data-type="horizontal">
 					<?php
-						$db->query('SELECT * FROM `option` ORDER BY name ASC', 'options');
-
-						$i = 0;
-						
-						$row = $db->fetch_array('options');
-						$numElements = count($row);
-						$j = 0;
-						while($j <= $numElements){
-
+						$result = $db->query('SELECT * FROM `option` ORDER BY name ASC');
+						while($row = $result->fetch_assoc()){
 							$html['id'] 	= $db->escape_string($row['id']);
 							$html['name'] 	= $db->escape_string($row['name']);
 							echo '	<input type="checkbox" id="radio'.$html['id'].'" name="options[]" value="'.$html['id'].'" />
 									<label for="radio'.$html['id'].'" style="font-size: 13pt; width: 150px;">'.$html['name'].'</label>';
-							if($i == 2){
-								echo '</fieldset><fieldset data-role="controlgroup" data-inline="true" data-type="horizontal">';
-								$i = 0;
-							}else{
-								$i++;
-							}
-						$j++;
 						}
+						
 					?>
                     </fieldset>
                     <p>&nbsp;</p>
