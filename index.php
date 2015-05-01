@@ -138,7 +138,6 @@
 
 			}else{
 				//Handle the checkin request
-				die($sql['id']);
 				header('Location:options.php?id=' . $sql['id']);
 
 			}
