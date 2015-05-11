@@ -34,7 +34,7 @@ class page_template {
             <link href="<?php echo $this->location; ?>inc/css/jqueryMobile.css" rel="stylesheet">
             <script src="<?php echo $this->location; ?>inc/js/jquery-1.9.0.min.js"></script>
            <script src="<?php echo $this->location; ?>inc/js/jqueryMobile.js"></script>
-			<script type="text/javascript">
+            <script type="text/javascript">
 				$(document).ready(function(e) {
 					$(document).bind("mobileinit", function(){
 					  $.extend(  $.mobile , {
