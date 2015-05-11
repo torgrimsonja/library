@@ -17,5 +17,9 @@
 <file name="functions.php" server="ftp.tfhsbruins.com//library/" local="130704075881810395" remote="130710126000000000" Dst="2" />
 <file name="security-image.inc.php" server="ftp.tfhsbruins.com//library/" local="130704075881820396" remote="130710126000000000" Dst="2" />
 <file name="security.php" server="ftp.tfhsbruins.com//library/" local="130704075881820396" remote="130710126000000000" Dst="2" />
+<<<<<<< HEAD
 <file name="template.php" server="ftp.tfhsbruins.com//library/" local="130749869571218768" remote="130749885000000000" Dst="2" />
+=======
+<file name="template.php" server="ftp.tfhsbruins.com//library/" local="130752433210000000" remote="130752448800000000" Dst="2" />
+>>>>>>> origin/master
 </dwsync>
