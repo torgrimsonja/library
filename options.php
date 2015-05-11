@@ -105,8 +105,9 @@
 		}
 		
 		$lastId = $db->query('SELECT id FROM `log` ORDER BY id DESC LIMIT 1');
+		$lastIdArray = $lastId->fetch_assoc();
 		if($lastId = $db->query('SELECT id FROM `log` ORDER BY id DESC LIMIT 1')){
-			$sql['logId'] = $db->escape_string($lastId->fetch_assoc()/*['id']*/);
+			$sql['logId'] = $db->escape_string($lastIdArray['id']);
 		}else{
 			$template->errorPage('Unable to select the log after it was inserted.');
 			exit();
