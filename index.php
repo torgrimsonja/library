@@ -76,7 +76,7 @@
 			if($checkoutValidation->num_rows){
 
 				//Process checkout request
-				$sql['logId'] = $db->escape_string($checkoutValidation->fetch_assoc()/*['id']*/);
+				$sql['logId'] = $db->escape_string($checkoutValidation->fetch_assoc()['id']);
 				$db->query('UPDATE `log` SET timeOut = \''.$sql['currTime'].'\' WHERE id = \''.$sql['logId'].'\'');
 
 
@@ -85,7 +85,7 @@
 				//build period field for database call
 				$blockId = '';
 				$currTime = strtotime(date('G:i:s'));
-				$endTime = strtotime($_SESSION['SCHEDULE']['ENDTIME']);
+				$endTime = strtotime($_SESSION['SCHEDULE']['ENDTIME']['endTime']);
 
 				//sequence through blocks to find current period
 				foreach($_SESSION['SCHEDULE']['BLOCK'] as $key => $value){

@@ -64,8 +64,8 @@
 		//build period field for database call
 		$blockId = '';
 		$currTime = strtotime(date('G:i:s'));
-		$endTime = strtotime($_SESSION['SCHEDULE']['ENDTIME']);
-
+		$endTime = strtotime($_SESSION['SCHEDULE']['ENDTIME']['endTime']);
+		
 		//select current block
 		foreach($_SESSION['SCHEDULE']['BLOCK'] as $key => $value){
 			$startTime = strtotime($value);
@@ -84,14 +84,15 @@
 
 		//Query student information
 		$studentInfo = $db->query('SELECT * FROM student WHERE id = '.$sql['id']);
-		$sql['studentId'] = $db->escape_string($studentInfo->fetch_assoc()/*['id']*/);
-		$sql['firstName'] = $db->escape_string($studentInfo->fetch_assoc()/*['firstName']*/);
-		$sql['lastName'] = $db->escape_string($studentInfo->fetch_assoc()/*['lastName']*/);
+		$studentInfoArray = $studentInfo->fetch_assoc();
+		$sql['studentId'] = $db->escape_string($studentInfoArray['id']);
+		$sql['firstName'] = $db->escape_string($studentInfoArray['firstName']);
+		$sql['lastName'] = $db->escape_string($studentInfoArray['lastName']);
 		$sql['date'] = date('Y-m-d');
 		$sql['timeIn'] = date('G:i:s');
 		//Get teacher name for current block
 		if($sql['block'] != ''){
-			$sql['teacherName'] = $db->escape_string($studentInfo->fetch_assoc()/*['block']*/);
+			$sql['teacherName'] = $db->escape_string($studentInfoArray['block']);
 		}else{
 			$sql['teacherName'] = 'Not found';
 		}
