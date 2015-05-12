@@ -60,7 +60,7 @@
 
 	//Establishes the structure for the header container
 		$template->page_header(TITLE);
-		
+
 
 /************************************************
  *	PAGE OUTPUT

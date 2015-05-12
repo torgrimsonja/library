@@ -7,7 +7,7 @@
  *  Copyright		: (c) 2006 Twin Falls High School.
  *	Description		: (overview of file purpose here)
 ****************************************************************/
-   
+
 /************************************************
  *	PAGE VARIABLES AND CONSTANTS
 ************************************************/
@@ -15,7 +15,7 @@
 	//Defines the path from this file to the root of the site
 		//Define to path to the root of our site in the quotes.
 		define('ROOT_PATH', '../../');
-		
+
 /************************************************
  *	SERCURITY AND INCLUDES
 ************************************************/
@@ -36,7 +36,7 @@
  ************************************************/
 
  	$file = file('../'.$config['dataFilePath']);
-	
+
 	$db->query('SELECT id FROM student', 'exists');
 	$studentArray = array();
 	while($row = $db->fetch_array('exists')){
@@ -58,7 +58,7 @@
 		$sql['P6'] 			= $data_validation->escape_sql($info[10]);
 		$sql['P7'] 			= $data_validation->escape_sql($info[11]);
 		$sql['P8'] 			= $data_validation->escape_sql($info[12]);
-		
+
 
 		if(in_array($sql['id'], $studentArray)){
 			$sql['statement'] = 'UPDATE student SET	firstName = \''.$sql['firstName'].'\',
@@ -74,12 +74,12 @@
 													P7 = \''.$sql['P7'].'\',
 													P8 = \''.$sql['P8'].'\'
 								where ID = '.$sql['id'];
-			
+
 			//Remove student from studentArray
 			$file[$key] = '~';
 			sort($file);
 			array_pop($file);
-			
+
 		}else{
 			$sql['statement'] = 'INSERT INTO student 	(id, firstName, lastName, gender, gradeLevel, p1, p2, p3, p4, p5, p6, p7, p8)
 														VALUES
@@ -97,8 +97,8 @@
 														 \''.$sql['p7'].'\',
 														 \''.$sql['p8'].'\');';
 		}
-		
+
 		$db->query($sql['statement']);
 	}
-	
-	//Delete students remaining in the studentArray from the database 
+
+	//Delete students remaining in the studentArray from the database

@@ -8,7 +8,7 @@
  *	Description		: Landing page for the schedule management
  						controls
 ****************************************************************/
-   
+
 /************************************************
  *	PAGE VARIABLES AND CONSTANTS
 ************************************************/
@@ -16,7 +16,7 @@
 	//Defines the path from this file to the root of the site
 		//Define to path to the root of our site in the quotes.
 		define('ROOT_PATH', '../../');
-		
+
 	//Defines page title in the title bar and in the header.
 		//Place the title of your project in the quotes.
 		define('TITLE', 'Schedule Management');
@@ -34,7 +34,7 @@
 
 	//Include functions page for shedule system
 		require_once('functions.php');
-		
+
 /************************************************
  *	DATA HANDLING
  *	description: Section used for filtering
@@ -42,29 +42,29 @@
 				 outgoing data passed to this
 				 page.
  ************************************************/
- 
+
 		if(array_key_exists('action', $_GET) &&
 			$_GET['action'] == 'addScheduleDo'){
-				
+
 			addScheduleDo($_POST);
-		
+
 		}else if(	array_key_exists('action', $_GET) &&
 					$_GET['action'] == 'editScheduleDo' &&
 					array_key_exists('scheduleId', $_POST) &&
 					is_numeric($_POST['scheduleId']) &&
 					array_key_exists('scheduleName', $_POST)){
-						
+
 			editScheduleDo($_POST);
-			
+
 		}else if(	array_key_exists('action', $_GET) &&
 			$_GET['action'] == 'deleteSchedule' &&
 			array_key_exists('id', $_GET) &&
 			is_numeric($_GET['id'])){
-				
+
 			deleteSchedule($_GET['id']);
-		
+
 		}
- 
+
 /************************************************
  *	PAGE SPECIFIC FUNCTIONS
  *	description: Section used for creating functions
@@ -74,14 +74,14 @@
  ************************************************/
 
 
- 
+
 /************************************************
  *	HEADER
  *	description: Section calls the header
  				 container for this page.
 ************************************************/
-							
-		$template->admin_page_header(TITLE);	
+
+		$template->admin_page_header(TITLE);
 
 /************************************************
  *	PAGE OUTPUT
@@ -93,11 +93,11 @@
 	<!-- THE ONLY THINGS YOU NEED TO CHANGE ABOVE ARE THE ROOT_PATH AND TITLE!!! -->
 
 	<!-- ENTER THE CONTENT FOR YOUR PAGE HERE!!! -->
-	
+
 	<!-- Begin HTML5 content -->
 
     <div id="schedules">
-	<?php 
+	<?php
 		if(	array_key_exists('action', $_GET) &&
 			$_GET['action'] == 'editSchedule' &&
 			array_key_exists('id', $_GET) &&
@@ -109,24 +109,24 @@
 					$_GET['action'] == 'manageBlocks' &&
 					array_key_exists('id', $_GET) &&
 					is_numeric($_GET['id'])){
-						
+
 			manageBlocks($_GET['id']);
-			
+
 		}else if(	array_key_exists('action', $_GET) &&
 					$_GET['action'] == 'addSchedule'){
-						
+
 			addSchedule();
-			
+
 		}else{
-			
+
 			displaySchedules();
-			
+
 		}
 	?>
    </div>
 
 	<!-- End HTML5 content -->
-	
+
 	<!-- LEAVE EVERYTHING BELOW THIS LINE ALONE!!! -->
 
 <?php

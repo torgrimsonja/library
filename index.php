@@ -60,11 +60,11 @@
 
 		// capture barcode
 		$sql['id'] = $db->escape_string($barcode);
-		
+
 		// Check to see if student exists in the database
 		$query = 'SELECT * FROM student WHERE id = \'' . $sql['id'] .'\'';
 		$checkForStudent = $db->query($query);
-	
+
 		if($checkForStudent->num_rows){
 
 			//Grab current system time
@@ -184,7 +184,7 @@
 
 		-->
 	</script>
-        
+
         <h2 class="title" style="text-align:center;"><a>Welcome to the Library Sign In</a></h2>
             <h2 style="color:#FFF;">Scan your Student ID card below</h2>
             <div data-role="popup" id="popupInfo" data-transition="pop">
