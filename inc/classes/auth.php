@@ -34,7 +34,8 @@
 		var $functions;
 		var $allowedHosts = array(	'127.0.0.1',
 									'96.5.145.174',
-									'192.168.3.197');
+									'192.168.3.197',
+									'192.168.1.12');
 
 		//Initialize construct method
 			function authentication()	{
