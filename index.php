@@ -73,10 +73,16 @@
 
 			//checks to see if it is a checkin or checkout request
 			$checkoutValidation = $db->query('SELECT id FROM `log` WHERE studentId = \''.$sql['id'].'\' AND date = \''.$sql['currDate'].'\' AND timeOut IS NULL');
+			$checkoutValidationArray = $checkoutValidation->fetch_assoc();
 			if($checkoutValidation->num_rows){
 
 				//Process checkout request
-				$sql['logId'] = $db->escape_string($checkoutValidation->fetch_assoc()/*['id']*/);
+<<<<<<< HEAD
+				$sql['logId'] = $db->escape_string($checkoutValidationArray['id']);
+				
+=======
+				$sql['logId'] = $db->escape_string($checkoutValidation->fetch_assoc()['id']);
+>>>>>>> origin/master
 				$db->query('UPDATE `log` SET timeOut = \''.$sql['currTime'].'\' WHERE id = \''.$sql['logId'].'\'');
 
 
@@ -85,7 +91,7 @@
 				//build period field for database call
 				$blockId = '';
 				$currTime = strtotime(date('G:i:s'));
-				$endTime = strtotime($_SESSION['SCHEDULE']['ENDTIME']);
+				$endTime = strtotime($_SESSION['SCHEDULE']['ENDTIME']['endTime']);
 
 				//sequence through blocks to find current period
 				foreach($_SESSION['SCHEDULE']['BLOCK'] as $key => $value){

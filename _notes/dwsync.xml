@@ -13,10 +13,17 @@
 <file name="checkedIn.php" server="ftp.tfhsbruins.com//library/" local="130747230924114711" remote="130747249800000000" Dst="2" />
 <file name="checkedOut.php" server="ftp.tfhsbruins.com//library/" local="130747230917594711" remote="130747249800000000" Dst="2" />
 <file name="common.php" server="ftp.tfhsbruins.com//library/" local="130747243482317831" remote="130747260600000000" Dst="2" />
-<file name="index.php" server="ftp.tfhsbruins.com//library/" local="130749806638217389" remote="130749822600000000" Dst="2" />
+<<<<<<< HEAD
+<file name="index.php" server="ftp.tfhsbruins.com//library/" local="130758501252133758" remote="130758517800000000" Dst="2" />
 <file name="login.php" server="ftp.tfhsbruins.com//library/" local="130736038054030978" remote="130747249800000000" Dst="2" />
-<file name="options.php" server="ftp.tfhsbruins.com//library/" local="130749845285689594" remote="130749861000000000" Dst="2" />
+<file name="options.php" server="ftp.tfhsbruins.com//library/" local="130758504431599807" remote="130758520200000000" Dst="2" />
+=======
+<file name="index.php" server="ftp.tfhsbruins.com//library/" local="130758505156898244" remote="130758520800000000" Dst="2" />
+<file name="login.php" server="ftp.tfhsbruins.com//library/" local="130736038054030978" remote="130747249800000000" Dst="2" />
+<file name="options.php" server="ftp.tfhsbruins.com//library/" local="130758506053317877" remote="130758520200000000" Dst="2" />
+>>>>>>> origin/master
 <file name="README.md" server="ftp.tfhsbruins.com//library/" local="130705778620479530" remote="130710126000000000" Dst="2" />
 <file name="TEMPLATE.php" server="ftp.tfhsbruins.com//library/" local="130734306396205875" remote="130736054400000000" Dst="2" />
 <file name="local_library.sql" server="ftp.tfhsbruins.com//library/" local="130747279718671181" remote="130747295400000000" Dst="2" />
+<file name="ini_settings.php" server="ftp.tfhsbruins.com//library/" local="130758507718894418" remote="130758523800000000" Dst="2" />
 </dwsync>
