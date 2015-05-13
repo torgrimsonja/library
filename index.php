@@ -57,7 +57,7 @@
  ************************************************/
 
 	function requestCheckin($barcode){
-		global $data_validation, $db;
+		global $data_validation, $db, $template;
 
 		// capture barcode
 		$sql['id'] = $db->escape_string($barcode);
@@ -105,10 +105,7 @@
 
 				//Query teacher name
 				$teacherQuery = $db->query('SELECT `'.$sql['block'].'` FROM student WHERE id = '.$sql['id']);
-				if(!$teacherQuery){
-					$template->errorPage('Unable to find email address of current teacher.');
-					exit();
-				}else{
+				if($teacherQuery->num_rows){
 					$sql['teacherName'] = $db->escape_string($teacherQuery->fetch_assoc()/*$sql['block']*/);
 					//query for alternate email address
 					$emailAddress = $db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'');
@@ -133,8 +130,8 @@
 				}
 
 
-					// redirect user to checkout page
-					header('Location:checkedOut.php?teacher='.$html['teacherName']);
+				// redirect user to checkout page
+				header('Location:checkedOut.php?teacher='.$html['teacherName']);
 
 
 
