@@ -149,7 +149,7 @@
 			$html['headers'] = 'From: '.$system['ADMIN_EMAIL']. "\r\n";
 
 			//send email
-			mail($html['to'], $html['subject'], $html['message'], $html['headers']);
+			//mail($html['to'], $html['subject'], $html['message'], $html['headers']);
 
 
 		header('Location:checkedIn.php');

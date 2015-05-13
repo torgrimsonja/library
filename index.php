@@ -26,6 +26,7 @@
 
 	//Includes all classes and variables common to all pages in the site.
 		require_once(ROOT_PATH . 'common.php');
+		//include(ROOT_PATH 		. 'inc/classes/template.php');
 
 	//Validate authorized user access to this page
 		$auth->validate_user_access('PUBLIC');
@@ -77,12 +78,7 @@
 			if($checkoutValidation->num_rows){
 
 				//Process checkout request
-<<<<<<< HEAD
 				$sql['logId'] = $db->escape_string($checkoutValidationArray['id']);
-				
-=======
-				$sql['logId'] = $db->escape_string($checkoutValidation->fetch_assoc()['id']);
->>>>>>> origin/master
 				$db->query('UPDATE `log` SET timeOut = \''.$sql['currTime'].'\' WHERE id = \''.$sql['logId'].'\'');
 
 
