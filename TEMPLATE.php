@@ -7,7 +7,7 @@
  *  Copyright		: (c) 2006 Twin Falls High School.
  *	Description		: (overview of file purpose here)
 ****************************************************************/
-   
+
 /************************************************
  *	PAGE VARIABLES AND CONSTANTS
 ************************************************/
@@ -15,7 +15,7 @@
 	//Defines the path from this file to the root of the site
 		//Define to path to the root of our site in the quotes.
 		define('ROOT_PATH', '');
-		
+
 	//Defines page title in the title bar and in the header.
 		//Place the title of your project in the quotes.
 		define('TITLE', '');
@@ -37,9 +37,9 @@
 				 outgoing data passed to this
 				 page.
  ************************************************/
- 
- 
- 
+
+
+
 /************************************************
  *	PAGE SPECIFIC FUNCTIONS
  *	description: Section used for creating functions
@@ -49,16 +49,16 @@
  ************************************************/
 
 
- 
+
 /************************************************
  *	HEADER
  *	description: Section calls the header
  				 container for this page.
 ************************************************/
-	
+
 	//Establishes the structure for the header container
 		$template->page_header(TITLE);
-		
+
 
 /************************************************
  *	PAGE OUTPUT
@@ -70,13 +70,13 @@
 	<!-- THE ONLY THINGS YOU NEED TO CHANGE ABOVE ARE THE ROOT_PATH AND TITLE, and navigation method!!! -->
 
 	<!-- ENTER THE CONTENT FOR YOUR PAGE HERE!!! -->
-	
+
 	<!-- Begin HTML5 content -->
 
 
 
 	<!-- End HTML5 content -->
-	
+
 	<!-- LEAVE EVERYTHING BELOW THIS LINE ALONE!!! -->
 
 <?php

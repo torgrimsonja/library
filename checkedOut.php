@@ -7,7 +7,7 @@
  *  Copyright		: (c) 2006 Twin Falls High School.
  *	Description		: (overview of file purpose here)
 ****************************************************************/
-   
+
 /************************************************
  *	PAGE VARIABLES AND CONSTANTS
 ************************************************/

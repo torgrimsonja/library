@@ -61,7 +61,7 @@
 		$result = $db->query('SELECT `name`, `value` FROM `settings`');
 
 		$_SESSION['SETTINGS'] = array();
-		
+
 		while($row = $result->fetch_assoc()){
 			$_SESSION['SETTINGS'][$row['name']]	= $data_validation->escape_html($row['value']);
 		}
