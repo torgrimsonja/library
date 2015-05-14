@@ -75,7 +75,7 @@
 
 			$_SESSION['SCHEDULE']['ENDTIME'] = $result->fetch_assoc()/*['endTime']*/;
 
-		//query for schedule
+		//query for schedule12
 			$_SESSION['SCHEDULE']['BLOCK'] = array();
 
 			$scheduleBlocks = $db->query('SELECT organization_timeBlock_id, timeStart FROM schedule_block WHERE schedule_id = '.$_SESSION['SETTINGS']['currentSchedule']);
