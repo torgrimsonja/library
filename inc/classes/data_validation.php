@@ -78,7 +78,7 @@
 
 		public function escape_sql($value){
 
-			$temp_value = mysql_real_escape_string($value);
+			$temp_value = mysqli_real_escape_string($value);
 
 			return $temp_value;
 		}

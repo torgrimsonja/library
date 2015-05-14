@@ -49,7 +49,7 @@ class page_template {
         <body>
             <div id="page" data-role="page" data-theme="a">
                 <div id="header" data-role="header" data-position="fixed">
-                        <h2 style="color:#FFF;">Library Check Inh</h2>
+                        <h2 style="color:#FFF;">Library Check In</h2>
                 </div>
                 <div data-role="content" class="content" id="centerContainer">
     <?php
