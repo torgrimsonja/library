@@ -62,11 +62,11 @@
 				//Query database for user information
 					$this->db->query('SELECT * FROM `user`
 										WHERE `username` = \'' . $sql['username'] . '\'
-											AND `password` = \'' . $sql['password'] . '\'', 'login');
+											AND `password` = \'' . $sql['password'] . '\'');
 								//or $com->error('Could not contact the database to validate your account.  Please try again.');
 
 				//Validate user
-					if($this->db->num_rows('login')){
+					if($this->db->num_rows){
 
 						//Clean user information
 							$html['user_id'] 			= $this->data_validation->escape_html($this->db->result('login', 0, 'id'));
