@@ -60,18 +60,22 @@
 
 
 				//Query database for user information
-					$this->db->query('SELECT * FROM `user`
+					$userInfo = $this->db->query('SELECT * FROM `user`
 										WHERE `username` = \'' . $sql['username'] . '\'
-											AND `password` = \'' . $sql['password'] . '\'', 'login');
+											AND `password` = \'' . $sql['password'] . '\'');
 								//or $com->error('Could not contact the database to validate your account.  Please try again.');
+					$userInfoArray = $userInfo->fetch_assoc();
 
 				//Validate user
-					if($this->db->num_rows('login')){
+					if($userInfo->num_rows){
 
 						//Clean user information
-							$html['user_id'] 			= $this->data_validation->escape_html($this->db->result('login', 0, 'id'));
-							$html['first_name'] 		= $this->data_validation->escape_html($this->db->result('login', 0, 'firstName'));
-							$html['last_name'] 			= $this->data_validation->escape_html($this->db->result('login', 0, 'lastName'));
+							$html['user_id'] 			= $userInfoArray['id'];
+							//$this->data_validation->escape_html($this->db->result('login', 0, 'id'));
+							$html['first_name'] 		= $userInfoArray['firstName'];
+							//$this->data_validation->escape_html($this->db->result('login', 0, 'firstName'));
+							$html['last_name'] 			= $userInfoArray['lastName'];
+							//$this->data_validation->escape_html($this->db->result('login', 0, 'lastName'));
 							$html['full_name'] 			= ucwords($html['first_name'] . ' ' . $html['last_name']);
 							$html['redirect'] 			= $this->data_validation->decode_redirect($redirect);
 

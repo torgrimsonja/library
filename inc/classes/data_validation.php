@@ -16,6 +16,9 @@
 ************************************************/
 
 	$data_validation = new data_validation;
+		$data_validation->db = &$db;
+	
+	
 
 /************************************************
 *	Begin data_validation class
@@ -24,6 +27,7 @@
 	class data_validation{
 
 		var $error;
+		var $db;
 
 		//This method is called on individual pages.
 			//$array must be an array defining the type and value of data to be validated
@@ -78,7 +82,7 @@
 
 		public function escape_sql($value){
 
-			$temp_value = mysqli_real_escape_string($value);
+			$temp_value = $this->db->escape_string($value);
 
 			return $temp_value;
 		}
