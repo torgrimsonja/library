@@ -67,7 +67,11 @@
 					$userInfoArray = $userInfo->fetch_assoc();
 
 				//Validate user
+<<<<<<< HEAD
 					if($userInfo->num_rows){
+=======
+					if($this->db->num_rows){
+>>>>>>> origin/master
 
 						//Clean user information
 							$html['user_id'] 			= $userInfoArray['id'];
