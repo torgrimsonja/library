@@ -58,27 +58,24 @@
 					$sql['password'] 	= md5($password);
 					$html['redirect'] 	= $this->data_validation->escape_html($redirect);
 
-
 				//Query database for user information
 					$userInfo = $this->db->query('SELECT * FROM `user`
 										WHERE `username` = \'' . $sql['username'] . '\'
 											AND `password` = \'' . $sql['password'] . '\'');
-								//or $com->error('Could not contact the database to validate your account.  Please try again.');
+											
+					
+					//or $com->error('Could not contact the database to validate your account.  Please try again.');
 					$userInfoArray = $userInfo->fetch_assoc();
 
 				//Validate user
-<<<<<<< HEAD
 					if($userInfo->num_rows){
-=======
-					if($this->db->num_rows){
->>>>>>> origin/master
 
 						//Clean user information
-							$html['user_id'] 			= $userInfoArray['id'];
+							$html['user_id'] 			= $this->data_validation->escape_html($userInfoArray['id']);
 							//$this->data_validation->escape_html($this->db->result('login', 0, 'id'));
-							$html['first_name'] 		= $userInfoArray['firstName'];
+							$html['first_name'] 		= $this->data_validation->escape_html($userInfoArray['firstName']);
 							//$this->data_validation->escape_html($this->db->result('login', 0, 'firstName'));
-							$html['last_name'] 			= $userInfoArray['lastName'];
+							$html['last_name'] 			= $this->data_validation->escape_html($userInfoArray['lastName']);
 							//$this->data_validation->escape_html($this->db->result('login', 0, 'lastName'));
 							$html['full_name'] 			= ucwords($html['first_name'] . ' ' . $html['last_name']);
 							$html['redirect'] 			= $this->data_validation->decode_redirect($redirect);
@@ -93,14 +90,15 @@
 						//BEGIN SETTING PRIVILEGES FOR USER
 							//Privileges are set in the $_SESSION['SYSTEM_PRIVILEGES'] array
 							$sql['user_id'] = $this->data_validation->escape_sql($html['user_id']);
-
-							$this->db->query('	SELECT privilege.name
+							
+							$privilegesQuery = $this->db->query('	SELECT privilege.name
 												FROM user_privilege
 												LEFT JOIN privilege
 													ON privilege.id = user_privilege.privilege_id
-												WHERE user_privilege.user_id = ' . $sql['user_id'], 'privileges');
+												WHERE user_privilege.user_id = ' . $sql['user_id']);
+												
 
-							while($row = $this->db->fetch_array('privileges')){
+							while($row = $privilegesQuery->fetch_assoc()){
 								//Escape data
 									$privilege = $this->data_validation->escape_html($row['name']);
 								//Validate that the privilege doesn't already exist
@@ -108,7 +106,6 @@
 										$_SESSION['SYSTEM_PRIVILEGES'][] = $privilege;
 									}
 							}
-
 
 						//END SETTING PRIVILEGES FOR USER
 
@@ -182,13 +179,14 @@
 				//Privileges are set in the $_SESSION['SYSTEM_PRIVILEGES'] array
 				$sql['user_id'] = $this->data_validation->escape_sql($_SESSION['USER_ID']);
 
-				$this->db->query('	SELECT privilege.name
+				$privilegesQuery = $this->db->query('	SELECT privilege.name
 									FROM user_privilege
 									LEFT JOIN privilege
 										ON privilege.id = user_privilege.privilege_id
-									WHERE user_privilege.user_id = ' . $sql['user_id'], 'privileges');
+									WHERE user_privilege.user_id = ' . $sql['user_id']);
+								
 
-				while($row = $this->db->fetch_array('privileges')){
+				while($row = $privilegesQuery->fetch_assoc()){
 					//Escape data
 						$privilege = $this->data_validation->escape_html($row['name']);
 					//Validate that the privilege doesn't already exist

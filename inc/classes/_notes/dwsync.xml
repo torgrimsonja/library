@@ -9,17 +9,10 @@
 <file name="template.php" server="web//local/library/" local="130258177106096066" remote="130144984800000000" Dst="2" />
 <file name="security.php" server="web//local/library/" local="130258177107976066" remote="130144984800000000" Dst="2" />
 <file name="security-image.inc.php" server="web//local/library/" local="130258177108056066" remote="130144984800000000" Dst="2" />
-<<<<<<< HEAD
-<file name="auth.php" server="ftp.tfhsbruins.com//library/" local="130761101629152851" remote="130761117600000000" Dst="2" />
+<file name="auth.php" server="ftp.tfhsbruins.com//library/" local="130761961062965134" remote="130761976800000000" Dst="2" />
 <file name="check.php" server="ftp.tfhsbruins.com//library/" local="130704075881600374" remote="130710126000000000" Dst="2" />
 <file name="data_validation.php" server="ftp.tfhsbruins.com//library/" local="130761091732835351" remote="130761107400000000" Dst="2" />
 <file name="db.php" server="ftp.tfhsbruins.com//library/" local="130760232608235379" remote="130761100200000000" Dst="2" />
-=======
-<file name="auth.php" server="ftp.tfhsbruins.com//library/" local="130761083591910253" remote="130761099600000000" Dst="2" />
-<file name="check.php" server="ftp.tfhsbruins.com//library/" local="130704075881600374" remote="130710126000000000" Dst="2" />
-<file name="data_validation.php" server="ftp.tfhsbruins.com//library/" local="130761075542605309" remote="130761095400000000" Dst="2" />
-<file name="db.php" server="ftp.tfhsbruins.com//library/" local="130736040734200482" remote="130736056200000000" Dst="2" />
->>>>>>> origin/master
 <file name="file_management.php" server="ftp.tfhsbruins.com//library/" local="130704075881800394" remote="130710126000000000" Dst="2" />
 <file name="functions.php" server="ftp.tfhsbruins.com//library/" local="130704075881810395" remote="130710126000000000" Dst="2" />
 <file name="security-image.inc.php" server="ftp.tfhsbruins.com//library/" local="130704075881820396" remote="130710126000000000" Dst="2" />
