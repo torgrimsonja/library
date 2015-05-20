@@ -95,7 +95,7 @@ function searchByDate($date){
 	$output = '';
 	$searchByDateLog = $db->query('SELECT * FROM log WHERE date = \''.$sql['date'].'\' ORDER BY date DESC');
 
-	$numberOfStudents = $searchByTeacherLog->num_rows;
+	$numberOfStudents = $searchByDateLog->num_rows;
 
 	if($numberOfStudents > 0){
 		$output.='<div>Total number of students on this date = '.$numberOfStudents.'.</div>

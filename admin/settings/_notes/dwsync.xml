@@ -10,4 +10,8 @@
 <file name="index.php" server="ftp.tfhsbruins.com//library/" local="130704075881020316" remote="130710126000000000" Dst="2" />
 <file name="test.php" server="ftp.tfhsbruins.com//library/" local="130704075881060320" remote="130710126000000000" Dst="2" />
 <file name="updateStudentRecords.php" server="ftp.tfhsbruins.com//library/" local="130704075881100324" remote="130710126000000000" Dst="2" />
+<file name="functions.php" server="ftp.tfhsbruins.com" local="130766315529073062" remote="130766331600000000" Dst="2" />
+<file name="index.php" server="ftp.tfhsbruins.com" local="130766306223662614" remote="130766329200000000" Dst="2" />
+<file name="ajaxUpdateStudentRecords.php" server="ftp.tfhsbruins.com" local="130766314086628832" remote="130766330400000000" Dst="2" />
+<file name="updateStudentRecords.php" server="ftp.tfhsbruins.com" local="130766306223802628" remote="130766330400000000" Dst="2" />
 </dwsync>

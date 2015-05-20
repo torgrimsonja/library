@@ -108,9 +108,10 @@ function addUserDo($firstName, $lastName, $username, $password, $privilege){
 function editUserPrivilegeGet($id){
 	global $db, $data_validation;
 	$sql['id'] = $data_validation->escape_html($id);
-	$permissionGet = $db->query('SELECT * FROM `user_privilege` WHERE user_id=\''. $sql['id'] .'\'', 'permission');
+	$permission = $db->query('SELECT * FROM `user_privilege` WHERE user_id=\''. $sql['id'] .'\'');
+	$permissionArray = $permission->fetch_assoc();
 	//START HERE
-	$html['privilege_id']= $data_validation->escape_html($db->result('permission', 0, 'privilege_id'));
+	$html['privilege_id']= $data_validation->escape_html($permissionArray['privilege_id']);
 }
 
 function changePassword($id){
@@ -118,7 +119,7 @@ function changePassword($id){
 	
 	$sql['userId'] = $data_validation->escape_sql($id);
 
-		$db->query('SELECT * FROM user WHERE id = ' . $sql['userId'], 'userInfo');
+		$db->query('SELECT * FROM user WHERE id = ' . $sql['userId']);
 	
 		?>
 
@@ -144,7 +145,7 @@ function changePasswordDo($password, $id){
 	
 	$db->query('UPDATE user 
 							SET password=\''.md5($sql['password']).'\' 
-							WHERE id=' . $sql['id'], 'update');
+							WHERE id=' . $sql['id']);
 	header('Location:index.php');
 }
 
@@ -180,17 +181,19 @@ function editUser($id){
                         
                                 
                                    <?php
-										$db->query('SELECT user_privilege.privilege_id AS asdf
+										$userPermission = $db->query('SELECT user_privilege.privilege_id AS asdf
 													FROM user
 														LEFT JOIN user_privilege
 														ON user.id = user_privilege.user_id
-													WHERE user.id = '.$sql['userId'], 'userPermission');
+													WHERE user.id = '.$sql['userId']);
+													
+										$userPermissionArray = $userPermission->fetch_assoc();
 																										
-										$html['userPrivilege'] = $db->result('userPermission', 0, 'asdf');
+										$html['userPrivilege'] = $userPermissionArray['asdf'];
 									
-										$db->query('	SELECT id, name
-														FROM privilege', 'permissions');
-										while($row = $db->fetch_array('permissions')){
+										$permissions = $db->query('	SELECT id, name
+														FROM privilege');
+										while($row = $permissions->fetch_assoc()){
 											//Escape data
 												$html['id'] 	= $data_validation->escape_html($row['id']);
 												$html['name'] 	= ucwords($data_validation->escape_html($row['name']));
@@ -228,7 +231,7 @@ function editUserDo($id, $firstName, $lastName, $username, $privilege){
 							SET firstName=\''.$sql['firstName'].'\', 
 								lastName=\''.$sql['lastName'].'\', 
 								username=\''.$sql['username'].'\'
-							WHERE id=' . $sql['id'], 'update');
+							WHERE id=' . $sql['id']);
 				
 				$db->query('UPDATE user_privilege
 							

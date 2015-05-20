@@ -40,8 +40,8 @@ function displaySettings(){
                 <label for="currentSchedule">Select the schedule to use for today.</label>
                 <select name="currentSchedule" id="currentSchedule" data-native-menu="false" data-inline="true">
                 <?php
-                    $db->query('SELECT id, name FROM schedule', 'schedules');
-                    while($row = $db->fetch_array('schedules')){
+                    $schedules = $db->query('SELECT id, name FROM schedule');
+                    while($row = $schedules->fetch_assoc()){
                         $html['id'] = $data_validation->escape_html($row['id']);
                         $html['name'] = $data_validation->escape_html($row['name']);
                         $selected = $html['currentSchedule'] == $html['id'] ? 'selected="selected"' : '';
@@ -133,9 +133,9 @@ function updateSettings($systemStatus, $currentSchedule, $sendEmail){
 	$sql['sendEmail'] 			= $data_validation->escape_sql($sendEmail);
 	
 	// update name and time for schedule
-	$db->query('UPDATE settings SET value = \''.$sql['systemStatus'].'\' WHERE name = \'systemStatus\'', 'systemStatus');
-	$db->query('UPDATE settings SET value = \''.$sql['currentSchedule'].'\' WHERE name = \'currentSchedule\'', 'currentSchedule');
-	$db->query('UPDATE settings SET value = \''.$sql['sendEmail'].'\' WHERE name = \'sendEmail\'', 'sendEmail');
+	$db->query('UPDATE settings SET value = \''.$sql['systemStatus'].'\' WHERE name = \'systemStatus\'');
+	$db->query('UPDATE settings SET value = \''.$sql['currentSchedule'].'\' WHERE name = \'currentSchedule\'');
+	$db->query('UPDATE settings SET value = \''.$sql['sendEmail'].'\' WHERE name = \'sendEmail\'');
 	
 	header('Location:?');	
 	exit();

@@ -37,9 +37,9 @@
 
  	$file = file('../'.$config['dataFilePath']);
 
-	$db->query('SELECT id FROM student', 'exists');
+	$studentExists = $db->query('SELECT id FROM student');
 	$studentArray = array();
-	while($row = $db->fetch_array('exists')){
+	while($row = $studentExists->fetch_assoc()){
 		array_push($studentArray, $row['id']);
 	}
 
