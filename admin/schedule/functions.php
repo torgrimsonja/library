@@ -15,10 +15,11 @@ function displaySchedules(){
 		 
 						//Query settings for current schedule
 						$currentSchedule = $db->query('SELECT value FROM settings WHERE name = \'currentSchedule\'');
-						$html['currentSchedule'] = $data_validation->escape_html($db->result('currentSchedule', 0, 'value'));
+						$currentScheduleArray = $currentSchedule->fetch_assoc();
+						$html['currentSchedule'] = $data_validation->escape_html($currentScheduleArray['value']);
 						
-						$db->query('SELECT * FROM schedule ORDER BY name ASC', 'schedules');
-						while($row = $db->fetch_array('schedules')){
+						$schedules = $db->query('SELECT * FROM schedule ORDER BY name ASC');
+						while($row = $schedules->fetch_assoc()){
 							
 							$html['id'] 	= $data_validation->escape_html($row['id']);
 							$html['name'] 	= $data_validation->escape_html($row['name']);
