@@ -14,8 +14,8 @@ function displayUsers(){
 		<div class="ui-block-b" data-theme="b">Options</div>
 				<?php 
 				
-					$db->query('SELECT * FROM user ORDER BY firstName', 'users');
-					while($row = $db->fetch_array('users')){
+					$users = $db->query('SELECT * FROM user ORDER BY firstName');
+					while($row = $users->fetch_assoc()){
 						
 						$html['firstName'] 	= $data_validation->escape_html($row['firstName']);
 						$html['lastName'] 	= $data_validation->escape_html($row['lastName']);

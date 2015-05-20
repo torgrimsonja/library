@@ -7,8 +7,8 @@ function displaySettings(){
 	global $db, $data_validation;
 	
 	//query all settings
-	$db->query('SELECT * FROM settings', 'settings');
-	while($row = $db->fetch_array('settings')){
+	$settings = $db->query('SELECT * FROM settings');
+	while($row = $settings->fetch_assoc()){
 		$html[$row['name']] = $data_validation->escape_html($row['value']);
 	}
 	?>
