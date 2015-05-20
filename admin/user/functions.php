@@ -86,8 +86,9 @@ function addUserPermissionDo($id, $privilege){
 
 function selectUserId($username, $privilege){
 	global $db, $data_validation;
-	$db->query('SELECT id FROM user WHERE username=\'' . $username . '\'', 'userId');
-	$sql['id'] = $db->result('userId', 0, 'id');
+	$userId = $db->query('SELECT id FROM user WHERE username=\'' . $username . '\'');
+	$userIdArray = $userId->fetch_assoc();
+	$sql['id'] = $userIdArray['id'];
 	addUserPermissionDo($sql['id'], $privilege);
 }
 
