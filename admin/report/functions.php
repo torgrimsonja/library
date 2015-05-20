@@ -13,8 +13,8 @@ function searchByStudent($studentId, $date=''){
 		$sql = 'SELECT * FROM log WHERE (studentId LIKE \'%'.$sql['studentId'].'%\' OR firstName LIKE \'%'.$sql['studentId'].'%\' OR lastName LIKE \'%'.$sql['studentId'] . '%\') ORDER BY date DESC';
 	}
 
-	$db->query($sql, 'searchByStudentLog');
-	if($db->num_rows('searchByStudentLog')){
+	$searchByStudentLog = $db->query($sql);
+	if($searchByStudentLog->num_rows){
 		$output.='<div class="ui-grid-d">
 					<div class="ui-block-a"><div class="ui-bar ui-bar-b" style="height:60px">Student</div></div>
 					<div class="ui-block-b"><div class="ui-bar ui-bar-b" style="height:60px">Teacher</div></div>
@@ -22,7 +22,7 @@ function searchByStudent($studentId, $date=''){
 					<div class="ui-block-d"><div class="ui-bar ui-bar-b" style="height:60px">Time-In</div></div>
 					<div class="ui-block-e"><div class="ui-bar ui-bar-b" style="height:60px">Time-Out</div></div>';
 
-		while($row = $db->fetch_array('searchByStudentLog')){
+		while($row = $searchByStudentLog->fetch_assoc()){
 			$html['firstName'] 		= $data_validation->escape_html($row['firstName']);
 			$html['lastName'] 		= $data_validation->escape_html($row['lastName']);
 			$html['teacherName'] 	= $data_validation->escape_html($row['teacherName']);
@@ -53,19 +53,19 @@ function searchByTeacher($teacherName='', $date=''){
 	$output = '';
 
 	if(strlen($sql['date'])){
-		$db->query('SELECT * FROM log WHERE teacherName LIKE \'%'.$sql['teacherName'].'%\' AND date = \''.$sql['date'].'\' ORDER BY teacherName ASC, date DESC', 'searchByTeacherLog');
+		$searchByTeacherLog = $db->query('SELECT * FROM log WHERE teacherName LIKE \'%'.$sql['teacherName'].'%\' AND date = \''.$sql['date'].'\' ORDER BY teacherName ASC, date DESC');
 	}else{
-		$db->query('SELECT * FROM log WHERE teacherName LIKE \'%'.$sql['teacherName'].'%\' ORDER BY teacherName ASC, date DESC', 'searchByTeacherLog');
+		$searchByTeacherLog = $db->query('SELECT * FROM log WHERE teacherName LIKE \'%'.$sql['teacherName'].'%\' ORDER BY teacherName ASC, date DESC');
 	}
 
-	if($db->num_rows('searchByTeacherLog')){
+	if($searchByTeacherLog->num_rows){
 		$output .= '<div class="ui-grid-d">
 					<div class="ui-block-a"><div class="ui-bar ui-bar-b" style="height:60px">Teacher</div></div>
 					<div class="ui-block-c"><div class="ui-bar ui-bar-b" style="height:60px">Date</div></div>
 					<div class="ui-block-b"><div class="ui-bar ui-bar-b" style="height:60px">Student</div></div>
 					<div class="ui-block-d"><div class="ui-bar ui-bar-b" style="height:60px">Time-In</div></div>
 					<div class="ui-block-e"><div class="ui-bar ui-bar-b" style="height:60px">Time-Out</div></div>';
-		while($row = $db->fetch_array('searchByTeacherLog')){
+		while($row = $searchByTeacherLog->fetch_assoc()){
 			$html['firstName'] 		= $data_validation->escape_html($row['firstName']);
 			$html['lastName'] 		= $data_validation->escape_html($row['lastName']);
 			$html['teacherName'] 	= $data_validation->escape_html($row['teacherName']);
@@ -93,9 +93,9 @@ function searchByDate($date){
 
 	$sql['date'] 		= $data_validation->escape_sql($date);
 	$output = '';
-	$db->query('SELECT * FROM log WHERE date = \''.$sql['date'].'\' ORDER BY date DESC', 'searchByDateLog');
+	$searchByDateLog = $db->query('SELECT * FROM log WHERE date = \''.$sql['date'].'\' ORDER BY date DESC');
 
-	$numberOfStudents = $db->num_rows('searchByDateLog');
+	$numberOfStudents = $searchByTeacherLog->num_rows;
 
 	if($numberOfStudents > 0){
 		$output.='<div>Total number of students on this date = '.$numberOfStudents.'.</div>
@@ -106,7 +106,7 @@ function searchByDate($date){
 					<div class="ui-block-d"><div class="ui-bar ui-bar-b" style="height:60px">Time-In</div></div>
 					<div class="ui-block-e"><div class="ui-bar ui-bar-b" style="height:60px">Time-Out</div></div>';
 
-		while($row = $db->fetch_array('searchByDateLog')){
+		while($row = $searchByDateLog->fetch_assoc()){
 			$html['firstName'] 		= $data_validation->escape_html($row['firstName']);
 			$html['lastName'] 		= $data_validation->escape_html($row['lastName']);
 			$html['teacherName'] 	= $data_validation->escape_html($row['teacherName']);

@@ -74,8 +74,8 @@ function addSchedule(){
                         <div class="ui-block-b">Start Times</div>
                         <?php
 						//query database for all timeblocks
-						$db->query('SELECT * FROM organization_timeblock ORDER BY id ASC', 'timeBlocks');
-                        while($row = $db->fetch_array('timeBlocks')){
+						$timeBlocks = $db->query('SELECT * FROM organization_timeblock ORDER BY id ASC');
+                        while($row = $timeBlocks->fetch_assoc()){
                             $html['id'] 	= $data_validation->escape_html($row['id']);
                             $html['name'] 	= $data_validation->escape_html($row['name']);
                             ?>
@@ -105,10 +105,12 @@ function addScheduleDo($vars){
 	$sql['name'] = $data_validation->escape_sql($vars['scheduleName']);
 	$sql['endTime'] = $data_validation->escape_sql($vars['timeEnd']);
 
-	$db->query('INSERT INTO schedule (`name`, `endTime`) VALUES (\'' . $sql['name'] . '\', \'' . $sql['endTime'] . '\');', 'addSchedule');
-	$db->query('SELECT id FROM schedule ORDER BY id DESC LIMIT 1', 'lastId');
+	$addSchedule = $db->query('INSERT INTO schedule (`name`, `endTime`) VALUES (\'' . $sql['name'] . '\', \'' . $sql['endTime'] . '\');');
+	$lastId = $db->query('SELECT id FROM schedule ORDER BY id DESC LIMIT 1');
 	
-	$sql['schedule_id'] = $data_validation->escape_sql($db->result('lastId', 0, 'id'));
+	$lastIdArray = $lastId->fetch_assoc();
+	
+	$sql['schedule_id'] = $data_validation->escape_sql($lastIdArray['id']);
 	
 	
 	foreach($vars['timeBlock'] AS $key => $value){
@@ -133,10 +135,10 @@ function editSchedule($id){
 	$sql['scheduleId'] 	= $data_validation->escape_sql($id);
 	$html['scheduleId']	= $data_validation->escape_html($sql['scheduleId']);
 	
-	$db->query('SELECT name, endTime FROM schedule WHERE id = ' . $sql['scheduleId'], 'scheduleName');
-
-		$html['name'] = $data_validation->escape_html($db->result('scheduleName', 0, 'name'));
-		$html['endTime'] = $data_validation->escape_html($db->result('scheduleName', 0, 'endTime'));
+	$scheduleName = $db->query('SELECT name, endTime FROM schedule WHERE id = ' . $sql['scheduleId']);
+	$scheduleNameArray = $scheduleName->fetch_assoc();
+		$html['name'] = $data_validation->escape_html($scheduleNameArray['name']);
+		$html['endTime'] = $data_validation->escape_html($scheduleNameArray['endTime']);
 ?>		
         <div data-role="header">
             <a onclick="window.history.back();" data-icon="back">Cancel</a>
@@ -154,18 +156,19 @@ function editSchedule($id){
                         <?php
 						
 						// query all blocks		
-                        $db->query('SELECT * FROM organization_timeblock ORDER BY id ASC', 'timeBlocks');
-                        while($row = $db->fetch_array('timeBlocks')){
+                        $timeBlocks = $db->query('SELECT * FROM organization_timeblock ORDER BY id ASC');
+                        while($row = $timeBlocks->fetch_assoc()){
                             $html['id'] 	= $data_validation->escape_html($row['id']);
                             $sql['blockId']	= $data_validation->escape_sql($html['id']);
                             $html['name'] 	= $data_validation->escape_html($row['name']);
                             
 								// check to see if block is active for this schedule
-								$db->query('SELECT id, timeStart FROM schedule_block 
+								$activeBlocks = $db->query('SELECT id, timeStart FROM schedule_block 
 											WHERE schedule_id = ' . $sql['scheduleId'] . '
-												AND organization_timeBlock_id = '.$sql['blockId'].' ORDER BY schedule_block.id ASC;', 'activeBlocks');
-								if($db->num_rows('activeBlocks')){
-									$html['timeStart'] 	= $data_validation->escape_html($db->result('activeBlocks', 0, 'timeStart'));
+												AND organization_timeBlock_id = '.$sql['blockId'].' ORDER BY schedule_block.id ASC;');
+								if($activeBlocks->num_rows){
+									$activeBlocksArray = $activeBlocks->fetch_assoc();
+									$html['timeStart'] 	= $data_validation->escape_html($activeBlocksArray['timeStart']);
 									
 								?>
                                     <div class="ui-block-a">
@@ -241,7 +244,7 @@ function deleteSchedule($id){
 	global $db, $data_validation;
 
 	$sql['id'] = $data_validation->escape_sql($id);
-	$db->query('DELETE FROM schedule WHERE id =  ' . $sql['id'], 'scheduleInfo');
+	$db->query('DELETE FROM schedule WHERE id =  ' . $sql['id']);
 	header('location:?');
 
 }

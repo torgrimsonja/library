@@ -54,7 +54,7 @@ function addOptionDo($name){
 
 	$sql['name'] = $data_validation->escape_sql($name);
 
-	$db->query('INSERT INTO `option` (`name`) VALUES (\'' . $sql['name'] . '\');', 'addOption');
+	$db->query('INSERT INTO `option` (`name`) VALUES (\'' . $sql['name'] . '\');');
 
 	header('Location:?');
 }
@@ -66,9 +66,10 @@ function editOption($id){
 	$sql['optionId'] 	= $data_validation->escape_sql($id);
 	$html['optionId']	= $data_validation->escape_html($sql['optionId']);
 
-	$db->query('SELECT name FROM `option` WHERE id = ' . $sql['optionId'], 'optionName');
+	$optionName = $db->query('SELECT name FROM `option` WHERE id = ' . $sql['optionId']);
+	$optionNameArray = $optionName->fetch_assoc();
 
-		$html['name'] = $data_validation->escape_html($db->result('optionName', 0, 'name'));
+		$html['name'] = $data_validation->escape_html($optionNameArray['name']);
 ?>
         <div data-role="header">
             <a onclick="window.history.back();" data-icon="back">Cancel</a>
@@ -93,7 +94,7 @@ function editOptionDo($id, $name){
 	$sql['name'] = $data_validation->escape_sql($name);
 
 	// update name and time for option
-	$db->query('UPDATE `option` SET name = \''.$sql['name'].'\' WHERE id = ' . $sql['id'] . ';', 'updateOption');
+	$db->query('UPDATE `option` SET name = \''.$sql['name'].'\' WHERE id = ' . $sql['id'] . ';');
 
 
 }
@@ -103,7 +104,7 @@ function deleteOption($id){
 	global $db, $data_validation;
 
 	$sql['id'] = $data_validation->escape_sql($id);
-	$db->query('DELETE FROM `option` WHERE id =  ' . $sql['id'], 'optionInfo');
+	$db->query('DELETE FROM `option` WHERE id =  ' . $sql['id']);
 	header('location:?');
 
 }

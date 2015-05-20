@@ -120,14 +120,15 @@
             <ul data-role="listview" data-filter="true" data-inset="true">
 			<?php
 				//Query options
-				$db->query('SELECT id, name FROM `option`;', 'options');
-				while($row = $db->fetch_array('options')){
+				$options = $db->query('SELECT id, name FROM `option`;');
+				while($row = $options->fetch_assoc()){
 					$sql['optionId'] 	= $data_validation->escape_html($row['id']);
 					$html['optionName']	= $data_validation->escape_html($row['name']);
 
 					//Query count on option
-					$db->query('SELECT COUNT(id) AS id FROM log_option WHERE option_id = '.$sql['optionId'], 'optionCount');
-					$html['optionCount'] = $db->result('optionCount', 0, 'id');
+					$optionCount = $db->query('SELECT COUNT(id) AS id FROM log_option WHERE option_id = '.$sql['optionId']);
+					$optionCountArray = $optionCount->fetch_assoc();
+					$html['optionCount'] = $optionCountArray['id'];
 					echo '<li>' . $html['optionName'] . ' = ' . $html['optionCount'] . ' </li>';
 
 
