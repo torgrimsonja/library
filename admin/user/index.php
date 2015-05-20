@@ -54,6 +54,7 @@ ini_set('display_errors', '1');
 		
 					addUserDo($_POST['firstName'], $_POST['lastName'], $_POST['username'], $_POST['password'], $_POST['permission']);
 					
+					
 	}else if(	array_key_exists('action', $_GET) &&
 				$_GET['action'] == 'deleteUser' &&
 				array_key_exists('userId', $_GET) &&

@@ -47,12 +47,12 @@ function addUserForm(){
         <form name="addUser" action="?action=addUserDo" method="post">
         		<label for="firstName">First Name</label><input type="text" placeholder="First Name" name="firstName" id="firstName" />
             	<label for="lastName">Last Name</label><input type="text" placeholder="Last Name" name="lastName" id="lastName" />
-				<label for="permission">User Type</label>
+				<br />
+                <label for="permission">User Type</label>
                 <select name="permission" id  data-native-menu="false">
                 	<?php
-						$db->query('	SELECT id, name
-										FROM privilege', 'permissions');
-						while($row = $db->fetch_array('permissions')){
+						$permissions = $db->query('	SELECT id, name FROM privilege');
+						while($row = $permissions->fetch_assoc()){
 							//Escape data
 								$html['id'] 	= $data_validation->escape_html($row['id']);
 								$html['name'] 	= ucwords($data_validation->escape_html($row['name']));
@@ -60,6 +60,7 @@ function addUserForm(){
 						}
 					?>
                 </select>
+                <br />
             	<label for="username">Username</label><input type="text" placeholder="Username" name="username" id="username" />
 				<label for="password">Password</label><input type="password" name="password" placeholder="Password" id="password" />
                 <label for="submit">&nbsp;</label>
@@ -98,7 +99,8 @@ function addUserDo($firstName, $lastName, $username, $password, $privilege){
 			$sql['privilege'] = $data_validation->escape_sql($privilege);
 			$sql['password'] = md5($password);
 
-	$db->query('INSERT INTO user (firstName, lastName, username, password) VALUES (\'' . $sql['firstName'] . '\', \'' . $sql['lastName'] . '\', \'' . $sql['username'] . '\', \'' . $sql['password'] . '\')');
+	$query = $db->query('INSERT INTO user (firstName, lastName, username, password) VALUES (\'' . $sql['firstName'] . '\', \'' . $sql['lastName'] . '\', \'' . $sql['username'] . '\', \'' . $sql['password'] . '\')');
+	
 	selectUserId($sql['username'], $sql['privilege']);
 }
 
@@ -149,12 +151,12 @@ function editUser($id){
 	
 	$sql['userId'] = $data_validation->escape_sql($id);
 
-		$db->query('SELECT * FROM user WHERE id = ' . $sql['userId'], 'userInfo');
-		
-						$html['firstName']	= $data_validation->escape_html($db->result('userInfo', 0, 'firstName'));
-						$html['lastName'] 	= $data_validation->escape_html($db->result('userInfo', 0, 'lastName'));
-						$html['username'] 	= $data_validation->escape_html($db->result('userInfo', 0, 'username'));
-						$html['id'] 		= $data_validation->escape_html($db->result('userInfo', 0, 'id'));
+		$userInfo = $db->query('SELECT * FROM user WHERE id = ' . $sql['userId']);
+		$userInfoArray = $userInfo->fetch_assoc();
+						$html['firstName']	= $data_validation->escape_html($userInfoArray['firstName']);
+						$html['lastName'] 	= $data_validation->escape_html($userInfoArray['lastName']);
+						$html['username'] 	= $data_validation->escape_html($userInfoArray['username']);
+						$html['id'] 		= $data_validation->escape_html($userInfoArray['id']);
 						
 					?>
 						<div data-role="header" class="ui-header ui-bar-a" role="banner">
