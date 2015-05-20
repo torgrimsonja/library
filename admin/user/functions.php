@@ -100,7 +100,7 @@ function addUserDo($firstName, $lastName, $username, $password, $privilege){
 			$sql['privilege'] = $data_validation->escape_sql($privilege);
 			$sql['password'] = md5($password);
 
-	$query = $db->query('INSERT INTO user (firstName, lastName, username, password) VALUES (\'' . $sql['firstName'] . '\', \'' . $sql['lastName'] . '\', \'' . $sql['username'] . '\', \'' . $sql['password'] . '\')');
+	$db->query('INSERT INTO user (firstName, lastName, username, password) VALUES (\'' . $sql['firstName'] . '\', \'' . $sql['lastName'] . '\', \'' . $sql['username'] . '\', \'' . $sql['password'] . '\')');
 	
 	selectUserId($sql['username'], $sql['privilege']);
 }
@@ -108,7 +108,8 @@ function addUserDo($firstName, $lastName, $username, $password, $privilege){
 function editUserPrivilegeGet($id){
 	global $db, $data_validation;
 	$sql['id'] = $data_validation->escape_html($id);
-		$db->query('SELECT * FROM `user_privilege` WHERE user_id=\''. $sql['id'] .'\'', 'permission');
+	$permissionGet = $db->query('SELECT * FROM `user_privilege` WHERE user_id=\''. $sql['id'] .'\'', 'permission');
+	//START HERE
 	$html['privilege_id']= $data_validation->escape_html($db->result('permission', 0, 'privilege_id'));
 }
 
