@@ -14,7 +14,7 @@ function displaySchedules(){
 					<div class="ui-block-b">Options</div>';
 		 
 						//Query settings for current schedule
-						$db->query('SELECT value FROM settings WHERE name = \'currentSchedule\'', 'currentSchedule');
+						$currentSchedule = $db->query('SELECT value FROM settings WHERE name = \'currentSchedule\'');
 						$html['currentSchedule'] = $data_validation->escape_html($db->result('currentSchedule', 0, 'value'));
 						
 						$db->query('SELECT * FROM schedule ORDER BY name ASC', 'schedules');
