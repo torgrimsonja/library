@@ -13,8 +13,8 @@ function displayOptions(){
 					<div class="ui-block-a">Name</div>
 					<div class="ui-block-b">Options</div>';
 
-						$db->query('SELECT * FROM `option` ORDER BY `name` ASC', 'options');
-						while($row = $db->fetch_array('options')){
+						$queryOptions = $db->query('SELECT * FROM `option` ORDER BY `name` ASC');
+						while($row = $queryOptions->fetch_assoc()){
 
 							$html['id'] 	= $data_validation->escape_html($row['id']);
 							$html['name'] 	= $data_validation->escape_html($row['name']);
