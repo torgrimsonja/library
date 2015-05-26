@@ -26,16 +26,17 @@ function installSystem($organizationName, $organizationStartTime, $numberOfTimeB
 	$sql['blocks'] 		= $data_validation->escape_sql($numberOfTimeBlocks);
 	
 	// remove any organizations that exist
-	$db->query('DELETE FROM organization', 'deleteOrganization');
+	$deleteOrganization = $db->query('DELETE FROM organization');
 
-	$db->query('INSERT INTO organization (`name`) VALUES (\'' . $sql['name'] . '\');', 'insertOrganization');
+	$insertOrganization = $db->query('INSERT INTO organization (`name`) VALUES (\'' . $sql['name'] . '\');');
 	
-	$db->query('SELECT id FROM organization ORDER BY id DESC LIMIT 1', 'lastId');
+	$lastId = $db->query('SELECT id FROM organization ORDER BY id DESC LIMIT 1');
+	$lastIdArray = $lastId->fetch_assoc();
 	
-	$sql['organizationId'] = $data_validation->escape_sql($db->result('lastId', 0, 'id'));
+	$sql['organizationId'] = $data_validation->escape_sql($lastIdArray['id']);
 	
 	// remove any timeblocks that exist
-	$db->query('DELETE FROM time_blocks;', 'deleteBlocks');
+	$deleteBlocks = $db->query('DELETE FROM time_blocks;');
 	
 	for($i=1;$i<=$sql['blocks'];$i++){
 		
@@ -51,9 +52,9 @@ function manageBlocks($id){
 
 	// get schedule name
 	$sql['id'] = $data_validation->escape_sql($id);
-	$db->query('SELECT name FROM organization WHERE id = ' . $sql['id'], 'scheduleName');
-	
-		$html['name'] = $data_validation->escape_html($db->result('scheduleName', 0, 'name'));
+	$scheduleName = $db->query('SELECT name FROM organization WHERE id = ' . $sql['id']);
+	$scheduleNameArray = $scheduleName->fetch_assoc();
+		$html['name'] = $data_validation->escape_html($scheduleNameArray['name']);
 ?>		
         <div data-role="header" data-theme="a">
             <a onclick="window.history.back();" data-icon="back">Back</a>
@@ -67,10 +68,10 @@ function manageBlocks($id){
             <form name="manageBlocks" action="?action=manageBlocksDo" method="post">
                 h
                 <?php
-				$db->query('SELECT id, name FROM organization_timeblock WHERE organization_id = ' . $sql['id'] . ' ORDER BY id ASC;', 'blockInfo');
+				$blockInfo = $db->query('SELECT id, name FROM organization_timeblock WHERE organization_id = ' . $sql['id'] . ' ORDER BY id ASC;');
 				
 					$i=1;
-					while($row = $db->fetch_array('blockInfo')){
+					while($row = $blockInfo->fetch_assoc()){
 						
 						$html['id'] = $data_validation->escape_html($row['id']);
 						$html['name'] = $data_validation->escape_html($row['name']);
