@@ -1,23 +1,7 @@
-To Do:
----------
-Links:
-http://codular.com/php-mysqli
-http://php.net/manual/en/mysqli.summary.php
+*Licensing stuff
 
----------------------------
-List of Pages Affected by mysqli shift
-index.php
-common.php
-options.php    <--- Tons of changes here
-checkedIn.php
-checkedOut.php
+*Make teacher mail generation dynamic  - UI page on admin that adds school specific content to database and then a mail function that fetches from the database rather than using static addresses
 
-----------------------------------------------
-General
+*Fix broken schedule stuff and things
 
-1. Decide how to handle separate school's email configurations
-2. Figure out marketing
-3. Set up licensing/security if necessary
-4. Create marketing page ??
-5. Create way for us to send out updates to all copies of the program off of a server
-6. Decide upon host server
+*Push updates from server to all distributed copies

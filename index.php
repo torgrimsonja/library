@@ -126,7 +126,7 @@
 
 					//send email
 					mail($html['to'], $html['subject'], $html['message'], $html['headers']);
-
+					
 				}
 
 
