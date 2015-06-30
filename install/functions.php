@@ -11,12 +11,8 @@ function installForm(){
                     <input type="text" name="organizationName" id="organizationName" placeholder="Organization Name" />
                     <label for="numberOfTimeBlocks">Number of Periods/Time Blocks</label>
                     <input type="number" name="numberOfTimeBlocks" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" />
-<<<<<<< HEAD
                     <label for="manualTeacherEmailSetup">Enter teacher emails manually</label>
                     <input type="text" name="manualTeacherEmailSetup" id="manualTeacherEmailSetup" placeholder="Teacher email goes here" />
-=======
-                    <label for="teacherSchedule"
->>>>>>> origin/master
                     <input type="submit" name="submit" value="Submit" />
                 </form>
             </div>
