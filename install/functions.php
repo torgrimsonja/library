@@ -12,11 +12,14 @@ function installForm(){
                     <label for="numberOfTimeBlocks">Number of Periods/Time Blocks</label>
                     <input type="number" name="numberOfTimeBlocks" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" />
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <label for="manualTeacherEmailSetup">Enter teacher emails manually</label>
                     <input type="text" name="manualTeacherEmailSetup" id="manualTeacherEmailSetup" placeholder="Teacher email goes here" />
 =======
                     <label for="teacherSchedule"
 >>>>>>> origin/master
+=======
+>>>>>>> parent of 5e7c87b... Started to add label to form for teacher email
                     <input type="submit" name="submit" value="Submit" />
                 </form>
             </div>
