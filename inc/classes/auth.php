@@ -62,8 +62,8 @@
 					$userInfo = $this->db->query('SELECT * FROM `user`
 										WHERE `username` = \'' . $sql['username'] . '\'
 											AND `password` = \'' . $sql['password'] . '\'');
-											
-					
+
+
 					//or $com->error('Could not contact the database to validate your account.  Please try again.');
 					$userInfoArray = $userInfo->fetch_assoc();
 
@@ -90,13 +90,13 @@
 						//BEGIN SETTING PRIVILEGES FOR USER
 							//Privileges are set in the $_SESSION['SYSTEM_PRIVILEGES'] array
 							$sql['user_id'] = $this->data_validation->escape_sql($html['user_id']);
-							
+
 							$privilegesQuery = $this->db->query('	SELECT privilege.name
 												FROM user_privilege
 												LEFT JOIN privilege
 													ON privilege.id = user_privilege.privilege_id
 												WHERE user_privilege.user_id = ' . $sql['user_id']);
-												
+
 
 							while($row = $privilegesQuery->fetch_assoc()){
 								//Escape data
@@ -184,7 +184,7 @@
 									LEFT JOIN privilege
 										ON privilege.id = user_privilege.privilege_id
 									WHERE user_privilege.user_id = ' . $sql['user_id']);
-								
+
 
 				while($row = $privilegesQuery->fetch_assoc()){
 					//Escape data
@@ -219,14 +219,17 @@
 				die();
 			}
 		}
-
+		
 		public function require_allowed_host(){
+			/*
 			if(!in_array($_SERVER['REMOTE_ADDR'], $this->allowedHosts)){
 				header('location:http://www.tfhsbruins.com');
 				exit();
 			}
+			*/
+			true;
 		}
-
+		
  		public function require_authenticated(){
 
 			if(!isset($_SESSION['AUTHENTICATED']) || $_SESSION['AUTHENTICATED'] != TRUE)	{
