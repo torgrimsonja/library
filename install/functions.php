@@ -11,6 +11,7 @@ function installForm(){
                     <input type="text" name="organizationName" id="organizationName" placeholder="Organization Name" />
                     <label for="numberOfTimeBlocks">Number of Periods/Time Blocks</label>
                     <input type="number" name="numberOfTimeBlocks" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" />
+                    <label for="teacherSchedule"
                     <input type="submit" name="submit" value="Submit" />
                 </form>
             </div>
