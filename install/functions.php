@@ -15,13 +15,19 @@ function installForm(){
                     <p align="center">Choose how to build your teacher emails!</p>
                     <div>
                     	
+                        <div id="emailBuilderDiv" class="ui-grid-a">
+                            <div class="ui-block-a"><input type="button" id="templateButton" value="Templates"  onClick="dosomething();"/></div>	
+                            <div class="ui-block-b"><input type="button" id="manualButton" value="Manually enter in values"  onClick="dosomething();"/></div>	
+                    	</div>
                         
-                        <div id="templateButtonDiv"><input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption"  onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/></div>
+                    <!-- 
+                        <div id="templateButtonDiv"><input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/></div>
                         
                         <div id="emailBuilderDiv" class="ui-grid-a" style="visibility: hidden;">
                             <span>Does first or last name come first in the email?</span>
-                            <div class="ui-block-a"><input type="button" id="firstNameEmailSelect" value="First Name" /></div>	
-                            <div class="ui-block-b"><input type="button" id="lastNameEmailSelect" value="Last Name" /></div>	
+                            <div class="ui-block-a"><input type="button" id="firstNameEmailSelect" value="First Name"  onClick="$('#').css('visibility', 'visible');"/></div>	
+                            <div class="ui-block-b"><input type="button" id="lastNameEmailSelect" value="Last Name"  onClick="$('#').css('visibility', 'visible');"/></div>	
+                            <span>How many letters are used from the name?</span>
                     	</div>
                     	
                         
@@ -32,7 +38,7 @@ function installForm(){
                             <input type="text" name="manualTeacherEmailSetup" id="manualTeacherEmailSetup" placeholder="Teacher email goes here" />
                     	</div>                        
                     </div>
-                   
+                   	-->
                     <input type="submit" name="submit" value="Submit" />
                 </form>
             </div>
