@@ -31,7 +31,6 @@ function installForm(){
                         <input type="text" name="manualTeacherEmailSetup" id="manualTeacherEmailSetup" placeholder="Teacher email goes here" hidden="true" />
                     </div>
                     
-<<<<<<< HEAD
                     <div>
                     	<input type="radio" name="teacherEmailRadio" id="emailChoiceOne" />
                         <input type="radio" name="teacherEmailRadio" id="emailChoiceTwo" />
@@ -42,8 +41,6 @@ function installForm(){
 
                     </div>
                    
-=======
->>>>>>> origin/master
                     <input type="submit" name="submit" value="Submit" />
                 </form>
             </div>
