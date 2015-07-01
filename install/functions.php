@@ -14,8 +14,16 @@ function installForm(){
                     
                     <p align="center">Choose how to build your teacher emails!</p>
                     <div class="ui-grid-a">
-                    	<div id="templateButtonDiv" class="ui-block-a"><input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption"  onClick="$('#templateButtonDiv').css('visibility', 'visible');"/></div>
+                    	<div id="templateButtonDiv" class="ui-block-a"><input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption"  onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/></div>
                     	<div id="manualButtonDiv" class="ui-block-b"><input type="button" value="Manual Input" name="manualButtonOption" id="manualButtonOption" onClick="$('#manualTeacherEmailDiv').css('visibility', 'visible');" /></div>                        
+                    </div>
+                    
+                    <div id="emailBuilderDiv" class="ui-grid-d" style="visibility: hidden;">
+                    	<div class="ui-block-a"><input type="button" id="emailChoiceOne" value="Cheddar" /></div>	
+                        <div class="ui-block-b"><input type="button" id="emailChoiceTwo" value="Cheddar" /></div>	
+                        <div class="ui-block-c"><input type="button" id="emailChoiceThree" value="Cheddar" /></div>	
+                        <div class="ui-block-d"><input type="button" id="emailChoiceFour" value="Cheddar" /></div>	
+                        <div class="ui-block-e"><input type="button" id="emailChoiceFive" value="Cheddar" /></div>	
                     </div>
                     
                     <div id="manualTeacherEmailDiv" style="visibility: hidden;">
@@ -23,6 +31,7 @@ function installForm(){
                         <input type="text" name="manualTeacherEmailSetup" id="manualTeacherEmailSetup" placeholder="Teacher email goes here" hidden="true" />
                     </div>
                     
+<<<<<<< HEAD
                     <div>
                     	<input type="radio" name="teacherEmailRadio" id="emailChoiceOne" />
                         <input type="radio" name="teacherEmailRadio" id="emailChoiceTwo" />
@@ -33,6 +42,8 @@ function installForm(){
 
                     </div>
                    
+=======
+>>>>>>> origin/master
                     <input type="submit" name="submit" value="Submit" />
                 </form>
             </div>
