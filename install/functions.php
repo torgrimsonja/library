@@ -71,8 +71,11 @@ create buttons with ".com", ".edu", ".net"
 whatever one is selected, add to email template thing
 
 output an example to verify:
-"For teacher John Doe, the email is "jdoe@tfsd.org" is this correct? "
+"For teacher John Doe, the email is "jdoe@tfsd.org" (assuming they picking first letter of first name and entire last name) is this correct? "
 if yes, the email process is complete
+
+
+i <3 tpurvert 
 
 */
 
