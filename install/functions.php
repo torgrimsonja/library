@@ -20,10 +20,10 @@ function installForm(){
                     
                     <div id="emailBuilderDiv" class="ui-grid-d" style="visibility: hidden;">
                     	<div class="ui-block-a"><input type="button" id="emailChoiceOne" value="Cheddar" /></div>	
-                        <div class="ui-block-b"><input type="button" id="emailChoiceTwo" value="Cheddar" /></div>	
-                        <div class="ui-block-c"><input type="button" id="emailChoiceThree" value="Cheddar" /></div>	
-                        <div class="ui-block-d"><input type="button" id="emailChoiceFour" value="Cheddar" /></div>	
-                        <div class="ui-block-e"><input type="button" id="emailChoiceFive" value="Cheddar" /></div>	
+                        <div class="ui-block-b"><input type="button" id="emailChoiceTwo" value="Swiss" /></div>	
+                        <div class="ui-block-c"><input type="button" id="emailChoiceThree" value="Peppar Jack" /></div>	
+                        <div class="ui-block-d"><input type="button" id="emailChoiceFour" value="Provalone" /></div>	
+                        <div class="ui-block-e"><input type="button" id="emailChoiceFive" value="Havarti" /></div>	
                     </div>
                     
                     <div id="manualTeacherEmailDiv" style="visibility: hidden;">
