@@ -28,18 +28,9 @@ function installForm(){
                     
                     <div id="manualTeacherEmailDiv" style="visibility: hidden;">
                         <label for="manualTeacherEmailSetup">Enter teacher emails manually</label>
-                        <input type="text" name="manualTeacherEmailSetup" id="manualTeacherEmailSetup" placeholder="Teacher email goes here" hidden="true" />
+                        <input type="text" name="manualTeacherEmailSetup" id="manualTeacherEmailSetup" placeholder="Teacher email goes here" />
                     </div>
                     
-                    <div>
-                    	<input type="radio" name="teacherEmailRadio" id="emailChoiceOne" />
-                        <input type="radio" name="teacherEmailRadio" id="emailChoiceTwo" />
-                        <input type="radio" name="teacherEmailRadio" id="emailChoiceThree" />
-                        <input type="radio" name="teacherEmailRadio" id="emailChoiceFour" />
-                        <input type="radio" name="teacherEmailRadio" id="emailChoiceFive" />
-                        
-
-                    </div>
                    
                     <input type="submit" name="submit" value="Submit" />
                 </form>
