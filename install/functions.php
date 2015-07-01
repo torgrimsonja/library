@@ -11,13 +11,17 @@ function installForm(){
                     <input type="text" name="organizationName" id="organizationName" placeholder="Organization Name" />
                     <label for="numberOfTimeBlocks">Number of Periods/Time Blocks</label>
                     <input type="number" name="numberOfTimeBlocks" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" />
-                    <input type="radio" value="<!-- Javascript stuff -->" name="templateRadio" />Templates
-                    <input type="radio" value="<!-- Javascript stuff -->" name="ManualRadio" />Manual Input
+                    
+                    <p align="center">Choose how to build your teacher emails!</p>
+                    <div class="ui-grid-a">
+                    	<div id="templateButtonDiv" class="ui-block-a"><input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption"  onClick="$('#templateButtonDiv').css('visibility', 'hidden');"/></div>
+                    	<div id="manualButtonDiv" class="ui-block-b"><input type="button" value="Manual Input" name="manualButtonOption" id="manualButtonOption" onClick="$('#manualButtonDiv').css('visibility', 'hidden');" /></div>                        
+                    </div>
                     <!--
                     <label for="manualTeacherEmailSetup" hidden="true">Enter teacher emails manually</label>
                     <input type="text" name="manualTeacherEmailSetup" id="manualTeacherEmailSetup" placeholder="Teacher email goes here" hidden="true" />
                     -->	
-                        <input type="submit" name="submit" value="Submit" />
+                    <input type="submit" name="submit" value="Submit" />
                 </form>
             </div>
         </div>
