@@ -29,14 +29,46 @@ function installForm(){
                         <input type="radio" name="teacherEmailRadio" id="emailChoiceThree" />
                         <input type="radio" name="teacherEmailRadio" id="emailChoiceFour" />
                         <input type="radio" name="teacherEmailRadio" id="emailChoiceFive" />
+                        
+
                     </div>
-                    
+                   
                     <input type="submit" name="submit" value="Submit" />
                 </form>
             </div>
         </div>
 	<?php	
 }
+
+/* Mia's pseudocode
+
+type "select:"
+make button "First name" 
+make button "last name"
+when(firstnamebuttonselected){
+	create input box with type "input # of first name letters used in email"
+	take # of letters and add to email generation algorithm thingy
+}
+when(lastnamebuttonselected){
+	create input box with type "input # of last name letters used in email"
+	take # of letters and add to email generation algorithm thingy
+}
+
+add "@" to email template;
+
+create input field for the stuff that comes after the @ sign
+take what is entered into the input thing and add to email template thing
+
+create buttons with ".com", ".edu", ".net"
+whatever one is selected, add to email template thing
+
+output an example to verify:
+"For teacher John Doe, the email is "jdoe@tfsd.org" is this correct? "
+if yes, the email process is complete
+
+*/
+
+
 
 function installSystem($organizationName, $organizationStartTime, $numberOfTimeBlocks){
 	
