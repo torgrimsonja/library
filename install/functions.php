@@ -99,6 +99,20 @@ i <3 tpurvert
 
 */
 
+/* 
+actually were just going to have templates to pick from or they can skip and do it later
+and enter it manually bc apparently mias idea wasnt cool enough for tanner but yeah the templates are going to be:
+
+(for the example of Tanner Purves)
+1. purvesta@(entered).com
+2. tannerpurves
+3. purvestanner
+4. tpurves
+5. tapurves
+6. purvest
+
+*/
+
 
 
 function installSystem($organizationName, $organizationStartTime, $numberOfTimeBlocks){
