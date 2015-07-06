@@ -120,6 +120,8 @@ FROM student");
                         foreach($teacherNames as $key => $value){
                             echo "<label>$value</label>
                                   <input type='text' data-clear-btn='true' name='manualEntry' id='teacherEmailManualEntry' value=".$value.">";
+                        
+                            die("Inside 2nd foreach")
                         }
                         
                         //<label>Text input: data-clear-btn="true"</label>
