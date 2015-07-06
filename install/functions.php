@@ -13,38 +13,28 @@ function installForm(){
                     <input type="number" name="numberOfTimeBlocks" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" />
                     
                     <p align="center">Choose how to build your teacher emails!</p>
-                    <div>
-                    	
-                        <div id="emailBuilderDiv" class="ui-grid-a">
-                            <div class="ui-block-a"><input type="button" id="templateButton" value="Templates"  onClick="dosomething();"/></div>	
-                            <div class="ui-block-b"><input type="button" id="manualButton" value="Manually enter in values"  onClick="dosomething();"/></div>	
-                    	</div>
+                    
+                        <input type="button" value="Templates" data-inline="true" style="width: 75%;" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
+                        <input type="button" data-inline="true" value="Skip" />
+                                                                     
                         
-                    <!-- 
-                        <div id="templateButtonDiv"><input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/></div>
-                        
-                        <div id="emailBuilderDiv" class="ui-grid-a" style="visibility: hidden;">
-                            <span>Does first or last name come first in the email?</span>
-                            <div class="ui-block-a"><input type="button" id="firstNameEmailSelect" value="First Name"  onClick="$('#').css('visibility', 'visible');"/></div>	
-                            <div class="ui-block-b"><input type="button" id="lastNameEmailSelect" value="Last Name"  onClick="$('#').css('visibility', 'visible');"/></div>	
-                            <span>How many letters are used from the name?</span>
-                    	</div>
-                    	
-                        
-                        <div id="manualButtonDiv"><input type="button" value="Manual Input" name="manualButtonOption" id="manualButtonOption" onClick="$('#manualTeacherEmailDiv').css('visibility', 'visible');" /></div>
-                        
-                        <div id="manualTeacherEmailDiv" style="visibility: hidden;">
-                            <label for="manualTeacherEmailSetup">Enter teacher emails manually</label>
-                            <input type="text" name="manualTeacherEmailSetup" id="manualTeacherEmailSetup" placeholder="Teacher email goes here" />
-                    	</div>                        
-                    </div>
-                   	-->
+                        <div data-role="emailBuilderDiv" style="visibility: visible;">
+                            <label for="select-choice-1" class="select">Choose how to build your teacher emails!</label>
+                            <select name="select-choice-1" id="select-choice-1">
+                                <option value="standard">Standard: 7 day</option>
+                                <option value="rush">Rush: 3 days</option>
+                                <option value="express">Express: next day</option>
+                                <option value="overnight">Overnight</option>
+                            </select>
+                        </div>
+                   	
                     <input type="submit" name="submit" value="Submit" />
                 </form>
             </div>
         </div>
 	<?php	
 }
+
 
 /* Mia's pseudocode
 
