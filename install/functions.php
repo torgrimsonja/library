@@ -13,22 +13,29 @@ function installForm(){
                     <input type="number" name="numberOfTimeBlocks" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" />
                     
 
-                    <p align="center">Choose how to build your teacher emails!</p>
+                    <p align="center">Choose how to build your teacher emails</p>
+
                     
                         <input type="button" value="Templates" data-inline="true" style="width: 75%;" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
                         <input type="button" data-inline="true" value="Skip" />
                                                                      
                     
+
                     <div data-role="fieldcontain" id="emailBuilderDiv" style="visibility: hidden">
-                        <label for="select-choice-1" class="select">Choose a template:</label>
+                        <label for="select-choice-1" class="select">Choose a template:     (Template examples for the name Tanner Purves)</label>
                         <select name="select-choice-1" id="select-choice-1">
-                            <option value="standard">Standard: 7 day</option>
-                            <option value="rush">Rush: 3 days</option>
-                            <option value="express">Express: next day</option>
-                            <option value="overnight">Overnight</option>
+                            <option value="emailChoice1">purvesta</option>
+                            <option value="emailChoice2">tannerpurves</option>
+                            <option value="emailChoice3">purvestanner</option>
+                            <option value="emailChoice4">tpurves</option>
+                            <option value="emailChoice5">tapurves</option>
+                            <option value="emailChoice6">purvest</option>
                         </select>
-                    </div>
-                 
+
+					</div>
+
+			</div>
+            
 
 	<?php	
 }
@@ -61,7 +68,6 @@ output an example to verify:
 if yes, the email process is complete
 
 
-i <3 tpurvert 
 
 */
 
