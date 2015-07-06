@@ -22,10 +22,10 @@ function installForm(){
                     <div data-role="fieldcontain" id="emailBuilderDiv" style="visibility: hidden">
                         <label for="select-choice-1" class="select">Choose a template:</label>
                         <select name="select-choice-1" id="select-choice-1">
-                            <option value="standard">Standard: 7 day</option>
-                            <option value="rush">Rush: 3 days</option>
-                            <option value="express">Express: next day</option>
-                            <option value="overnight">Overnight</option>
+                            <option value="emailChoice1">Template 1</option>
+                            <option value="emailChoice2">Template 2</option>
+                            <option value="emailChoice3">Template 3</option>
+                            <option value="emailChoice4">Template 4</option>
                         </select>
                     </div>
                  
