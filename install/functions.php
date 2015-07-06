@@ -13,7 +13,7 @@ function installForm(){
                     <input type="number" name="numberOfTimeBlocks" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" />
                     
 
-                    <p align="center">Choose how to build your teacher emails!</p>
+                    <p align="center">Choose how to build your teacher emails</p>
 
 <<<<<<< HEAD
 =======
