@@ -84,6 +84,36 @@ function displaySettings(){
             </form>
             </div>
         </div>
+         <div class="content">
+            <h3>Teacher Email Manual Entry</h3>
+        	<div class="content">
+            <!-- SQL statement to insert manual teacher email 
+            
+            INSERT INTO  `com_tfhsbruins_library`.`alternate_email_address` (
+                `id` ,
+                `name` ,
+                `emailAddress` ,
+                `timestamp`
+            )
+            VALUES (
+            NULL ,  'Torgrimson, Jason',  'torgrimsonja@tfsd.org', 
+            CURRENT_TIMESTAMP
+            
+            -->
+            <form action="emailUpload" method="post" enctype="multipart/form-data" data-ajax="false">
+            	<input type="file" name="teacherEmails" id="btnUploadTeacherEmail" />
+               	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+                    <?php
+                        //Fetch list of teacher names from the schedule
+                        //Generate input tags for each teacher, have a column displaying the teacher's name, then another column w/ jquery text input
+                        //<label>Text input: data-clear-btn="true"</label>
+                        //<input type="text" data-clear-btn="true" name="manualEntry" id="teacherEmailManualEntry" value="">
+                    ?>
+                </div>
+                <input type="submit" value="submit" />
+            </form>
+            </div>
+        </div>
 <?php
 }
 
