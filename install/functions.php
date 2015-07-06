@@ -15,11 +15,6 @@ function installForm(){
 
                     <p align="center">Choose how to build your teacher emails</p>
 
-<<<<<<< HEAD
-=======
-                   
-
->>>>>>> origin/master
                     
                         <input type="button" value="Templates" data-inline="true" style="width: 75%;" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
                         <input type="button" data-inline="true" value="Skip" />
@@ -36,16 +31,14 @@ function installForm(){
                             <option value="emailChoice5">tapurves</option>
                             <option value="emailChoice6">purvest</option>
                         </select>
-<<<<<<< HEAD
+
 					</div>
-=======
+
 
 
                     <div>
                     	
                         
-                 
->>>>>>> origin/master
 
 	<?php	
 }
