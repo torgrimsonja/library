@@ -105,6 +105,18 @@ function displaySettings(){
                	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
                     <?php
                         //Fetch list of teacher names from the schedule
+                        $teacherNameQuery = $db->query("SELECT  `p1` ,  `p2` ,  `p3` ,  `p4` ,  `p5` ,  `p6` ,  `p7` ,  `p8` 
+FROM student");
+                        $teacherNameArray = $teacherNameQuery->fetch_assoc();
+                        $teacherNames = array();
+                        if($teacherNameArray->num_rows){
+                            foreach($teacherNamesArray as $key => $value){
+                                if(!in_array($value, $teacherNames)){
+                                    array_push($teacherNames, $value);
+                                }
+                            }
+                        }
+                        
                         //Generate input tags for each teacher, have a column displaying the teacher's name, then another column w/ jquery text input
                         //<label>Text input: data-clear-btn="true"</label>
                         //<input type="text" data-clear-btn="true" name="manualEntry" id="teacherEmailManualEntry" value="">
