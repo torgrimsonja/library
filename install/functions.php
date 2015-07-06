@@ -39,18 +39,9 @@ function installForm(){
                         </select>
 
 
-
-
 						<br />
                         <br />
-                        <label for="Jeffery">Type second half of email below: (i.e. hostname.domain would be purvesta@hostname.domain) </label>
-
-
-                        <label for="Jeffery">Type second half of email below: <br /> (i.e. typing "hostname.domain" would create the email "purvesta@hostname.domain") </label>
-
-
-						<br />
-                        <br />
+                        
                         
                         <label for="Jeffery">Type second half of email below: <br /> (i.e. typing "hostname.domain" would create the email "purvesta@hostname.domain") </label>
 
