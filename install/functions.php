@@ -16,9 +16,10 @@ function installForm(){
 
                     <p align="center">Choose how to build your teacher emails</p>
 
-                    
-                        <input type="button" value="Templates" data-inline="true" style="width: 75%;" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
-                        <input type="button" data-inline="true" value="Skip" />
+                    /If no template chosen, emails will have to be manually entered later.../
+                    <br />
+                    <input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
+                        
                                                                      
                     
 
@@ -26,7 +27,7 @@ function installForm(){
 
                         
 
-                        <label for="select-choice-1">Choose a template:  <br />   (Template examples for the name Tanner Purves)</label>
+                        <p>Choose a template:  <br />   (Template examples for the name Tanner Purves)</p>
 
 
                         <select name="select-choice-1" id="select-choice-1">
@@ -37,18 +38,7 @@ function installForm(){
                             <option value="emailChoice5">tapurves</option>
                             <option value="emailChoice6">purvest</option>
                         </select>
-
-
-
-
-						<br />
-                        <br />
-                        <label for="Jeffery">Type second half of email below: (i.e. hostname.domain would be purvesta@hostname.domain) </label>
-
-
-                        <label for="Jeffery">Type second half of email below: <br /> (i.e. typing "hostname.domain" would create the email "purvesta@hostname.domain") </label>
-
-
+			
 						<br />
                         <br />
                         
