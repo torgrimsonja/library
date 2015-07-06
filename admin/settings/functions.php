@@ -80,7 +80,7 @@ function displaySettings(){
                 	<option value="replace">Remove all students from the database and replace them with these students.</option>
                     <option value="add">Add these students to existing students in the database.</option>
                 </select>
-                <input type="submit" value="submit" />
+                <input type="submit" value="Submit" />
             </form>
             </div>
         </div>
@@ -116,13 +116,17 @@ FROM student");
                                 }
                             }
                         }
-                        
                         //Generate input tags for each teacher, have a column displaying the teacher's name, then another column w/ jquery text input
+                        foreach($teacherNames as $key => $value){
+                            echo "<label>$value</label>
+                                  <input type='text' data-clear-btn='true' name='manualEntry' id='teacherEmailManualEntry' value=".$value.">";
+                        }
+                        
                         //<label>Text input: data-clear-btn="true"</label>
                         //<input type="text" data-clear-btn="true" name="manualEntry" id="teacherEmailManualEntry" value="">
                     ?>
                 </div>
-                <input type="submit" value="submit" />
+                <input type="submit" value="Submit" />
             </form>
             </div>
         </div>
