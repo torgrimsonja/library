@@ -14,19 +14,66 @@ function installForm(){
                     
 
                     <p align="center">Choose how to build your teacher emails!</p>
+<<<<<<< Updated upstream
+=======
+
+                    <p align="center">Choose how to build your teacher emails</p>
+                    <div class="ui-grid-a">
+                    	<div id="templateButtonDiv" class="ui-block-a"><input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption"  onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/></div>
+                    	<div id="manualButtonDiv" class="ui-block-b"><input type="button" value="Manual Input" name="manualButtonOption" id="manualButtonOption" onClick="$('#manualTeacherEmailDiv').css('visibility', 'visible');" /></div>                        
+                    </div>
+                    
+                    <div id="emailBuilderDiv" class="ui-grid-d" style="visibility: hidden;">
+                    	<div class="ui-block-a"><input type="button" id="emailChoiceOne" value="Cheddar" /></div>	
+                        <div class="ui-block-b"><input type="button" id="emailChoiceTwo" value="Swiss" /></div>	
+                        <div class="ui-block-c"><input type="button" id="emailChoiceThree" value="Pepper Jack" /></div>	
+                        <div class="ui-block-d"><input type="button" id="emailChoiceFour" value="Provalone" /></div>	
+                        <div class="ui-block-e"><input type="button" id="emailChoiceFive" value="Havarti" /></div>	
+                    </div>
+
                     
                         <input type="button" value="Templates" data-inline="true" style="width: 75%;" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
                         <input type="button" data-inline="true" value="Skip" />
                                                                      
                     
+
                     <div data-role="fieldcontain" id="emailBuilderDiv" style="visibility: hidden">
-                        <label for="select-choice-1" class="select">Choose a template:</label>
+                        <label for="select-choice-1" class="select">Choose a template: <br />(Template examples for the name Tanner Purves)</label>
                         <select name="select-choice-1" id="select-choice-1">
-                            <option value="emailChoice1">Template 1</option>
-                            <option value="emailChoice2">Template 2</option>
-                            <option value="emailChoice3">Template 3</option>
-                            <option value="emailChoice4">Template 4</option>
+                            <option value="emailChoice1">purvesta</option>
+                            <option value="emailChoice2">tannerpurves</option>
+                            <option value="emailChoice3">purvestanner</option>
+                            <option value="emailChoice4">tpurves</option>
+                            <option value="emailChoice5">tapurves</option>
+                            <option value="emailChoice6">purvest</option>
                         </select>
+
+
+                    <div>
+                    	
+                        <div id="emailBuilderDiv" class="ui-grid-a">
+                            <div class="ui-block-a"><input type="button" id="templateButton" value="Templates"  onClick="dosomething();"/></div>	
+                            <div class="ui-block-b"><input type="button" id="manualButton" value="Manually enter in values"  onClick="dosomething();"/></div>	
+                    	</div>
+                        
+                    <!-- 
+                        <div id="templateButtonDiv"><input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/></div>
+                        
+                        <div id="emailBuilderDiv" class="ui-grid-a" style="visibility: hidden;">
+                            <span>Does first or last name come first in the email?</span>
+                            <div class="ui-block-a"><input type="button" id="firstNameEmailSelect" value="First Name"  onClick="$('#').css('visibility', 'visible');"/></div>	
+                            <div class="ui-block-b"><input type="button" id="lastNameEmailSelect" value="Last Name"  onClick="$('#').css('visibility', 'visible');"/></div>	
+                            <span>How many letters are used from the name?</span>
+                    	</div>
+                    	
+                        
+                        <div id="manualButtonDiv"><input type="button" value="Manual Input" name="manualButtonOption" id="manualButtonOption" onClick="$('#manualTeacherEmailDiv').css('visibility', 'visible');" /></div>
+                        
+                        <div id="manualTeacherEmailDiv" style="visibility: hidden;">
+                            <label for="manualTeacherEmailSetup">Enter teacher emails manually</label>
+                            <input type="text" name="manualTeacherEmailSetup" id="manualTeacherEmailSetup" placeholder="Teacher email goes here" />
+                    	</div>                        
+>>>>>>> Stashed changes
                     </div>
                  
 
@@ -61,7 +108,6 @@ output an example to verify:
 if yes, the email process is complete
 
 
-i <3 tpurvert 
 
 */
 
