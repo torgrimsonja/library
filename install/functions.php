@@ -4,7 +4,7 @@ function installForm(){
 	?>
     	<h2 class="title">Welcome to the Library Sign In Installer</h2>
         <div class="content">
-            Please input the following information...
+            Please input the following information
             <div class="content">
                 <form method="post" action="?action=install" name="installer" id="installer">
                     <label for="organizationName">Organization Name</label>
@@ -12,11 +12,55 @@ function installForm(){
                     <label for="numberOfTimeBlocks">Number of Periods/Time Blocks</label>
                     <input type="number" name="numberOfTimeBlocks" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" />
                     
+<<<<<<< Updated upstream
                     <p align="center">Choose how to build your teacher emails!</p>
+<<<<<<< HEAD
                     
                         <input type="button" value="Templates" data-inline="true" style="width: 75%;" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
                         <input type="button" data-inline="true" value="Skip" />
                                                                      
+=======
+=======
+                    <p align="center">Choose how to build your teacher emails</p>
+                    <div class="ui-grid-a">
+                    	<div id="templateButtonDiv" class="ui-block-a"><input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption"  onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/></div>
+                    	<div id="manualButtonDiv" class="ui-block-b"><input type="button" value="Manual Input" name="manualButtonOption" id="manualButtonOption" onClick="$('#manualTeacherEmailDiv').css('visibility', 'visible');" /></div>                        
+                    </div>
+                    
+                    <div id="emailBuilderDiv" class="ui-grid-d" style="visibility: hidden;">
+                    	<div class="ui-block-a"><input type="button" id="emailChoiceOne" value="Cheddar" /></div>	
+                        <div class="ui-block-b"><input type="button" id="emailChoiceTwo" value="Swiss" /></div>	
+                        <div class="ui-block-c"><input type="button" id="emailChoiceThree" value="Pepper Jack" /></div>	
+                        <div class="ui-block-d"><input type="button" id="emailChoiceFour" value="Provalone" /></div>	
+                        <div class="ui-block-e"><input type="button" id="emailChoiceFive" value="Havarti" /></div>	
+                    </div>
+                    
+                    <div id="manualTeacherEmailDiv" style="visibility: hidden;">
+                        <label for="manualTeacherEmailSetup">Enter teacher emails manually</label>
+                        <input type="text" name="manualTeacherEmailSetup" id="manualTeacherEmailSetup" placeholder="Teacher email goes here" hidden="true" />
+                    </div>
+                    
+>>>>>>> Stashed changes
+                    <div>
+                    	
+                        <div id="emailBuilderDiv" class="ui-grid-a">
+                            <div class="ui-block-a"><input type="button" id="templateButton" value="Templates"  onClick="dosomething();"/></div>	
+                            <div class="ui-block-b"><input type="button" id="manualButton" value="Manually enter in values"  onClick="dosomething();"/></div>	
+                    	</div>
+                        
+                    <!-- 
+                        <div id="templateButtonDiv"><input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/></div>
+                        
+                        <div id="emailBuilderDiv" class="ui-grid-a" style="visibility: hidden;">
+                            <span>Does first or last name come first in the email?</span>
+                            <div class="ui-block-a"><input type="button" id="firstNameEmailSelect" value="First Name"  onClick="$('#').css('visibility', 'visible');"/></div>	
+                            <div class="ui-block-b"><input type="button" id="lastNameEmailSelect" value="Last Name"  onClick="$('#').css('visibility', 'visible');"/></div>	
+                            <span>How many letters are used from the name?</span>
+                    	</div>
+                    	
+                        
+                        <div id="manualButtonDiv"><input type="button" value="Manual Input" name="manualButtonOption" id="manualButtonOption" onClick="$('#manualTeacherEmailDiv').css('visibility', 'visible');" /></div>
+>>>>>>> origin/master
                         
                         <div data-role="emailBuilderDiv" style="visibility: visible;">
                             <label for="select-choice-1" class="select">Choose how to build your teacher emails!</label>
@@ -64,6 +108,20 @@ if yes, the email process is complete
 
 
 i <3 tpurvert 
+
+*/
+
+/* 
+actually were just going to have templates to pick from or they can skip and do it later
+and enter it manually bc apparently mias idea wasnt cool enough for tanner but yeah the templates are going to be:
+
+(for the example of Tanner Purves)
+1. purvesta@(entered).com
+2. tannerpurves
+3. purvestanner
+4. tpurves
+5. tapurves
+6. purvest
 
 */
 
