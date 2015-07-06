@@ -23,15 +23,12 @@ function installForm(){
                     
 
                     <div data-role="fieldcontain" id="emailBuilderDiv" style="visibility: hidden">
-<<<<<<< HEAD
-                        <p>Choose a template:  <br />   (Template examples for the name Tanner Purves)</p>
-=======
 
-                        <label for="select-choice-1" class="select">Choose a template:     (Template examples for the name Tanner Purves)</label>
+                        
 
                         <label for="select-choice-1">Choose a template:  <br />   (Template examples for the name Tanner Purves)</label>
 
->>>>>>> origin/master
+
                         <select name="select-choice-1" id="select-choice-1">
                             <option value="emailChoice1">purvesta</option>
                             <option value="emailChoice2">tannerpurves</option>
@@ -40,7 +37,8 @@ function installForm(){
                             <option value="emailChoice5">tapurves</option>
                             <option value="emailChoice6">purvest</option>
                         </select>
-
+						<br />
+                        <br />
                         <label for="Jeffery">Type second half of email below: (i.e. hostname.domain would be purvesta@hostname.domain) </label>
                         <input type="text" id="emailDomain" name="Jeffery" />
 
