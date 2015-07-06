@@ -22,7 +22,7 @@ function installForm(){
                     
 
                     <div data-role="fieldcontain" id="emailBuilderDiv" style="visibility: hidden">
-                        <label for="select-choice-1" class="select">Choose a template:  <br />   (Template examples for the name Tanner Purves)</label>
+                        <label for="select-choice-1">Choose a template:  <br />   (Template examples for the name Tanner Purves)</label>
                         <select name="select-choice-1" id="select-choice-1">
                             <option value="emailChoice1">purvesta</option>
                             <option value="emailChoice2">tannerpurves</option>
