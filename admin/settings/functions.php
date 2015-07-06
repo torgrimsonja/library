@@ -111,7 +111,9 @@ FROM student");
                         $teacherNames = array();
                         if($teacherNameArray->num_rows){
                             foreach($teacherNamesArray as $key => $value){
-                                
+                                if(!in_array($value, $teacherNames)){
+                                    array_push($teacherNames, $value);
+                                }
                             }
                         }
                         
