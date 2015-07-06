@@ -5,6 +5,7 @@ function installForm(){
     	<h2 class="title">Welcome to the Library Sign In Installer</h2>
         <div class="content">
             Please input the following information
+            
             <div class="content">
                 <form method="post" action="?action=install" name="installer" id="installer">
                     <label for="organizationName">Organization Name</label>
@@ -22,7 +23,7 @@ function installForm(){
                     
 
                     <div data-role="fieldcontain" id="emailBuilderDiv" style="visibility: hidden">
-                        <label for="select-choice-1">Choose a template:  <br />   (Template examples for the name Tanner Purves)</label>
+                        <p>Choose a template:  <br />   (Template examples for the name Tanner Purves)</p>
                         <select name="select-choice-1" id="select-choice-1">
                             <option value="emailChoice1">purvesta</option>
                             <option value="emailChoice2">tannerpurves</option>
@@ -33,10 +34,13 @@ function installForm(){
                         </select>
 
 					</div>
-
-			</div>
             
-
+            <input type="submit" name="submit" value="Submit" />
+            
+            </form>
+            </div>
+            
+			
 	<?php	
 }
 
