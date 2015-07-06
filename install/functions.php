@@ -14,8 +14,6 @@ function installForm(){
                     
 
                     <p align="center">Choose how to build your teacher emails!</p>
-<<<<<<< Updated upstream
-=======
 
                     <p align="center">Choose how to build your teacher emails</p>
                     <div class="ui-grid-a">
