@@ -19,16 +19,16 @@ function installForm(){
                         <input type="button" data-inline="true" value="Skip" />
                                                                      
                     
-                    <div id="emailBuilderDiv" class="ui-grid-d" style="visibility: hidden;">
-                    	<div class="ui-block-a"><input type="button" id="emailChoiceOne" value="Cheddar" /></div>	
-                        <div class="ui-block-b"><input type="button" id="emailChoiceTwo" value="Swiss" /></div>	
-                        <div class="ui-block-c"><input type="button" id="emailChoiceThree" value="Pepper Jack" /></div>	
-                        <div class="ui-block-d"><input type="button" id="emailChoiceFour" value="Provalone" /></div>	
-                        <div class="ui-block-e"><input type="button" id="emailChoiceFive" value="Havarti" /></div>	
+                    <div data-role="fieldcontain" id="emailBuilderDiv" style="visibility: hidden">
+                        <label for="select-choice-1" class="select">Choose a template:</label>
+                        <select name="select-choice-1" id="select-choice-1">
+                            <option value="standard">Standard: 7 day</option>
+                            <option value="rush">Rush: 3 days</option>
+                            <option value="express">Express: next day</option>
+                            <option value="overnight">Overnight</option>
+                        </select>
                     </div>
-                    
                  
-                    
 
 	<?php	
 }
