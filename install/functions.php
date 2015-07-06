@@ -39,6 +39,8 @@ function installForm(){
                         </select>
 
 
+
+
 						<br />
                         <br />
                         <label for="Jeffery">Type second half of email below: (i.e. hostname.domain would be purvesta@hostname.domain) </label>
@@ -65,6 +67,34 @@ function installForm(){
 			
 	<?php	
 }
+/*
+BUILDING EMAIL TEMPLATES
+
+if(emailchoice1){
+    email template = 'lastname'.firstname.charAt(0).firstname.charAt(1).'@'."Jeffery"
+}
+
+if(emailchoice2){
+    email template = 'firstname'.'lastname'.'@'."Jeffery"
+}
+
+if(emailchoice3){
+    email template = 'lastname'.'firstname'.'@'."Jeffery"
+}
+
+if(emailchoice4){
+    email template = firstname.charAt(0).'lastname'.'@'."Jeffery"
+}
+
+if(emailchoice5){
+    email template = firstname.charAt(0).firstname.charAt(1).'lastname'.'@'."Jeffery"
+}
+
+if(emailchoice6){
+    email template = 'lastname'.firstname.charAt(0).'@'."Jeffery"
+}
+*/
+
 
 
 /* Mia's pseudocode
