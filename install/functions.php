@@ -16,7 +16,7 @@ function installForm(){
 
                     <p align="center">Choose how to build your teacher emails</p>
 
-                    If no template chosen, emails will have to be manually entered later
+                    <p style="background-color: yellow; color: black; font-size: 1.2em;">If no template chosen, emails will have to be manually entered later</p>
                     <br />
                     <input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
                         
@@ -45,7 +45,7 @@ function installForm(){
                         
                         <label for="Jeffery">Type second half of email below. DO NOT INCLUDE PREVIOUSLY SELECTED PART OR '@' SYMBOL: <br /> (i.e. typing "hostname.domain" would create the email "purvesta@hostname.domain") </label>
 						<br />
-                        example@<input type="text" id="emailDomain" name="Jeffery" />
+                        template@<input type="text" id="emailDomain" name="Jeffery" />
 
 
 					</div>
