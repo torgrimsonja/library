@@ -120,13 +120,12 @@ FROM student");
                         }
                         //Generate input tags for each teacher, have a column displaying the teacher's name, then another column w/ jquery text input
                         foreach($teacherNames as $key => $value){
-                            echo "<label>$value</label>
-                                  <input type='text' data-clear-btn='true' name='manualEntry' id='teacherEmailManualEntry' value=".$value.">";
-                        
+                            //Label is 
+                            echo "<label class='teacherName'>$value</label>
+                                  <input type='text' data-clear-btn='true' name='manualEntry' class='teacherEmailManualEntry' value=".$value.">";
+                            
                         }
                         
-                        //<label>Text input: data-clear-btn="true"</label>
-                        //<input type="text" data-clear-btn="true" name="manualEntry" id="teacherEmailManualEntry" value="">
                     ?>
                 </div>
                 <input type="submit" value="Submit" />
