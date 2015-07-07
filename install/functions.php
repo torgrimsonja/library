@@ -44,8 +44,8 @@ function installForm(){
                         
                         
                         <label for="Jeffery">Type second half of email below. DO NOT INCLUDE PREVIOUSLY SELECTED PART OR '@' SYMBOL: <br /> (i.e. typing "hostname.domain" would create the email "purvesta@hostname.domain") </label>
-
-                        <input type="text" id="emailDomain" name="Jeffery" />
+						<br />
+                        example@<input type="text" id="emailDomain" name="Jeffery" />
 
 
 					</div>
