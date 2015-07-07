@@ -87,19 +87,6 @@ function displaySettings(){
          <div class="content">
             <h3>Teacher Email Manual Entry</h3>
         	<div class="content">
-            <!-- SQL statement to insert manual teacher email 
-            
-            INSERT INTO  `com_tfhsbruins_library`.`alternate_email_address` (
-                `id` ,
-                `name` ,
-                `emailAddress` ,
-                `timestamp`
-            )
-            VALUES (
-            NULL ,  'Torgrimson, Jason',  'torgrimsonja@tfsd.org', 
-            CURRENT_TIMESTAMP
-            
-            -->
             <form action="emailUpload" method="post" enctype="multipart/form-data" data-ajax="false">
             	<label>Enter a CSV file containing Teacher Names and Emails</label>
             	<input type="file" name="teacherEmails" id="btnUploadTeacherEmail" />
