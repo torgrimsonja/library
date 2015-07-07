@@ -30,7 +30,7 @@ function installForm(){
                         <p>Choose a template:  <br />   (Template examples for the name Tanner Purves)</p>
 
 
-                        <select name="select-choice-1" id="select-choice-1">
+                        <select name="select-choice-1" id="select-choice-1" data-native-menu="false">
                             <option value="emailChoice1">purvesta</option>
                             <option value="emailChoice2">tannerpurves</option>
                             <option value="emailChoice3">purvestanner</option>
