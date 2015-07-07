@@ -101,7 +101,7 @@ function displaySettings(){
             
             -->
             <?php
-                echo "TANNER WHY IS THIS NOT WORKING I AM MADDDDDDDD";
+                echo 'TANNER WHY IS THIS NOT WORKING I AM MADDDDDDDD.... It\'s stupid';
             ?>
             <form action="emailUpload" method="post" enctype="multipart/form-data" data-ajax="false">
             	<label>Enter a CSV file containing Teacher Names and Emails</label>
