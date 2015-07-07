@@ -37,6 +37,7 @@ function installForm(){
                             <option value="emailChoice4">tpurves</option>
                             <option value="emailChoice5">tapurves</option>
                             <option value="emailChoice6">purvest</option>
+                            <option value="emailChoice7">No Template</option>
                         </select>
 
 						<br />
@@ -187,7 +188,7 @@ function manageBlocks($id){
 		<div class="content">
             <p>
             <form name="manageBlocks" action="?action=manageBlocksDo" method="post"> 
-                h
+                
                 <?php
 				$blockInfo = $db->query('SELECT id, name FROM organization_timeblock WHERE organization_id = ' . $sql['id'] . ' ORDER BY id ASC;');
 				
