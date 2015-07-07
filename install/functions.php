@@ -16,7 +16,7 @@ function installForm(){
 
                     <p align="center">Choose how to build your teacher emails</p>
 
-                    If no template chosen, emails will have to be manually entered later
+                    <p style="background-color: blue; color: black; font-size: 1.2em;">If no template chosen, emails will have to be manually entered later</p>
                     <br />
                     <input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
                         
@@ -37,6 +37,7 @@ function installForm(){
                             <option value="emailChoice4">tpurves</option>
                             <option value="emailChoice5">tapurves</option>
                             <option value="emailChoice6">purvest</option>
+                            <option value="emailChoice7">No Template</option>
                         </select>
 
 						<br />
@@ -45,7 +46,7 @@ function installForm(){
                         
                         <label for="Jeffery">Type second half of email below. DO NOT INCLUDE PREVIOUSLY SELECTED PART OR '@' SYMBOL: <br /> (i.e. typing "hostname.domain" would create the email "purvesta@hostname.domain") </label>
 						<br />
-                        example@<input type="text" id="emailDomain" name="Jeffery" />
+                        template@<input type="text" id="emailDomain" name="Jeffery" />
 
 
 					</div>
@@ -187,7 +188,7 @@ function manageBlocks($id){
 		<div class="content">
             <p>
             <form name="manageBlocks" action="?action=manageBlocksDo" method="post"> 
-                h
+                
                 <?php
 				$blockInfo = $db->query('SELECT id, name FROM organization_timeblock WHERE organization_id = ' . $sql['id'] . ' ORDER BY id ASC;');
 				
