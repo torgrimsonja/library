@@ -107,7 +107,7 @@ function displaySettings(){
                     <?php
                         //Fetch list of teacher names from the schedule
                         $teacherNameQuery = $db->query("SELECT  `p1` ,  `p2` ,  `p3` ,  `p4` ,  `p5` ,  `p6` ,  `p7` ,  `p8` FROM student");
-                        exit($teacherNameQuery);
+                        die($teacherNameQuery);
                         $teacherNameArray = $teacherNameQuery->fetch_assoc();
                         $teacherNames = array();
                         if($teacherNameArray->num_rows){
