@@ -101,6 +101,7 @@ function displaySettings(){
             
             -->
             <form action="emailUpload" method="post" enctype="multipart/form-data" data-ajax="false">
+            	<label>Enter a CSV file containing Teacher Names and Emails</label>
             	<input type="file" name="teacherEmails" id="btnUploadTeacherEmail" />
                	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
                     <?php
@@ -121,7 +122,7 @@ FROM student");
                             echo "<label>$value</label>
                                   <input type='text' data-clear-btn='true' name='manualEntry' id='teacherEmailManualEntry' value=".$value.">";
                         
-                            die("Inside 2nd foreach")
+                            die("Inside 2nd foreach");
                         }
                         
                         //<label>Text input: data-clear-btn="true"</label>
