@@ -65,8 +65,6 @@ function displaySettings(){
                             <option value="1" selected="selected">Yes</option>
                         <?php
                         }
-                        
-                        die("In php code block above my work");
                         ?>
                 </select>
             </div>
