@@ -100,9 +100,6 @@ function displaySettings(){
             CURRENT_TIMESTAMP
             
             -->
-            <?php
-                echo 'TANNER WHY IS THIS NOT WORKING I AM MADDDDDDDD.... It\'s stupid';
-            ?>
             <form action="emailUpload" method="post" enctype="multipart/form-data" data-ajax="false">
             	<label>Enter a CSV file containing Teacher Names and Emails</label>
             	<input type="file" name="teacherEmails" id="btnUploadTeacherEmail" />
@@ -116,7 +113,8 @@ function displaySettings(){
                         if($teacherNameArray->num_rows){
                             foreach($teacherNamesArray as $key => $value){
                                 if(!in_array($value, $teacherNames)){
-                                    array_push($teacherNames, $value);
+                                    $teacherNames += $value;
+                                    //array_push($teacherNames, $value);
                                 }
                             }
                         }
