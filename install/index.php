@@ -18,14 +18,14 @@
 		
 	//Defines page title in the title bar and in the header.
 		//Place the title of your project in the quotes.
-		define('TITLE', 'Installation');
+		define('TITLE', 'Installation');						//what
 
 /************************************************
  *	SERCURITY AND INCLUDES
 ************************************************/
 
 	//Includes all classes and variables common to all pages in the site.
-		require_once(ROOT_PATH . 'common.php');
+		require_once(ROOT_PATH . 'common.php');  //what
 
 	//Validate authorized user access to this page
 		$auth->validate_user_access('PUBLIC');
