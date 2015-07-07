@@ -44,8 +44,8 @@ function installForm(){
                         
                         
                         <label for="Jeffery">Type second half of email below. DO NOT INCLUDE PREVIOUSLY SELECTED PART OR '@' SYMBOL: <br /> (i.e. typing "hostname.domain" would create the email "purvesta@hostname.domain") </label>
-
-                        <input type="text" id="emailDomain" name="Jeffery" />
+						<br />
+                        example@<input type="text" id="emailDomain" name="Jeffery" />
 
 
 					</div>
@@ -63,6 +63,11 @@ BUILDING EMAIL TEMPLATES
 
 if(emailchoice1){
     email template = 'lastname'.firstname.charAt(0).firstname.charAt(1).'@'."Jeffery"
+}
+
+if($choice == $_POST['TheirChoice']){
+	$charArray = str_split($choice);
+	$template = 'firstname'.$charArray[whatever].'@'.'Jeffery';
 }
 
 if(emailchoice2){
@@ -144,7 +149,7 @@ function installSystem($organizationName, $organizationStartTime, $numberOfTimeB
 	// remove any organizations that exist
 	$deleteOrganization = $db->query('DELETE FROM organization');
 
-	$insertOrganization = $db->query('INSERT INTO organization (`name`) VALUES (\'' . $sql['name'] . '\');');
+	$insertOrganization = $db->query('INSERT INTO organization (`name`) VALUES (\'' . $sql['name'] . '\');'); //what
 	
 	$lastId = $db->query('SELECT id FROM organization ORDER BY id DESC LIMIT 1');
 	$lastIdArray = $lastId->fetch_assoc();
@@ -181,7 +186,7 @@ function manageBlocks($id){
         </div>
 		<div class="content">
             <p>
-            <form name="manageBlocks" action="?action=manageBlocksDo" method="post">
+            <form name="manageBlocks" action="?action=manageBlocksDo" method="post"> 
                 h
                 <?php
 				$blockInfo = $db->query('SELECT id, name FROM organization_timeblock WHERE organization_id = ' . $sql['id'] . ' ORDER BY id ASC;');
@@ -212,7 +217,7 @@ function manageBlocksDo($blockArray){
 	
 	$count = count($blockArray);
 	for($i=1; $i<=$count; $i++){
-		$sql['value'] = $data_validation->escape_sql($blockArray[$i]);
+		$sql['value'] = $data_validation->escape_sql($blockArray[$i]);  //what
 		$db->query('UPDATE organization_timeblock SET name = \'' . $sql['value'] . '\' WHERE id = \'' . $i . '\'');
 	}
 	header('Location:?installationComplete');
