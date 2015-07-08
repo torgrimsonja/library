@@ -85,14 +85,13 @@ function displaySettings(){
          <div class="content">
             <h3>Teacher Email Manual Entry</h3>
         	<div class="content">
-            <form action="emailUpload" method="post" enctype="multipart/form-data" data-ajax="false">
+            <form action="index.php/?emailUpload" method="post" enctype="multipart/form-data" data-ajax="false">
             	<label>Enter a CSV file containing Teacher Names and Emails</label>
             	<input type="file" name="teacherEmails" id="btnUploadTeacherEmail" />
                	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
                     <?php
                         //Fetch list of teacher names on students' schedules
                         $teacherNameQuery = $db->query("SELECT `p1` , `p2` , `p3` , `p4` , `p5` , `p6` , `p7` , `p8` FROM student");
-                        
                         
                         //set query results to an array
                         $teacherNameArray = $teacherNameQuery->fetch_assoc();
