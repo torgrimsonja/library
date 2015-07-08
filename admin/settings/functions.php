@@ -66,6 +66,7 @@ function displaySettings(){
                         ?>
                 </select>
             </div>
+            
 			<input type="submit" value="Submit" id="submit" name="submit" />
         </form>
 		</div>
