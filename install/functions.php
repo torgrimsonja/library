@@ -59,6 +59,10 @@ function installForm(){
 			
 	<?php	
 }
+
+// ADD A DYNAMICALLY BUILDING VISIBLE EMAIL SO THAT THE CLIENT DOESN'T SCREW IT UP
+
+
 /*
 BUILDING EMAIL TEMPLATES
 
@@ -90,6 +94,11 @@ if(emailchoice5){
 if(emailchoice6){
     email template = 'lastname'.firstname.charAt(0).'@'."Jeffery"
 }
+
+if(emailchoice7){
+	no email template, must do manual entry
+}
+
 */
 
 
