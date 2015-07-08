@@ -90,7 +90,35 @@ function displaySettings(){
             	<label>Enter a CSV file containing Teacher Names and Emails</label>
             	<input type="file" name="teacherEmails" id="btnUploadTeacherEmail" />
                	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
-                    
+                    <?php
+                        //Fetch list of teacher names on students' schedules
+                        $teacherNameQuery = $db->query("SELECT `p1` , `p2` , `p3` , `p4` , `p5` , `p6` , `p7` , `p8` FROM student");
+                        
+                        //Die statement to see why teacher names and text boxes aren't showing up
+                        //die($teacherNameQUery);
+                        
+                        //set query results to an array
+                        $teacherNameArray = $teacherNameQuery->fetch_assoc();
+                        //Create a new array that doesn't have duplicates of teacher names from schedule, thus creating a list of teacher names
+                        $teacherNames = array();
+                        if($teacherNameArray->num_rows){
+                            foreach($teacherNamesArray as $key => $value){
+                                if(!in_array($value, $teacherNames)){
+                                    $teacherNames += $value;
+                                    //array_push($teacherNames, $value);
+                                }
+                            }
+                        }
+                        //Generate input tags for each teacher, have a column displaying the teacher's name, then another column w/ jquery text input
+                        foreach($teacherNames as $key => $value){
+                            //Label is teacher name
+                            //CSS classes will allow for styling label and text boxes next to each other horizontally
+                            echo "<label class='teacherName'>$value</label>
+                                  <input type='text' data-clear-btn='true' name='manualEntry' class='teacherEmailManualEntry' value=".$value.">";
+                            
+                        }
+                        //Then deal with actually storing teacher email input
+                       ?>
                 </div>
                 <input type="submit" value="Submit" />
             </form>
