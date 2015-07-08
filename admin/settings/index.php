@@ -70,7 +70,11 @@
 		upload($_FILES['teacherEmails']['tmp_name'], $_POST['option']);
 		
 	}
- 
+	
+	//Emails entered manually
+ 	if(array_key_exists('')){
+ 		
+ 	}
  
 /************************************************
  *	PAGE SPECIFIC FUNCTIONS
