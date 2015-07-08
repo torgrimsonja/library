@@ -136,6 +136,7 @@
 			if($fetchEmail->num_rows){
 				$html['to'] = $data_validation->escape_html($fetchEmail->fetch_assoc()/*['emailAddress']*/);
 			}else{
+				//Need to store template chosen in install and use the template to build email address.u
 				$tmpArray = explode(',', $sql['teacherName']);
 				$lastname = trim($tmpArray[0]);
 				$firstname = substr(trim($tmpArray[1]), 0, 2);
