@@ -1,7 +1,5 @@
 <?php
 
-//
-
 function displaySettings(){
 	
 	global $db, $data_validation;
@@ -95,8 +93,6 @@ function displaySettings(){
                         //Fetch list of teacher names on students' schedules
                         $teacherNameQuery = $db->query("SELECT `p1` , `p2` , `p3` , `p4` , `p5` , `p6` , `p7` , `p8` FROM student");
                         
-                        //Die statements not executing and below content not appearing to run either
-                        die($teacherNameQuery);
                         
                         //set query results to an array
                         $teacherNameArray = $teacherNameQuery->fetch_assoc();
@@ -118,7 +114,7 @@ function displaySettings(){
                                   <input type='text' data-clear-btn='true' name='manualEntry' class='teacherEmailManualEntry' value=".$value.">";
                             
                         }
-                        
+                        //Then deal with actually storing teacher email input
                     ?>
                 </div>
                 <input type="submit" value="Submit" />
