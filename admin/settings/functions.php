@@ -1,6 +1,6 @@
 <?php
 
-
+//
 
 function displaySettings(){
 	
@@ -112,7 +112,8 @@ function displaySettings(){
                         }
                         //Generate input tags for each teacher, have a column displaying the teacher's name, then another column w/ jquery text input
                         foreach($teacherNames as $key => $value){
-                            //Label is 
+                            //Label is teacher name
+                            //CSS classes will allow for styling label and text boxes next to each other horizontally
                             echo "<label class='teacherName'>$value</label>
                                   <input type='text' data-clear-btn='true' name='manualEntry' class='teacherEmailManualEntry' value=".$value.">";
                             
