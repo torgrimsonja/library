@@ -42,6 +42,7 @@
 				 page.
  ************************************************/
  
+ 	//Logic for updating settings
 	if(	array_key_exists('updateSettings', $_GET) &&
 		array_key_exists('systemStatus', $_POST) &&
 		array_key_exists('currentSchedule', $_POST) &&
@@ -51,6 +52,7 @@
 		
 	}
 	
+	//Uploading studentRecords
 	if(array_key_exists('upload', $_GET) &&
 		array_key_exists('option', $_POST) &&
 		($_POST['option'] === 'replace' || $_POST['option'] === 'add') &&
@@ -59,6 +61,16 @@
 		upload($_FILES['studentRecords']['tmp_name'], $_POST['option']);
 		
 	}
+	
+	//Teacher email CSV file upload method logic
+	//Copied code from above upload and changed it to fit teacherEmails form on /functions.php
+ 	if(array_key_exists('upload', $_GET) &&
+		array_key_exists('teacherEmails', $_FILES)){
+			
+		upload($_FILES['teacherEmails']['tmp_name'], $_POST['option']);
+		
+	}
+ 
  
 /************************************************
  *	PAGE SPECIFIC FUNCTIONS
