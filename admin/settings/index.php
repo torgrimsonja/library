@@ -71,10 +71,12 @@
 		
 	}
 	
+	/*
 	//Emails entered manually
  	if(array_key_exists('')){
  		
  	}
+ 	*/
  
 /************************************************
  *	PAGE SPECIFIC FUNCTIONS
