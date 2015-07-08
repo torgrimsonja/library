@@ -92,10 +92,15 @@ function displaySettings(){
             	<input type="file" name="teacherEmails" id="btnUploadTeacherEmail" />
                	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
                     <?php
-                        //Fetch list of teacher names from the schedule
+                        //Fetch list of teacher names on students' schedules
                         $teacherNameQuery = $db->query("SELECT `p1` , `p2` , `p3` , `p4` , `p5` , `p6` , `p7` , `p8` FROM student");
+                        
+                        //Die statements not executing and below content not appearing to run either
                         die($teacherNameQuery);
+                        
+                        //set query results to an array
                         $teacherNameArray = $teacherNameQuery->fetch_assoc();
+                        //Create a new array that doesn't have duplicates of teacher names from schedule, thus creating a list of teacher names
                         $teacherNames = array();
                         if($teacherNameArray->num_rows){
                             foreach($teacherNamesArray as $key => $value){
