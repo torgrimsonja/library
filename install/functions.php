@@ -16,14 +16,8 @@ function installForm(){
 
                     
                     <p align="center">Choose how to build your teacher emails</p>
-
-<<<<<<< HEAD
                     <p style="background-color: yellow; color: black; font-size: 1.2em;">If no template chosen, emails will have to be manually entered later</p>
-=======
 
-                    <p style="background-color: green; color: pink; font-size: 1.2em;">If no template is chosen, emails will have to be manually entered later</p>
-
->>>>>>> origin/master
 
                     <br />
                     <input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
