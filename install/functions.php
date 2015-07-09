@@ -11,12 +11,19 @@ function installForm(){
                     <label for="organizationName">Organization Name</label>
                     <input type="text" name="organizationName" id="organizationName" placeholder="Organization Name" />
                     <label for="numberOfTimeBlocks">Number of Periods/Time Blocks</label>
-                    <input type="number" name="numberOfTimeBlocks" min="0" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" />
-                    
 
+                    <input type="number" name="numberOfTimeBlocks" min="1" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" /> 
+
+                    
                     <p align="center">Choose how to build your teacher emails</p>
 
+<<<<<<< HEAD
                     <p style="background-color: yellow; color: black; font-size: 1.2em;">If no template chosen, emails will have to be manually entered later</p>
+=======
+
+                    <p style="background-color: green; color: pink; font-size: 1.2em;">If no template is chosen, emails will have to be manually entered later</p>
+
+>>>>>>> origin/master
 
                     <br />
                     <input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
