@@ -62,21 +62,20 @@
 		
 	}
 	
-	/*
-	//Teacher email CSV file upload method logic
-	//Copied code from above upload and changed it to fit teacherEmails form on /functions.php
- 	if(array_key_exists('upload', $_GET) &&
-		array_key_exists('teacherEmails', $_FILES)){
+	//Logic for teacherEmail settings
+		//Logic if uploading CSV file
+	 	if(array_key_exists('teacherEmails', $_GET) &&
+			array_key_exists('emailUpload', $_FILES)){
+				
+			upload($_FILES['teacherEmails']['tmp_name'], $_POST['option']);
 			
-		upload($_FILES['teacherEmails']['tmp_name'], $_POST['option']);
-		
-	}
-	
-	//Emails entered manually
- 	if(array_key_exists('')){
- 		
- 	}
- 	*/
+		}  //Logic for manual entry option
+		else if(array_key_exists('upload') &&
+				array_key_exists('manualEntry', $_POST)){
+	 		
+	 		//Insert manual entry emails into alternate_email_address table in db
+	 		
+	 	}
  
 /************************************************
  *	PAGE SPECIFIC FUNCTIONS

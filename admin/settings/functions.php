@@ -86,9 +86,12 @@ function displaySettings(){
          <div class="content">
             <h3>Teacher Email Manual Entry</h3>
         	<div class="content">
-            <form action="index.php/?emailUpload" method="post" enctype="multipart/form-data" data-ajax="false">
+            <form action="index.php/?teacherEmails" method="post" enctype="multipart/form-data" data-ajax="false">
+            	<!--  HTML code that will download an empty csv file for admin to edit with teacher names 
+            	<label>Download an Empty CSV File to Work With</label>
+            	<input type=""  -->
             	<label>Enter a CSV file containing Teacher Names and Emails</label>
-            	<input type="file" name="teacherEmails" id="btnUploadTeacherEmail" />
+            	<input type="file" name="emailUpload" id="btnUploadTeacherEmail" />
                	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
                     <?php
                         //Fetch list of teacher names on students' schedules
@@ -96,7 +99,7 @@ function displaySettings(){
                         
                         //Die statement to see why teacher names and text boxes aren't showing up
                         //die(print_r($teacherNameQUery));
-                        echo "<script type='text/javascript'> console.log($teacherNameQuery);</script>";
+                        //echo "<script type='text/javascript'> console.log($teacherNameQuery);</script>";
                         
                         //set query results to an array
                         $teacherNameArray = $teacherNameQuery->fetch_assoc();
