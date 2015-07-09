@@ -93,20 +93,16 @@ function displaySettings(){
             	<?php
                         //Fetch list of teacher names on students' schedules
                         $teacherNameQuery = $db->query("SELECT `p1` , `p2` , `p3` , `p4` , `p5` , `p6` , `p7` , `p8` FROM student");
-                        
-                        //Die statement to see why teacher names and text boxes aren't showing up
-                        //die(print_r($teacherNameQUery));
-                        //echo "<script type='text/javascript'> console.log($teacherNameQuery);</script>";
+                                          
                         
                         //set query results to an array
                         $teacherNameArray = $teacherNameQuery->fetch_assoc();
                         //Create a new array that doesn't have duplicates of teacher names from schedule, thus creating a list of teacher names
                         $teacherNames = array();
                         if($teacherNameQuery->num_rows){
-                            foreach($teacherNamesArray as $key => $value){
+                            foreach($teacherNameArray as $key => $value){
                                 if(!in_array($value, $teacherNames)){
-                                    $teacherNames += $value;
-                                    //array_push($teacherNames, $value);
+                                    array_push($teacherNames, $value);
                                 }
                             }
                         }
@@ -134,12 +130,13 @@ function displaySettings(){
 }
 
 function upload($filecsv, $option){
+	global $db;
 	echo $option;
 	//$csvfile = $_FILES['studentRecords']['tmp_name'];
 	$csvfile = $filecsv;
 	if (($handle = fopen($csvfile, "r")) !== FALSE) {
 		if($option === 'replace'){
-			mysql_query('DELETE FROM `student`');
+			$db->query('DELETE FROM `student`');
 		}
 		
 		$insertionCount = 0;
@@ -162,7 +159,7 @@ function upload($filecsv, $option){
 						$data['11']. "', '".
 						$data['12']. "');";
 					
-						mysql_query($query);
+						$db->query($query);
 				$insertionCount++;
 			}
 		}
