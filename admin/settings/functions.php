@@ -93,9 +93,12 @@ function displaySettings(){
             	<?php
                         //Fetch list of teacher names on students' schedules
                         $teacherNameQuery = $db->query("SELECT `p1` , `p2` , `p3` , `p4` , `p5` , `p6` , `p7` , `p8` FROM student");
-                        die(print_r($teacherNameQuery));
                         //Set query results to an array
-                        $teacherNameArray = $teacherNameQuery->fetch_assoc();
+                        $teacherArray = array();
+						while($row = $teacherNameQuery->fetch_assoc()){
+							array_push($teacherArray, $row);
+						}
+						die(print_r($teacherArray));
                         //Create a new array that doesn't have duplicates of teacher names from schedule, thus creating a list of teacher names
                         $teacherNames = array();
                         if($teacherNameQuery->num_rows){
