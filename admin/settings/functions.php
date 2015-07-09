@@ -120,7 +120,7 @@ function displaySettings(){
                         }
                         //Then deal with actually storing teacher email input
                        ?>
-            	
+            	<p>Or...</p>
             	<label>Enter a CSV file containing Teacher Names and Emails</label>
             	<input type="file" name="emailUpload" id="btnUploadTeacherEmail" />
                	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
