@@ -93,9 +93,7 @@ function displaySettings(){
             	<?php
                         //Fetch list of teacher names on students' schedules
                         $teacherNameQuery = $db->query("SELECT `p1` , `p2` , `p3` , `p4` , `p5` , `p6` , `p7` , `p8` FROM student");
-                                          
-                        
-                        //set query results to an array
+                        //Set query results to an array
                         $teacherNameArray = $teacherNameQuery->fetch_assoc();
                         //Create a new array that doesn't have duplicates of teacher names from schedule, thus creating a list of teacher names
                         $teacherNames = array();
@@ -106,6 +104,7 @@ function displaySettings(){
                                 }
                             }
                         }
+                        die(print_r($teacherNameArray));
                         //Generate input tags for each teacher, have a column displaying the teacher's name, then another column w/ jquery text input
                         foreach($teacherNames as $key => $value){
                             //Label is teacher name
