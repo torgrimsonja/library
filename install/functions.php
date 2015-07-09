@@ -50,6 +50,11 @@ function installForm(){
 						<br />
                         template@<input type="text" id="emailDomain" name="Jeffery" />
 
+                        <br />
+
+                      <!--  <p>
+                        	"emailChoice" "@" "Jeffery"       Trying to build dynamically but then i realized that i suck at life
+                        </p>  -->
 
 					</div>
             
