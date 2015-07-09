@@ -11,12 +11,20 @@ function installForm(){
                     <label for="organizationName">Organization Name</label>
                     <input type="text" name="organizationName" id="organizationName" placeholder="Organization Name" />
                     <label for="numberOfTimeBlocks">Number of Periods/Time Blocks</label>
-                    <input type="number" name="numberOfTimeBlocks" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" />
+
+                    <input type="number" name="numberOfTimeBlocks" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" /> 
+
+                    <input type="number" name="numberOfTimeBlocks" min="0" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" />
+
                     
 
                     <p align="center">Choose how to build your teacher emails</p>
 
+
+                    <p style="background-color: green; color: pink; font-size: 1.2em;">If no template is chosen, emails will have to be manually entered later</p>
+
                     <p style="background-color: yellow; color: black; font-size: 1.2em;">If no template chosen, emails will have to be manually entered later</p>
+
                     <br />
                     <input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
                         
@@ -159,7 +167,7 @@ function installSystem($organizationName, $organizationStartTime, $numberOfTimeB
 	// remove any organizations that exist
 	$deleteOrganization = $db->query('DELETE FROM organization');
 
-	$insertOrganization = $db->query('INSERT INTO organization (`name`) VALUES (\'' . $sql['name'] . '\');'); //what
+	$insertOrganization = $db->query('INSERT INTO organization (`name`) VALUES (\'' . $sql['name'] . '\');'); 
 	
 	$lastId = $db->query('SELECT id FROM organization ORDER BY id DESC LIMIT 1');
 	$lastIdArray = $lastId->fetch_assoc();
@@ -169,13 +177,13 @@ function installSystem($organizationName, $organizationStartTime, $numberOfTimeB
 	// remove any timeblocks that exist
 	$deleteBlocks = $db->query('DELETE FROM time_blocks;');
 	
-	for($i=1;$i<=$sql['blocks'];$i++){
+	for($i=1;$i<=$sql['blocks'];$i++){								//mia fix right here yay
 		
 		$db->query('INSERT INTO organization_timeblock (`id`,`organization_id`, `order`) VALUES (\'' . $i . '\',\'' . $sql['organizationId'] . '\', \'' . $i . '\');');
-	
+				// make sure that the ending number is above zero
 	}
 	header('location:?action=manageBlocks&organizationId='.$sql['organizationId']);
-}
+
 
 function manageBlocks($id){
 	
