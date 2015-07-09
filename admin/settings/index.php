@@ -74,7 +74,7 @@
 				array_key_exists('manualEntry', $_POST)){
 	 		
 	 		//Insert manual entry emails into alternate_email_address table in db
-	 		
+	 		$query = "INSERT INTO `alternate_email_address` (`id`, `emailAddress`) VALUES (`$_POST['asdf']`, `$_POST['asdf']`)";
 	 	}
  
 /************************************************
