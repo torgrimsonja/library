@@ -66,6 +66,7 @@ function displaySettings(){
                         ?>
                 </select>
             </div>
+            
 			<input type="submit" value="Submit" id="submit" name="submit" />
         </form>
 		</div>
@@ -93,6 +94,10 @@ function displaySettings(){
                         //Fetch list of teacher names on students' schedules
                         $teacherNameQuery = $db->query("SELECT `p1` , `p2` , `p3` , `p4` , `p5` , `p6` , `p7` , `p8` FROM student");
                         
+                        //Die statement to see why teacher names and text boxes aren't showing up
+                        //die(print_r($teacherNameQUery));
+                        echo "<script type='text/javascript'> console.log($teacherNameQuery);</script>";
+                        
                         //set query results to an array
                         $teacherNameArray = $teacherNameQuery->fetch_assoc();
                         //Create a new array that doesn't have duplicates of teacher names from schedule, thus creating a list of teacher names
@@ -114,7 +119,7 @@ function displaySettings(){
                             
                         }
                         //Then deal with actually storing teacher email input
-                    ?>
+                       ?>
                 </div>
                 <input type="submit" value="Submit" />
             </form>

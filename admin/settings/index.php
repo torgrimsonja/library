@@ -62,6 +62,7 @@
 		
 	}
 	
+	/*
 	//Teacher email CSV file upload method logic
 	//Copied code from above upload and changed it to fit teacherEmails form on /functions.php
  	if(array_key_exists('upload', $_GET) &&
@@ -70,7 +71,12 @@
 		upload($_FILES['teacherEmails']['tmp_name'], $_POST['option']);
 		
 	}
- 
+	
+	//Emails entered manually
+ 	if(array_key_exists('')){
+ 		
+ 	}
+ 	*/
  
 /************************************************
  *	PAGE SPECIFIC FUNCTIONS
