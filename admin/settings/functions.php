@@ -102,7 +102,7 @@ function displaySettings(){
                         $teacherNameArray = $teacherNameQuery->fetch_assoc();
                         //Create a new array that doesn't have duplicates of teacher names from schedule, thus creating a list of teacher names
                         $teacherNames = array();
-                        if($teacherNameArray->num_rows){
+                        if($teacherNameQuery->num_rows){
                             foreach($teacherNamesArray as $key => $value){
                                 if(!in_array($value, $teacherNames)){
                                     $teacherNames += $value;
