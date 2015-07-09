@@ -16,7 +16,7 @@ function installForm(){
 
                     
                     <p align="center">Choose how to build your teacher emails</p>
-                    <p style="background-color: yellow; color: black; font-size: 1.2em;">If no template chosen, emails will have to be manually entered later</p>
+                    <p style="background-color: yellow; color: black; font-size: 1.2em;">If no template is chosen, emails will have to be manually entered later</p>
 
 
                     <br />
@@ -50,6 +50,11 @@ function installForm(){
 						<br />
                         template@<input type="text" id="emailDomain" name="Jeffery" />
 
+                        <br />
+
+                      <!--  <p>
+                        	"emailChoice" "@" "Jeffery"       Trying to build dynamically but then i realized that i suck at life
+                        </p>  -->
 
 					</div>
             
