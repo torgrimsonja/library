@@ -90,10 +90,7 @@ function displaySettings(){
             	<!--  HTML code that will download an empty csv file for admin to edit with teacher names 
             	<label>Download an Empty CSV File to Work With</label>
             	<input type=""  -->
-            	<label>Enter a CSV file containing Teacher Names and Emails</label>
-            	<input type="file" name="emailUpload" id="btnUploadTeacherEmail" />
-               	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
-                    <?php
+            	<?php
                         //Fetch list of teacher names on students' schedules
                         $teacherNameQuery = $db->query("SELECT `p1` , `p2` , `p3` , `p4` , `p5` , `p6` , `p7` , `p8` FROM student");
                         
@@ -123,6 +120,11 @@ function displaySettings(){
                         }
                         //Then deal with actually storing teacher email input
                        ?>
+            	
+            	<label>Enter a CSV file containing Teacher Names and Emails</label>
+            	<input type="file" name="emailUpload" id="btnUploadTeacherEmail" />
+               	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+                    
                 </div>
                 <input type="submit" value="Submit" />
             </form>
