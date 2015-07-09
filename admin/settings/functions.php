@@ -104,7 +104,7 @@ function displaySettings(){
                                 }
                             }
                         }
-                        die(print_r($teacherNameArray));
+                        die(print_r($teacherNames));
                         //Generate input tags for each teacher, have a column displaying the teacher's name, then another column w/ jquery text input
                         foreach($teacherNames as $key => $value){
                             //Label is teacher name
