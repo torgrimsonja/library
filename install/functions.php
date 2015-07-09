@@ -12,18 +12,12 @@ function installForm(){
                     <input type="text" name="organizationName" id="organizationName" placeholder="Organization Name" />
                     <label for="numberOfTimeBlocks">Number of Periods/Time Blocks</label>
 
-                    <input type="number" name="numberOfTimeBlocks" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" /> 
-
-                    <input type="number" name="numberOfTimeBlocks" min="0" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" />
+                    <input type="number" name="numberOfTimeBlocks" min="1" id="numberOfTimeBlocks" placeholder="Number of Periods/Time Blocks" /> 
 
                     
-
                     <p align="center">Choose how to build your teacher emails</p>
-
-
-                    <p style="background-color: green; color: pink; font-size: 1.2em;">If no template is chosen, emails will have to be manually entered later</p>
-
                     <p style="background-color: yellow; color: black; font-size: 1.2em;">If no template chosen, emails will have to be manually entered later</p>
+
 
                     <br />
                     <input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
@@ -183,7 +177,7 @@ function installSystem($organizationName, $organizationStartTime, $numberOfTimeB
 				// make sure that the ending number is above zero
 	}
 	header('location:?action=manageBlocks&organizationId='.$sql['organizationId']);
-
+}
 
 function manageBlocks($id){
 	
@@ -194,6 +188,7 @@ function manageBlocks($id){
 	$scheduleName = $db->query('SELECT name FROM organization WHERE id = ' . $sql['id']);
 	$scheduleNameArray = $scheduleName->fetch_assoc();
 		$html['name'] = $data_validation->escape_html($scheduleNameArray['name']);
+		
 ?>		
         <div data-role="header" data-theme="a">
             <a onclick="window.history.back();" data-icon="back">Back</a>
