@@ -85,6 +85,7 @@ function displaySettings(){
         </div>
          <div class="content">
             <h3>Teacher Email Manual Entry</h3>
+            <h5>Enter the cooresponding email for each teacher listed below...</h5>
         	<div class="content">
             <form action="index.php/?teacherEmails" method="post" enctype="multipart/form-data" data-ajax="false">
             	<!--  HTML code that will download an empty csv file for admin to edit with teacher names 
@@ -109,19 +110,18 @@ function displaySettings(){
 								}
 							}
 						}
-						die(print_r($teacherNames));
                         //Generate input tags for each teacher, have a column displaying the teacher's name, then another column w/ jquery text input
                         foreach($teacherNames as $key => $value){
                             //Label is teacher name
                             //CSS classes will allow for styling label and text boxes next to each other horizontally
-                            echo "<label class='teacherName'>$value</label>
-                                  <input type='text' data-clear-btn='true' name='manualEntry' class='teacherEmailManualEntry' value=".$value.">";
+                            echo '<label class=\'teacherName\'>'.$value.'</label>
+                                  <input type=\'text\' data-clear-btn=\'true\' name=\'manualEntry\' class=\'teacherEmailManualEntry\' />';
                             
                         }
                         //Then deal with actually storing teacher email input
                        ?>
             	<p>Or...</p>
-            	<label>Enter a CSV file containing Teacher Names and Emails</label>
+            	<label>Upload a CSV file containing Teacher Names and Emails</label>
             	<input type="file" name="emailUpload" id="btnUploadTeacherEmail" />
                	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
                     
