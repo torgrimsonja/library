@@ -70,11 +70,10 @@
 			upload($_FILES['teacherEmails']['tmp_name'], $_POST['option']);
 			
 		}  //Logic for manual entry option
-		else if(array_key_exists('teacherEmails', $_GET) &&
-				array_key_exists('manualEntry', $_POST)){
+		else if(array_key_exists('teacherEmails', $_GET)){
 	 		//Insert manual entry emails into alternate_email_address table in db
 	 		//$query = 'INSERT INTO `alternate_email_address` (`emailAddress`) VALUES (`'.$_POST['asdf'].'`)';
-			die($_POST['manualEntry']);
+			die(print_r($_POST));
 	 	}
  
 /************************************************
