@@ -56,6 +56,14 @@ function installForm(){
                         	"emailChoice" "@" "Jeffery"       Trying to build dynamically but then i realized that i suck at life
 
                         	also I need to create the variable where the email will be stored and make it into a string so it can be sent to the options email build stuff
+
+                        	$emailtemp = 'select-choice-1' . '@' . 'emailDomain'/'Jeffery'
+								To prevent client from reentering @ and template:
+									parse through 'Jeffery'
+									if (any character == to '@')
+										delete all characters before and including '@' in 'Jeffery'  (do this before concatenating stuff to make $emailtemp)
+
+
                         </p>  -->
 
 					</div>
