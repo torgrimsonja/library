@@ -1,0 +1,15 @@
+1. Installation Process
+	Template Method
+	Finish logic for using templates and dynamically generating emails to be sent
+Manual Entry
+	Either finish or remove CSV code which I commented out
+	Finish back end form logic that inserts alternate_emails into table in db
+	DB Setup
+Add form for setting up database name/connection etc…..?
+2. Updating Distributed Copies of Product
+	Find a way to send out updates to the product from Github (!)
+3. Selling the Product
+	Website to “Buy” Library Software from
+	Licensing/Security Methods (Donation process similar to AdBlock Chrome Extension)(!)
+** - Low Priority
+(!)  - Research Needed

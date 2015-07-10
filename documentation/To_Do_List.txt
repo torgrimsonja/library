@@ -1,7 +1,0 @@
-*Licensing stuff
-
-*Make teacher mail generation dynamic  - UI page on admin that adds school specific content to database and then a mail function that fetches from the database rather than using static addresses
-
-*Fix broken schedule stuff and things
-
-*Push updates from server to all distributed copies
