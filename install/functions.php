@@ -29,16 +29,16 @@ function installForm(){
 
                         
 
-                        <p>Choose a template:  <br />   (Template examples for the name Tanner Purves)</p>
+                        <p>Choose a template:  <br />   (Template examples for the name John Doe)</p>
 
 
                         <select name="select-choice-1" id="select-choice-1" data-native-menu="false">
-                            <option value="emailChoice1">purvesta</option>
-                            <option value="emailChoice2">tannerpurves</option>
-                            <option value="emailChoice3">purvestanner</option>
-                            <option value="emailChoice4">tpurves</option>
-                            <option value="emailChoice5">tapurves</option>
-                            <option value="emailChoice6">purvest</option>
+                            <option value="emailChoice1">doejo</option>
+                            <option value="emailChoice2">johndoe</option>
+                            <option value="emailChoice3">doejohn</option>
+                            <option value="emailChoice4">jdoe</option>
+                            <option value="emailChoice5">jodoe</option>
+                            <option value="emailChoice6">doej</option>
                             <option value="emailChoice7">No Template</option>
                         </select>
 
