@@ -71,9 +71,21 @@
 			
 		}  //Logic for manual entry option
 		else if(array_key_exists('teacherEmails', $_GET)){
-	 		//Insert manual entry emails into alternate_email_address table in db
+	 		
+			//Updates manual entry emails into alternate_email_address table in db
+			$index = 0;
+			//Loops through the $_POST associative array to check if user typed in a new email address then updates the email
+			foreach($_POST as $key => $value){
+				if($value != ''){
+					$sql['updatedEmail'] = $db->escape_string($value);
+					$query = 'UPDATE `alternate_email_address` SET  `emailAddress` =  \''.$sql['updatedEmail'].'\' WHERE  `name` = \''.$_SESSION['teacherNamesArray'][$index].'\'';
+					$db->query($query);	
+				}
+				$index++;
+			}
+			
 	 		//$query = 'INSERT INTO `alternate_email_address` (`emailAddress`) VALUES (`'.$_POST['asdf'].'`)';
-			die(print_r($_POST));
+			
 	 	}
  
 /************************************************
