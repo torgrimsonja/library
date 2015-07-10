@@ -79,13 +79,13 @@ function installForm(){
 
 // ADD A DYNAMICALLY BUILDING VISIBLE EMAIL SO THAT THE CLIENT DOESN'T SCREW IT UP
 
-
-	
+function installSystem($organizationName, $organizationStartTime, $numberOfTimeBlocks, $Jeffery, $selectVal){
+	die($selectVal);
 	global $db, $data_validation;
 
 	$sql['name'] 		= $data_validation->escape_sql($organizationName);
 	$sql['blocks'] 		= $data_validation->escape_sql($numberOfTimeBlocks);
-	//die($Jeffery);
+	
 	
 	// remove any organizations that exist
 	$deleteOrganization = $db->query('DELETE FROM organization');
@@ -165,7 +165,7 @@ function manageBlocksDo($blockArray){
 	
 	$count = count($blockArray);
 	for($i=1; $i<=$count; $i++){
-		$sql['value'] = $data_validation->escape_sql($blockArray[$i]);  //what
+		$sql['value'] = $data_validation->escape_sql($blockArray[$i]);
 		$db->query('UPDATE organization_timeblock SET name = \'' . $sql['value'] . '\' WHERE id = \'' . $i . '\'');
 	}
 	header('Location:?installationComplete');
