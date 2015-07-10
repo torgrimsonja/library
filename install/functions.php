@@ -156,12 +156,13 @@ and enter it manually bc apparently mias idea wasnt cool enough for tanner but y
 
 
 
-function installSystem($organizationName, $organizationStartTime, $numberOfTimeBlocks){
+function installSystem($organizationName, $organizationStartTime, $numberOfTimeBlocks, $Jeffery){
 	
 	global $db, $data_validation;
 
 	$sql['name'] 		= $data_validation->escape_sql($organizationName);
 	$sql['blocks'] 		= $data_validation->escape_sql($numberOfTimeBlocks);
+	die($Jeffery);
 	
 	// remove any organizations that exist
 	$deleteOrganization = $db->query('DELETE FROM organization');
