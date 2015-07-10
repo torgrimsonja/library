@@ -174,6 +174,10 @@
 				$firstname = substr(trim($tmpArray[1]), 0, 1);
 				$html['to'] = strtolower($lastname.$firstname.'@'.$emailArray[1]);
 
+			}else{
+	
+			echo 'Email could not be sent to teacher. Please enter teacher emails under "settings".'
+			
 			}
 
 			*/
