@@ -176,10 +176,10 @@ function installSystem($organizationName, $organizationStartTime, $numberOfTimeB
 	// remove any timeblocks that exist
 	$deleteBlocks = $db->query('DELETE FROM time_blocks;');
 	
-	for($i=1;$i<=$sql['blocks'];$i++){								//mia fix right here yay
+	for($i=1;$i<=$sql['blocks'];$i++){								
 		
 		$db->query('INSERT INTO organization_timeblock (`id`,`organization_id`, `order`) VALUES (\'' . $i . '\',\'' . $sql['organizationId'] . '\', \'' . $i . '\');');
-				// make sure that the ending number is above zero
+				
 	}
 	header('location:?action=manageBlocks&organizationId='.$sql['organizationId']);
 }
