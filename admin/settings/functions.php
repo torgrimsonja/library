@@ -93,12 +93,12 @@ function displaySettings(){
             	<input type=""  -->
             	<input type="submit" value="Submit" />
             </form>
-            <p>Or...</p>
+            <!-- <p>Or...</p>
             <form action="?uploadCSV" method="POST" enctype="multipart/form-data" data-ajax="false">
             	<label>Upload a CSV file containing Teacher Names and Emails</label>
             	<input type="file" name="emailUpload" id="btnUploadTeacherEmail" />
                 <input type="submit" value="Submit" />
-            </form>
+            </form> -->
             </div>
         </div>
 <?php
