@@ -79,7 +79,7 @@ function installForm(){
 
 // ADD A DYNAMICALLY BUILDING VISIBLE EMAIL SO THAT THE CLIENT DOESN'T SCREW IT UP
 
-function installSystem($organizationName, $organizationStartTime, $numberOfTimeBlocks, $Jeffery, $selectVal){
+function installSystem($organizationName, $numberOfTimeBlocks, $Jeffery, $selectVal){
 	die($selectVal);
 	global $db, $data_validation;
 
