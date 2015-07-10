@@ -77,9 +77,19 @@
 			//Loops through the $_POST associative array to check if user typed in a new email address then updates the email
 			foreach($_POST as $key => $value){
 				if($value != ''){
-					$sql['updatedEmail'] = $db->escape_string($value);
-					$query = 'UPDATE `alternate_email_address` SET  `emailAddress` =  \''.$sql['updatedEmail'].'\' WHERE  `name` = \''.$_SESSION['teacherNamesArray'][$index].'\'';
-					$db->query($query);	
+					$result = $db->query('SELECT `emailAddress` FROM `alternate_email_address` WHERE `name` = \''.$_SESSION['teacherNamesArray'][$index].'\'');
+					if($result->num_rows){
+						$sql['updatedEmail'] = $db->escape_string($value);
+						$query = 'UPDATE `alternate_email_address` SET  `emailAddress` =  \''.$sql['updatedEmail'].'\' WHERE  `name` = \''.$_SESSION['teacherNamesArray'][$index].'\'';
+						$db->query($query);	
+					}
+					else{
+						$sql['updatedEmail'] = $db->escape_string($value);
+						$query = 'INSERT INTO `alternate_email_address` (`emailAddress`) VALUES (\''.$sql['updatedEmail'].'\') WHERE  `name` = \''.$_SESSION['teacherNamesArray'][$index].'\'';
+						$db->query($query);	
+					}
+					
+					
 				}
 				$index++;
 			}

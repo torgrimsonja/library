@@ -109,6 +109,8 @@ function displaySettings(){
 									}
 								}
 							}
+							
+							sort($teacherNames);
 							$_SESSION['teacherNamesArray'] = $teacherNames;
 						}
                         //Generate input tags for each teacher, have a column displaying the teacher's name, then another column w/ jquery text input
@@ -116,8 +118,12 @@ function displaySettings(){
                             //Label is teacher name
 							$newVal = str_replace(' ', '', $value);
 							$nameVal = str_replace(',', '', $newVal);
+<<<<<<< Updated upstream
 							sort($value);
 							sort($nameVal);
+=======
+                            
+>>>>>>> Stashed changes
                             echo '<fieldset class="ui-grid-a">
                                     <div class="ui-block-a" style="padding-top: 1.4%;">
                                         <label >'.$value.'</label>
