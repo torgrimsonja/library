@@ -16,7 +16,7 @@ function installForm(){
 
                     
                     <p align="center">Choose how to build your teacher emails</p>
-                    <p style="background-color: yellow; color: black; font-size: 1.2em;">If no template is chosen, emails will have to be manually entered later</p>
+                    <p style="background-color: yellow; color: black; font-size: 1.2em;">Select "No Template" if none of the given templates match your school's email format <br />If no template is chosen, emails will have to be manually entered later</p>
 
 
                     <br />
