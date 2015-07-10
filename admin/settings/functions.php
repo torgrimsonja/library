@@ -87,7 +87,7 @@ function displaySettings(){
             <h3>Teacher Email Manual Entry</h3>
             <h5>Enter the cooresponding email for each teacher listed below...</h5>
         	<div class="content">
-            <form action="index.php/?teacherEmails" method="post" enctype="multipart/form-data" data-ajax="false">
+            <form action="?teacherEmails" method="post" data-ajax="false">
             	<!--  HTML code that will download an empty csv file for admin to edit with teacher names 
             	<label>Download an Empty CSV File to Work With</label>
             	<input type=""  -->
@@ -115,17 +115,17 @@ function displaySettings(){
                             //Label is teacher name
                             //CSS classes will allow for styling label and text boxes next to each other horizontally
                             echo '<label class=\'teacherName\'>'.$value.'</label>
-                                  <input type=\'text\' data-clear-btn=\'true\' name=\'manualEntry\' class=\'teacherEmailManualEntry\' />';
+                                  <input type=\'text\' data-clear-btn=\'true\' name=\''.$key.'\' class=\'teacherEmailManualEntry\' />';
                             
                         }
                         //Then deal with actually storing teacher email input
                        ?>
-            	<p>Or...</p>
+                <input type="submit" value="Submit" />
+            </form>
+            <p>Or...</p>
+            <form action="?uploadCSV" method="POST" enctype="multipart/form-data" data-ajax="false">
             	<label>Upload a CSV file containing Teacher Names and Emails</label>
             	<input type="file" name="emailUpload" id="btnUploadTeacherEmail" />
-               	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
-                    
-                </div>
                 <input type="submit" value="Submit" />
             </form>
             </div>
