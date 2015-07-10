@@ -118,12 +118,6 @@ function displaySettings(){
                             //Label is teacher name
 							$newVal = str_replace(' ', '', $value);
 							$nameVal = str_replace(',', '', $newVal);
-<<<<<<< Updated upstream
-							sort($value);
-							sort($nameVal);
-=======
-                            
->>>>>>> Stashed changes
                             echo '<fieldset class="ui-grid-a">
                                     <div class="ui-block-a" style="padding-top: 1.4%;">
                                         <label >'.$value.'</label>
