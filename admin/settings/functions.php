@@ -114,9 +114,10 @@ function displaySettings(){
                         //Generate input tags for each teacher, have a column displaying the teacher's name, then another column w/ jquery text input
                         foreach($teacherNames as $key => $value){
                             //Label is teacher name
-                            //CSS classes will allow for styling label and text boxes next to each other horizontally
 							$newVal = str_replace(' ', '', $value);
 							$nameVal = str_replace(',', '', $newVal);
+							sort($value);
+							sort($nameVal);
                             echo '<fieldset class=\'ui-grid-a\'>
                                     <div class=\'ui-block-a\'>
                                         <label >'.$value.'</label>
