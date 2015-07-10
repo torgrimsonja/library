@@ -70,99 +70,12 @@ function installForm(){
 // ADD A DYNAMICALLY BUILDING VISIBLE EMAIL SO THAT THE CLIENT DOESN'T SCREW IT UP
 
 
-/*
-BUILDING EMAIL TEMPLATES
-
-if(emailchoice1){
-    email template = 'lastname'.firstname.charAt(0).firstname.charAt(1).'@'."Jeffery"
-}
-
-if($choice == $_POST['TheirChoice']){
-	$charArray = str_split($choice);
-	$template = 'firstname'.$charArray[whatever].'@'.'Jeffery';
-}
-
-if(emailchoice2){
-    email template = 'firstname'.'lastname'.'@'."Jeffery"
-}
-
-if(emailchoice3){
-    email template = 'lastname'.'firstname'.'@'."Jeffery"
-}
-
-if(emailchoice4){
-    email template = firstname.charAt(0).'lastname'.'@'."Jeffery"
-}
-
-if(emailchoice5){
-    email template = firstname.charAt(0).firstname.charAt(1).'lastname'.'@'."Jeffery"
-}
-
-if(emailchoice6){
-    email template = 'lastname'.firstname.charAt(0).'@'."Jeffery"
-}
-
-if(emailchoice7){
-	no email template, must do manual entry
-}
-
-*/
-
-
-
-/* Mia's pseudocode
-
-type "select:"
-make button "First name" 
-make button "last name"
-when(firstnamebuttonselected){
-	create input box with type "input # of first name letters used in email"
-	take # of letters and add to email generation algorithm thingy
-}
-when(lastnamebuttonselected){
-	create input box with type "input # of last name letters used in email"
-	take # of letters and add to email generation algorithm thingy
-}
-
-add "@" to email template;
-
-create input field for the stuff that comes after the @ sign
-take what is entered into the input thing and add to email template thing
-
-create buttons with ".com", ".edu", ".net"
-whatever one is selected, add to email template thing
-
-output an example to verify:
-"For teacher John Doe, the email is "jdoe@tfsd.org" (assuming they picking first letter of first name and entire last name) is this correct? "
-if yes, the email process is complete
-
-
-
-*/
-
-/* 
-actually were just going to have templates to pick from or they can skip and do it later
-and enter it manually bc apparently mias idea wasnt cool enough for tanner but yeah the templates are going to be:
-
-(for the example of Tanner Purves)
-1. purvesta@(entered).com
-2. tannerpurves
-3. purvestanner
-4. tpurves
-5. tapurves
-6. purvest
-
-*/
-
-
-
-function installSystem($organizationName, $organizationStartTime, $numberOfTimeBlocks, $Jeffery){
 	
 	global $db, $data_validation;
 
 	$sql['name'] 		= $data_validation->escape_sql($organizationName);
 	$sql['blocks'] 		= $data_validation->escape_sql($numberOfTimeBlocks);
-	die($Jeffery);
+	//die($Jeffery);
 	
 	// remove any organizations that exist
 	$deleteOrganization = $db->query('DELETE FROM organization');
@@ -171,6 +84,12 @@ function installSystem($organizationName, $organizationStartTime, $numberOfTimeB
 	
 	$lastId = $db->query('SELECT id FROM organization ORDER BY id DESC LIMIT 1');
 	$lastIdArray = $lastId->fetch_assoc();
+
+
+	/*
+	So right here we need to put the Jeffery template stuff in so that teacher emails can be built according to the chosen template
+	*/
+
 	
 	$sql['organizationId'] = $data_validation->escape_sql($lastIdArray['id']);
 	

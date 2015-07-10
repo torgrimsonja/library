@@ -133,15 +133,50 @@
 
 			//query for alternate email address
 			$fetchEmail = $db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'');
+			//$emailArray = explode('@', chosen/typed email thing)
+			//$tmpArray = explode(',', $sql['teacherName']);
 			if($fetchEmail->num_rows){
 				$html['to'] = $data_validation->escape_html($fetchEmail->fetch_assoc()/*['emailAddress']*/);
-			}else{
-				//Need to store template chosen in install and use the template to build email address.u
-				$tmpArray = explode(',', $sql['teacherName']);
+
+			/* }else if($emailArray[0] === 'emailChoice1'){
+				
 				$lastname = trim($tmpArray[0]);
 				$firstname = substr(trim($tmpArray[1]), 0, 2);
-				$html['to'] = strtolower($lastname.$firstname.'@tfsd.org');
+				$html['to'] = strtolower($lastname.$firstname.'@'.$emailArray[1]);
+
+			}else if($emailArray[0] === 'emailChoice2'){
+				
+				$lastname = trim($tmpArray[0]);
+				$firstname = trim($tmpArray[1]);
+				$html['to'] = strtolower($firstname.$lastname.'@'.$emailArray[1]);
+
+			}else if($emailArray[0] === 'emailChoice3'){
+	
+				$lastname = trim($tmpArray[0]);
+				$firstname = trim($tmpArray[1]);
+				$html['to'] = strtolower($lastname.$firstname.'@'.$emailArray[1]);
+
+			}else if($emailArray[0] === 'emailChoice4'){
+	
+				$lastname = trim($tmpArray[0]);
+				$firstname = substr(trim($tmpArray[1]), 0, 1);
+				$html['to'] = strtolower($firstname.$lastname.'@'.$emailArray[1]);
+
+			}else if($emailArray[0] === 'emailChoice5'){
+	
+				$lastname = trim($tmpArray[0]);
+				$firstname = substr(trim($tmpArray[1]), 0, 2);
+				$html['to'] = strtolower($firstname.$lastname.'@'.$emailArray[1]);
+
+			}else if($emailArray[0] === 'emailChoice6'){
+	
+				$lastname = trim($tmpArray[0]);
+				$firstname = substr(trim($tmpArray[1]), 0, 1);
+				$html['to'] = strtolower($lastname.$firstname.'@'.$emailArray[1]);
+
 			}
+
+			*/
 
 			//initialize content
 
