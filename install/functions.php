@@ -107,6 +107,8 @@ function installSystem($organizationName, $numberOfTimeBlocks, $Jeffery, $select
 
       $emTemStr = $selectVal . '@' . $emailPart2;
 
+      die($emTemStr);
+
 	/*
 	So right here we need to put the Jeffery template stuff in so that teacher emails can be built according to the chosen template
 	*/

@@ -180,7 +180,7 @@
 
 			}
 
-		die($html['to']);
+		
 
 			//initialize content
 
