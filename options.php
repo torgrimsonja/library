@@ -138,7 +138,7 @@
 			if($fetchEmail->num_rows){
 				$html['to'] = $data_validation->escape_html($fetchEmail->fetch_assoc()/*['emailAddress']*/);
 
-			}else if($emailArray[0] === 'emailChoice1'){
+			/*}else if($emailArray[0] === 'emailChoice1'){
 				
 				$lastname = trim($tmpArray[0]);
 				$firstname = substr(trim($tmpArray[1]), 0, 2);
@@ -176,9 +176,9 @@
 
 			}else{
 	
-			echo '<script type="text/javascript">alert(\'Email could not be sent to teacher. Please enter teacher emails under "settings".\');</script>';
+				echo '<script type="text/javascript">alert(\'Email could not be sent to teacher. Please enter teacher emails under "settings".\');</script>';
 
-			}
+			} */
 
 		
 
