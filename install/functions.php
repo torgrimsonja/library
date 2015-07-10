@@ -22,8 +22,6 @@ function installForm(){
                     <br />
                     <input type="button" value="Templates" name="templateButtonOption" id="templateButtonOption" onClick="$('#emailBuilderDiv').css('visibility', 'visible');"/>
                         
-                                                                     
-                    
 
                     <div data-role="fieldcontain" id="emailBuilderDiv" style="visibility: hidden">
 
@@ -62,8 +60,6 @@ function installForm(){
 			
 	<?php	
 }
-
-// ADD A DYNAMICALLY BUILDING VISIBLE EMAIL SO THAT THE CLIENT DOESN'T SCREW IT UP
 
 function installSystem($organizationName, $numberOfTimeBlocks, $Jeffery, $selectVal){
 	global $db, $data_validation;
