@@ -176,7 +176,7 @@
 
 			}else{
 	
-			echo 'Email could not be sent to teacher. Please enter teacher emails under "settings".'
+			echo '<script type="text/javascript">alert(\'Email could not be sent to teacher. Please enter teacher emails under "settings".\');</script>';
 
 			}
 
