@@ -56,7 +56,7 @@ if(	array_key_exists('action', $_GET) &&
 	array_key_exists('organizationName', $_POST) &&
 	array_key_exists('numberOfTimeBlocks', $_POST)){
 	
-	installSystem($_POST['organizationName'], $_POST['organizationStartTime'], $_POST['numberOfTimeBlocks'], $_POST['Jeffery']);
+	installSystem($_POST['organizationName'], $_POST['organizationStartTime'], $_POST['numberOfTimeBlocks'], $_POST['Jeffery'], $_POST['select-choice-1']);
 	
 }else if(	array_key_exists('action', $_GET) &&
 			$_GET['action'] == 'manageBlocksDo' &&
