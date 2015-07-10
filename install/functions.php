@@ -54,6 +54,8 @@ function installForm(){
 
                       <!--  <p>
                         	"emailChoice" "@" "Jeffery"       Trying to build dynamically but then i realized that i suck at life
+
+                        	also I need to create the variable where the email will be stored and make it into a string so it can be sent to the options email build stuff
                         </p>  -->
 
 					</div>
