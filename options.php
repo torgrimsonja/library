@@ -133,12 +133,12 @@
 
 			//query for alternate email address
 			$fetchEmail = $db->query('SELECT emailAddress FROM alternate_email_address WHERE name = \''.$sql['teacherName'].'\'');
-			//$emailArray = explode('@', chosen/typed email thing)
-			//$tmpArray = explode(',', $sql['teacherName']);
+			$emailArray = explode('@', $emTemStr)
+			$tmpArray = explode(',', $sql['teacherName']);
 			if($fetchEmail->num_rows){
 				$html['to'] = $data_validation->escape_html($fetchEmail->fetch_assoc()/*['emailAddress']*/);
 
-			/* }else if($emailArray[0] === 'emailChoice1'){
+			}else if($emailArray[0] === 'emailChoice1'){
 				
 				$lastname = trim($tmpArray[0]);
 				$firstname = substr(trim($tmpArray[1]), 0, 2);
@@ -177,10 +177,10 @@
 			}else{
 	
 			echo 'Email could not be sent to teacher. Please enter teacher emails under "settings".'
-			
+
 			}
 
-			*/
+		die($html['to']);
 
 			//initialize content
 

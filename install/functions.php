@@ -52,6 +52,8 @@ function installForm(){
 
                         <br />
 
+
+
                       <!--  <p>
                         	"emailChoice" "@" "Jeffery"       Trying to build dynamically but then i realized that i suck at life
 
@@ -80,7 +82,6 @@ function installForm(){
 // ADD A DYNAMICALLY BUILDING VISIBLE EMAIL SO THAT THE CLIENT DOESN'T SCREW IT UP
 
 function installSystem($organizationName, $numberOfTimeBlocks, $Jeffery, $selectVal){
-	die($selectVal);
 	global $db, $data_validation;
 
 	$sql['name'] 		= $data_validation->escape_sql($organizationName);
@@ -95,6 +96,16 @@ function installSystem($organizationName, $numberOfTimeBlocks, $Jeffery, $select
 	$lastId = $db->query('SELECT id FROM organization ORDER BY id DESC LIMIT 1');
 	$lastIdArray = $lastId->fetch_assoc();
 
+	
+      if(strchr($Jeffery, '@')){
+            $arrayay = explode($string, '@');
+            $emailPart2 = $arrayay[1];
+
+        }else{
+        	$emailPart2 = $Jeffery;
+        }
+
+      $emTemStr = $selectVal . '@' . $emailPart2;
 
 	/*
 	So right here we need to put the Jeffery template stuff in so that teacher emails can be built according to the chosen template
