@@ -85,15 +85,10 @@ function installSystem($organizationName, $numberOfTimeBlocks, $Jeffery, $select
             $emailPart2 = $arrayay[1];
 
         }else{
-        	$emailPart2 = $Jeffery;
+        	$emailPart2 = $Jeffery;       //fixing what the client probably screwed up
         }
 
-      $emTemStr = $selectVal . '@' . $emailPart2;
-
-	/*
-	So right here we need to put the Jeffery template stuff in so that teacher emails can be built according to the chosen template
-	*/
-
+      $emTemStr = $selectVal . '@' . $emailPart2;  //string version of the built email
 	
 	$sql['organizationId'] = $data_validation->escape_sql($lastIdArray['id']);
 	

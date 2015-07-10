@@ -154,7 +154,7 @@
 	
 				$lastname = trim($tmpArray[0]);
 				$firstname = trim($tmpArray[1]);
-				$html['to'] = strtolower($lastname.$firstname.'@'.$emailArray[1]);
+				$html['to'] = strtolower($lastname.$firstname.'@'.$emailArray[1]);   //building emails based on template selection
 
 			}else if($emailArray[0] === 'emailChoice4'){
 	
