@@ -117,11 +117,12 @@ function displaySettings(){
                             //CSS classes will allow for styling label and text boxes next to each other horizontally
 							$newVal = str_replace(' ', '', $value);
 							$nameVal = str_replace(',', '', $newVal);
-                            echo '<label class=\'teacherName\'>'.$value.'</label>
-                                  <input type=\'text\' data-clear-btn=\'true\' name=\''.$nameVal.'\' class=\'teacherEmailManualEntry\' />';
-                            
+                            echo '<fieldset class=\'ui-grid-a\'>
+                                    <label class=\'ui-block-a\'>'.$value.'</label>
+                                    <input class=\'ui-block-b\' type=\'text\' data-clear-btn=\'true\' name=\''.$nameVal.'\' />
+                                  </fieldset>';
                         }
-                        //Then deal with actually storing teacher email input
+                        //Form will redirect to logic on index.php which will put entered emails into the db
                        ?>
                 <input type="submit" value="Submit" />
             </form>
