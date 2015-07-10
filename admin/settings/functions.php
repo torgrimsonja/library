@@ -118,9 +118,22 @@ function displaySettings(){
 							$newVal = str_replace(' ', '', $value);
 							$nameVal = str_replace(',', '', $newVal);
                             echo '<fieldset class=\'ui-grid-a\'>
-                                    <label class=\'ui-block-a\'>'.$value.'</label>
-                                    <input class=\'ui-block-b\' type=\'text\' data-clear-btn=\'true\' name=\''.$nameVal.'\' />
+                                    <div class=\'ui-block-a\'>
+                                        <label >'.$value.'</label>
+                                    </div>
+                                    <div class=\'ui-block-b\'>
+                                        <input type=\'text\' data-clear-btn=\'true\' name=\''.$nameVal.'\' />
+                                    </div>
                                   </fieldset>';
+                            
+                            /*
+                                Two collumn grid stuff
+                            <fieldset class="ui-grid-a">
+	                            <div class="ui-block-a"><button type="submit" data-theme="c">Cancel</button></div>
+                            	<div class="ui-block-b"><button type="submit" data-theme="b">Submit</button></div>	   
+                            </fieldset>
+                            */
+                            
                         }
                         //Form will redirect to logic on index.php which will put entered emails into the db
                        ?>
